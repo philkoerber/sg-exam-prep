@@ -1,0 +1,134 @@
+[
+  {
+    "input": "2016h28a_sg_am_qs.txt",
+    "output": "2016h28a_sg_am.txt",
+    "characters": 13688,
+    "sha256": "4b639a979e9ddd53c660f8dd6e58fe96a54a3be07d38dae5f0cf10594d7cf73b"
+  },
+  {
+    "input": "2016h28a_sg_pm_qs.txt",
+    "output": "2016h28a_sg_pm-part-1.txt",
+    "characters": 24997,
+    "sha256": "3b1d70152de241c0f677242b0d407872d28d902532c55421822a150ae18048eb"
+  },
+  {
+    "input": "2016h28a_sg_pm_qs.txt",
+    "output": "2016h28a_sg_pm-part-2.txt",
+    "characters": 1607,
+    "sha256": "6237929da8f0b929ed70b669d0bf3e37ca1e6d4e7b2729667042c18e3c92b4f0"
+  },
+  {
+    "input": "2016h28h_sg_am_qs.txt",
+    "output": "2016h28h_sg_am.txt",
+    "characters": 13069,
+    "sha256": "52a6962c5b6f3435f33df6647bceaed31b4ab30832f264d49e9f6ff5fe3ad9f8"
+  },
+  {
+    "input": "2016h28h_sg_pm_qs.txt",
+    "output": "2016h28h_sg_pm.txt",
+    "characters": 21109,
+    "sha256": "1bcae4b408ab51b9b2cd5ba516a5dd95ed82ae8c0332a147ff24d68e7724bb2f"
+  },
+  {
+    "input": "2017h29a_sg_am_qs.txt",
+    "output": "2017h29a_sg_am.txt",
+    "characters": 12742,
+    "sha256": "1ff70556718a059bc053bb7ca24acce88d0eaac73481a78917ce77d214aaef49"
+  },
+  {
+    "input": "2017h29a_sg_pm_qs.txt",
+    "output": "2017h29a_sg_pm-part-1.txt",
+    "characters": 24998,
+    "sha256": "d3d54029699dd401f37690b50ad8e3a7f539a57f26a022860d1e976b7d4f7bbc"
+  },
+  {
+    "input": "2017h29a_sg_pm_qs.txt",
+    "output": "2017h29a_sg_pm-part-2.txt",
+    "characters": 1064,
+    "sha256": "b8dd6f69c1faf93246fa51b8efe025535f1aeb5b2bcaa923286217fa1ebca82d"
+  },
+  {
+    "input": "2017h29h_sg_am_qs.txt",
+    "output": "2017h29h_sg_am.txt",
+    "characters": 12675,
+    "sha256": "42eb243daf45cb4b8e6bf81d557296a13d283f3409f6b019b765821398f2af8a"
+  },
+  {
+    "input": "2017h29h_sg_pm_qs.txt",
+    "output": "2017h29h_sg_pm.txt",
+    "characters": 22777,
+    "sha256": "5998b3da18989078f86b4b07c846a6b3eaa06d8c199c9351a4abde667f95789b"
+  },
+  {
+    "input": "2018h30a_sg_am_qs.txt",
+    "output": "2018h30a_sg_am.txt",
+    "characters": 14456,
+    "sha256": "302036f5a293b806c45ff17aaef56551fd18d91647745b752d2275cc5030e4cc"
+  },
+  {
+    "input": "2018h30a_sg_pm_qs.txt",
+    "output": "2018h30a_sg_pm-part-1.txt",
+    "characters": 24985,
+    "sha256": "94d66b433af0947936e83278039c0e11ad4b0bcdd7f6106d97cd8493264dc325"
+  },
+  {
+    "input": "2018h30a_sg_pm_qs.txt",
+    "output": "2018h30a_sg_pm-part-2.txt",
+    "characters": 3886,
+    "sha256": "77d6047e883c4732beec199821c5d51d7e2338686a420d1786dfed83da109bcc"
+  },
+  {
+    "input": "2018h30h_sg_am_qs.txt",
+    "output": "2018h30h_sg_am.txt",
+    "characters": 14117,
+    "sha256": "6dbf6d96f76120f28fbf307d5bf43825c6b11f9394be99f6358de6c29543cd95"
+  },
+  {
+    "input": "2018h30h_sg_pm_qs.txt",
+    "output": "2018h30h_sg_pm-part-1.txt",
+    "characters": 24969,
+    "sha256": "3ad353a7154c05556855fc6a5f4d58d3128af872623a2deb559eb8a3d89ba952"
+  },
+  {
+    "input": "2018h30h_sg_pm_qs.txt",
+    "output": "2018h30h_sg_pm-part-2.txt",
+    "characters": 3865,
+    "sha256": "bb5a2aaf16ede58b23d6096c384cb45fd48e9ed96d15ad9fc29a8d19a752d472"
+  },
+  {
+    "input": "2019h31h_sg_am_qs.txt",
+    "output": "2019h31h_sg_am.txt",
+    "characters": 14432,
+    "sha256": "5d9d0523a30ad61890c0b1464f62d7ea8de26cfd19359db1e46e9c193751997b"
+  },
+  {
+    "input": "2019h31h_sg_pm_qs.txt",
+    "output": "2019h31h_sg_pm-part-1.txt",
+    "characters": 24992,
+    "sha256": "faec37c15c6e913db819f1a97ed589e37da6b17ef4f58b9b5e310c785d4debeb"
+  },
+  {
+    "input": "2019h31h_sg_pm_qs.txt",
+    "output": "2019h31h_sg_pm-part-2.txt",
+    "characters": 3030,
+    "sha256": "812bbcc400c8ed32a5f4822052e23de02d136af0fd21f7600222dc0d6565e039"
+  },
+  {
+    "input": "2019r01a_sg_am_qs.txt",
+    "output": "2019r01a_sg_am.txt",
+    "characters": 13646,
+    "sha256": "89cd4f7d4a576e9ad2288843e30b9342ed2d0d9cac4a163e87d90c555f443b14"
+  },
+  {
+    "input": "2019r01a_sg_pm_qs.txt",
+    "output": "2019r01a_sg_pm-part-1.txt",
+    "characters": 24995,
+    "sha256": "45e976bd84912c08db7793c42b2c49595164b36f7f1519b7850f2f4404527664"
+  },
+  {
+    "input": "2019r01a_sg_pm_qs.txt",
+    "output": "2019r01a_sg_pm-part-2.txt",
+    "characters": 7474,
+    "sha256": "015517a6d541cb80361efbb26fcb282f971bdd584726b36ebd239f95afc33844"
+  }
+]
