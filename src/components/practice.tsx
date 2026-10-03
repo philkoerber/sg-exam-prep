@@ -3,13 +3,14 @@ import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { ArrowRight, ArrowLeft, Check, Layers } from "lucide-react";
 import { corpus } from "@/lib/corpus";
-import { topics, topicName } from "@/lib/corpus/topics";
+import { topics, topicCopy } from "@/lib/corpus/topics";
 import type { Question, TopicId } from "@/lib/corpus/schema";
 import { practiceQuestions, type Answers } from "@/lib/study";
 import { TopicIcon } from "./icons";
 import { QuestionView } from "./question-view";
 import { Results } from "./results";
 import { ConfirmDialog } from "./confirm-dialog";
+import { useLanguage, useSessionLanguage } from "./language";
 
 export function Practice() {
   const params = useSearchParams();
@@ -23,6 +24,9 @@ export function Practice() {
   const [revealed, setRevealed] = useState(false);
   const [finished, setFinished] = useState(false);
   const [leaving, setLeaving] = useState(false);
+  const { language, text } = useLanguage();
+  const setup = text.practiceSetup;
+  useSessionLanguage(questions.length > 0 && !finished);
   function reset() {
     setQuestions([]);
     setAnswers({});
@@ -47,12 +51,12 @@ export function Practice() {
     return (
       <div className="page practice-setup">
         <div className="page-heading">
-          <div className="eyebrow">自分のペースで、一問ずつ</div>
-          <h1>分野別練習</h1>
-          <p>学びたい分野を選びましょう。解答後、すぐに正解を確認できます。</p>
+          <div className="eyebrow">{setup.eyebrow}</div>
+          <h1>{text.practice}</h1>
+          <p>{setup.description}</p>
         </div>
         <fieldset className="topic-selection">
-          <legend className="sr-only">練習する分野</legend>
+          <legend className="sr-only">{setup.topicLegend}</legend>
           <label className={`all-topics ${topic === "all" ? "selected" : ""}`}>
             <input
               type="radio"
@@ -64,11 +68,13 @@ export function Practice() {
               <Layers size={22} strokeWidth={1.6} />
             </span>
             <div>
-              <strong>すべての分野</strong>
-              <p>幅広い問題に、バランスよく取り組む。</p>
+              <strong>{text.allTopics}</strong>
+              <p>{setup.allDescription}</p>
             </div>
             <span className="topic-count">
-              {corpus.filter((q) => q.pool === "study").length}問
+              {text.questionCount(
+                corpus.filter((q) => q.pool === "study").length,
+              )}
             </span>
             <span className="selection-check">
               {topic === "all" && <Check size={15} />}
@@ -76,6 +82,7 @@ export function Practice() {
           </label>
           <div className="topic-grid">
             {topics.map((t) => {
+              const copy = topicCopy(t.id, language);
               const n = corpus.filter(
                 (q) => q.pool === "study" && q.topic === t.id,
               ).length;
@@ -97,9 +104,9 @@ export function Practice() {
                   <span className="selection-check">
                     {topic === t.id && <Check size={15} />}
                   </span>
-                  <strong>{t.name}</strong>
-                  <p>{t.description}</p>
-                  <span className="topic-count">{n}問</span>
+                  <strong>{copy.name}</strong>
+                  <p>{copy.description}</p>
+                  <span className="topic-count">{text.questionCount(n)}</span>
                 </label>
               );
             })}
@@ -107,8 +114,8 @@ export function Practice() {
         </fieldset>
         <div className="start-panel">
           <div>
-            <strong>{Math.min(10, count)}問ずつ、気軽に。</strong>
-            <p>時間制限なし · 解答履歴は保存されません</p>
+            <strong>{setup.batch(Math.min(10, count))}</strong>
+            <p>{setup.rules}</p>
           </div>
           <button
             className="button primary"
@@ -118,19 +125,21 @@ export function Practice() {
               setAnswers({});
             }}
           >
-            練習を始める
+            {setup.start}
             <ArrowRight size={18} />
           </button>
         </div>
         <p className="storage-note">
-          2026年度の公開問題は模擬試験用に残しています。
+          {text.sessionLanguage}
+          <br />
+          {setup.reserved}
         </p>
       </div>
     );
   }
   const q = questions[position];
   return (
-    <div className="page session-page">
+    <div className="page session-page" lang="ja">
       <div className="session-heading">
         <button className="back-link" onClick={() => setLeaving(true)}>
           <ArrowLeft size={16} />
@@ -139,7 +148,7 @@ export function Practice() {
         <span className="session-kind">分野別練習</span>
       </div>
       <div className="session-title">
-        <h1>{topic === "all" ? "すべての分野" : topicName(topic)}</h1>
+        <h1>{topic === "all" ? "すべての分野" : topicCopy(topic).name}</h1>
         <span className="question-counter">
           <strong>{String(position + 1).padStart(2, "0")}</strong> /{" "}
           {String(questions.length).padStart(2, "0")}

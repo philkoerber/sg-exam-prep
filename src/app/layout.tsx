@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Header } from "@/components/header";
+import { LanguageProvider } from "@/components/language";
+import { SiteShell } from "@/components/site-shell";
 import "./globals.css";
 export const metadata: Metadata = {
   title: {
@@ -15,19 +16,9 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <a className="skip-link" href="#main">
-          本文へ移動
-        </a>
-        <Header />
-        <main id="main">{children}</main>
-        <footer className="site-footer">
-          <span>
-            <b>sg.</b> 学ぶことを、少しずつ。
-          </span>
-          <span>
-            問題の著作権はIPAに帰属します。IPA非公式の学習ツールです。
-          </span>
-        </footer>
+        <LanguageProvider>
+          <SiteShell>{children}</SiteShell>
+        </LanguageProvider>
       </body>
     </html>
   );

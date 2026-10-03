@@ -4,8 +4,9 @@ import Link from "next/link";
 import { ArrowRight, RotateCcw, Check, X, ChevronDown } from "lucide-react";
 import { score, type Answers } from "@/lib/study";
 import type { Question } from "@/lib/corpus/schema";
-import { topics, topicName } from "@/lib/corpus/topics";
+import { topics, topicCopy } from "@/lib/corpus/topics";
 import { QuestionView } from "./question-view";
+import { useLanguage } from "./language";
 
 export function Results({
   questions,
@@ -18,6 +19,8 @@ export function Results({
   mode: "practice" | "exam";
   onRestart: () => void;
 }) {
+  const { language, text } = useLanguage();
+  const copy = text.results;
   const result = score(questions, answers);
   const [filter, setFilter] = useState<"all" | "wrong">("wrong");
   const [open, setOpen] = useState<string | null>(null);
@@ -27,13 +30,13 @@ export function Results({
   return (
     <div className="page results-page">
       <div className="page-heading">
-        <div className="eyebrow">今回の振り返り</div>
-        <h1>おつかれさまでした。</h1>
-        <p>答えを振り返って、次の理解につなげましょう。</p>
+        <div className="eyebrow">{copy.eyebrow}</div>
+        <h1>{copy.heading}</h1>
+        <p>{copy.description}</p>
       </div>
       <div className="result-hero">
         <div>
-          <span className="result-label">正答率</span>
+          <span className="result-label">{copy.accuracy}</span>
           <div className="result-percent">
             {result.percent}
             <span>%</span>
@@ -42,28 +45,23 @@ export function Results({
         <div className="result-summary">
           <strong>
             {result.correct}
-            <span> / {result.total} 問正解</span>
+            <span>{copy.correctTotal(result.total)}</span>
           </strong>
           <p>
-            解答済み {result.answered}問 · 未解答{" "}
-            {result.total - result.answered}問
+            {copy.answered(result.answered, result.total - result.answered)}
           </p>
-          {mode === "exam" && (
-            <p className="small muted">
-              正答率は学習の目安です。IPAの公式スコアや合否を示すものではありません。
-            </p>
-          )}
+          {mode === "exam" && <p className="small muted">{copy.disclaimer}</p>}
         </div>
       </div>
       <div className="breakdown">
-        <h2>分野ごとの結果</h2>
+        <h2>{copy.breakdown}</h2>
         {topics.map((t) => {
           const qs = questions.filter((q) => q.topic === t.id);
           if (!qs.length) return null;
           const s = score(qs, answers);
           return (
             <div className="breakdown-row" key={t.id}>
-              <span>{t.name}</span>
+              <span>{topicCopy(t.id, language).name}</span>
               <div className="bar">
                 <i style={{ width: `${s.percent}%` }} />
               </div>
@@ -82,7 +80,8 @@ export function Results({
               );
               return (
                 <span key={subject}>
-                  科目{subject}：{s.correct} / {s.total}問
+                  {text.subject(subject)}：{s.correct} /{" "}
+                  {text.questionCount(s.total)}
                 </span>
               );
             })}
@@ -91,26 +90,26 @@ export function Results({
       </div>
       <section className="review-section">
         <div className="section-heading">
-          <h2>問題を振り返る</h2>
-          <div className="segmented" aria-label="復習する問題">
+          <h2>{copy.review}</h2>
+          <div className="segmented" aria-label={copy.filterLabel}>
             <button
               className={filter === "wrong" ? "active" : ""}
               onClick={() => setFilter("wrong")}
             >
-              間違い・未解答
+              {copy.wrong}
             </button>
             <button
               className={filter === "all" ? "active" : ""}
               onClick={() => setFilter("all")}
             >
-              すべて
+              {copy.all}
             </button>
           </div>
         </div>
         {!visible.length && (
           <div className="all-correct">
             <Check size={22} />
-            すべて正解です。この調子で続けましょう。
+            {copy.allCorrect}
           </div>
         )}
         {visible.map((q) => (
@@ -126,11 +125,14 @@ export function Results({
                 <X className="text-red" size={19} />
               )}
               <span>
-                第{questions.indexOf(q) + 1}問
-                <small>{topicName(q.topic)}</small>
+                {text.questionNumber(questions.indexOf(q) + 1)}
+                <small>{topicCopy(q.topic, language).name}</small>
               </span>
               <span className="review-answer">
-                {answers[q.id] || "未解答"} → {q.answer}
+                <span lang={answers[q.id] ? "ja" : undefined}>
+                  {answers[q.id] || text.unanswered}
+                </span>{" "}
+                → <span lang="ja">{q.answer}</span>
               </span>
               <ChevronDown size={18} />
             </button>
@@ -143,16 +145,14 @@ export function Results({
       <div className="result-actions">
         <button className="button primary" onClick={onRestart}>
           <RotateCcw size={17} />
-          {mode === "exam" ? "試験設定に戻る" : "分野を選び直す"}
+          {mode === "exam" ? copy.examRestart : copy.practiceRestart}
         </button>
         <Link className="button secondary" href="/">
-          ホームに戻る
+          {text.homeLink}
           <ArrowRight size={17} />
         </Link>
       </div>
-      <p className="storage-note">
-        結果は保存されません。画面を離れると消えます。
-      </p>
+      <p className="storage-note">{copy.noSave}</p>
     </div>
   );
 }

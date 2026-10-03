@@ -1,8 +1,8 @@
 # SG学習室
 
-A small, Japanese-only SG study app. Two modes: practice by topic and a 60-question, 120-minute mock exam.
+A small SG study app with Japanese and English interfaces. Two modes: practice by topic and a 60-question, 120-minute mock exam. Active sessions stay entirely Japanese.
 
-**No accounts, backend, database, cookies, browser storage, analytics, or saved progress.** Answers and the exam timer exist only in React memory. Refreshing or leaving a study session clears it. The production build is a static site.
+**No accounts, backend, database, cookies, analytics, or saved progress.** Answers and the exam timer exist only in React memory. Refreshing or leaving a study session clears it. The only browser storage is the chosen interface language (`sg-language` in localStorage). The production build is a static site.
 
 ## Run locally
 
@@ -24,6 +24,7 @@ The second pair builds and serves the static `out/` directory. Deploy that direc
 
 ## Scope
 
+- **Language:** Japanese by default. The header switch changes the home page, setup, results, and review controls. Both active practice and mock exams—including the header, footer, timer, buttons, and dialogs—stay Japanese, with the switch hidden. Results or exiting a session restore the chosen language. Questions, answer choices, original figures, and the homepage illustration always remain Japanese. If localStorage is unavailable, the switch works for the current visit.
 - **Topic practice:** choose one of six topics or all topics; up to 10 random questions, immediate official-answer feedback, then a session summary.
 - **Mock exam:** 48 A questions + 12 B questions, 120 minutes, free navigation and answer changes, automatic submission at the deadline, then raw accuracy and topic/subject breakdowns. Unanswered questions count as incorrect. This is not IPA's IRT scoring or a prediction of official pass/fail.
 - **Data:** 120 normalized questions from IPA's 2022 full sample set and 2023–2026 published CBT subsets. Source PDFs, URLs, answer keys, page references, and SHA-256 checksums are preserved. Prose reflows on phones; tables and diagrams use original crops. The complete original layout is also available for comparison.
@@ -37,6 +38,7 @@ The second pair builds and serves the static `out/` directory. Deploy that direc
 src/app/                 Three pages, layout, and responsive styles
 src/components/          Practice, exam, question display, session results
 src/lib/study.ts          Selection, scoring, and deadline rules
+src/lib/messages.ts       Japanese/English interface copy (no i18n dependency)
 src/lib/corpus/           Question types and topic labels
 data/sources/            Original IPA PDFs and manifest
 data/questions/          Canonical normalized JSON (120 questions)
@@ -80,7 +82,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-Browser tests exercise desktop and mobile rendering, topic filtering, practice scoring, mock submission, timeout after inactivity, diagram loading, and zero persisted study state. Tests use an isolated static preview on port 4173.
+Browser tests exercise desktop and mobile rendering, topic filtering, practice scoring, mock submission, timeout after inactivity, diagram loading, language persistence and session boundaries, and zero persisted study state. Tests use an isolated static preview on port 4173.
 
 ## Official sources and attribution
 

@@ -1,6 +1,8 @@
+"use client";
 import { Check, X, ExternalLink, ZoomIn } from "lucide-react";
 import type { Question } from "@/lib/corpus/schema";
-import { topicName } from "@/lib/corpus/topics";
+import { topicCopy } from "@/lib/corpus/topics";
+import { useLanguage } from "./language";
 
 export function QuestionView({
   question: q,
@@ -15,54 +17,60 @@ export function QuestionView({
   revealed?: boolean;
   disabled?: boolean;
 }) {
+  const { language, text } = useLanguage();
+  const copy = text.question;
   return (
     <article className="question-card">
       <div className="question-tags">
-        <span className="tag green">{topicName(q.topic)}</span>
-        <span className="tag">科目{q.subject}</span>
+        <span className="tag green">{topicCopy(q.topic, language).name}</span>
+        <span className="tag">{text.subject(q.subject)}</span>
         <span className="tag subtle">
-          {q.year}年{" "}
+          {copy.year(q.year)}{" "}
           {q.era === "sample"
-            ? "公式サンプル"
+            ? copy.sample
             : q.era === "legacy"
-              ? "旧形式"
-              : "公開問題"}
+              ? copy.legacy
+              : copy.public}
         </span>
       </div>
       {q.display === "text" ? (
-        <h2 className="question-prompt">{q.prompt}</h2>
+        <h2 className="question-prompt" lang="ja">
+          {q.prompt}
+        </h2>
       ) : (
         <div className="original-question">
           <div className="question-blocks">
             {q.blocks.map((block, i) =>
               block.type === "paragraph" ? (
-                <p key={i}>{block.text}</p>
+                <p key={i} lang="ja">
+                  {block.text}
+                </p>
               ) : (
                 <figure className="question-figure" key={i}>
                   <a
                     href={block.src}
                     target="_blank"
                     rel="noreferrer"
-                    aria-label={`図表を拡大（新しいタブ）`}
+                    aria-label={copy.zoomFigure}
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={block.src}
                       width={block.width}
                       height={block.height}
-                      alt={`${q.source.label}の図表`}
+                      alt={copy.figureAlt(q.source.label)}
                     />
                   </a>
                   <figcaption>
                     <ZoomIn size={12} />
-                    図表を押すと拡大できます
+                    {copy.zoomHint}
                   </figcaption>
                 </figure>
               ),
             )}
           </div>
           <details className="source-images">
-            <summary>原文のレイアウトを確認する</summary>
+            <summary>{copy.originalLayout}</summary>
             {q.images.map((img, i) => (
               <a
                 href={img.src}
@@ -70,7 +78,7 @@ export function QuestionView({
                 rel="noreferrer"
                 className="original-image-link"
                 key={img.src}
-                aria-label={`問題の${i + 1}ページ目を拡大（新しいタブ）`}
+                aria-label={copy.zoomPage(i + 1)}
               >
                 {/* Original exam crops deliberately preserve tables, diagrams, and formulas. */}
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -78,7 +86,7 @@ export function QuestionView({
                   src={img.src}
                   width={img.width}
                   height={img.height}
-                  alt={`${q.source.label} ${i + 1}ページ目`}
+                  alt={copy.pageAlt(q.source.label, i + 1)}
                 />
               </a>
             ))}
@@ -91,9 +99,7 @@ export function QuestionView({
         }
         disabled={disabled || revealed}
       >
-        <legend>
-          {revealed ? "解答と正解" : "正しいものを一つ選んでください。"}
-        </legend>
+        <legend>{revealed ? copy.answers : copy.chooseOne}</legend>
         {q.choices.map((choice) => {
           const correct = revealed && choice.key === q.answer;
           const incorrect = revealed && selected === choice.key && !correct;
@@ -109,14 +115,27 @@ export function QuestionView({
                 checked={selected === choice.key}
                 onChange={() => onSelect?.(choice.key)}
               />
-              <span className="choice-key">{choice.key}</span>
-              <span className="choice-text">
-                {q.display === "text" ? choice.text : `${choice.key}を選択`}
+              <span className="choice-key" lang="ja">
+                {choice.key}
+              </span>
+              <span
+                className="choice-text"
+                lang={q.display === "text" ? "ja" : undefined}
+              >
+                {q.display === "text" ? choice.text : copy.select(choice.key)}
               </span>
               {correct ? (
-                <Check className="choice-status" size={20} aria-label="正解" />
+                <Check
+                  className="choice-status"
+                  size={20}
+                  aria-label={copy.correct}
+                />
               ) : incorrect ? (
-                <X className="choice-status" size={20} aria-label="不正解" />
+                <X
+                  className="choice-status"
+                  size={20}
+                  aria-label={copy.incorrect}
+                />
               ) : (
                 <span className="choice-radio" />
               )}
@@ -133,36 +152,43 @@ export function QuestionView({
           <div>
             <strong>
               {selected === q.answer
-                ? "正解です。"
+                ? copy.correctFeedback
                 : selected
-                  ? "もう一度、確認しましょう。"
-                  : "この問題は未解答です。"}
+                  ? copy.incorrectFeedback
+                  : copy.unansweredFeedback}
             </strong>
             <p>
-              正解は「{q.answer}」です。
-              {q.display === "text" &&
-                ` ${q.choices.find((c) => c.key === q.answer)?.text}`}
+              {copy.correctAnswer(q.answer)}
+              {q.display === "text" && (
+                <span lang="ja">
+                  {" "}
+                  {q.choices.find((c) => c.key === q.answer)?.text}
+                </span>
+              )}
             </p>
           </div>
         </div>
       )}
       <div className="question-source">
-        <span>出典：{q.source.label}</span>
+        <span>
+          {copy.source}
+          <span lang="ja">{q.source.label}</span>
+        </span>
         <a
           href={`${q.source.url}#page=${q.source.pages[0]}`}
           target="_blank"
           rel="noreferrer"
         >
-          原本
+          {copy.original}
           <ExternalLink size={12} />
         </a>
         {revealed && (
           <a href={q.source.answerUrl} target="_blank" rel="noreferrer">
-            公式解答
+            {copy.officialAnswer}
             <ExternalLink size={12} />
           </a>
         )}
-        <small>© IPA · 表示用に改行・レイアウトを調整</small>
+        <small>{copy.copyright}</small>
       </div>
     </article>
   );

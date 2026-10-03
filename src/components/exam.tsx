@@ -20,6 +20,7 @@ import {
 import { QuestionView } from "./question-view";
 import { Results } from "./results";
 import { ConfirmDialog } from "./confirm-dialog";
+import { useLanguage, useSessionLanguage } from "./language";
 
 export function Exam() {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -29,7 +30,10 @@ export function Exam() {
   const [seconds, setSeconds] = useState(EXAM_DURATION_MS / 1000);
   const [finished, setFinished] = useState(false);
   const [confirm, setConfirm] = useState<"submit" | "leave" | null>(null);
-  const [error, setError] = useState("");
+  const [error, setError] = useState(false);
+  const { text } = useLanguage();
+  const setup = text.examSetup;
+  useSessionLanguage(questions.length > 0 && !finished);
   useEffect(() => {
     if (!deadline || finished) return;
     const tick = () => {
@@ -67,9 +71,9 @@ export function Exam() {
       setPosition(0);
       setDeadline(Date.now() + EXAM_DURATION_MS);
       setSeconds(EXAM_DURATION_MS / 1000);
-      setError("");
-    } catch (e) {
-      setError(e instanceof Error ? e.message : "試験を開始できませんでした。");
+      setError(false);
+    } catch {
+      setError(true);
     }
   }
   if (finished)
@@ -85,78 +89,80 @@ export function Exam() {
     return (
       <div className="page exam-setup">
         <div className="page-heading">
-          <div className="eyebrow">本番をイメージして</div>
-          <h1>模擬試験</h1>
-          <p>知識と時間配分を、まとめて確認しましょう。</p>
+          <div className="eyebrow">{setup.eyebrow}</div>
+          <h1>{text.exam}</h1>
+          <p>{setup.description}</p>
         </div>
         <div className="exam-intro">
           <div className="exam-intro-icon">
             <ClipboardCheck size={35} strokeWidth={1.3} />
           </div>
-          <h2>120分の、集中時間。</h2>
-          <p>公式の公開問題とサンプル問題からランダムに出題します。</p>
+          <h2>{setup.heading}</h2>
+          <p>{setup.source}</p>
           <div className="exam-specs">
             <div>
               <strong>
-                60<span>問</span>
+                60<span>{setup.questionsUnit}</span>
               </strong>
-              <span>出題数</span>
+              <span>{setup.questionCount}</span>
             </div>
             <div>
               <strong>
-                120<span>分</span>
+                120<span>{setup.minutesUnit}</span>
               </strong>
-              <span>制限時間</span>
+              <span>{setup.timeLimit}</span>
             </div>
             <div>
               <strong>
                 48<span> + </span>12
               </strong>
-              <span>科目A + 科目B</span>
+              <span>{setup.subjects}</span>
             </div>
           </div>
           <div className="exam-rules">
-            <h3>始める前に</h3>
+            <h3>{setup.beforeStart}</h3>
             <p>
               <Check size={17} />
-              解答は提出するまで変更できます。
+              {setup.changeAnswers}
             </p>
             <p>
               <Check size={17} />
-              正解と結果は、提出後に表示されます。
+              {setup.resultsAfter}
             </p>
             <p>
               <Check size={17} />
-              制限時間になると自動的に採点されます。
+              {setup.autoSubmit}
             </p>
             <p>
               <Info size={17} />
-              途中保存はありません。再読み込みすると最初からになります。
+              {setup.noSave}
+            </p>
+            <p>
+              <Info size={17} />
+              {text.sessionLanguage}
             </p>
           </div>
           <div className="exam-start">
             <button className="button primary" onClick={start}>
               <Timer size={18} />
-              模擬試験を始める
+              {setup.start}
               <ArrowRight size={18} />
             </button>
             {error && (
               <p role="alert" className="text-red">
-                {error}
+                {setup.error}
               </p>
             )}
-            <span>ボタンを押すと、計測を開始します。</span>
+            <span>{setup.timerStarts}</span>
           </div>
         </div>
-        <p className="storage-note">
-          この模擬試験は学習用です。IPAの公式スコア・合否判定は再現しません。
-        </p>
+        <p className="storage-note">{setup.disclaimer}</p>
       </div>
     );
   const q = questions[position];
   const answered = Object.keys(answers).length;
   return (
-    <div className="page exam-session">
+    <div className="page exam-session" lang="ja">
       <div className="session-heading">
         <button className="back-link" onClick={() => setConfirm("leave")}>
           <ArrowLeft size={16} />

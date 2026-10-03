@@ -2,24 +2,31 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowUpRight, BookOpen, House, Timer } from "lucide-react";
+import { useLanguage } from "./language";
 export function Header() {
-  const path = usePathname();
+  const path = usePathname().replace(/\/$/, "") || "/";
+  const { language, text, setLanguage, sessionActive } = useLanguage();
   return (
     <header className="site-header">
       <div className="header-inner">
-        <Link className="brand" href="/" aria-label="SG学習室 ホーム">
+        <Link
+          className="brand"
+          href="/"
+          aria-label={`SG ${text.brand} · ${text.home}`}
+        >
           <span className="brand-mark">
             sg<span>.</span>
           </span>
           <span className="brand-name">
-            学習室<small>情報セキュリティマネジメント</small>
+            {text.brand}
+            <small>{text.brandSubtitle}</small>
           </span>
         </Link>
-        <nav aria-label="メインナビゲーション">
+        <nav aria-label={text.navigation}>
           {[
-            { href: "/", label: "ホーム", Icon: House },
-            { href: "/practice", label: "分野別練習", Icon: BookOpen },
-            { href: "/exam", label: "模擬試験", Icon: Timer },
+            { href: "/", label: text.home, Icon: House },
+            { href: "/practice", label: text.practice, Icon: BookOpen },
+            { href: "/exam", label: text.exam, Icon: Timer },
           ].map(({ href, label, Icon }) => (
             <Link
               key={href}
@@ -32,15 +39,41 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <a
-          className="official-link"
-          href="https://www.ipa.go.jp/shiken/kubun/sg.html"
-          target="_blank"
-          rel="noreferrer"
-        >
-          試験について
-          <ArrowUpRight size={15} />
-        </a>
+        <div className="header-actions">
+          <a
+            className="official-link"
+            href="https://www.ipa.go.jp/shiken/kubun/sg.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {text.aboutExam}
+            <ArrowUpRight size={15} />
+          </a>
+          {!sessionActive && (
+            <div
+              className="language-switch"
+              role="group"
+              aria-label="日本語 / English"
+            >
+              <button
+                type="button"
+                lang="ja"
+                aria-pressed={language === "ja"}
+                onClick={() => setLanguage("ja")}
+              >
+                日本語
+              </button>
+              <button
+                type="button"
+                lang="en"
+                aria-pressed={language === "en"}
+                onClick={() => setLanguage("en")}
+              >
+                English
+              </button>
+            </div>
+          )}
+        </div>
       </div>
     </header>
   );

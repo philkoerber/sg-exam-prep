@@ -172,6 +172,35 @@ svg {
   color: var(--muted);
   font-size: 11px;
 }
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.language-switch {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 3px;
+}
+.language-switch button {
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  padding: 6px 8px;
+  min-height: 34px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.language-switch button[aria-pressed="true"] {
+  color: var(--green);
+  background: var(--pale);
+  font-weight: 600;
+}
+.brand-name:lang(en) {
+  letter-spacing: 0.02em;
+}
 .page {
   max-width: 1144px;
   margin: 0 auto;
@@ -286,6 +315,11 @@ svg {
   letter-spacing: 0.08em;
   margin: 21px 0 16px;
   font-weight: 600;
+}
+.hero h1:lang(en) {
+  font-size: clamp(30px, 3.5vw, 46px);
+  letter-spacing: -0.02em;
+  line-height: 1.45;
 }
 .ink-accent {
   position: relative;
@@ -1560,6 +1594,9 @@ svg {
   }
 }
 @media (max-width: 960px) {
+  .header-inner {
+    gap: 16px;
+  }
   .hero h1 {
     font-size: 36px;
   }
@@ -1670,8 +1707,17 @@ svg {
   }
   .brand {
     gap: 13px;
+    min-width: 0;
+    flex: 1;
+  }
+  .brand-name:lang(en) small {
+    display: none;
+  }
+  .header-actions {
+    order: 2;
   }
   .site-header nav {
+    order: 3;
     width: 100%;
     gap: 0;
     justify-content: space-between;
