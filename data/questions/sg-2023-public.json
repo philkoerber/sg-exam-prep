@@ -28,13 +28,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-01-1.webp",
-        "width": 1075,
-        "height": 675
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -46,7 +39,11 @@
       },
       {
         "type": "paragraph",
-        "text": "イ JIS Q 27001:2014（情報セキュリティマネジメントシステム－要求事項）及びJIS Q 27002:2014（情報セキュリティ管理策の実践のための規範）との整合性をとっている。"
+        "text": "イ JIS Q 27001:2014（情報セキュリティマネジメントシステム－要求事項）及び"
+      },
+      {
+        "type": "paragraph",
+        "text": "JIS Q 27002:2014（情報セキュリティ管理策の実践のための規範）との整合性をとっている。"
       },
       {
         "type": "paragraph",
@@ -96,13 +93,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-02-1.webp",
-        "width": 1075,
-        "height": 552
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -164,13 +154,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-03-1.webp",
-        "width": 1075,
-        "height": 525
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -232,13 +215,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-04-1.webp",
-        "width": 1075,
-        "height": 602
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -300,13 +276,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-05-1.webp",
-        "width": 1075,
-        "height": 645
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -372,13 +341,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-06-1.webp",
-        "width": 1075,
-        "height": 599
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -440,13 +402,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-07-1.webp",
-        "width": 1075,
-        "height": 625
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -508,13 +463,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-08-1.webp",
-        "width": 1075,
-        "height": 449
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -576,13 +524,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-09-1.webp",
-        "width": 1075,
-        "height": 575
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -644,13 +585,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-10-1.webp",
-        "width": 1075,
-        "height": 375
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -712,13 +646,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-11-1.webp",
-        "width": 1075,
-        "height": 506
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -780,13 +707,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-12-1.webp",
-        "width": 1075,
-        "height": 356
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -859,29 +779,25 @@
       }
     ],
     "answer": "エ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-13-1.webp",
-        "width": 1075,
-        "height": 802
-      },
-      {
-        "src": "/question-assets/sg-2023-public-13-2.webp",
-        "width": 1075,
-        "height": 1429
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "A 社は，分析・計測機器などの販売及び機器を利用した試料の分析受託業務を行う分析機器メーカーである。A 社では，図 1 の“情報セキュリティリスクアセスメント手順”に従い，年一度，情報セキュリティリスクアセスメントを行っている。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2023-public-13-figure-1-1.webp",
-        "width": 1020,
-        "height": 353
+        "type": "panel",
+        "paragraphs": [
+          "・情報資産の機密性，完全性，可用性の評価値は，それぞれ0〜2の3段階とする。",
+          "・情報資産の機密性，完全性，可用性の評価値の最大値を，その情報資産の重要度とする。",
+          "ぜい",
+          "・脅威及び脆弱性の評価値は，それぞれ0〜2の3段階とする。",
+          "・情報資産ごとに，様々な脅威に対するリスク値を算出し，その最大値を当該情報資産のリスク値として情報資産管理台帳に記載する。ここで，情報資産の脅威ごとのリスク値は，次の式によって算出する。",
+          "リスク値＝情報資産の重要度×脅威の評価値×脆弱性の評価値",
+          "・情報資産のリスク値のしきい値を5とする。",
+          "・情報資産ごとのリスク値がしきい値以下であれば受容可能なリスクとする。",
+          "・情報資産ごとのリスク値がしきい値を超えた場合は，保有以外のリスク対応を行う"
+        ]
       },
       {
         "type": "paragraph",
@@ -896,10 +812,230 @@
         "text": "表1 A社の情報資産管理台帳（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2023-public-13-figure-2-1.webp",
-        "width": 987,
-        "height": 789
+        "type": "table",
+        "columns": [
+          38.37,
+          8.78,
+          8.81,
+          8.78,
+          8.81,
+          8.81,
+          8.82,
+          8.81
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "情報資産",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機密性の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "完全性の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "可用性の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "情報資産の重要度",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "脅威の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "脆弱性の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "リスク値",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(一) 従業員の健康診断の情報",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(二) 行動規範などの社内ルール",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(三) 自社 Web サイトに掲載している会社情報",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(四) 分析結果の精度を向上させるために開発した技術",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -993,19 +1129,7 @@
       }
     ],
     "answer": "オ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-14-1.webp",
-        "width": 1075,
-        "height": 1342
-      },
-      {
-        "src": "/question-assets/sg-2023-public-14-2.webp",
-        "width": 1075,
-        "height": 313
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -1016,10 +1140,13 @@
         "text": "A 社では年に一度，情報セキュリティに関するリスクの見直しを実施している。情報セキュリティリーダーである E 主任は，A 社のデータ保管に関するリスクを見直して図1にまとめた。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2023-public-14-figure-1-1.webp",
-        "width": 993,
-        "height": 150
+        "type": "panel",
+        "paragraphs": [
+          "1. （省略）",
+          "2. （省略）",
+          "3. （省略）",
+          "4. バックアップ対象とするフォルダの設定ミスによって，データが復旧できなくなる。"
+        ]
       },
       {
         "type": "paragraph",
@@ -1117,24 +1244,7 @@
       }
     ],
     "answer": "ウ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2023-public-15-1.webp",
-        "width": 1075,
-        "height": 1314
-      },
-      {
-        "src": "/question-assets/sg-2023-public-15-2.webp",
-        "width": 1075,
-        "height": 1073
-      },
-      {
-        "src": "/question-assets/sg-2023-public-15-3.webp",
-        "width": 1075,
-        "height": 670
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -1173,10 +1283,20 @@
         "text": "ある日の 15 時頃，販売促進部の情報セキュリティリーダーである C 課長は，在宅で勤務していた部下のDさんから，メールに関する報告を受けた。報告を図1に示す。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2023-public-15-figure-2-1.webp",
-        "width": 1017,
-        "height": 573
+        "type": "panel",
+        "paragraphs": [
+          "・販売促進キャンペーンを委託しているE社のFさんから9時30分にメールが届いた。",
+          "・Fさんとは直接会ったことがある。この数か月頻繁にやり取りもしていた。",
+          "・そのメールは，これまでのメールに返信する形で作成されており，メールの本文には販売キャンペーンの内容やFさんがよく利用する挨拶文が記載されていた。",
+          "・急ぎの対応を求める旨が記載されていたので，メールに添付されていたファイルを開いた。",
+          "・メールの添付ファイルを開いた際，特に見慣れないエラーなどは発生せず，ファイルの内容も閲覧できた。",
+          "・ファイルの内容を確認した後，返信した。",
+          "・11 時頃，D さんのスマートフォンに，承認のリクエストが来たが，B サービスにログインしようとしたタイミングではなかったので，リクエストを承認しなかった。",
+          "・12時までと急いでいた割にその後の返信がなく不審に思ったので，14時50分にFさんに電話で確認したところ，今日はメールを送っていないと言われた。",
+          "・現在までのところ，PC の処理速度が遅くなったり，見慣れないウィンドウが表示されたりするなどの不具合や不審な事象は発生していない。",
+          "・現在，PC は，インターネットには接続しているが，社内ネットワークへの VPN 接続は切断している。",
+          "・Dさんはすぐに会社に向かうことは可能で，Dさんの自宅から会社までは1時間掛かる。"
+        ]
       },
       {
         "type": "paragraph",

@@ -28,13 +28,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-01-1.webp",
-        "width": 1075,
-        "height": 425
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -96,13 +89,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-02-1.webp",
-        "width": 1075,
-        "height": 475
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -164,13 +150,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-03-1.webp",
-        "width": 1075,
-        "height": 349
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -224,13 +203,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-04-1.webp",
-        "width": 1075,
-        "height": 525
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -292,13 +264,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-05-1.webp",
-        "width": 1075,
-        "height": 602
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -360,13 +325,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-06-1.webp",
-        "width": 1075,
-        "height": 475
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -428,13 +386,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-07-1.webp",
-        "width": 1075,
-        "height": 425
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -496,13 +447,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-08-1.webp",
-        "width": 1075,
-        "height": 399
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -564,13 +508,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-09-1.webp",
-        "width": 1075,
-        "height": 475
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -632,13 +569,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-10-1.webp",
-        "width": 1075,
-        "height": 375
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -692,13 +622,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-11-1.webp",
-        "width": 1075,
-        "height": 602
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -760,13 +683,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-12-1.webp",
-        "width": 1075,
-        "height": 656
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -835,19 +751,7 @@
       }
     ],
     "answer": "ア",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-13-1.webp",
-        "width": 1075,
-        "height": 1071
-      },
-      {
-        "src": "/question-assets/sg-2024-public-13-2.webp",
-        "width": 1075,
-        "height": 683
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -862,10 +766,112 @@
         "text": "表1 不正ログインを防止するための機能と現在の設定（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2024-public-13-figure-1-1.webp",
-        "width": 994,
-        "height": 296
+        "type": "table",
+        "columns": [
+          12.59,
+          72.54,
+          14.87
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "不正ログインを防止するための機能",
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            {
+              "text": "現在の設定",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "機能1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "指定した IP アドレスからアクセスした場合だけ，ログインできるよう制限する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "有効1)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "機能2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "利用者IDとパスワードによって認証する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "有効",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "機能3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "英字，数字，記号の3種類全てを含む8文字以上のパスワードを強制する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "有効",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "機能4",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "ワンタイムパスワードによって認証する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "無効",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "機能5",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "ログイン画面にCAPTCHAを表示し，回答させる。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "無効",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -884,10 +890,134 @@
         "text": "解答群"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2024-public-13-figure-2-1.webp",
-        "width": 829,
-        "height": 386
+        "type": "table",
+        "columns": [
+          8.25,
+          45.88,
+          45.87
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "有効から無効に変更する機能",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "無効から有効に変更する機能",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能4",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能5",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能4",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能5",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "オ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能4",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "カ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能5",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {
@@ -933,14 +1063,7 @@
       }
     ],
     "answer": "エ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-14-1.webp",
-        "width": 1075,
-        "height": 1463
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -951,10 +1074,15 @@
         "text": "営業部では，図1に示すバックアップポリシーを順守している。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2024-public-14-figure-1-1.webp",
-        "width": 979,
-        "height": 272
+        "type": "panel",
+        "paragraphs": [
+          "1． データベースは毎週日曜日にフルバックアップを，それ以外の日は毎日の増分バックアップを毎日，別のテープメディアに取得する。",
+          "2． バックアップは1週間分保存する。",
+          "3． データベースの目標復旧時点（RPO）は24時間とする。",
+          "4． バックアップからの目標復旧時間（RTO）は6時間とする。",
+          "5． バックアップを保存しているテープメディア（以下，バックアップテープという）は鍵付きのキャビネットに保管する。",
+          "6． バックアップはシステムを停止せずに取得する。"
+        ]
       },
       {
         "type": "paragraph",
@@ -1039,19 +1167,7 @@
       }
     ],
     "answer": "イ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2024-public-15-1.webp",
-        "width": 1075,
-        "height": 1037
-      },
-      {
-        "src": "/question-assets/sg-2024-public-15-2.webp",
-        "width": 1075,
-        "height": 819
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -1074,10 +1190,15 @@
         "text": "C 課長は，情報システム部に報告した。情報システム部は D さんの PC を確認し，数時間後，図1のとおり報告した。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2024-public-15-figure-1-1.webp",
-        "width": 979,
-        "height": 247
+        "type": "panel",
+        "paragraphs": [
+          "1. 警告画面には，次が表示されていた。",
+          "・Xソフトの製品のロゴ",
+          "・マルウェアを削除するためのツールをインストールする指示",
+          "・サポートが必要な場合の電話番号とチャットウィンドウ",
+          "2. 念のため，X ソフトを使って D さんの PC をスキャンしたが，マルウェアは検出されなかった。また，警告画面の表示は，Xソフトによるものではないことを確認した。",
+          "3. 昨今，類似した警告画面の事例の報告が日本国内で増えている。"
+        ]
       },
       {
         "type": "paragraph",

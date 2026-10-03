@@ -28,13 +28,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-01-1.webp",
-        "width": 1075,
-        "height": 425
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -96,13 +89,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-02-1.webp",
-        "width": 1075,
-        "height": 725
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -164,13 +150,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-03-1.webp",
-        "width": 1075,
-        "height": 305
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -224,13 +203,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-04-1.webp",
-        "width": 1075,
-        "height": 375
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -284,13 +256,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-05-1.webp",
-        "width": 1075,
-        "height": 425
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -352,13 +317,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-06-1.webp",
-        "width": 1075,
-        "height": 275
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -408,13 +366,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-07-1.webp",
-        "width": 1075,
-        "height": 355
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -476,13 +427,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-08-1.webp",
-        "width": 1075,
-        "height": 325
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -536,13 +480,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-09-1.webp",
-        "width": 1075,
-        "height": 775
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -604,13 +541,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-10-1.webp",
-        "width": 1075,
-        "height": 356
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -672,13 +602,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-11-1.webp",
-        "width": 1075,
-        "height": 575
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -740,13 +663,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-12-1.webp",
-        "width": 1075,
-        "height": 399
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -808,13 +724,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-13-1.webp",
-        "width": 1075,
-        "height": 625
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -876,13 +785,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-14-1.webp",
-        "width": 1075,
-        "height": 702
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -944,13 +846,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-15-1.webp",
-        "width": 1075,
-        "height": 675
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1012,13 +907,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-16-1.webp",
-        "width": 1075,
-        "height": 402
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1072,13 +960,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-17-1.webp",
-        "width": 1075,
-        "height": 525
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1140,13 +1021,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-18-1.webp",
-        "width": 1075,
-        "height": 552
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1208,13 +1082,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-19-1.webp",
-        "width": 1075,
-        "height": 575
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1276,13 +1143,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-20-1.webp",
-        "width": 1075,
-        "height": 275
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1332,13 +1192,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-21-1.webp",
-        "width": 1075,
-        "height": 502
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1399,24 +1252,107 @@
       }
     ],
     "answer": "エ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-22-1.webp",
-        "width": 1075,
-        "height": 449
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "デジタル署名に用いる鍵の組みのうち，適切なものはどれか。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-22-figure-1-1.webp",
-        "width": 530,
-        "height": 290
+        "type": "table",
+        "columns": [
+          12.18,
+          43.91,
+          43.91
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "デジタル署名の作成に用いる鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "デジタル署名の検証に用いる鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "共通鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "秘密鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "公開鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "秘密鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "秘密鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "共通鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "秘密鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "公開鍵",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {
@@ -1458,13 +1394,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-23-1.webp",
-        "width": 1075,
-        "height": 325
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1518,13 +1447,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-24-1.webp",
-        "width": 1075,
-        "height": 602
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1586,13 +1508,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-25-1.webp",
-        "width": 1075,
-        "height": 625
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1654,13 +1569,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-26-1.webp",
-        "width": 1075,
-        "height": 376
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1722,13 +1630,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-27-1.webp",
-        "width": 1075,
-        "height": 398
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1790,13 +1691,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-28-1.webp",
-        "width": 1075,
-        "height": 275
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1846,13 +1740,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-29-1.webp",
-        "width": 1075,
-        "height": 525
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1914,13 +1801,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-30-1.webp",
-        "width": 1075,
-        "height": 549
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -1981,14 +1861,7 @@
       }
     ],
     "answer": "イ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-31-1.webp",
-        "width": 1075,
-        "height": 725
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -2054,13 +1927,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-32-1.webp",
-        "width": 1075,
-        "height": 325
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2114,13 +1980,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-33-1.webp",
-        "width": 1075,
-        "height": 405
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2182,13 +2041,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-34-1.webp",
-        "width": 1075,
-        "height": 474
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2250,13 +2102,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-35-1.webp",
-        "width": 1075,
-        "height": 375
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2318,13 +2163,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-36-1.webp",
-        "width": 1075,
-        "height": 375
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2386,13 +2224,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-37-1.webp",
-        "width": 1075,
-        "height": 205
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2442,13 +2273,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-38-1.webp",
-        "width": 1075,
-        "height": 625
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2510,13 +2334,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-39-1.webp",
-        "width": 1075,
-        "height": 652
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2578,13 +2395,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-40-1.webp",
-        "width": 1075,
-        "height": 476
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2646,13 +2456,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-41-1.webp",
-        "width": 1075,
-        "height": 225
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2702,13 +2505,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-42-1.webp",
-        "width": 1075,
-        "height": 324
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2762,13 +2558,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-43-1.webp",
-        "width": 1075,
-        "height": 399
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2830,13 +2619,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-44-1.webp",
-        "width": 1075,
-        "height": 425
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2890,13 +2672,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-45-1.webp",
-        "width": 1075,
-        "height": 575
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -2958,13 +2733,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-46-1.webp",
-        "width": 1075,
-        "height": 399
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -3017,24 +2785,147 @@
       }
     ],
     "answer": "ウ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-47-1.webp",
-        "width": 1075,
-        "height": 617
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "表から，期末在庫品を先入先出法で評価した場合の期末の在庫評価額は何千円か。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-47-figure-1-1.webp",
-        "width": 474,
-        "height": 334
+        "type": "table",
+        "columns": [
+          8.8,
+          20.29,
+          36.3,
+          34.61
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "摘要",
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            {
+              "text": "数量（個）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "単価（千円）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "期首在庫",
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            {
+              "text": "10",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "10",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "仕入",
+              "colSpan": 1,
+              "rowSpan": 4
+            },
+            {
+              "text": "4月",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "11",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "6月",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "12",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "7月",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "13",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "9月",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "14",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "期末在庫",
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            {
+              "text": "12",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -3079,34 +2970,220 @@
       }
     ],
     "answer": "ア",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-48-1.webp",
-        "width": 1075,
-        "height": 762
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "製造原価明細書から損益計算書を作成したとき，売上総利益は何千円か。"
       },
       {
-        "type": "paragraph",
-        "text": "単位 千円 単位 千円"
+        "type": "table",
+        "columns": [
+          72,
+          28
+        ],
+        "headerRows": 1,
+        "caption": "単位：千円",
+        "rows": [
+          [
+            {
+              "text": "製造原価明細書",
+              "colSpan": 2,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "材料費",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "400",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "労務費",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "300",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "経 費",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "200",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "当期総製造費用",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ],
+          [
+            {
+              "text": "期首仕掛品棚卸高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "150",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "期末仕掛品棚卸高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "250",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "当期製品製造原価",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ]
+        ]
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-48-figure-1-1.webp",
-        "width": 374,
-        "height": 384
-      },
-      {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-48-figure-1-2.webp",
-        "width": 374,
-        "height": 384
+        "type": "table",
+        "columns": [
+          72,
+          28
+        ],
+        "headerRows": 1,
+        "caption": "単位：千円",
+        "rows": [
+          [
+            {
+              "text": "損益計算書",
+              "colSpan": 2,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "売上高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1,000",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "売上原価",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "期首製品棚卸高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "120",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "当期製品製造原価",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ],
+          [
+            {
+              "text": "期末製品棚卸高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "70",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "売上原価",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ],
+          [
+            {
+              "text": "売上総利益",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -3151,29 +3228,18 @@
       }
     ],
     "answer": "イ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-49-1.webp",
-        "width": 1075,
-        "height": 1443
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-49-2.webp",
-        "width": 1075,
-        "height": 1013
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "A 社は，放送会社や運輸会社向けに広告制作ビジネスを展開している。A 社は，人事業務の効率化を図るべく，人事業務の委託を検討することにした。A 社が委託する業務（以下，B業務という）を図1に示す。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-49-figure-1-1.webp",
-        "width": 964,
-        "height": 118
+        "type": "panel",
+        "paragraphs": [
+          "・採用予定者から郵送されてくる入社時の誓約書，前職の源泉徴収票などの書類を PDF ファイルに変換し，ファイルサーバに格納する。",
+          "（省略）"
+        ]
       },
       {
         "type": "paragraph",
@@ -3192,10 +3258,14 @@
         "text": "・B業務では，図2の複合機のスキャン機能を使用する。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-49-figure-1-2.webp",
-        "width": 981,
-        "height": 286
+        "type": "panel",
+        "paragraphs": [
+          "・スキャン機能を使用する際は，従業員ごとに付与した利用者IDとパスワードをパネルに入力する。",
+          "・スキャンしたデータをPDFファイルに変換する。",
+          "・PDFファイルを従業員ごとに異なる鍵で暗号化して，電子メールに添付する。",
+          "・スキャンを実行した本人宛てに電子メールを送信する。",
+          "・PDFファイルが大きい場合は，PDFファイルを添付する代わりに，自社の社内ネットワーク上に設置したサーバ（以下，B サーバという）に自動的に保存し，保存先の URL を電子メールの本文に記載して送信する。"
+        ]
       },
       {
         "type": "paragraph",
@@ -3206,10 +3276,11 @@
         "text": "A 社は，C 社と業務委託契約を締結する前に，秘密保持契約を締結して，C 社を訪問し，業務委託での情報セキュリティリスクの評価を実施した。その結果，図 3 の発見があった。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-49-figure-1-3.webp",
-        "width": 981,
-        "height": 148
+        "type": "panel",
+        "paragraphs": [
+          "・複合機のスキャン機能では，電子メールの差出人アドレス，件名，本文及び添付ファイル名を初期設定1)の状態で使用しており，誰がスキャンを実行しても同じである。",
+          "・複合機のスキャン機能の初期設定情報はベンダーの Web サイトで公開されており，誰でも閲覧できる。"
+        ]
       },
       {
         "type": "paragraph",
@@ -3307,29 +3378,25 @@
       }
     ],
     "answer": "エ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-50-1.webp",
-        "width": 1075,
-        "height": 1512
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-50-2.webp",
-        "width": 1075,
-        "height": 1522
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "A 社は，分析・計測機器などの販売及び機器を利用した試料の分析受託業務を行う分析機器メーカーである。A 社では，図 1 の“情報セキュリティリスクアセスメント手順”に従い，年一度，情報セキュリティリスクアセスメントの結果をまとめている。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-50-figure-1-1.webp",
-        "width": 1020,
-        "height": 418
+        "type": "panel",
+        "paragraphs": [
+          "・情報資産の機密性，完全性，可用性の評価値は，それぞれ 0〜2 の 3 段階とし，表 1 のとおりとする。",
+          "・情報資産の機密性，完全性，可用性の評価値の最大値を，その情報資産の重要度とする。",
+          "ぜい",
+          "・脅威及び脆弱性の評価値は，それぞれ0〜2の3段階とする。",
+          "・情報資産ごとに，様々な脅威に対するリスク値を算出し，その最大値を当該情報資産のリスク値として情報資産管理台帳に記載する。ここで，情報資産の脅威ごとのリスク値は，次の式によって算出する。",
+          "リスク値＝情報資産の重要度×脅威の評価値×脆弱性の評価値",
+          "・情報資産のリスク値のしきい値を5とする。",
+          "・情報資産ごとのリスク値がしきい値以下であれば受容可能なリスクとする。",
+          "・情報資産ごとのリスク値がしきい値を超えた場合は，保有以外のリスク対応を行うことを基本とする。"
+        ]
       },
       {
         "type": "paragraph",
@@ -3340,10 +3407,208 @@
         "text": "表1 情報資産の機密性，完全性，可用性の評価基準"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-50-figure-1-2.webp",
-        "width": 1063,
-        "height": 732
+        "type": "table",
+        "columns": [
+          10.18,
+          3.39,
+          37.28,
+          49.15
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "評価値",
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価基準",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "該当する情報の例",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "機 密性",
+              "colSpan": 1,
+              "rowSpan": 5
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "法律で安全管理措置が義務付けられている。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・健康診断の結果，保健指導の記録\n・給与所得の源泉徴収票",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "取引先から守秘義務の対象として指定されている。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・取引先から秘密と指定されて受領した資料\n・取引先の公開前の新製品情報",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "自社の営業秘密であり，漏えいすると自社に深刻な影響がある。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・自社の独自技術，ノウハウ\n・取引先リスト\n・特許出願前の発明情報",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "関係者外秘情報又は社外秘情報である。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・見積書，仕入価格など取引先や顧客との商取引に関する情報\n・社内規程，事務処理要領",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "公開情報である。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・自社製品カタログ，自社Webサイト掲載情報",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "完全性",
+              "colSpan": 1,
+              "rowSpan": 4
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "法律で安全管理措置が義務付けられている。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・健康診断の結果，保健指導の記録\n・給与所得の源泉徴収票",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "改ざんされると自社に深刻な影響，又は取引先や顧客に大きな影響がある。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・社内規程，事務処理要領\n・自社の独自技術，ノウハウ\n・設計データ（原本）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "改ざんされると事業に影響がある。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・受発注情報，決済情報，契約情報\n・設計データ（印刷物）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "改ざんされても事業に影響はない。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・廃版製品カタログデータ",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "可用性",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 3,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -3362,10 +3627,179 @@
         "text": "表2 A社の情報セキュリティリスクアセスメント結果（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-50-figure-2-1.webp",
-        "width": 1043,
-        "height": 453
+        "type": "table",
+        "columns": [
+          24.2,
+          22.48,
+          7.61,
+          7.61,
+          7.61,
+          7.61,
+          7.61,
+          7.61,
+          7.67
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "情報資産名称",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "説明",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機密性の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "完全性の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "可用性の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "情報資産の重要度",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "脅威の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "脆弱性の評価値",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "リスク値",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "社内規程",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "行動規範や判断基準を含めた社内ルール",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "設計データ（印刷物）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "A 社における主力製品の設計図",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(省略)",
+              "colSpan": 7,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "自社 Web サイトにあるコンテンツ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "分析機器の情報",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a 1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a 2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a 3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a 4",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -3376,10 +3810,260 @@
         "text": "aに関する解答群"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-50-figure-2-2.webp",
-        "width": 640,
-        "height": 423
+        "type": "table",
+        "columns": [
+          9.82,
+          22.54,
+          22.53,
+          22.54,
+          22.58
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a4",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "8",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "8",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "8",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "オ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "カ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "8",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "キ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ク",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "8",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {
@@ -3445,19 +4129,7 @@
       }
     ],
     "answer": "ク",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-51-1.webp",
-        "width": 1075,
-        "height": 1469
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-51-2.webp",
-        "width": 1075,
-        "height": 963
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -3480,10 +4152,112 @@
         "text": "表1 B主任の評価結果"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-51-figure-1-1.webp",
-        "width": 1009,
-        "height": 228
+        "type": "table",
+        "columns": [
+          6.26,
+          54.02,
+          39.71
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "情報セキュリティ 5か条",
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価結果",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OSやソフトウェアは常に最新の状態にしよう！",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "一部のPCについて実施している",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "パスワードを強化しよう！",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "4",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "共有設定を見直そう！",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "5",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "脅威や攻撃の手口を知ろう！",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -3601,19 +4375,7 @@
       }
     ],
     "answer": "エ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-52-1.webp",
-        "width": 1075,
-        "height": 1067
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-52-2.webp",
-        "width": 1075,
-        "height": 1019
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -3632,10 +4394,117 @@
         "text": "表1 A社PC規程へのB社の対応状況の評価結果（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-52-figure-1-1.webp",
-        "width": 1010,
-        "height": 280
+        "type": "table",
+        "columns": [
+          8.7,
+          73.43,
+          17.87
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "A社PC規程",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価結果",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OK",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OK",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "会社が許可したアプリケーションソフトウェアだけを導入できるように技術的に制限すること",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "NG",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "4",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "外部記憶媒体へのアクセスを技術的に禁止すること",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "NG1)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "5",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Bluetoothの利用を技術的に禁止すること",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "NG",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -3753,29 +4622,651 @@
       }
     ],
     "answer": "オ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-53-1.webp",
-        "width": 1075,
-        "height": 1234
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-53-2.webp",
-        "width": 1075,
-        "height": 869
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "A 社は，高級家具を販売する企業である。A 社は 2 年前に消費者に直接通信販売する新規事業を開始した。それまで A 社は，個人情報はほとんど取り扱っていなかったが，通信販売事業を開始したことによって，複合機で印刷した送り状など，顧客の個人情報を大量に扱うようになってきた。そのため，オフィス内に通販事業部エリアを設け，個人情報が漏えいしないよう対策した。具体的には，通販事業部エリアの出入口に，IC カード認証でドアを解錠するシステムを設置し，通販事業部の従業員だけが通販事業部エリアに入退室できるようにした。他のエリアは A 社の全従業員が自由に利用できるようにしている。図 1 は，A 社のオフィスのレイアウトである。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-53-figure-1-1.webp",
-        "width": 1005,
-        "height": 414
+        "type": "diagram",
+        "label": "A社の事務所の配置図",
+        "viewBox": [
+          59.153,
+          262.302,
+          398.068,
+          161.714
+        ],
+        "paths": [
+          {
+            "d": "M99.578 412.403 L174.591 412.403 L174.591 397.810 L99.578 397.810 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M372.211 350.223 L427.702 350.223 L427.702 335.629 L372.211 335.629 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M123.217 379.069 L250.735 379.069 L250.735 351.162 L123.217 351.162 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M360.204 319.376 L447.220 319.376 L447.220 278.924 L360.204 278.924 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M250.860 319.376 L358.757 319.376 L358.757 278.924 L250.860 278.924 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M135.285 319.376 L252.184 319.376 L252.184 278.924 L135.285 278.924 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M60.153 416.616 L456.221 416.616 L456.221 263.302 L60.153 263.302 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M135.165 350.606 L447.220 350.606 L447.220 271.238 L135.165 271.238 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M399.267 286.283 L447.102 286.283 L447.102 271.237 L399.267 271.237 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M399.267 286.283 L447.102 286.283 L447.102 271.237 L399.267 271.237 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M325.423 286.462 L359.811 286.462 L359.811 271.226 L325.423 271.226 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M325.423 286.462 L359.811 286.462 L359.811 271.226 L325.423 271.226 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M359.815 350.565 L359.815 281.772",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M251.589 315.671 L251.589 271.365",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M69.155 350.606 L135.166 350.606 L135.166 310.922 L69.155 310.922 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M69.155 350.606 L135.166 350.606 L135.166 310.922 L69.155 310.922 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M344.645 328.777 L359.918 328.777 L359.918 315.870 L344.645 315.870 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M344.645 328.777 L359.918 328.777 L359.918 315.870 L344.645 315.870 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M359.915 328.777 L375.188 328.777 L375.188 315.870 L359.915 315.870 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M359.915 328.777 L375.188 328.777 L375.188 315.870 L359.915 315.870 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M69.223 393.874 L447.287 393.874 L447.287 350.606 L69.223 350.606 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M283.276 363.513 L315.527 363.513 L315.527 350.607 L283.276 350.607 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M283.276 363.513 L315.527 363.513 L315.527 350.607 L283.276 350.607 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M69.261 393.739 L123.151 393.739 L123.151 350.735 L69.261 350.735 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M69.261 393.739 L123.151 393.739 L123.151 350.735 L69.261 350.735 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M315.522 363.513 L359.796 363.513 L359.796 350.607 L315.522 350.607 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M315.522 363.513 L359.796 363.513 L359.796 350.607 L315.522 350.607 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M385.335 362.299 L385.335 350.606",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M397.710 371.328 L447.223 371.328",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M397.710 382.337 L397.710 362.127",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M405.215 378.307 L441.522 378.307 L441.522 364.069 L405.215 364.069 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M173.543 399.678 L189.746 399.678 L189.746 393.848 L173.543 393.848 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M173.543 399.678 L189.746 399.678 L189.746 393.848 L173.543 393.848 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M198.004 401.811 L252.151 401.811 L252.151 386.450 L198.004 386.450 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M194.212 393.874 L260.641 393.874",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.9980306919999999,
+            "dash": [
+              7,
+              5
+            ]
+          },
+          {
+            "d": "M198.403 403.987 L248.756 403.987 L248.756 394.514 L198.403 394.514 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M178.243 399.482 L167.514 405.440",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M176.527 397.655 L181.966 397.414 L178.892 401.901 L176.527 397.655 Z",
+            "fill": "#000000",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M198.284 423.016 L248.636 423.016 L248.636 407.655 L198.284 407.655 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M187.086 421.166 L197.923 421.166 L197.923 412.007 L187.086 412.007 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M187.086 421.166 L197.923 421.166 L197.923 412.007 L187.086 412.007 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M248.934 421.166 L259.771 421.166 L259.771 412.007 L248.934 412.007 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M248.934 421.166 L259.771 421.166 L259.771 412.007 L248.934 412.007 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M251.439 372.178 L251.439 350.606",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M385.335 393.790 L385.335 382.097",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M69.155 311.010 L135.166 311.010 L135.166 271.242 L69.155 271.242 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M69.155 311.010 L135.166 311.010 L135.166 271.242 L69.155 271.242 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M372.211 342.926 L365.604 340.403",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M365.304 342.890 L361.621 338.883 L367.041 338.352 L365.304 342.890 Z",
+            "fill": "#000000",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M124.001 306.260 L135.123 306.360",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.748523019,
+            "dash": []
+          },
+          {
+            "d": "M135.632 294.579 C129.124 294.529 123.811 299.757 123.765 306.250 C123.765 306.260 123.765 306.280 123.765 306.290",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M134.643 306.021 L136.601 306.021 L136.601 294.924 L134.643 294.924 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M123.824 345.827 L134.947 345.927",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.748523019,
+            "dash": []
+          },
+          {
+            "d": "M135.455 334.144 C128.947 334.095 123.634 339.323 123.587 345.817 C123.587 345.830 123.587 345.843 123.587 345.856",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M134.466 345.585 L136.423 345.585 L136.423 334.443 L134.466 334.443 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M111.823 389.901 L122.945 390.001",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.748523019,
+            "dash": []
+          },
+          {
+            "d": "M123.454 378.216 C116.946 378.170 111.633 383.397 111.587 389.890 C111.587 389.903 111.586 389.916 111.586 389.929",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M122.464 389.658 L124.422 389.658 L124.422 378.480 L122.464 378.480 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M257.477 339.232 L257.377 350.330",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.9980306919999999,
+            "dash": []
+          },
+          {
+            "d": "M269.184 350.838 C269.234 344.344 263.994 339.042 257.487 338.996 C257.477 338.996 257.457 338.996 257.447 338.996",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M280.142 339.321 L280.142 350.565",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M280.142 339.044 C274.184 339.003 269.314 343.792 269.274 349.740 C269.274 349.928 269.274 350.117 269.284 350.305",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M269.593 351.804 L279.779 351.804 L279.779 349.850 L269.593 349.850 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M257.856 351.804 L271.157 351.804 L271.157 349.850 L257.856 349.850 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M348.278 344.647 L359.396 344.747",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.9980306919999999,
+            "dash": []
+          },
+          {
+            "d": "M359.905 332.959 C353.398 332.919 348.088 338.143 348.038 344.637 C348.038 344.650 348.038 344.663 348.038 344.676",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M358.917 344.405 L360.875 344.405 L360.875 333.230 L358.917 333.230 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          }
+        ],
+        "texts": [
+          {
+            "text": "複合機",
+            "x": 330.8221819852,
+            "y": 281.98095459924997,
+            "width": 23.975017643198896,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "ファックス",
+            "x": 403.5287178974,
+            "y": 281.88136804174997,
+            "width": 40.47393707722961,
+            "size": 8.265684272500039
+          },
+          {
+            "text": "会議室",
+            "x": 86.6539731874,
+            "y": 294.299811762,
+            "width": 23.975017643198896,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "1",
+            "x": 113.15168806,
+            "y": 294.299811762,
+            "width": 4.129351988150006,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "卸事業部エリア",
+            "x": 165.64810245919998,
+            "y": 302.3663229195,
+            "width": 56.01145354565671,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "共用エリア",
+            "x": 284.94271107395997,
+            "y": 302.3663229195,
+            "width": 39.9634693290389,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "通販事業部エリア",
+            "x": 372.02088895095994,
+            "y": 302.3663229195,
+            "width": 64.01565969549671,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "CR",
+            "x": 348.48732523359996,
+            "y": 325.649660063,
+            "width": 7.872466098496034,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "CR",
+            "x": 363.78713574195996,
+            "y": 325.649660063,
+            "width": 7.872466098496034,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "会議室",
+            "x": 86.6539731874,
+            "y": 334.1145174505,
+            "width": 23.975017643198896,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "2",
+            "x": 113.15168806,
+            "y": 334.1145174505,
+            "width": 4.129351988150006,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "ICカードドア",
+            "x": 376.26251939196,
+            "y": 346.3357797869,
+            "width": 48.526223355656725,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "電話台",
+            "x": 287.50764995239996,
+            "y": 360.52686423064995,
+            "width": 24.024569867056698,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "ソファ",
+            "x": 325.8320285252,
+            "y": 360.52686423064995,
+            "width": 24.024569867056698,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "ショールーム",
+            "x": 162.88355744236,
+            "y": 368.618272027525,
+            "width": 47.92525917446889,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "来客用",
+            "x": 83.93433955169999,
+            "y": 370.958556128775,
+            "width": 24.006031446952804,
+            "size": 8.265684272500039
+          },
+          {
+            "text": "トイレ",
+            "x": 411.7125695718,
+            "y": 374.71794867439996,
+            "width": 23.975017643198896,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "会議室",
+            "x": 83.93433955169999,
+            "y": 380.568658927525,
+            "width": 23.975017643198896,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "受付エリア",
+            "x": 298.8851998412,
+            "y": 380.369485812525,
+            "width": 40.054165368174324,
+            "size": 8.265684272500039
+          },
+          {
+            "text": "自動ドア",
+            "x": 207.54543090936,
+            "y": 402.9009444469,
+            "width": 32.50585963844,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "防犯設備操作盤",
+            "x": 108.88510685169999,
+            "y": 408.7765513394,
+            "width": 56.30784371041341,
+            "size": 8.240787633125024
+          },
+          {
+            "text": "正門",
+            "x": 215.42987337615997,
+            "y": 419.0339667619,
+            "width": 16.517407952600024,
+            "size": 8.265684272500039
+          }
+        ]
       },
       {
         "type": "paragraph",
@@ -3889,14 +5380,7 @@
       }
     ],
     "answer": "ア",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-54-1.webp",
-        "width": 1075,
-        "height": 1473
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -3907,10 +5391,13 @@
         "text": "A 社では年に一度，情報セキュリティに関するリスクの見直しを実施している。情報セキュリティリーダーである E 主任は，A 社のデータ保管に関するリスクを見直して図1にまとめた。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-54-figure-1-1.webp",
-        "width": 992,
-        "height": 183
+        "type": "panel",
+        "paragraphs": [
+          "1. ランサムウェアによってデータが暗号化され，最新のデータが利用できなくなることによって，最大1週間分の更新情報が失われる。",
+          "2. （省略）",
+          "3. （省略）",
+          "4. （省略）"
+        ]
       },
       {
         "type": "paragraph",
@@ -3991,19 +5478,7 @@
       }
     ],
     "answer": "ウ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-55-1.webp",
-        "width": 1075,
-        "height": 1260
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-55-2.webp",
-        "width": 1075,
-        "height": 669
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -4018,10 +5493,86 @@
         "text": "表1 20XX年下期のH訓練計画案（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-55-figure-1-1.webp",
-        "width": 994,
-        "height": 422
+        "type": "table",
+        "columns": [
+          27.76,
+          72.24
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項目",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "内容",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "電子メールの送信日時",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "次の日時に，H訓練の電子メールを全従業員宛に送信する。\n・20XX年10月1日 10時00分",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "送信者メールアドレス",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Aサービスを装ったドメインのメールアドレス",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "電子メールの本文",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "次を含める。\n・Aアカウントはロックされていること\n・ロックを解除するには，次のURLにアクセスすること\n・偽解除サイトのURL",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "偽解除サイト",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・氏名，所属部門名並びに A アカウントの利用者 ID 及びパスワードを入力させる。\n・全ての項目の入力が完了すると，H訓練であることを表示する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "結果の報告",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "経営会議への報告予定日：20XX年10月31日",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -4099,19 +5650,7 @@
       }
     ],
     "answer": "オ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-56-1.webp",
-        "width": 1075,
-        "height": 1086
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-56-2.webp",
-        "width": 1075,
-        "height": 569
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -4122,10 +5661,17 @@
         "text": "図1に示す。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-56-figure-1-1.webp",
-        "width": 977,
-        "height": 461
+        "type": "panel",
+        "paragraphs": [
+          "・教務部員は，入塾した塾生及び退塾する塾生の登録，塾生プロフィールの編集，模試結果の登録，進学先の登録など，塾生の個人データの入力，参照及び更新を行う。",
+          "・教務部員が使用する端末は教務部の共用端末である。",
+          "・塾生管理システムへのログインには利用者IDとパスワードを利用する。",
+          "・利用者IDは個人別に発行されており，利用者IDの共用はしていない。",
+          "・塾生管理システムの利用者のアクセス権限には参照権限及び更新権限の 2 種類がある。参照権限があると塾生の個人データを参照できる。更新権限があると塾生の個人データの参照，入力及び更新ができる。アクセス権限は塾生の個人データごとに設定できる。",
+          "・教務部員は，担当する塾生の個人データの更新権限をもっている。担当しない塾生の個人データの参照権限及び更新権限はもっていない。",
+          "・共用端末の OS へのログインには，共用端末の識別子（以下，端末 ID という）とパスワードを利用する。",
+          "・共用端末のパスワード及び塾生管理システムの利用者のアクセス権限は情報システム部が設定，変更できる。"
+        ]
       },
       {
         "type": "paragraph",
@@ -4203,19 +5749,7 @@
       }
     ],
     "answer": "ア",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-57-1.webp",
-        "width": 1075,
-        "height": 1458
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-57-2.webp",
-        "width": 1075,
-        "height": 595
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -4242,10 +5776,13 @@
         "text": "B 支店で情報セキュリティリーダーを務める C 氏は，監査部から送付されてきた自己評価シートに従って，職場の状況を観察したり，従業員にヒアリングしたりして評価した。自己評価シートの評価結果は図 1 の判定ルールに従って記入する。C 氏が作成したB支店の評価結果を表1に示す。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-57-figure-1-1.webp",
-        "width": 978,
-        "height": 247
+        "type": "panel",
+        "paragraphs": [
+          "・評価項目どおりに実施している場合：“OK”",
+          "・評価項目どおりには実施していないが，代替コントロールによって，“OK”の場合と同程度にリスクが低減されていると考えられる場合：“(OK)”（代替コントロールを具体的に評価根拠欄に記入する。）",
+          "・評価項目どおりには実施しておらず，かつ，代替コントロールによって評価項目に関するリスクが抑えられていないと考えられる場合：“NG”",
+          "・評価項目に関するリスクがそもそも存在しない場合：“NA”"
+        ]
       },
       {
         "type": "paragraph",
@@ -4256,10 +5793,104 @@
         "text": "表1 B支店の評価結果（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-57-figure-1-2.webp",
-        "width": 975,
-        "height": 185
+        "type": "table",
+        "columns": [
+          5.54,
+          49.97,
+          12.94,
+          31.54
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "No.",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価項目",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価結果",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価根拠",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "10",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OK",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "19",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "ファイルサーバ上の顧客情報のアクセス権は最小権限の原則に基づいて設定されている。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "25",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OK",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -4270,10 +5901,100 @@
         "text": "aに関する解答群"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-57-figure-2-1.webp",
-        "width": 936,
-        "height": 291
+        "type": "table",
+        "columns": [
+          5.84,
+          14.3,
+          79.86
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価結果",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価根拠",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OK",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "アクセス権の設定状況が適切であることを確認した。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OK",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "アクセス権を適切に設定するルールが存在することを確認した。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OK",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "ファイルサーバは情報システム部が運用管理している。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "NA",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "顧客情報をファイルサーバに保存することは禁止されている。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {
@@ -4335,19 +6056,7 @@
       }
     ],
     "answer": "ク",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-58-1.webp",
-        "width": 1075,
-        "height": 1492
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-58-2.webp",
-        "width": 1075,
-        "height": 569
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -4362,10 +6071,126 @@
         "text": "表1 B社自己点検結果（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-58-figure-1-1.webp",
-        "width": 1031,
-        "height": 1020
+        "type": "table",
+        "columns": [
+          8.73,
+          19.24,
+          35.67,
+          36.36
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "点検項目",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "A社グループ基準",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "点検結果",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Webアプリケーションプログラム（以下，Webアプリという）に対する脆弱性診断の実施",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・インターネットに公開しているWebサイトについて，Webアプリの新規開発時，及び機能追加時に行う。・機能追加などの変更がない場合でも，年1回以上行う。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・3 年前に B 社サイトをリリースする 1 か月前に，Web アプリに対する脆弱性診断を行った。リリース以降は実施していない。・3 年前の脆弱性診断では，軽微な脆弱性が2件検出された。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OS及びミドルウェアに対する脆弱性診断の実施",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・インターネットに公開している Web サイトについて，年 1回以上行う。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・毎年 4 月及び 10 月に，B 社サイトに対して行っている。・今年 4 月の脆弱性診断では，脆弱性が3件検出された。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "脆弱性診断結果の報告",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・Web アプリ，OS 及びミドルウェアに対する脆弱性診断を行った場合，その結果を，診断後 2 か月以内に各社の情報セキュリティ委員会に報告する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・3 年前に Web アプリに対する脆弱性診断を行った 2 週間後に，結果を情報セキュリティ委員会に報告した。・OS 及びミドルウェアに対する脆弱性診断の結果は，4 月と10月それぞれの月末の情報セキュリティ委員会に報告した。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(四)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "脆弱性診断結果の対応",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・Web アプリ，OS 及びミドルウェアに対する脆弱性診断で，脆弱性が発見された場合，緊急を要する脆弱性については，速やかに対応し，その他の脆弱性については，診断後，1 か月以内に対応する。指定された期限までの対応が困難な場合，対応の時期を明確にし，最高情報セキュリティ責任者（CISO）の承認を得る。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "・3 年前に検出した Web アプリの脆弱性 2 件について，B 社サイトのリリースの 1 週間前に対応した。・今年 4 月に検出した OS 及びミドルウェアに対する脆弱性のうち，2 件は翌日に対応した。残り 1 件は，恒久的な対策は来年1 月の B 社サイトの更改時に対応するものとし，それまでは，設定変更による暫定対策をとるという対応計画について，脆弱性診断の10日後にCISOの承認を得た。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -4439,19 +6264,7 @@
       }
     ],
     "answer": "ア",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-59-1.webp",
-        "width": 1075,
-        "height": 1361
-      },
-      {
-        "src": "/question-assets/sg-2022-sample-59-2.webp",
-        "width": 1075,
-        "height": 1344
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -4466,10 +6279,12 @@
         "text": "現在，Z 販売課の要員は，商品 Z についての受注管理業務及び問合せ対応業務を行っている。商品Zについての受注管理業務の手順を図1に示す。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-59-figure-1-1.webp",
-        "width": 1003,
-        "height": 255
+        "type": "panel",
+        "paragraphs": [
+          "商品Zの顧客からの注文は電子メールで届く。",
+          "(1) 入力販売担当者は，届いた注文（変更，キャンセルを含む）の内容を受注管理システム 1）（以下，Jシステムという）に入力し，販売責任者2）に承認を依頼する。",
+          "(2) 承認販売責任者は，注文の内容と J システムへの入力結果を突き合わせて確認し，問題がなければ承認する。問題があれば差し戻す。"
+        ]
       },
       {
         "type": "paragraph",
@@ -4528,10 +6343,145 @@
         "text": "表1 操作権限案"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-59-figure-2-1.webp",
-        "width": 1013,
-        "height": 258
+        "type": "table",
+        "columns": [
+          22.07,
+          11.32,
+          23.88,
+          14.26,
+          14.22,
+          14.25
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "付与される操作権限利用者",
+              "colSpan": 3,
+              "rowSpan": 2
+            },
+            {
+              "text": "Jシステム",
+              "colSpan": 3,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "閲覧",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "入力",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "承認",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（省略）",
+              "colSpan": 3,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（省略）",
+              "colSpan": 3,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（省略）",
+              "colSpan": 3,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -4629,24 +6579,25 @@
       }
     ],
     "answer": "カ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2022-sample-60-1.webp",
-        "width": 1075,
-        "height": 1495
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "A 社は輸入食材を扱う商社である。ある日，経理課の B 課長は，A 社の海外子会社である C 社の D さんから不審な点がある電子メール（以下，メールという）を受信した。B 課長は，A 社の情報システム部に調査を依頼した。A 社の情報システム部がC社の情報システム部と協力して調査した結果を図1に示す。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2022-sample-60-figure-1-1.webp",
-        "width": 995,
-        "height": 606
+        "type": "panel",
+        "paragraphs": [
+          "1 B 課長へのヒアリング並びに受信したメール及び添付されていた請求書からは，次が確認された。",
+          "[項番1] D さんが早急な対応を求めたことは今まで 1 回もなかったが，メール本文では送金先の口座を早急に変更するよう求めていた。",
+          "[項番2] 添付されていた請求書は，A 社が C 社に支払う予定で進めている請求書であり，C社が3か月前から利用を開始したテンプレートを利用したものだった。",
+          "[項番3] 添付されていた請求書は，振込先が，C 社が所在する国ではない国にある銀行の口座だった。",
+          "[項番4] 添付されていた請求書が作成された PC のタイムゾーンは，C 社のタイムゾーンとは異なっていた。",
+          "[項番5] メールの送信者（From）のメールアドレスには，C 社のドメイン名とは別の類似するドメイン名が利用されていた。",
+          "[項番6] メールの返信先（Reply-To）は D さんのメールアドレスではなく，フリーメールのものであった。",
+          "[項番7] メール本文では，B 課長と D さんとの間で 6 か月前から何度かやり取りしたメールの内容を引用していた。",
+          "2 不正ログインした者が，以降のメール不正閲覧の発覚を避けるために実施したと推察される設定変更がDさんのメールアカウントに確認された。"
+        ]
       },
       {
         "type": "paragraph",

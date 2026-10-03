@@ -1,0 +1,506 @@
+[
+  {
+    "question": "sg-2023-public-13",
+    "page": 8,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 325
+  },
+  {
+    "question": "sg-2023-public-13",
+    "page": 9,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 178
+  },
+  {
+    "question": "sg-2023-public-14",
+    "page": 10,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 58
+  },
+  {
+    "question": "sg-2023-public-15",
+    "page": 13,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 562
+  },
+  {
+    "question": "sg-2024-public-13",
+    "page": 8,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 183
+  },
+  {
+    "question": "sg-2024-public-13",
+    "page": 9,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 68
+  },
+  {
+    "question": "sg-2024-public-14",
+    "page": 10,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 219
+  },
+  {
+    "question": "sg-2024-public-15",
+    "page": 12,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 193
+  },
+  {
+    "question": "sg-2025-public-09",
+    "page": 5,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 25
+  },
+  {
+    "question": "sg-2025-public-12",
+    "page": 7,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 135
+  },
+  {
+    "question": "sg-2025-public-13",
+    "page": 8,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 211
+  },
+  {
+    "question": "sg-2025-public-13",
+    "page": 8,
+    "region": 2,
+    "types": [
+      "table"
+    ],
+    "characters": 185
+  },
+  {
+    "question": "sg-2025-public-13",
+    "page": 9,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 31
+  },
+  {
+    "question": "sg-2025-public-14",
+    "page": 10,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 442
+  },
+  {
+    "question": "sg-2025-public-14",
+    "page": 11,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 86
+  },
+  {
+    "question": "sg-2025-public-15",
+    "page": 12,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 219
+  },
+  {
+    "question": "sg-2025-public-15",
+    "page": 12,
+    "region": 2,
+    "types": [
+      "table"
+    ],
+    "characters": 123
+  },
+  {
+    "question": "sg-2025-public-15",
+    "page": 13,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 334
+  },
+  {
+    "question": "sg-2025-public-15",
+    "page": 14,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 142
+  },
+  {
+    "question": "sg-2026-public-06",
+    "page": 4,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 419
+  },
+  {
+    "question": "sg-2026-public-11",
+    "page": 6,
+    "region": 1,
+    "types": [
+      "diagram"
+    ],
+    "characters": 38
+  },
+  {
+    "question": "sg-2026-public-12",
+    "page": 6,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 46
+  },
+  {
+    "question": "sg-2026-public-13",
+    "page": 9,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 141
+  },
+  {
+    "question": "sg-2026-public-13",
+    "page": 10,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 74
+  },
+  {
+    "question": "sg-2026-public-14",
+    "page": 12,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 353
+  },
+  {
+    "question": "sg-2026-public-14",
+    "page": 12,
+    "region": 2,
+    "types": [
+      "table"
+    ],
+    "characters": 96
+  },
+  {
+    "question": "sg-2026-public-14",
+    "page": 13,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 149
+  },
+  {
+    "question": "sg-2026-public-14",
+    "page": 13,
+    "region": 2,
+    "types": [
+      "table"
+    ],
+    "characters": 190
+  },
+  {
+    "question": "sg-2026-public-15",
+    "page": 14,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 420
+  },
+  {
+    "question": "sg-2026-public-15",
+    "page": 15,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 335
+  },
+  {
+    "question": "sg-2026-public-15",
+    "page": 15,
+    "region": 2,
+    "types": [
+      "table"
+    ],
+    "characters": 36
+  },
+  {
+    "question": "sg-2026-public-15",
+    "page": 16,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 38
+  },
+  {
+    "question": "sg-2022-sample-22",
+    "page": 10,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 56
+  },
+  {
+    "question": "sg-2022-sample-47",
+    "page": 18,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 49
+  },
+  {
+    "question": "sg-2022-sample-48",
+    "page": 18,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 61
+  },
+  {
+    "question": "sg-2022-sample-48",
+    "page": 18,
+    "region": 2,
+    "types": [
+      "table"
+    ],
+    "characters": 53
+  },
+  {
+    "question": "sg-2022-sample-49",
+    "page": 20,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 66
+  },
+  {
+    "question": "sg-2022-sample-49",
+    "page": 20,
+    "region": 2,
+    "types": [
+      "panel"
+    ],
+    "characters": 233
+  },
+  {
+    "question": "sg-2022-sample-49",
+    "page": 20,
+    "region": 3,
+    "types": [
+      "panel"
+    ],
+    "characters": 126
+  },
+  {
+    "question": "sg-2022-sample-50",
+    "page": 22,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 343
+  },
+  {
+    "question": "sg-2022-sample-50",
+    "page": 22,
+    "region": 2,
+    "types": [
+      "table"
+    ],
+    "characters": 476
+  },
+  {
+    "question": "sg-2022-sample-50",
+    "page": 23,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 145
+  },
+  {
+    "question": "sg-2022-sample-50",
+    "page": 23,
+    "region": 2,
+    "types": [
+      "table"
+    ],
+    "characters": 48
+  },
+  {
+    "question": "sg-2022-sample-51",
+    "page": 24,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 112
+  },
+  {
+    "question": "sg-2022-sample-52",
+    "page": 26,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 125
+  },
+  {
+    "question": "sg-2022-sample-53",
+    "page": 28,
+    "region": 1,
+    "types": [
+      "diagram"
+    ],
+    "characters": 86
+  },
+  {
+    "question": "sg-2022-sample-54",
+    "page": 30,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 80
+  },
+  {
+    "question": "sg-2022-sample-55",
+    "page": 32,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 260
+  },
+  {
+    "question": "sg-2022-sample-56",
+    "page": 34,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 449
+  },
+  {
+    "question": "sg-2022-sample-57",
+    "page": 36,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 213
+  },
+  {
+    "question": "sg-2022-sample-57",
+    "page": 36,
+    "region": 2,
+    "types": [
+      "table"
+    ],
+    "characters": 82
+  },
+  {
+    "question": "sg-2022-sample-57",
+    "page": 37,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 126
+  },
+  {
+    "question": "sg-2022-sample-58",
+    "page": 38,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 866
+  },
+  {
+    "question": "sg-2022-sample-59",
+    "page": 40,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 162
+  },
+  {
+    "question": "sg-2022-sample-59",
+    "page": 41,
+    "region": 1,
+    "types": [
+      "table"
+    ],
+    "characters": 43
+  },
+  {
+    "question": "sg-2022-sample-60",
+    "page": 42,
+    "region": 1,
+    "types": [
+      "panel"
+    ],
+    "characters": 509
+  }
+]

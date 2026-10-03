@@ -28,13 +28,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-01-1.webp",
-        "width": 1075,
-        "height": 625
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -96,13 +89,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-02-1.webp",
-        "width": 1075,
-        "height": 652
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -164,13 +150,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-03-1.webp",
-        "width": 1075,
-        "height": 575
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -232,13 +211,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-04-1.webp",
-        "width": 1075,
-        "height": 575
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -300,13 +272,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-05-1.webp",
-        "width": 1075,
-        "height": 305
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -368,13 +333,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-06-1.webp",
-        "width": 1075,
-        "height": 525
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -436,13 +394,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-07-1.webp",
-        "width": 1075,
-        "height": 599
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -504,13 +455,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-08-1.webp",
-        "width": 1075,
-        "height": 675
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -571,14 +515,7 @@
       }
     ],
     "answer": "エ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-09-1.webp",
-        "width": 1075,
-        "height": 771
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -593,10 +530,86 @@
         "text": "〔集計結果〕"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-09-figure-1-1.webp",
-        "width": 407,
-        "height": 282
+        "type": "table",
+        "columns": [
+          49.95,
+          50.05
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "満足度（点）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "回答数",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "5",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "50",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "4",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "250",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "150",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "50",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -642,13 +655,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-10-1.webp",
-        "width": 1075,
-        "height": 425
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -710,13 +716,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-11-1.webp",
-        "width": 1075,
-        "height": 352
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -769,24 +768,69 @@
       }
     ],
     "answer": "ウ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-12-1.webp",
-        "width": 1075,
-        "height": 1228
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "経済産業省が取りまとめた“DX レポート 2”では，組織が DX 実現に至る段階をデジタイゼーション，デジタライゼーション，デジタルトランスフォーメーションに分けている。製造業のデジタル化事例において，デジタルトランスフォーメーションの段階に達しているものはどれか。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-12-figure-1-1.webp",
-        "width": 994,
-        "height": 237
+        "type": "table",
+        "columns": [
+          30.74,
+          69.26
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "DX実現に至る段階",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "説明",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "デジタイゼーション",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "アナログ・物理データのデジタルデータ化",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "デジタライゼーション",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "個別の業務・製造プロセスのデジタル化",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "デジタルトランスフォーメーション",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "組織横断／全体の業務・製造プロセスのデジタル化，“顧客起点の価値創出”のための事業やビジネスモデルの変革",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -863,19 +907,7 @@
       }
     ],
     "answer": "ク",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-13-1.webp",
-        "width": 1075,
-        "height": 1488
-      },
-      {
-        "src": "/question-assets/sg-2025-public-13-2.webp",
-        "width": 1075,
-        "height": 983
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -890,10 +922,83 @@
         "text": "表1 A社がリスク評価で用いる可用性評価の基準"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-13-figure-1-1.webp",
-        "width": 966,
-        "height": 287
+        "type": "table",
+        "columns": [
+          10.88,
+          47.09,
+          42.02
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "重要度",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "可用性評価の基準",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "該当するサービスの例",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "サービスが利用できなくなると自社だけではなく，顧客にも直ちに影響がある。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "顧客に提供しているサービス，顧客にサービスを提供するために利用している外部のサービス",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "サービスが利用できなくなると自社にだけ，直ちに影響がある。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "重要度 0 のサービスを除く，社内で利用しているサービス",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "サービスが利用できなくなっても自社及び顧客に，直ちに影響はない。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "社内でデータの長期保存に利用しているサービス",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -904,10 +1009,66 @@
         "text": "表2 B主任がまとめた可用性評価の結果（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-13-figure-1-2.webp",
-        "width": 981,
-        "height": 318
+        "type": "table",
+        "columns": [
+          24.72,
+          58.89,
+          16.38
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "A社が利用しているクラウドサービス",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "利用方法",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "可用性に関する重要度",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "電子メール",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "ヘルプデスク利用者からの電子メールによる問合せの受付及び回答に利用する。回答は原則として電子メールで行うが，回答に機密性の高い情報が含まれる場合は，あらかじめ登録されているヘルプデスク利用者の電話番号にA社から電話する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "人事・労務管理",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "マイナンバーを含む人事情報の管理及び労務管理に利用する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -926,10 +1087,185 @@
         "text": "aに関する解答群"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-13-figure-2-1.webp",
-        "width": 371,
-        "height": 543
+        "type": "table",
+        "columns": [
+          19.98,
+          40.04,
+          39.98
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "オ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "カ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "キ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ク",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ケ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {
@@ -987,29 +1323,22 @@
       }
     ],
     "answer": "ウ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-14-1.webp",
-        "width": 1075,
-        "height": 1327
-      },
-      {
-        "src": "/question-assets/sg-2025-public-14-2.webp",
-        "width": 1075,
-        "height": 1050
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "A 社は，従業員 300 名の部品メーカーである。A 社ではこれまで，業務に必要なファイルを他社との間で受け渡す場合には電子メール（以下，メールという）を利用してきた。最近になって，取引先の B 社から，ファイルの受渡しについては，C サービスというクラウドストレージサービスを利用して欲しいとの要請を受けた。図1は，Cサービスを利用した場合のファイル受渡しの流れである。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-14-figure-1-1.webp",
-        "width": 1010,
-        "height": 409
+        "type": "panel",
+        "paragraphs": [
+          "1 ファイルの送信者は，受信者に渡したいファイルを C サービス上にアップロードする。アップロードされたファイルは，Cサービス上では暗号化されて保存される。",
+          "2 ファイルの送信者は，受信者をメールアドレスで指定して，ファイルのアクセス権を付与する。アクセス権の付与や取消しはいつでも行える。",
+          "3 受信者にアクセス権が付与されると，ファイルのダウンロード用 URL が生成され，指定されたメールアドレスにメールで通知される。なお，URLには推測困難な文字列が含まれている。",
+          "4 受信者が，メールに記載された URL にアクセスして自身のメールアドレスを入力すると，復号されたファイルがダウンロードされる。",
+          "5 ファイルがダウンロードされると，送信者の利用者 ID，アップロード日時，ファイル名，ファイルのダウンロード用URL，ダウンロードの際のアクセス元IPアドレス，4で入力したメールアドレス及びダウンロード日時がログに記録される。",
+          "6 送信者は，自身のアップロードしたファイルについて，ダウンロードのログを確認できる。"
+        ]
       },
       {
         "type": "paragraph",
@@ -1056,10 +1385,214 @@
         "text": "aに関する解答群"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-14-figure-2-1.webp",
-        "width": 513,
-        "height": 490
+        "type": "table",
+        "columns": [
+          14.27,
+          28.59,
+          28.55,
+          28.59
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a3",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(六)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(四)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(四)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(六)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "オ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(五)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "カ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(五)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(六)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "キ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(五)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(四)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ク",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(五)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(四)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(六)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {
@@ -1125,24 +1658,7 @@
       }
     ],
     "answer": "キ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2025-public-15-1.webp",
-        "width": 1075,
-        "height": 1516
-      },
-      {
-        "src": "/question-assets/sg-2025-public-15-2.webp",
-        "width": 1075,
-        "height": 1108
-      },
-      {
-        "src": "/question-assets/sg-2025-public-15-3.webp",
-        "width": 1075,
-        "height": 985
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -1154,27 +1670,389 @@
       },
       {
         "type": "paragraph",
-        "text": "加工対象となる“個人情報データベース等”（以下，加工対象情報という）は，表1 の顧客属性データと表 2 のヘルスケアデータの 2 種類からなり，利用者番号によって関連付けられている。"
+        "text": "加工対象となる“個人情報データベース等”（以下，加工対象情報という）は，表"
+      },
+      {
+        "type": "paragraph",
+        "text": "1 の顧客属性データと表 2 のヘルスケアデータの 2 種類からなり，利用者番号によって関連付けられている。"
       },
       {
         "type": "paragraph",
         "text": "表1 顧客属性データ"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-15-figure-1-1.webp",
-        "width": 1028,
-        "height": 359
+        "type": "table",
+        "columns": [
+          11.05,
+          12.26,
+          8.79,
+          12.26,
+          17.99,
+          16.45,
+          9.42,
+          11.78
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "利用者番号",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "氏名",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "性別",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "生年月日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "電子メールアドレス",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "住所",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "勤務先の業種",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "年収",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "114567",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "情報 一郎",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "男",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1984年4月4日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "ichiro@●●●.ne.jp",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "愛知県名古屋市中区上前津X-X-X",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "金融業",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1,850万",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "114568",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "積招 花子",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "女",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2003年3月31日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "sekimane@▲▲▲.ne.jp",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "東京都文京区本駒込X-X-X",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "小売業",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "380万",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "114573",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "試験 五郎",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "男",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1951年12月9日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "shiken@■■■.ne.jp",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "東京都中央区月島X-X-X",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "製造業",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "630万",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
         "text": "表2 ヘルスケアデータ"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-15-figure-1-2.webp",
-        "width": 688,
-        "height": 231
+        "type": "table",
+        "columns": [
+          21.98,
+          35.38,
+          21.17,
+          21.47
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "利用者番号",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "記録日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "体重",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "歩数",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "114567",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "202N年02月11日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "121.3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "5,321",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "114568",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "202N年02月11日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "43.5",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "33,012",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "114568",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "202N年02月12日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "43.0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "12,007",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "114573",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "202N年02月12日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "63.0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "7,604",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "…",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -1185,10 +2063,100 @@
         "text": "表3 匿名加工手法"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-15-figure-2-1.webp",
-        "width": 989,
-        "height": 453
+        "type": "table",
+        "columns": [
+          7.26,
+          20.05,
+          72.7
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "手法名",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "解説",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "項目削除",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工対象情報に含まれる個人情報の項目を削除すること。例えば，年齢のデータを加工対象情報から削除すること。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（二）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "一般化",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工対象情報に含まれる記述などについて，上位概念に置き換えること。例えば，購買履歴のデータで“きゅうり”を“野菜”に置き換えること。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（三）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "トップ（ボトム）コーディング",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工対象情報に含まれる数値について，特に大きい又は小さい数値をまとめること。例えば，年齢に関するデータで，“98 歳”，“115歳”といった数値データを“80歳以上”というデータにまとめること。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（四）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "丸め",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工対象情報に含まれる数値について，四捨五入などして丸めること。例えば，生年月日から“34 歳”とされる場合について，“30代”のように年代に置き換えること。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -1207,10 +2175,258 @@
         "text": "解答群"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2025-public-15-figure-3-1.webp",
-        "width": 846,
-        "height": 595
+        "type": "table",
+        "columns": [
+          8.54,
+          30.5,
+          30.46,
+          30.5
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "電子メールアドレス",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "勤務先の業種",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "体重",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工なし",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工なし",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（三）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工なし",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工なし",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（三），（四）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工なし",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工なし",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（三）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "オ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工なし",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（三），（四）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "カ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工なし",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（三）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "キ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "加工なし",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（三），（四）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ク",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ケ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（三）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "コ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（三），（四）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {

@@ -188,7 +188,7 @@ test("exam submission, exit, and timeout restore English without saving study st
   await expect(page.locator(".result-summary strong")).toHaveText(
     "1 / 60 correct",
   );
-  // Review a scenario: its Japanese prose and original image URLs are unchanged.
+  // Review a scenario: Japanese prose stays intact and diagrams use native content.
   await page.getByRole("button", { name: "All", exact: true }).click();
   await page.locator(".review-toggle").nth(48).click();
   const label = await page
@@ -198,10 +198,10 @@ test("exam submission, exit, and timeout restore English without saving study st
   await expect(page.locator(".question-blocks > p")).toHaveText(
     scenario.blocks.filter((b) => b.type === "paragraph").map((b) => b.text),
   );
-  await page.getByText("View the original layout", { exact: true }).click();
+  await expect(page.locator(".question-card img")).toHaveCount(0);
   await expect(
-    page.locator(".original-image-link img").first(),
-  ).toHaveAttribute("src", scenario.images[0].src);
+    page.locator(".question-table, .question-panel, .question-diagram").first(),
+  ).toBeVisible();
   await page.getByRole("button", { name: "Back to exam setup" }).click();
   await page.getByRole("button", { name: "Start mock exam" }).click();
   await page.getByRole("button", { name: "試験を終了", exact: true }).click();

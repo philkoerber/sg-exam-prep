@@ -28,13 +28,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-01-1.webp",
-        "width": 1075,
-        "height": 475
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -96,13 +89,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-02-1.webp",
-        "width": 1075,
-        "height": 425
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -164,13 +150,6 @@
     ],
     "answer": "ア",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-03-1.webp",
-        "width": 1075,
-        "height": 549
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -232,13 +211,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-04-1.webp",
-        "width": 1075,
-        "height": 575
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -300,13 +272,6 @@
     ],
     "answer": "ウ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-05-1.webp",
-        "width": 1075,
-        "height": 752
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -367,24 +332,107 @@
       }
     ],
     "answer": "ア",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-06-1.webp",
-        "width": 1075,
-        "height": 834
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "セキュアOSのアクセス制御と管理者権限管理を説明した適切な組みはどれか。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-06-figure-1-1.webp",
-        "width": 990,
-        "height": 675
+        "type": "table",
+        "columns": [
+          6.41,
+          46.79,
+          46.79
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "アクセス制御",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "管理者権限管理",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "リソースやプログラムのアクセス権は，OS の管理者が定めたセキュリティポリシーの下で一元的に制御され，リソースやプログラムの所有者が変更できない。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OS の管理の分野ごとに異なる管理用アカウントを作成し，各アカウントに必要最小限の管理者特権を与える。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "リソースやプログラムのアクセス権は，OS の管理者が定めたセキュリティポリシーの下で一元的に制御され，リソースやプログラムの所有者が変更できない。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OS の管理用に特権アカウントを作成し，特権アカウントに全ての権限を与える。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "リソースやプログラムのアクセス権は，リソースやプログラムの所有者が保持し，制御する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OS の管理の分野ごとに異なる管理用アカウントを作成し，各アカウントに必要最小限の管理者特権を与える。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "リソースやプログラムのアクセス権は，リソースやプログラムの所有者が保持し，制御する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "OS の管理用に特権アカウントを作成し，特権アカウントに全ての権限を与える。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {
@@ -426,13 +474,6 @@
     ],
     "answer": "エ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-07-1.webp",
-        "width": 1075,
-        "height": 552
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -494,13 +535,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-08-1.webp",
-        "width": 1075,
-        "height": 475
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -562,13 +596,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-09-1.webp",
-        "width": 1075,
-        "height": 426
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -630,13 +657,6 @@
     ],
     "answer": "イ",
     "display": "text",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-10-1.webp",
-        "width": 1075,
-        "height": 505
-      }
-    ],
     "blocks": [
       {
         "type": "paragraph",
@@ -644,7 +664,11 @@
       },
       {
         "type": "paragraph",
-        "text": "IPアドレス： 10.170.70.19サブネットマスク： 255.255.255.240"
+        "text": "IPアドレス： 10.170.70.19"
+      },
+      {
+        "type": "paragraph",
+        "text": "サブネットマスク： 255.255.255.240"
       },
       {
         "type": "paragraph",
@@ -693,24 +717,200 @@
       }
     ],
     "answer": "ア",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-11-1.webp",
-        "width": 1075,
-        "height": 793
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "e コマース運営会社がビッグデータを用いて新たなニーズを発掘し，その後のビジネス戦略に生かそうとしている。ビッグデータの収集から活用までのフローを次の図のようにしたとき，データの分析で行うことはどれか。ここで，選択肢ア～エは，フロー図のa～dのいずれかに対応している。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-11-figure-1-1.webp",
-        "width": 920,
-        "height": 198
+        "type": "diagram",
+        "label": "データをビジネス戦略に活用する流れ",
+        "viewBox": [
+          76.223,
+          168.541,
+          364.106,
+          75.065
+        ],
+        "paths": [
+          {
+            "d": "M150.775 203.264 L173.406 203.264",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M166.381 206.753 L173.406 203.264 L166.381 199.774",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M343.632 203.264 L365.777 203.264",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M358.751 206.753 L365.777 203.264 L358.751 199.774",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M246.957 203.264 L270.080 203.264",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M263.054 206.753 L270.080 203.264 L263.054 199.774",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M77.223 242.607 L150.776 242.607 L150.776 169.541 L77.223 169.541 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M365.777 242.607 L439.329 242.607 L439.329 169.541 L365.777 169.541 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M365.777 242.607 L439.329 242.607 L439.329 169.541 L365.777 169.541 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M173.406 242.607 L246.958 242.607 L246.958 169.541 L173.406 169.541 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M173.406 242.607 L246.958 242.607 L246.958 169.541 L173.406 169.541 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M270.080 242.607 L343.633 242.607 L343.633 169.541 L270.080 169.541 Z",
+            "fill": "#ffffff",
+            "stroke": "none",
+            "strokeWidth": 0.45,
+            "dash": []
+          },
+          {
+            "d": "M270.080 242.607 L343.633 242.607 L343.633 169.541 L270.080 169.541 Z",
+            "fill": "none",
+            "stroke": "#000000",
+            "strokeWidth": 0.45,
+            "dash": []
+          }
+        ],
+        "texts": [
+          {
+            "text": "a",
+            "x": 111.4808135175,
+            "y": 186.552929180996,
+            "width": 4.528345639125007,
+            "size": 8.99671815157501
+          },
+          {
+            "text": "b",
+            "x": 207.8659643333,
+            "y": 186.552929180996,
+            "width": 4.528345639125007,
+            "size": 8.99671815157501
+          },
+          {
+            "text": "c",
+            "x": 304.241135324,
+            "y": 186.552929180996,
+            "width": 4.528345639125007,
+            "size": 8.99671815157501
+          },
+          {
+            "text": "d",
+            "x": 400.61630631470007,
+            "y": 186.552929180996,
+            "width": 4.528345639125007,
+            "size": 8.99671815157501
+          },
+          {
+            "text": "ビッグデータ",
+            "x": 86.7308472695,
+            "y": 209.08190108122096,
+            "width": 54.090652042000016,
+            "size": 8.99671815157501
+          },
+          {
+            "text": "必要なデータ",
+            "x": 183.10601826020002,
+            "y": 209.08190108122096,
+            "width": 54.07069239180004,
+            "size": 8.99671815157501
+          },
+          {
+            "text": "データ",
+            "x": 292.99387243629997,
+            "y": 209.08190108122096,
+            "width": 27.070275583750004,
+            "size": 8.99671815157501
+          },
+          {
+            "text": "ビジネス戦略",
+            "x": 375.86634006670005,
+            "y": 209.08190108122096,
+            "width": 54.04574282904997,
+            "size": 8.99671815157501
+          },
+          {
+            "text": "の収集",
+            "x": 100.22856071725,
+            "y": 219.86309225459598,
+            "width": 27.070275583750004,
+            "size": 8.996718151574953
+          },
+          {
+            "text": "の整備",
+            "x": 196.6087216205,
+            "y": 219.86309225459598,
+            "width": 27.075265496300034,
+            "size": 8.996718151574953
+          },
+          {
+            "text": "の分析",
+            "x": 292.99387243629997,
+            "y": 219.86309225459598,
+            "width": 27.04033610845005,
+            "size": 8.996718151574953
+          },
+          {
+            "text": "への活用",
+            "x": 384.878122132,
+            "y": 219.86309225459598,
+            "width": 36.047128261200044,
+            "size": 8.996718151574953
+          }
+        ]
       },
       {
         "type": "paragraph",
@@ -767,14 +967,7 @@
       }
     ],
     "answer": "ウ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-12-1.webp",
-        "width": 1075,
-        "height": 648
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -785,10 +978,100 @@
         "text": "単位 円"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-12-figure-1-1.webp",
-        "width": 512,
-        "height": 262
+        "type": "table",
+        "columns": [
+          9.09,
+          45.45,
+          45.46
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "案",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "良品に掛かる費用",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "不良品に掛かる費用",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "A",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1,500",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "B",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "40",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1,000",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "C",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "80",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "500",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "D",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "120",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "200",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -857,24 +1140,7 @@
       }
     ],
     "answer": "エ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-13-1.webp",
-        "width": 1075,
-        "height": 1507
-      },
-      {
-        "src": "/question-assets/sg-2026-public-13-2.webp",
-        "width": 1075,
-        "height": 1303
-      },
-      {
-        "src": "/question-assets/sg-2026-public-13-3.webp",
-        "width": 1075,
-        "height": 685
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -917,10 +1183,66 @@
         "text": "表1 Bビルの物理的セキュリティにおける課題とB社への依頼（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-13-figure-2-1.webp",
-        "width": 998,
-        "height": 205
+        "type": "table",
+        "columns": [
+          7.49,
+          77.0,
+          15.51
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "課題",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "B社への依頼",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "フラッパーゲート脇に設置されたごみ箱から印刷された使用済のゲスト入館証を拾えば，1階のフラッパーゲートを通過し入館できてしまう。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "6階以外への来訪者が，ゲスト入館証で1階のフラッパーゲートを通過すれば，平日の昼間はエレベーターで6階に移動できてしまう。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -947,10 +1269,202 @@
         "text": "aに関する解答群"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-13-figure-3-1.webp",
-        "width": 333,
-        "height": 596
+        "type": "table",
+        "columns": [
+          19.25,
+          40.43,
+          40.31
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "オ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(四)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "カ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "キ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ク",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(三)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(四)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ケ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(四)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(一)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "コ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(四)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "(二)",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {
@@ -1017,19 +1531,7 @@
       }
     ],
     "answer": "ク",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-14-1.webp",
-        "width": 1075,
-        "height": 1467
-      },
-      {
-        "src": "/question-assets/sg-2026-public-14-2.webp",
-        "width": 1075,
-        "height": 1180
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
@@ -1040,10 +1542,16 @@
         "text": "A社では，ファイルサーバを図1のように運用している。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-14-figure-1-1.webp",
-        "width": 977,
-        "height": 378
+        "type": "panel",
+        "paragraphs": [
+          "・ファイルサーバは本社と工場のサーバルームに設置している。",
+          "・ファイルサーバは，磁気テープを使用してファイルのバックアップを取得している。",
+          "・土曜日の午前 2 時からフルバックアップを取得し，翌週の火曜日と木曜日の午前 2 時から増分バックアップを取得している。",
+          "・情報システム部の担当者は毎週月曜日，火曜日，木曜日の朝 10 時頃，バックアップジョブの実行結果の確認と磁気テープの交換を行い，磁気テープは耐火金庫に保管している。",
+          "・磁気テープには上書きモードでバックアップを取得し，1 か月分の磁気テープを世代管理している。",
+          "・これまで，フルバックアップからのリストアには平均して 4 時間，1 回の増分バックアップからは平均して0.25時間掛かっている。",
+          "・A社はICT継続のための試験を実施しており，ファイルサーバも試験対象である。"
+        ]
       },
       {
         "type": "paragraph",
@@ -1062,10 +1570,49 @@
         "text": "表1 Bさんの評価結果（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-14-figure-1-2.webp",
-        "width": 975,
-        "height": 160
+        "type": "table",
+        "columns": [
+          8.78,
+          72.7,
+          18.53
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "情報セキュリティ管理策",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価結果",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（事業継続のための ICT の備え）事業継続の目的及び ICT 継続の要求事項に基づいて，ICT の備えを計画し，実施し，維持し，試験しなければならない。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "実施している",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -1076,10 +1623,74 @@
         "text": "表2 内部監査室へのBさんの回答（抜粋）"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-14-figure-2-1.webp",
-        "width": 977,
-        "height": 263
+        "type": "table",
+        "columns": [
+          8.76,
+          24.56,
+          11.73,
+          54.96
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "Bさんの回答",
+              "colSpan": 3,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "例えば，金曜日の正午に障害が発生した場合，少なくとも a1 の時点のデータは復元しなければならない。",
+              "colSpan": 3,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "例えば，木曜日の正午に障害が発生し，ファイルサーバの全データが消失したとすると，バックアップからのリストアには a2 時間掛かると予想される。",
+              "colSpan": 3,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "ICT継続の計画書は，",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "が承認している。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -1090,10 +1701,258 @@
         "text": "aに関する解答群"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-14-figure-2-2.webp",
-        "width": 701,
-        "height": 596
+        "type": "table",
+        "columns": [
+          9.3,
+          28.45,
+          15.67,
+          46.58
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a3",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "月曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.25",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "CISO",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "月曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.25",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "情報システム部の担当者",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "月曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.25",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "内部監査室長",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "月曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.50",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "CISO",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "オ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "月曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.50",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "情報システム部の担当者",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "カ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "火曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.25",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "情報システム部の担当者",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "キ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "火曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.25",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "内部監査室長",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ク",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "火曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.50",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "CISO",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ケ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "火曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.50",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "情報システム部の担当者",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "コ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "火曜日の正午",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "4.50",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "内部監査室長",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {
@@ -1151,34 +2010,29 @@
       }
     ],
     "answer": "エ",
-    "display": "original",
-    "images": [
-      {
-        "src": "/question-assets/sg-2026-public-15-1.webp",
-        "width": 1075,
-        "height": 1144
-      },
-      {
-        "src": "/question-assets/sg-2026-public-15-2.webp",
-        "width": 1075,
-        "height": 1026
-      },
-      {
-        "src": "/question-assets/sg-2026-public-15-3.webp",
-        "width": 1075,
-        "height": 788
-      }
-    ],
+    "display": "structured",
     "blocks": [
       {
         "type": "paragraph",
         "text": "A社は従業員300名の商社である。総務部が定めたA社の文書管理ルールを図1に示す。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-15-figure-1-1.webp",
-        "width": 977,
-        "height": 702
+        "type": "panel",
+        "paragraphs": [
+          "〔文書の機密区分〕",
+          "極秘 ：経営に関する重要な文書であり，経営企画に関わる者だけに開示する。経営企画書など。",
+          "関係者外秘 ：特定の関係者だけに開示する。議事メモ，顧客情報など。",
+          "社外秘 ：社内だけに開示する。クレーム情報，社内報など。",
+          "公開 ：社外に公開可能なもの。商品カタログなど。",
+          "〔機密区分のラベリング〕",
+          "・文書を作成した部署の責任者が，機密区分を判断する。",
+          "・“極秘”，“関係者外秘”及び“社外秘”の文書は，機密区分をその文書のヘッダー部に明記する。",
+          "・“極秘”と“関係者外秘”に関しては開示範囲を明示するため，“役員だけ 極秘”や“〇〇部だけ 関係者外秘”という形式で明記する。",
+          "〔文書の保管〕",
+          "・“極秘”及び“関係者外秘”の紙の文書は，使わないときや利用中に離席するときはキャビネットに保管する。キャビネットは常時施錠し，関係者だけが解錠できるようにする。",
+          "〔文書の廃棄〕",
+          "・“極秘”，“関係者外秘”及び“社外秘”の紙の文書を廃棄する際は，シュレッダーで細断する。"
+        ]
       },
       {
         "type": "paragraph",
@@ -1189,10 +2043,14 @@
         "text": "総務部の情報セキュリティリーダーであるSさんは，各部に対し年次の自己点検を指示した。その結果を基に，図1のルールに沿って文書を取り扱っているかを確認するために，A 社の一部の従業員にヒアリングしたところ，図 2 に示す事例が得られた。"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-15-figure-2-1.webp",
-        "width": 977,
-        "height": 378
+        "type": "panel",
+        "paragraphs": [
+          "(1) 営業部の B さんの大学の後輩である C さんは，A 社の入社試験を受ける予定なので，BさんはCさんに社内報を見せた。",
+          "(2) “営業部だけ 関係者外秘”の議事メモは，営業部員だけが解錠できるキャビネットに保管している。不要となったものは毎週水曜日に，シュレッダーで細断して廃棄している。",
+          "(3) 昨年営業部に異動した元人事部の D さんが，営業部の事業計画の参考にするため，人事部のEさんから“人事部だけ 関係者外秘”の来年度の採用計画を見せてもらった。",
+          "(4) 経営企画部の G さんは，来期の経営企画書のうち一部の作成を指示されていたが，机の上の本立てに最終原稿を差し込んで会議に向かった。",
+          "(5) 人事部の I さんは就職セミナーで，営業部から借りた商品カタログを参加者に見せながら会社紹介をした。"
+        ]
       },
       {
         "type": "paragraph",
@@ -1207,10 +2065,118 @@
         "text": "表1 ヒアリングで得た事例に対する評価"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-15-figure-2-2.webp",
-        "width": 596,
-        "height": 287
+        "type": "table",
+        "columns": [
+          50.03,
+          15.44,
+          19.47,
+          15.06
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "図2の項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "評価",
+              "colSpan": 3,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(1)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 3,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(2)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(3)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(4)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "(5)",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "（省略）",
+              "colSpan": 3,
+              "rowSpan": 1
+            }
+          ]
+        ]
       },
       {
         "type": "paragraph",
@@ -1225,10 +2191,214 @@
         "text": "aに関する解答群"
       },
       {
-        "type": "figure",
-        "src": "/question-assets/sg-2026-public-15-figure-3-1.webp",
-        "width": 660,
-        "height": 491
+        "type": "table",
+        "columns": [
+          9.72,
+          30.1,
+          30.1,
+          30.09
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a3",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ア",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "イ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ウ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "エ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "オ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "カ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "キ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "〇",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "ク",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "×",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
       }
     ],
     "source": {

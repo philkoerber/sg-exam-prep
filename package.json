@@ -14,7 +14,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "test": "tsx --test tests/*.test.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "tsx tests/render-content.tsx && playwright test"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",

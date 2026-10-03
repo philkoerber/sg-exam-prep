@@ -130,7 +130,7 @@ test("deadline submits automatically after the tab sleeps", async ({
   );
 });
 
-test("original question diagrams are present and readable", async ({
+test("native question content is present and readable", async ({
   page,
 }, testInfo) => {
   await page.goto("/exam/");
@@ -143,16 +143,10 @@ test("original question diagrams are present and readable", async ({
     path: testInfo.outputPath("scenario.png"),
     fullPage: true,
   });
-  await page.getByText("原文のレイアウトを確認する").click();
-  const image = page.locator(".original-image-link img").first();
-  await expect(image).toBeVisible();
-  await expect
-    .poll(() =>
-      image.evaluate(
-        (img: HTMLImageElement) => img.complete && img.naturalWidth > 0,
-      ),
-    )
-    .toBe(true);
+  await expect(page.locator(".question-card img")).toHaveCount(0);
+  await expect(
+    page.locator(".question-table, .question-panel, .question-diagram").first(),
+  ).toBeVisible();
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,

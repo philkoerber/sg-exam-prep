@@ -1,8 +1,9 @@
 "use client";
-import { Check, X, ExternalLink, ZoomIn } from "lucide-react";
+import { Check, X, ExternalLink } from "lucide-react";
 import type { Question } from "@/lib/corpus/schema";
 import { topicCopy } from "@/lib/corpus/topics";
 import { useLanguage } from "./language";
+import { QuestionContent } from "./question-content";
 
 export function QuestionView({
   question: q,
@@ -38,64 +39,19 @@ export function QuestionView({
           {q.prompt}
         </h2>
       ) : (
-        <div className="original-question">
-          <div className="question-blocks">
-            {q.blocks.map((block, i) =>
-              block.type === "paragraph" ? (
-                <p key={i} lang="ja">
-                  {block.text}
-                </p>
-              ) : (
-                <figure className="question-figure" key={i}>
-                  <a
-                    href={block.src}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={copy.zoomFigure}
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={block.src}
-                      width={block.width}
-                      height={block.height}
-                      alt={copy.figureAlt(q.source.label)}
-                    />
-                  </a>
-                  <figcaption>
-                    <ZoomIn size={12} />
-                    {copy.zoomHint}
-                  </figcaption>
-                </figure>
-              ),
-            )}
-          </div>
-          <details className="source-images">
-            <summary>{copy.originalLayout}</summary>
-            {q.images.map((img, i) => (
-              <a
-                href={img.src}
-                target="_blank"
-                rel="noreferrer"
-                className="original-image-link"
-                key={img.src}
-                aria-label={copy.zoomPage(i + 1)}
-              >
-                {/* Original exam crops deliberately preserve tables, diagrams, and formulas. */}
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={img.src}
-                  width={img.width}
-                  height={img.height}
-                  alt={copy.pageAlt(q.source.label, i + 1)}
-                />
-              </a>
-            ))}
-          </details>
+        <div className="question-blocks">
+          {q.blocks.map((block, i) => (
+            <QuestionContent
+              key={i}
+              block={block}
+              label={`${q.source.label} · ${i + 1}`}
+            />
+          ))}
         </div>
       )}
       <fieldset
         className={
-          q.display === "original" ? "choices compact-choices" : "choices"
+          q.display === "structured" ? "choices compact-choices" : "choices"
         }
         disabled={disabled || revealed}
       >
