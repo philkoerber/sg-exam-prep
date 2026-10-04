@@ -1,10 +1,10 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { corpus } from "../src/lib/corpus";
+import { corpus, officialCorpus } from "../src/lib/corpus";
 import { contentBlockSchema } from "../src/lib/corpus/schema";
 
 test("every former picture has native content and no raster references remain", () => {
-  const blocks = corpus
+  const blocks = officialCorpus
     .filter((q) => q.display === "structured")
     .flatMap((q) => q.blocks);
   assert.equal(blocks.filter((b) => b.type === "table").length, 36);

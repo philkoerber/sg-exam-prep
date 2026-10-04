@@ -1,0 +1,20 @@
+{
+  "sg-2022-sample-50": "risk-assessment-case",
+  "sg-2023-public-13": "risk-assessment-case",
+  "sg-2022-sample-54": "backup-policy-case",
+  "sg-2023-public-14": "backup-policy-case",
+  "sg-2022-sample-29": "malware-analysis",
+  "sg-2024-public-03": "malware-analysis",
+  "sg-2022-sample-24": "risk-based-authentication",
+  "sg-2024-public-05": "risk-based-authentication",
+  "sg-2022-sample-27": "spf",
+  "sg-2023-public-06": "spf",
+  "sg-2022-sample-44": "proxy",
+  "sg-2024-public-10": "proxy",
+  "sg-2023-public-12": "cause-effect-diagram",
+  "sg-2024-public-12": "cause-effect-diagram",
+  "sg-2022-sample-33": "advertising-email",
+  "sg-2025-public-07": "advertising-email",
+  "sg-2022-sample-10": "forensics",
+  "sg-2023-public-03": "forensics"
+}

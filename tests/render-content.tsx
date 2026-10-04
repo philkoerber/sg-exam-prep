@@ -1,22 +1,20 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { renderToStaticMarkup } from "react-dom/server";
-import { corpus } from "../src/lib/corpus";
-import { QuestionContent } from "../src/components/question-content";
+import { officialCorpus } from "../src/lib/corpus";
+import { readPilot } from "../scripts/pilot-review";
+import { QuestionView } from "../src/components/question-view";
+import { LanguageProvider } from "../src/components/language";
 
-// Exercise the production renderer for every question, without adding a test route.
+// Also render unpublished candidates, without exposing a draft route in the app.
 const fixtures = Object.fromEntries(
-  corpus
-    .filter((q) => q.display === "structured")
-    .map((q) => [
-      q.id,
-      q.blocks
-        .map((block, i) =>
-          renderToStaticMarkup(
-            <QuestionContent block={block} label={`${q.id}-${i}`} />,
-          ),
-        )
-        .join(""),
-    ]),
+  [...officialCorpus, ...readPilot()].map((q) => [
+    q.id,
+    renderToStaticMarkup(
+      <LanguageProvider>
+        <QuestionView question={q} />
+      </LanguageProvider>,
+    ),
+  ]),
 );
 mkdirSync("tmp", { recursive: true });
 writeFileSync("tmp/content-fixtures.json", JSON.stringify(fixtures));

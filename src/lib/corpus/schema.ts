@@ -101,26 +101,52 @@ export type ContentBlock = z.infer<typeof contentBlockSchema>;
 export const questionSchema = z
   .object({
     id: z.string().min(1),
-    year: z.number().int(),
-    number: z.number().int().positive(),
-    era: z.enum(["legacy", "sample", "cbt"]),
+    familyId: z.string().min(1),
     subject: z.enum(["A", "B"]),
     topic: z.enum(topicIds),
     pool: z.enum(["study", "benchmark"]),
-    prompt: z.string().min(1),
     choices: z
-      .array(z.object({ key: z.string().min(1), text: z.string() }))
+      .array(
+        z.object({
+          key: z.string().min(1),
+          text: z.string().optional(),
+          cells: z.array(z.string()).optional(),
+        }),
+      )
       .min(2),
+    choiceTable: z.object({ headers: z.array(z.string()).min(1) }).optional(),
     answer: z.string().min(1),
     display: z.enum(["text", "structured"]),
     blocks: z.array(contentBlockSchema).min(1),
-    source: z.object({
-      label: z.string().min(1),
-      url: z.url(),
-      answerUrl: z.url(),
-      file: z.string().endsWith(".pdf"),
-      pages: z.array(z.number().int().positive()).min(1),
-    }),
+    source: z.discriminatedUnion("kind", [
+      z
+        .object({
+          kind: z.literal("official"),
+          year: z.number().int(),
+          number: z.number().int().positive(),
+          era: z.enum(["legacy", "sample", "cbt"]),
+          label: z.string().min(1),
+          url: z.url(),
+          answerUrl: z.url(),
+          file: z.string().endsWith(".pdf"),
+          pages: z.array(z.number().int().positive()).min(1),
+        })
+        .strict(),
+      z
+        .object({
+          kind: z.literal("generated"),
+          referenceQuestionIds: z.array(z.string().min(1)).min(1),
+          references: z
+            .array(
+              z.object({
+                resourceId: z.string().min(1),
+                section: z.string().min(1),
+              }),
+            )
+            .min(1),
+        })
+        .strict(),
+    ]),
   })
   .superRefine((q, ctx) => {
     if (!q.choices.some((c) => c.key === q.answer))
@@ -130,6 +156,39 @@ export const questionSchema = z
       });
     if (new Set(q.choices.map((c) => c.key)).size !== q.choices.length)
       ctx.addIssue({ code: "custom", message: `${q.id}: duplicate choices` });
+    if (q.subject === "A" && q.choices.length !== 4)
+      ctx.addIssue({
+        code: "custom",
+        message: `${q.id}: subject A requires four choices`,
+      });
+    if (q.display === "text" && q.blocks.some((b) => b.type !== "paragraph"))
+      ctx.addIssue({
+        code: "custom",
+        message: `${q.id}: text display requires paragraphs`,
+      });
+    if (
+      q.choiceTable &&
+      (q.display !== "structured" ||
+        q.choices.some(
+          (c) => c.cells?.length !== q.choiceTable!.headers.length,
+        ))
+    )
+      ctx.addIssue({
+        code: "custom",
+        message: `${q.id}: invalid choice table`,
+      });
+    if (
+      q.choices.some((c) => (c.text === undefined) === (c.cells === undefined))
+    )
+      ctx.addIssue({
+        code: "custom",
+        message: `${q.id}: each choice needs text or cells, never both`,
+      });
+    if (!q.choiceTable && q.choices.some((c) => c.cells))
+      ctx.addIssue({
+        code: "custom",
+        message: `${q.id}: cells require a choice table`,
+      });
   });
 export type Question = z.infer<typeof questionSchema>;
 export type TopicId = (typeof topicIds)[number];

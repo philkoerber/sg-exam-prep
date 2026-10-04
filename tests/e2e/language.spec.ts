@@ -1,4 +1,9 @@
 import { expect, test, type Page } from "@playwright/test";
+import {
+  questionPrompt,
+  questionBlocks,
+  choiceText,
+} from "../../src/lib/corpus/content";
 import { corpus } from "../../src/lib/corpus";
 
 async function chooseEnglish(page: Page, route = "/") {
@@ -20,8 +25,10 @@ async function expectJapaneseSession(page: Page) {
 }
 
 async function currentQuestion(page: Page) {
-  const source = await page.locator(".question-source > span").textContent();
-  const question = corpus.find((q) => source === `出典：${q.source.label}`);
+  const id = await page
+    .locator(".question-card")
+    .getAttribute("data-question-id");
+  const question = corpus.find((q) => q.id === id);
   expect(question).toBeDefined();
   return question!;
 }
@@ -96,14 +103,24 @@ test("practice stays Japanese and returns to English results with original Japan
   await page.getByRole("button", { name: "分野選択へ" }).click();
   await expect(page.getByRole("dialog")).toContainText("練習を終了しますか？");
   await page.getByRole("button", { name: "続ける", exact: true }).click();
-  for (let i = 0; i < 10; i++) {
+  const practiceCount = Math.min(
+    10,
+    new Set(
+      corpus
+        .filter((q) => q.topic === "law" && q.pool === "study")
+        .map((q) => q.familyId),
+    ).size,
+  );
+  for (let i = 0; i < practiceCount; i++) {
     const q = await currentQuestion(page);
     attempted.push(q);
     await page.locator(`input[value="${q.answer}"]`).check();
     await page.getByRole("button", { name: "答え合わせ" }).click();
     await expect(page.getByRole("status")).toContainText("正解です。");
     await page
-      .getByRole("button", { name: i === 9 ? "結果を見る" : "次の問題へ" })
+      .getByRole("button", {
+        name: i === practiceCount - 1 ? "結果を見る" : "次の問題へ",
+      })
       .click();
   }
   await expect(
@@ -116,18 +133,22 @@ test("practice stays Japanese and returns to English results with original Japan
   expect(reviewIndex).toBeGreaterThanOrEqual(0);
   const first = attempted[reviewIndex];
   await page.locator(".review-toggle").nth(reviewIndex).click();
-  await expect(page.locator(".question-prompt")).toHaveText(first.prompt);
+  await expect(page.locator(".question-prompt")).toHaveText(
+    questionPrompt(first),
+  );
   await expect(page.locator(".question-prompt")).toHaveAttribute("lang", "ja");
   await expect(page.locator(".choice-text")).toHaveText(
-    first.choices.map((c) => c.text),
+    first.choices.map(choiceText),
   );
   await expect(page.locator(".feedback strong")).toHaveText("Correct.");
-  await expect(
-    page.getByRole("link", { name: "Official answer" }),
-  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Official answer" })).toHaveCount(
+    first.source.kind === "official" ? 1 : 0,
+  );
   await page.getByRole("button", { name: "日本語", exact: true }).click();
   await expect(page.locator(".result-percent")).toHaveText("100%");
-  await expect(page.locator(".question-prompt")).toHaveText(first.prompt);
+  await expect(page.locator(".question-prompt")).toHaveText(
+    questionPrompt(first),
+  );
   await expect(page.locator(".feedback strong")).toHaveText("正解です。");
   await page.getByRole("button", { name: "English", exact: true }).click();
   await page.screenshot({
@@ -191,12 +212,11 @@ test("exam submission, exit, and timeout restore English without saving study st
   // Review a scenario: Japanese prose stays intact and diagrams use native content.
   await page.getByRole("button", { name: "All", exact: true }).click();
   await page.locator(".review-toggle").nth(48).click();
-  const label = await page
-    .locator(".question-source > span > span")
-    .textContent();
-  const scenario = corpus.find((q) => q.source.label === label)!;
+  const scenario = await currentQuestion(page);
   await expect(page.locator(".question-blocks > p")).toHaveText(
-    scenario.blocks.filter((b) => b.type === "paragraph").map((b) => b.text),
+    questionBlocks(scenario)
+      .filter((b) => b.type === "paragraph")
+      .map((b) => b.text),
   );
   await expect(page.locator(".question-card img")).toHaveCount(0);
   await expect(

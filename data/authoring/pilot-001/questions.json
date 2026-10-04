@@ -1,0 +1,3885 @@
+[
+  {
+    "id": "sg-generated-pilot-001",
+    "familyId": "sg-2022-sample-01",
+    "subject": "A",
+    "topic": "management",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，リスク対応を実施した後にも残るリスクについて，業務上許容できると判断した。このリスクを受容する際の手続として，最も適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "リスク所有者の承認を得て，受容するリスクを記録する。"
+      },
+      {
+        "key": "イ",
+        "text": "対策を実施した担当者の判断だけで，リスクの記録を削除する。"
+      },
+      {
+        "key": "ウ",
+        "text": "受容したリスクを，以後の監視やレビューの対象から外す。"
+      },
+      {
+        "key": "エ",
+        "text": "リスクの大きさを評価せずに，全てのリスクを受容する。"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-01"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ管理：リスク対応・リスク受容"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-002",
+    "familyId": "sg-2026-public-01",
+    "subject": "A",
+    "topic": "management",
+    "pool": "benchmark",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，重要なファイルの消失に備えてバックアップを取得するようにした。しかし，バックアップ取得後に作成したデータは，障害時に失われる可能性がある。このように，リスク対応後にも残るリスクを何というか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "リスク基準"
+      },
+      {
+        "key": "イ",
+        "text": "リスク所有者"
+      },
+      {
+        "key": "ウ",
+        "text": "リスクアセスメント"
+      },
+      {
+        "key": "エ",
+        "text": "残留リスク"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2026-public-01"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ管理：残留リスク"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-003",
+    "familyId": "sg-2022-sample-05",
+    "subject": "A",
+    "topic": "management",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "情報資産のリスクレベルを見直すことにした。脆弱性を悪用される頻度が高くなり，事故が起きた場合の損失も大きくなった。この見直しで直接組み合わせて評価しているものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "資産の購入価格と購入日"
+      },
+      {
+        "key": "イ",
+        "text": "管理策の数と担当者の人数"
+      },
+      {
+        "key": "ウ",
+        "text": "結果とその起こりやすさ"
+      },
+      {
+        "key": "エ",
+        "text": "監査の回数と報告書のページ数"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-05"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ管理：リスク分析"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-004",
+    "familyId": "sg-2022-sample-03",
+    "subject": "A",
+    "topic": "management",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "アクセス権の削除漏れが見つかった。担当者は不要なアクセス権を削除した後，削除漏れの原因を調べ，人事異動の情報が必ず管理者に届くように手順を変更した。この原因の除去と再発防止を目的とする処置はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "リスク受容"
+      },
+      {
+        "key": "イ",
+        "text": "是正処置"
+      },
+      {
+        "key": "ウ",
+        "text": "事業継続"
+      },
+      {
+        "key": "エ",
+        "text": "リスク移転"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-03"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティマネジメントシステム：是正処置"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-005",
+    "familyId": "sg-2025-public-04",
+    "subject": "A",
+    "topic": "management",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "ある従業員は，会社の重要情報を持ち出す行為について，“自分が作成した情報なので，社外で利用しても問題ない”と考えた。不正のトライアングルのうち，この考えに該当する要素はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "正当化"
+      },
+      {
+        "key": "イ",
+        "text": "機会"
+      },
+      {
+        "key": "ウ",
+        "text": "動機"
+      },
+      {
+        "key": "エ",
+        "text": "アクセス権"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2025-public-04"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ全般：不正のトライアングル"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-006",
+    "familyId": "sg-2022-sample-02",
+    "subject": "A",
+    "topic": "management",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社では，退職者が退職後に社外から社内システムへ接続できることが分かった。この問題に直接対応する対策として，最も適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "退職者の利用者IDを残し，ログイン時に注意文を表示する。"
+      },
+      {
+        "key": "イ",
+        "text": "退職者にも社内システムの新しいパスワードを通知する。"
+      },
+      {
+        "key": "ウ",
+        "text": "退職者のアクセスログを取得しないようにする。"
+      },
+      {
+        "key": "エ",
+        "text": "退職の時点で，退職者の利用者ID及びリモートアクセス権を無効にする。"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-02"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "実践編：情報セキュリティ関連規程の整備・人的対策"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-007",
+    "familyId": "sg-2022-sample-08",
+    "subject": "A",
+    "topic": "threats",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "情報システム部の担当者を名乗る者から電話があり，“システム障害の調査に必要なので，利用者IDとパスワードを教えてほしい”と要求された。この手口に該当するものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "SQLインジェクション"
+      },
+      {
+        "key": "イ",
+        "text": "DNSキャッシュポイズニング"
+      },
+      {
+        "key": "ウ",
+        "text": "ソーシャルエンジニアリング"
+      },
+      {
+        "key": "エ",
+        "text": "ポートスキャン"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-08"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "脅威・攻撃手法：ソーシャルエンジニアリング"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-008",
+    "familyId": "sg-2022-sample-13",
+    "subject": "A",
+    "topic": "threats",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "取引先の担当者を装った電子メールによって，請求書に記載された振込先を攻撃者の口座に変更するよう要求された。添付ファイルの実行や偽サイトへのログインは要求されていない。この事例に最も直接該当するものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "ランサムウェア"
+      },
+      {
+        "key": "イ",
+        "text": "BEC"
+      },
+      {
+        "key": "ウ",
+        "text": "DDoS攻撃"
+      },
+      {
+        "key": "エ",
+        "text": "SQLインジェクション"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-13"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "脅威・攻撃手法：ビジネスメール詐欺"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-009",
+    "familyId": "sg-2022-sample-16",
+    "subject": "A",
+    "topic": "threats",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Aサービスから流出した利用者IDとパスワードの組を使って，Bサービスへのログインを多数試みる攻撃があった。パスワードの候補を新たに生成せず，流出した組をそのまま用いている。この攻撃はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "パスワードリスト攻撃"
+      },
+      {
+        "key": "イ",
+        "text": "ブルートフォース攻撃"
+      },
+      {
+        "key": "ウ",
+        "text": "リバースブルートフォース攻撃"
+      },
+      {
+        "key": "エ",
+        "text": "レインボーテーブル攻撃"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-16"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "脅威・攻撃手法：パスワードに対する攻撃"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-010",
+    "familyId": "sg-2022-sample-17",
+    "subject": "A",
+    "topic": "threats",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社とB社は，それぞれ自社のDNSキャッシュサーバで名前解決を行っている。攻撃者は，A社のDNSキャッシュサーバだけに，C社WebサーバのFQDNに対応する偽のIPアドレスを記憶させた。偽のWebサーバに誘導される利用者はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "C社WebサーバにアクセスするB社の従業員"
+      },
+      {
+        "key": "イ",
+        "text": "B社WebサーバにアクセスするA社の従業員"
+      },
+      {
+        "key": "ウ",
+        "text": "A社WebサーバにアクセスするB社の従業員"
+      },
+      {
+        "key": "エ",
+        "text": "C社WebサーバにアクセスするA社の従業員"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-17"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "脅威・攻撃手法：DNSキャッシュポイズニング"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-011",
+    "familyId": "sg-2022-sample-19",
+    "subject": "A",
+    "topic": "threats",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "攻撃者が，業務用ソフトウェアの入手方法を調べる人を偽サイトに誘導するため，Web検索の結果でそのサイトが上位に表示されるようにした。この手口はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "セッションハイジャック"
+      },
+      {
+        "key": "イ",
+        "text": "バッファオーバフロー"
+      },
+      {
+        "key": "ウ",
+        "text": "SEOポイズニング"
+      },
+      {
+        "key": "エ",
+        "text": "パスワードリスト攻撃"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-19"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "脅威・攻撃手法：SEOポイズニング"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-012",
+    "familyId": "sg-2022-sample-14",
+    "subject": "A",
+    "topic": "threats",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "マルウェアに感染した多数のPCが，同じ外部サーバから攻撃対象の情報を受け取り，その指示に従って通信を開始した。この外部サーバの役割として，適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "利用者に代わってWebコンテンツを保存し，正常な閲覧を高速化する。"
+      },
+      {
+        "key": "イ",
+        "text": "感染したPCへ命令を送り，応答を受け取る。"
+      },
+      {
+        "key": "ウ",
+        "text": "公開鍵証明書を発行し，通信相手の身元を保証する。"
+      },
+      {
+        "key": "エ",
+        "text": "社内のファイルを定期的に保存し，障害時の復旧に備える。"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-14"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "脅威・攻撃手法：ボット・C&Cサーバ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-013",
+    "familyId": "malware-analysis",
+    "subject": "A",
+    "topic": "threats",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "不審なプログラムを実行せずに，プログラム内の命令や文字列を調べて機能を推定した。この調査に該当するものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "静的解析"
+      },
+      {
+        "key": "イ",
+        "text": "動的解析"
+      },
+      {
+        "key": "ウ",
+        "text": "侵入テスト"
+      },
+      {
+        "key": "エ",
+        "text": "負荷テスト"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-29",
+        "sg-2024-public-03"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ対策：マルウェア解析"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-014",
+    "familyId": "sg-2022-sample-20",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，大量のファイルを暗号化して保存する。暗号化と復号で同じ秘密の鍵を使う方式を採用したい。この条件を満たす暗号技術はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "RSA"
+      },
+      {
+        "key": "イ",
+        "text": "SHA-256"
+      },
+      {
+        "key": "ウ",
+        "text": "PKI"
+      },
+      {
+        "key": "エ",
+        "text": "AES"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-20"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ：暗号技術"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-015",
+    "familyId": "sg-2022-sample-21",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "送信者は，本文を共通鍵で暗号化し，その共通鍵を受信者の公開鍵で暗号化して送る。この方式を用いる主な目的はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "本文を暗号化せずに，第三者が自由に読めるようにする。"
+      },
+      {
+        "key": "イ",
+        "text": "受信者の秘密鍵を送信者へ配布して，鍵の管理を不要にする。"
+      },
+      {
+        "key": "ウ",
+        "text": "本文を効率よく暗号化しながら，共通鍵を受信者に安全に渡す。"
+      },
+      {
+        "key": "エ",
+        "text": "本文のハッシュ値から，元の本文を復元できるようにする。"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-21"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ：ハイブリッド暗号"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-016",
+    "familyId": "sg-2022-sample-22",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Aさんが作成したデジタル署名をBさんが検証する。Aさんだけが署名を作成できるようにするとき，署名の作成と検証に用いる鍵の組合せはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "作成：Aさんの公開鍵，検証：Aさんの秘密鍵"
+      },
+      {
+        "key": "イ",
+        "text": "作成：Aさんの秘密鍵，検証：Aさんの公開鍵"
+      },
+      {
+        "key": "ウ",
+        "text": "作成：Bさんの秘密鍵，検証：Bさんの公開鍵"
+      },
+      {
+        "key": "エ",
+        "text": "作成：Bさんの公開鍵，検証：Aさんの公開鍵"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-22"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ：デジタル署名"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-017",
+    "familyId": "sg-2022-sample-23",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "通信する二者が秘密の共通鍵を共有し，メッセージとその鍵から検証用の値を生成する。受信者は同じ方法で値を計算して比較し，通信中の改ざんを検出する。この仕組みに該当するものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "メッセージ認証符号"
+      },
+      {
+        "key": "イ",
+        "text": "公開鍵証明書"
+      },
+      {
+        "key": "ウ",
+        "text": "CAPTCHA"
+      },
+      {
+        "key": "エ",
+        "text": "パリティビット"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-23"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ：メッセージ認証"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-018",
+    "familyId": "risk-based-authentication",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "あるWebサービスは，通常の利用環境からのログインではIDとパスワードを要求し，いつもと異なる国からのログインでは，追加で本人確認を行う。この認証の考え方はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "ワンタイムパスワードだけによる認証"
+      },
+      {
+        "key": "イ",
+        "text": "身体の特徴だけによる認証"
+      },
+      {
+        "key": "ウ",
+        "text": "利用環境に関係なく，常に同じ追加認証を行う方式"
+      },
+      {
+        "key": "エ",
+        "text": "リスクベース認証"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-24",
+        "sg-2024-public-05"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ：リスクベース認証"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-019",
+    "familyId": "authentication-factors",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "利用者の記憶と所持物という異なる二つの要素を用いて認証したい。適切な組合せはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "パスワードと，利用者が記憶している秘密の質問の答え"
+      },
+      {
+        "key": "イ",
+        "text": "ICカードと，利用者が所持するトークンで生成したワンタイムパスワード"
+      },
+      {
+        "key": "ウ",
+        "text": "パスワードと，利用者が所持するトークンで生成したワンタイムパスワード"
+      },
+      {
+        "key": "エ",
+        "text": "身体の特徴を利用する二つの認証方式"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-55"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ：多要素認証"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-020",
+    "familyId": "sg-2022-sample-26",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "利用者がHTTPSでWebサイトに接続する際に，Webブラウザがサーバ証明書を検証する目的として，適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "Webサイトで販売される商品の品質を保証する。"
+      },
+      {
+        "key": "イ",
+        "text": "接続先のサーバが，証明書に示された正当な相手であることを確認する。"
+      },
+      {
+        "key": "ウ",
+        "text": "Webサーバに保存された全てのファイルにマルウェアがないことを確認する。"
+      },
+      {
+        "key": "エ",
+        "text": "Webサイトの利用者全員の本人確認を完了する。"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-26",
+        "sg-2024-public-06"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ：TLS・サーバ認証"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-021",
+    "familyId": "spf",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "受信側メールサーバがSPFによる送信ドメイン認証を行うとき，主に照合するものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "送信元メールサーバのIPアドレスと，送信ドメインのDNSに公開された送信許可情報"
+      },
+      {
+        "key": "イ",
+        "text": "メール本文のハッシュ値と，受信者の秘密鍵"
+      },
+      {
+        "key": "ウ",
+        "text": "添付ファイルの種類と，受信者の住所"
+      },
+      {
+        "key": "エ",
+        "text": "受信者のパスワードと，送信者の公開鍵"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-27",
+        "sg-2023-public-06"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ：送信ドメイン認証"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-022",
+    "familyId": "sg-2022-sample-28",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社の従業員が，社外からA社のメールサーバを利用して電子メールを送信する。メールサーバで送信を許可する前に従業員を認証するための仕組みはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "SPF"
+      },
+      {
+        "key": "イ",
+        "text": "S/MIME"
+      },
+      {
+        "key": "ウ",
+        "text": "DNSSEC"
+      },
+      {
+        "key": "エ",
+        "text": "SMTP-AUTH"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-28"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ：メール送信時の認証"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-023",
+    "familyId": "forensics",
+    "subject": "A",
+    "topic": "operations",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "不正アクセスの調査で，証拠となるファイルの複製を作成した。調査中に複製の内容が変更されていないことを確認する方法として，最も適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "調査後にファイル名だけを元の名前に戻す。"
+      },
+      {
+        "key": "イ",
+        "text": "調査前にファイルの更新日時を任意の日時に変更する。"
+      },
+      {
+        "key": "ウ",
+        "text": "複製作成時と調査後のハッシュ値を比較する。"
+      },
+      {
+        "key": "エ",
+        "text": "ファイルの内容を印刷した後で複製を上書きする。"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-10",
+        "sg-2023-public-03"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-incident-4.0",
+          "section": "付録8：証拠の保全と原因調査；参考問題のハッシュ値による同一性確認"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-024",
+    "familyId": "sg-2022-sample-36",
+    "subject": "A",
+    "topic": "operations",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "アクセス権の管理を監査するシステム監査人の対応として，最も適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "監査対象の管理者に代わって，業務上必要なアクセス権を日常的に付与する。"
+      },
+      {
+        "key": "イ",
+        "text": "承認記録と実際のアクセス権を照合し，不一致を監査報告書に記載する。"
+      },
+      {
+        "key": "ウ",
+        "text": "自分で作成したアクセス権管理の仕組みを，自分だけで監査する。"
+      },
+      {
+        "key": "エ",
+        "text": "不一致を見つけたら，監査の証拠を残さずに記録を書き換える。"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-36"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "システム監査：独立性・監査証拠"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-025",
+    "familyId": "sg-2022-sample-38",
+    "subject": "A",
+    "topic": "operations",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "運用担当者が，処理対象の年月を誤って入力する事故を防ぎたい。エラープルーフ化の例として，最も適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "処理対象外の年月は選択できない入力画面にする。"
+      },
+      {
+        "key": "イ",
+        "text": "入力間違いに注意するよう，電子メールで従業員に連絡する。"
+      },
+      {
+        "key": "ウ",
+        "text": "間違えた担当者だけに反省文の提出を求める。"
+      },
+      {
+        "key": "エ",
+        "text": "入力方法を説明する文書のページ数を増やす。"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-38"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "サービスマネジメント：ヒューマンエラー対策"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-026",
+    "familyId": "sg-2022-sample-43",
+    "subject": "A",
+    "topic": "operations",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "顧客情報の不正な参照を調査できるよう，データベースの監査ログを取得する。記録する項目の組合せとして，最も適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "利用者IDとパスワードの平文だけ"
+      },
+      {
+        "key": "イ",
+        "text": "データベース製品の名称と購入価格だけ"
+      },
+      {
+        "key": "ウ",
+        "text": "サーバ室の面積と空調設備の台数だけ"
+      },
+      {
+        "key": "エ",
+        "text": "操作した利用者ID，操作日時，対象データ及び操作内容"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-43"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ対策：ログ管理"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-027",
+    "familyId": "sg-2025-public-02",
+    "subject": "A",
+    "topic": "operations",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，認証サーバ，ファイアウォール及びWebサーバのログを集め，複数の機器で発生した事象の関係を分析して不正アクセスの兆候を検知したい。この目的に最も適したものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "UPS"
+      },
+      {
+        "key": "イ",
+        "text": "RAID"
+      },
+      {
+        "key": "ウ",
+        "text": "SIEM"
+      },
+      {
+        "key": "エ",
+        "text": "RPA"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2025-public-02"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "情報セキュリティ対策：SIEM"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-028",
+    "familyId": "sg-2026-public-08",
+    "subject": "A",
+    "topic": "operations",
+    "pool": "benchmark",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "前回の監査で，退職者のアクセス権が残っていることを指摘した。監査対象部門から改善完了の報告を受けた後，システム監査人が行うフォローアップとして，最も適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "次年度の監査計画だけを作成し，改善の実施状況は調べない。"
+      },
+      {
+        "key": "イ",
+        "text": "改善後のアクセス権と運用記録を調べ，指摘事項に対する改善措置を確認する。"
+      },
+      {
+        "key": "ウ",
+        "text": "監査対象部門に代わり，全ての利用者のアクセス権を設定する。"
+      },
+      {
+        "key": "エ",
+        "text": "改善完了との報告があれば，証拠を確かめずに監査記録を破棄する。"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2026-public-08"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "システム監査：フォローアップ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-029",
+    "familyId": "sg-2022-sample-42",
+    "subject": "A",
+    "topic": "operations",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "通常は1台のサーバで業務を処理し，他方のサーバは待機状態にしておく。稼働中のサーバに障害が発生した場合に，待機中のサーバへ処理を切り替える。この構成はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "デュプレックスシステム"
+      },
+      {
+        "key": "イ",
+        "text": "デュアルシステム"
+      },
+      {
+        "key": "ウ",
+        "text": "サーバ1台だけの構成"
+      },
+      {
+        "key": "エ",
+        "text": "各サーバが異なる業務を処理し，相互に代替しない構成"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-42"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "システム構成要素：高信頼化システム"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-030",
+    "familyId": "sg-2024-public-07",
+    "subject": "A",
+    "topic": "law",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "個人情報保護法における個人情報に該当するものはどれか。ここで，他の情報と容易に照合できることによって，特定の生存する個人を識別できる場合も含める。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "個人との対応関係がなく，個人を識別できない地域別の売上合計"
+      },
+      {
+        "key": "イ",
+        "text": "法人名と法人の代表電話番号だけで，個人を識別できない情報"
+      },
+      {
+        "key": "ウ",
+        "text": "特定の個人との関係がない機械の製品番号だけ"
+      },
+      {
+        "key": "エ",
+        "text": "会員番号と，その番号から容易に照合できる会員氏名の対応情報"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2024-public-07"
+      ],
+      "references": [
+        {
+          "resourceId": "ppc-general",
+          "section": "2-1 個人情報"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-031",
+    "familyId": "advertising-email",
+    "subject": "A",
+    "topic": "law",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，広告宣伝メールの送信について事前に同意を得た受信者から，受信拒否の通知を受けた。その後の対応として，特定電子メール法に照らして適切なものはどれか。なお，法令上の例外に該当しないものとする。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "最初の同意があるので，受信拒否の通知を無視して送信する。"
+      },
+      {
+        "key": "イ",
+        "text": "送信元のアドレスを変更すれば，同じ広告宣伝メールを送信できる。"
+      },
+      {
+        "key": "ウ",
+        "text": "その受信者への広告宣伝メールの送信を停止する。"
+      },
+      {
+        "key": "エ",
+        "text": "件名から広告という文字を削除すれば，同じ広告宣伝メールを送信できる。"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-33",
+        "sg-2025-public-07"
+      ],
+      "references": [
+        {
+          "resourceId": "caa-email",
+          "section": "5 受信拒否について"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-032",
+    "familyId": "sg-2022-sample-34",
+    "subject": "A",
+    "topic": "law",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，B社にプログラムの開発を委託した。B社の発意に基づき，B社の従業員が職務上作成したものである。作成時の契約及び勤務規則には，著作者について別段の定めはなく，A社への著作権の移転も行っていない。このプログラムの著作権が発生時に帰属する者は誰か。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "開発費用を支払ったA社"
+      },
+      {
+        "key": "イ",
+        "text": "B社"
+      },
+      {
+        "key": "ウ",
+        "text": "プログラムを購入した全ての利用者"
+      },
+      {
+        "key": "エ",
+        "text": "プログラムを実行するサーバの所有者"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-34"
+      ],
+      "references": [
+        {
+          "resourceId": "jp-copyright",
+          "section": "著作権法 第15条第2項・第17条"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-033",
+    "familyId": "personal-data-outsourcing",
+    "subject": "A",
+    "topic": "law",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，利用目的の達成に必要な範囲で，顧客の個人データの取扱いをB社に委託する。個人情報保護法に基づくA社の対応として，適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "B社で個人データの安全管理が図られるよう，必要かつ適切な監督を行う。"
+      },
+      {
+        "key": "イ",
+        "text": "委託契約を結べば，B社の安全管理状況を確認する必要はなくなる。"
+      },
+      {
+        "key": "ウ",
+        "text": "B社が自由な目的で個人データを利用できるようにする。"
+      },
+      {
+        "key": "エ",
+        "text": "委託した時点で，A社は個人データの安全管理について全ての責任を負わなくなる。"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2024-public-07"
+      ],
+      "references": [
+        {
+          "resourceId": "ppc-general",
+          "section": "3-4-4 委託先の監督"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-034",
+    "familyId": "sg-2022-sample-40",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "システム開発プロジェクトで，必要な作業を明確にし，担当者や作業時間を検討できるようにしたい。WBSの作成で行うこととして，適切なものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "作業の実施結果だけを時刻順に並べる。"
+      },
+      {
+        "key": "イ",
+        "text": "システムの通信先とポート番号だけを一覧にする。"
+      },
+      {
+        "key": "ウ",
+        "text": "従業員全員の人事評価を順位順に並べる。"
+      },
+      {
+        "key": "エ",
+        "text": "プロジェクトの作業を段階的に分解し，階層構造で整理する。"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-40"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "プロジェクトマネジメント：WBS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-035",
+    "familyId": "sg-2022-sample-41",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "作業の順序関係と所要日数を基に，プロジェクト全体の最短の所要日数を求めたい。この目的に適した技法はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "回帰分析"
+      },
+      {
+        "key": "イ",
+        "text": "時系列分析"
+      },
+      {
+        "key": "ウ",
+        "text": "PERT"
+      },
+      {
+        "key": "エ",
+        "text": "ABC分析"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-41"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "プロジェクトマネジメント：スケジュール"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-036",
+    "familyId": "proxy",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "社内PCからインターネット上のWebサイトへのアクセスを中継し，閲覧先の制限とアクセスログの取得をまとめて行う装置を導入する。この装置はどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "DHCPサーバ"
+      },
+      {
+        "key": "イ",
+        "text": "プロキシサーバ"
+      },
+      {
+        "key": "ウ",
+        "text": "NTPサーバ"
+      },
+      {
+        "key": "エ",
+        "text": "ファイルサーバ"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-44",
+        "sg-2024-public-10"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "ネットワーク：プロキシ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-037",
+    "familyId": "sg-2022-sample-45",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，給与計算業務について，計算用システムだけでなく，毎月の処理や問合せ対応を含めて外部の専門会社に委託した。この取組に該当するものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "BPO"
+      },
+      {
+        "key": "イ",
+        "text": "RPA"
+      },
+      {
+        "key": "ウ",
+        "text": "WBS"
+      },
+      {
+        "key": "エ",
+        "text": "SLA"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-45"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "経営戦略：BPO"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-038",
+    "familyId": "sg-2026-public-10",
+    "subject": "A",
+    "topic": "it",
+    "pool": "benchmark",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "IPアドレスが192.168.10.78，サブネットマスクが255.255.255.224であるPCがある。このPCが属するネットワークのネットワークアドレスはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "192.168.10.0"
+      },
+      {
+        "key": "イ",
+        "text": "192.168.10.78"
+      },
+      {
+        "key": "ウ",
+        "text": "192.168.10.95"
+      },
+      {
+        "key": "エ",
+        "text": "192.168.10.64"
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2026-public-10"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "ネットワーク：IPアドレス・サブネットマスク"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-039",
+    "familyId": "sg-2025-public-09",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "サービス満足度の目標値を5点満点中4.0点とした。調査アンケートの結果が表1のとおりであるとき，目標達成率は幾らか。ここで，目標達成率＝満足度の平均点÷満足度の目標値とする。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          50.0,
+          50.0
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "満足度（点）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "回答数",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "5",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "20",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "4",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "40",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "30",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "10",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 調査アンケートの集計結果"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "0.740"
+      },
+      {
+        "key": "イ",
+        "text": "0.800"
+      },
+      {
+        "key": "ウ",
+        "text": "0.925"
+      },
+      {
+        "key": "エ",
+        "text": "1.081"
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2025-public-09"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "サービスマネジメント：サービスレベルの評価"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-040",
+    "familyId": "sg-2022-sample-47",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "表1の在庫を先入先出法で評価する。期末在庫が8個であるとき，期末の在庫評価額は何千円か。なお，表1に示す以外の仕入れ及び返品はない。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          33.333333333333336,
+          33.333333333333336,
+          33.333333333333336
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "摘要",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "数量（個）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "単価（千円）",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "期首在庫",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "10",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "10",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "4月仕入",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "5",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "12",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "6月仕入",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "5",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "14",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 在庫と仕入れ"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "80"
+      },
+      {
+        "key": "イ",
+        "text": "106"
+      },
+      {
+        "key": "ウ",
+        "text": "90"
+      },
+      {
+        "key": "エ",
+        "text": "112"
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-47"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-syllabus-4.1",
+          "section": "企業活動：在庫評価"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-041",
+    "familyId": "sg-2025-public-13",
+    "subject": "B",
+    "topic": "operations",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，従業員200名のITサービス企業である。顧客からの問合せへの回答，社内の人事管理及び文書の保管にクラウドサービスを利用している。各サービスは異なる事業者から提供されており，一つのサービスの停止が他のサービスの停止を引き起こすことはない。"
+      },
+      {
+        "type": "paragraph",
+        "text": "A社の情報セキュリティリーダーであるB主任は，クラウドサービスの可用性に関する重要度を評価することになった。重要度は，サービスが利用できなくなった場合の自社及び顧客への直ちに生じる影響によって，表1の基準で決定する。停止の発生確率や利用料金は，この評価には用いない。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          50.0,
+          50.0
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "重要度",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "停止した場合の影響",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "自社だけでなく，顧客にも直ちに影響がある。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "自社にだけ，直ちに影響がある。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "自社及び顧客に，直ちに影響はない。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 可用性に関する重要度の評価基準"
+      },
+      {
+        "type": "paragraph",
+        "text": "B主任は，各部署の責任者に利用状況を確認した。文書保管サービスには，保存期間を過ぎるまで保管する必要がある過去の契約書だけが保存されている。日常業務では参照せず，契約書の確認が必要になっても翌営業日まで待つことができる。一方，顧客向け回答サービスは，電話による問合せ対応でも利用する。担当者が顧客の契約内容を確認するために必要であり，停止すると電話での回答も直ちにできなくなる。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          22,
+          62,
+          16
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "サービス",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "利用状況",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "重要度",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "文書保管",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "過去の契約書を長期保存する。停止しても自社及び顧客の日常業務には直ちに影響しない。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a1",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "顧客向け回答",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "回答に必要な契約内容を確認する。停止すると顧客への回答業務が直ちに止まる。",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "a2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表2 B主任が確認した利用状況"
+      },
+      {
+        "type": "paragraph",
+        "text": "設問　表2中のa1，a2に入れる数値の適切な組合せを，解答群の中から選べ。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "cells": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "イ",
+        "cells": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "key": "ウ",
+        "cells": [
+          "1",
+          "0"
+        ]
+      },
+      {
+        "key": "エ",
+        "cells": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "key": "オ",
+        "cells": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "key": "カ",
+        "cells": [
+          "2",
+          "0"
+        ]
+      },
+      {
+        "key": "キ",
+        "cells": [
+          "2",
+          "1"
+        ]
+      },
+      {
+        "key": "ク",
+        "cells": [
+          "0",
+          "2"
+        ]
+      },
+      {
+        "key": "ケ",
+        "cells": [
+          "2",
+          "2"
+        ]
+      }
+    ],
+    "answer": "ク",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2025-public-13"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-cloud-4.0",
+          "section": "利用するサービスの重要性と，停止時の影響の確認"
+        }
+      ]
+    },
+    "choiceTable": {
+      "headers": [
+        "a1",
+        "a2"
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-042",
+    "familyId": "risk-assessment-case",
+    "subject": "B",
+    "topic": "management",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，従業員150名の部品メーカーである。情報セキュリティリーダーであるB主任は，年に一度，情報資産のリスクアセスメントを行っている。今回は，新しいWebサイトを公開したことから，従来の情報資産を含めて評価を見直すことにした。評価方法を図1に示す。"
+      },
+      {
+        "type": "panel",
+        "paragraphs": [
+          "情報資産の機密性，完全性，可用性を，それぞれ0～2で評価する。",
+          "三つの評価値のうち最大の値を，情報資産の重要度とする。",
+          "脅威の発生頻度及び脆弱性を，それぞれ1～3で評価する。値が大きいほど危険性が高い。",
+          "リスク値＝情報資産の重要度×脅威の発生頻度×脆弱性とする。",
+          "リスク値が6以上の情報資産には，追加の対策を行う。6未満の場合は，現状の対策を維持する。"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "図1 情報セキュリティリスクアセスメントの評価方法"
+      },
+      {
+        "type": "paragraph",
+        "text": "B主任は，各情報資産の管理責任者とともに評価を実施し，表1に結果をまとめた。機密性が0の情報であっても，改ざんや利用停止による影響が大きい場合があるので，機密性だけで重要度を決めないようにした。また，表中の値は，現在実施している対策の効果を反映した値であり，計算の際に更に値を小さくしてはならない。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          30,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "情報資産",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機密性",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "完全性",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "可用性",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "発生頻度",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "脆弱性",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "社内規程",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "設計情報",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "3",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "公開Webサイト",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "0",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "2",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "3",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 評価結果"
+      },
+      {
+        "type": "paragraph",
+        "text": "B主任は，追加の対策が必要な情報資産を選び，各管理責任者と対策の内容を検討することにした。設問　表1の情報資産について，図1の基準で追加の対策が必要なものを○，不要なものを×とした適切な組合せを，解答群の中から選べ。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "cells": [
+          "○",
+          "○",
+          "○"
+        ]
+      },
+      {
+        "key": "イ",
+        "cells": [
+          "○",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "ウ",
+        "cells": [
+          "○",
+          "×",
+          "○"
+        ]
+      },
+      {
+        "key": "エ",
+        "cells": [
+          "○",
+          "×",
+          "×"
+        ]
+      },
+      {
+        "key": "オ",
+        "cells": [
+          "×",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "カ",
+        "cells": [
+          "×",
+          "×",
+          "○"
+        ]
+      },
+      {
+        "key": "キ",
+        "cells": [
+          "×",
+          "×",
+          "×"
+        ]
+      },
+      {
+        "key": "ク",
+        "cells": [
+          "×",
+          "○",
+          "○"
+        ]
+      }
+    ],
+    "answer": "ク",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-50",
+        "sg-2023-public-13"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "実践編：資産ベースのリスク分析"
+        }
+      ]
+    },
+    "choiceTable": {
+      "headers": [
+        "社内規程",
+        "設計情報",
+        "公開Webサイト"
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-043",
+    "familyId": "sg-2022-sample-49",
+    "subject": "B",
+    "topic": "management",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，従業員300名のメーカーである。総務部は，従業員の給与計算に必要な書類の確認をB社に委託することにした。書類には，従業員の氏名，住所及び給与に関する情報が含まれる。A社は，委託する作業の範囲と，B社に提供する情報を明確にした上で，必要な情報だけを提供する方針である。"
+      },
+      {
+        "type": "paragraph",
+        "text": "B社の担当者は，A社が指定するクラウドストレージに接続して書類を確認し，不備があればA社の総務部に連絡する。書類の修正はA社だけが行うので，B社には書類を変更又は削除する権限は必要ない。また，B社の作業対象は当月分だけであり，過去の年度の書類は必要ない。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          50.0,
+          50.0
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "フォルダ",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "内容",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "当月分",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "今回の委託作業で確認する書類",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "過年度分",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "今回の委託作業では使用しない過去の書類",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 クラウドストレージ内の書類"
+      },
+      {
+        "type": "paragraph",
+        "text": "契約案には，B社の担当者以外への情報の開示禁止，作業終了後の複製の削除，事故発生時のA社への連絡及びA社による実施状況の確認が記載されている。A社の情報セキュリティリーダーであるC課長は，契約だけでなく，実際のアクセス権についても確認することにした。"
+      },
+      {
+        "type": "paragraph",
+        "text": "クラウドストレージでは，担当者ごとに利用者IDを発行でき，フォルダごとに閲覧，変更及び削除の権限を設定できる。C課長は，B社の作業に必要な権限だけを付与し，作業者をログから特定できるようにしたいと考えている。設問　この方針に最も適した利用者ID及びアクセス権の組合せを，解答群の中から選べ。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "cells": [
+          "B社全員で共有するID",
+          "当月分の閲覧だけ"
+        ]
+      },
+      {
+        "key": "イ",
+        "cells": [
+          "担当者ごとのID",
+          "当月分と過年度分の閲覧，変更及び削除"
+        ]
+      },
+      {
+        "key": "ウ",
+        "cells": [
+          "担当者ごとのID",
+          "当月分の閲覧だけ"
+        ]
+      },
+      {
+        "key": "エ",
+        "cells": [
+          "B社全員で共有するID",
+          "当月分と過年度分の閲覧，変更及び削除"
+        ]
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-49"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "経営者編：委託先の情報セキュリティ対策；実践編：アクセス管理"
+        }
+      ]
+    },
+    "choiceTable": {
+      "headers": [
+        "利用者ID",
+        "アクセス権"
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-044",
+    "familyId": "sg-2022-sample-52",
+    "subject": "B",
+    "topic": "management",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，複数の支店をもつ商社である。A社はB社を子会社にした後，B社の在宅勤務に関する規程を，A社グループのPCセキュリティ規程に合わせて見直すことにした。A社グループの規程のうち，在宅勤務に関する部分を図1に示す。"
+      },
+      {
+        "type": "panel",
+        "paragraphs": [
+          "在宅勤務には，会社が貸与したPCだけを使用する。",
+          "社内情報は会社指定のクラウドサービスで取り扱い，PC内蔵ストレージ及び外部記憶媒体には保存しない。",
+          "PCへのログインには利用者ごとに異なるIDを使用し，パスワードを他者に伝えない。",
+          "会社貸与PCを，同居人を含む他者に使用させない。",
+          "OS及びマルウェア対策ソフトは，情報システム部が指定する方法で最新の状態に保つ。"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "図1 A社グループのPCセキュリティ規程（抜粋）"
+      },
+      {
+        "type": "paragraph",
+        "text": "B社では，従業員が自宅で受発注情報を確認し，顧客からの問合せに回答する業務を行っている。B社の情報セキュリティリーダーであるC主任は，在宅勤務中の運用を調べ，表1にまとめた。表1に記載されていない項目については，図1の規程を満たしているものとする。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          15,
+          85
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "B社の運用",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "個人所有PCであっても，最新のマルウェア対策ソフトを導入していれば在宅勤務に使用できる。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（二）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "会社貸与PCから会社指定のクラウドサービスへ接続し，社内情報はそのサービス上だけで取り扱う。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（三）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "会社貸与PCに同居人用の別の利用者IDを作成し，業務時間外だけ使用させることができる。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 B社の在宅勤務の運用"
+      },
+      {
+        "type": "paragraph",
+        "text": "C主任は，PCの所有者，情報の保存場所及びPCを使用できる者をそれぞれ確認した。個別の対策を実施していても，図1で禁止されている運用を例外として認めることはできない。設問　表1の運用が図1の規程に適合する場合を○，適合しない場合を×とした適切な組合せを，解答群の中から選べ。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "cells": [
+          "○",
+          "○",
+          "○"
+        ]
+      },
+      {
+        "key": "イ",
+        "cells": [
+          "○",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "ウ",
+        "cells": [
+          "○",
+          "×",
+          "○"
+        ]
+      },
+      {
+        "key": "エ",
+        "cells": [
+          "○",
+          "×",
+          "×"
+        ]
+      },
+      {
+        "key": "オ",
+        "cells": [
+          "×",
+          "○",
+          "○"
+        ]
+      },
+      {
+        "key": "カ",
+        "cells": [
+          "×",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "キ",
+        "cells": [
+          "×",
+          "×",
+          "○"
+        ]
+      },
+      {
+        "key": "ク",
+        "cells": [
+          "×",
+          "×",
+          "×"
+        ]
+      }
+    ],
+    "answer": "カ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-52"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "実践編：情報セキュリティ関連規程の整備"
+        }
+      ]
+    },
+    "choiceTable": {
+      "headers": [
+        "（一）",
+        "（二）",
+        "（三）"
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-045",
+    "familyId": "backup-policy-case",
+    "subject": "B",
+    "topic": "operations",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，顧客情報を社内のファイルサーバに保存している。情報システム部は，障害によってデータが失われた場合に備え，バックアップを取得している。取得したバックアップはファイルサーバとは別の場所に保管し，保存済みの媒体を上書きしない運用である。"
+      },
+      {
+        "type": "panel",
+        "paragraphs": [
+          "毎週日曜日の午前2時に，その時点の全てのデータのフルバックアップを取得する。",
+          "月曜日から土曜日の午前2時に，直前に成功したバックアップ以降の変更分の増分バックアップを取得する。",
+          "増分バックアップだけでは全てのデータを復元できない。直前のフルバックアップと，その後に成功した増分バックアップを取得順に適用する。",
+          "失敗したバックアップは復元に使用できない。"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "図1 バックアップの運用方法"
+      },
+      {
+        "type": "paragraph",
+        "text": "金曜日の午前1時にファイルサーバのディスクが故障した。金曜日のバックアップはまだ開始していない。今回の故障では，別の場所に保管したバックアップ媒体に被害はなかった。直近の取得結果を表1に示す。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          33.333333333333336,
+          33.333333333333336,
+          33.333333333333336
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "取得日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "種類",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "結果",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "日曜日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "フル",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "成功",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "月曜日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "増分",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "成功",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "火曜日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "増分",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "成功",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "水曜日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "増分",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "失敗",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "木曜日",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "増分",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "成功",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 バックアップの取得結果"
+      },
+      {
+        "type": "paragraph",
+        "text": "木曜日の増分バックアップには，火曜日のバックアップ成功後から木曜日の取得時点までの変更分が含まれている。情報システム部のB主任は，利用できるバックアップだけを使い，木曜日の午前2時の状態まで復元することにした。なお，バックアップ取得時点以降の更新を保存する別の仕組みはない。設問　図1の方法に従い，復元に必要なバックアップを適用順に並べたものはどれか。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "text": "日曜日のフル，月曜日の増分，火曜日の増分，木曜日の増分"
+      },
+      {
+        "key": "イ",
+        "text": "日曜日のフル，木曜日の増分"
+      },
+      {
+        "key": "ウ",
+        "text": "火曜日の増分，木曜日の増分"
+      },
+      {
+        "key": "エ",
+        "text": "日曜日のフル，月曜日の増分，水曜日の増分，木曜日の増分"
+      }
+    ],
+    "answer": "ア",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-54",
+        "sg-2023-public-14",
+        "sg-2024-public-14"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "実践編：バックアップの取得・保管・復旧"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-046",
+    "familyId": "sg-2022-sample-55",
+    "subject": "B",
+    "topic": "technology",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，従業員120名の販売会社である。従業員は，会社貸与PCのWebブラウザから，クラウド上の顧客管理サービスを利用している。サービスへのログインには，利用者IDとパスワードに加えて，会社貸与スマートフォン上の認証アプリが表示するワンタイムパスワードを入力する。"
+      },
+      {
+        "type": "paragraph",
+        "text": "認証アプリを登録するときは，情報システム部が本人確認を行う。ログインに成功すると，Webブラウザにログイン状態が保持され，利用者がログアウトしない場合でも8時間後には無効になる。パスワードを変更しても，既に保持されているログイン状態や認証アプリの登録は自動的には無効にならない。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          32,
+          68
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "管理機能",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "効果",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "パスワード変更",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "以後のパスワード認証に，新しいパスワードを必要とする。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "認証アプリ登録の無効化",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "登録していたスマートフォンのワンタイムパスワードを使用できなくする。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "全ログイン状態の無効化",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "既にログイン済みの全てのWebブラウザから，再認証なしで利用できないようにする。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 サービスの管理機能"
+      },
+      {
+        "type": "paragraph",
+        "text": "営業部のBさんが，ログイン中の会社貸与PCと認証アプリを登録したスマートフォンを同時に紛失した。PCの画面がロックされていたかどうかは確認できず，パスワードが他者に知られた可能性も否定できない。情報システム部は，Bさんからの連絡を受け，安全な端末を使って本人確認を行った上で，パスワードを変更した。"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bさんの紛失した機器を利用した不正アクセスを防ぐため，パスワード変更に加えて，表1の残り二つの機能の利用を検討している。設問　現時点で必要な対応の組合せとして，最も適切なものを解答群の中から選べ。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "cells": [
+          "無効にする",
+          "無効にしない"
+        ]
+      },
+      {
+        "key": "イ",
+        "cells": [
+          "無効にしない",
+          "無効にする"
+        ]
+      },
+      {
+        "key": "ウ",
+        "cells": [
+          "無効にしない",
+          "無効にしない"
+        ]
+      },
+      {
+        "key": "エ",
+        "cells": [
+          "無効にする",
+          "無効にする"
+        ]
+      }
+    ],
+    "answer": "エ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-55",
+        "sg-2024-public-13"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-cloud-4.0",
+          "section": "利用者の認証とアカウント管理・事故発生時の対応"
+        }
+      ]
+    },
+    "choiceTable": {
+      "headers": [
+        "認証アプリ登録",
+        "全ログイン状態"
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-047",
+    "familyId": "sg-2022-sample-56",
+    "subject": "B",
+    "topic": "technology",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，全国に店舗を展開している販売会社である。顧客管理システムには顧客情報が保存されている。営業部の従業員は顧客への対応を行い，情報システム部の担当者はシステムの運用を行う。監査部は，顧客情報へのアクセスが適切であるかを確認する。"
+      },
+      {
+        "type": "paragraph",
+        "text": "これまで情報システム部の担当者には，全ての顧客情報を閲覧及び変更できる権限を付与していた。しかし，日常の運用作業では顧客情報の内容を読む必要がないことが分かった。そこで，役割に応じて権限を分離することにした。新しい権限の種類を表1に示す。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          15,
+          85
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "権限",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "可能な操作",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "担当する顧客情報の閲覧及び変更",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（二）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "システムの起動，停止及びバックアップ。顧客情報の内容の閲覧及び変更は不可",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（三）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "アクセスログの閲覧。ログ及び顧客情報の変更は不可",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（四）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "全ての顧客情報及びアクセスログの閲覧，変更及び削除",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 顧客管理システムの権限"
+      },
+      {
+        "type": "paragraph",
+        "text": "権限は利用者ごとに設定できる。表1以外の権限はなく，複数の権限を付与する必要もない。バックアップはシステムの機能を使って取得でき，担当者が顧客情報を閲覧する必要はない。アクセスログには利用者ID，操作日時及び操作内容が記録されている。"
+      },
+      {
+        "type": "paragraph",
+        "text": "情報セキュリティリーダーであるB課長は，情報システム部には日常の運用に必要な権限だけを，監査部には操作記録を調べるための権限だけを付与したいと考えた。また，監査部が調査対象のログを書き換えられないようにする。設問　情報システム部及び監査部に付与する権限の適切な組合せを，解答群の中から選べ。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "cells": [
+          "（一）",
+          "（三）"
+        ]
+      },
+      {
+        "key": "イ",
+        "cells": [
+          "（二）",
+          "（四）"
+        ]
+      },
+      {
+        "key": "ウ",
+        "cells": [
+          "（二）",
+          "（三）"
+        ]
+      },
+      {
+        "key": "エ",
+        "cells": [
+          "（四）",
+          "（一）"
+        ]
+      }
+    ],
+    "answer": "ウ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-56"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "実践編：アクセス管理・職務の分離"
+        }
+      ]
+    },
+    "choiceTable": {
+      "headers": [
+        "情報システム部",
+        "監査部"
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-048",
+    "familyId": "sg-2022-sample-58",
+    "subject": "B",
+    "topic": "threats",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社グループでは，インターネットに公開するWebサイトに対して，脆弱性診断を行っている。診断は外部の専門会社に委託しているが，診断の対象と時期を決める責任は各社の情報セキュリティリーダーにある。A社グループの診断基準を図1に示す。"
+      },
+      {
+        "type": "panel",
+        "paragraphs": [
+          "全ての公開Webサイトについて，少なくとも年に一度，定期診断を行う。",
+          "外部から利用できる機能を追加又は変更した場合は，公開前にその機能の診断を行う。",
+          "利用中のソフトウェアに重大な脆弱性が公表された場合は，定期診断の時期によらず，影響の有無を確認する診断を行う。",
+          "定期診断を行った直後でも，追加又は変更した機能及び新たに公表された重大な脆弱性は，過去の診断結果だけで安全と判断しない。"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "図1 A社グループの脆弱性診断基準"
+      },
+      {
+        "type": "paragraph",
+        "text": "子会社であるB社は，三つのWebサイトを運営している。三つとも先月の定期診断では指摘事項がなかった。今月の状況を表1に示す。表1に記載したもの以外に，機能の変更，ソフトウェアの変更及び新たな脆弱性の公表はない。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          15,
+          85
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "サイト",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "今月の状況",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "X",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "利用中のソフトウェアに重大な脆弱性が公表された。B社の構成で影響を受けるかどうかは未確認である。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "Y",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "機能及び利用中のソフトウェアに変更はなく，新たな脆弱性の公表もない。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "Z",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "会員が外部からファイルをアップロードする機能を追加し，来週公開する予定である。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 B社Webサイトの状況"
+      },
+      {
+        "type": "paragraph",
+        "text": "B社のC主任は，先月の診断結果を確認した上で，追加の診断の要否を判断することにした。設問　今月，図1の基準によって追加の診断が必要なサイトを○，不要なサイトを×とした適切な組合せを，解答群の中から選べ。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "cells": [
+          "○",
+          "○",
+          "○"
+        ]
+      },
+      {
+        "key": "イ",
+        "cells": [
+          "○",
+          "×",
+          "○"
+        ]
+      },
+      {
+        "key": "ウ",
+        "cells": [
+          "○",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "エ",
+        "cells": [
+          "○",
+          "×",
+          "×"
+        ]
+      },
+      {
+        "key": "オ",
+        "cells": [
+          "×",
+          "○",
+          "○"
+        ]
+      },
+      {
+        "key": "カ",
+        "cells": [
+          "×",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "キ",
+        "cells": [
+          "×",
+          "×",
+          "○"
+        ]
+      },
+      {
+        "key": "ク",
+        "cells": [
+          "×",
+          "×",
+          "×"
+        ]
+      }
+    ],
+    "answer": "イ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-58"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "実践編：脆弱性対策・Webサイトの安全な運用"
+        }
+      ]
+    },
+    "choiceTable": {
+      "headers": [
+        "X",
+        "Y",
+        "Z"
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-049",
+    "familyId": "sg-2026-public-15",
+    "subject": "B",
+    "topic": "management",
+    "pool": "benchmark",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，従業員250名の商社である。総務部は，業務文書の機密区分と取扱方法を定めている。機密区分は“関係者外秘”，“社外秘”，“公開”の三つであり，機密性の高い順に並べるとこの順序になる。各区分の取扱いを表1に示す。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          50.0,
+          50.0
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "機密区分",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "開示できる相手",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "関係者外秘",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "文書ごとに指定された業務上の関係者だけ",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "社外秘",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "A社の従業員だけ",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "公開",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "社外を含め誰にでも開示できる",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 文書の機密区分"
+      },
+      {
+        "type": "panel",
+        "paragraphs": [
+          "文書を作成した部署の責任者が，機密区分及び関係者の範囲を決定する。",
+          "機密区分の異なる複数の文書を一つにまとめた場合，全体に最も高い機密区分を適用する。",
+          "内容に変更がなくても，送付先が開示できる相手に含まれるかを確認する。",
+          "公開情報を加えることやファイル名を変更することだけを理由に，機密区分を下げてはならない。"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "図1 文書の取扱規則"
+      },
+      {
+        "type": "paragraph",
+        "text": "営業部のB主任は，顧客情報を“関係者外秘”，関係者を営業部の担当者だけと指定している。また，商品カタログは“公開”としている。B主任は，次の三つの取扱いについて，図1及び表1に適合するかを確認した。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          15,
+          85
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "取扱い",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "顧客情報に商品カタログを追加し，全体を公開に変更してWebサイトに掲載する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（二）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "顧客情報を関係者外秘のまま，指定された営業部の担当者だけに送付する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（三）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "顧客情報のファイル名を変更し，顧客対応に関係のない別の部署の従業員にも送付する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表2 確認対象の取扱い"
+      },
+      {
+        "type": "paragraph",
+        "text": "なお，機密区分及び関係者の範囲を変更する承認は行われていない。設問　表2の取扱いが規則に適合する場合を○，適合しない場合を×とした適切な組合せを，解答群の中から選べ。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "cells": [
+          "○",
+          "○",
+          "○"
+        ]
+      },
+      {
+        "key": "イ",
+        "cells": [
+          "○",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "ウ",
+        "cells": [
+          "○",
+          "×",
+          "○"
+        ]
+      },
+      {
+        "key": "エ",
+        "cells": [
+          "○",
+          "×",
+          "×"
+        ]
+      },
+      {
+        "key": "オ",
+        "cells": [
+          "×",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "カ",
+        "cells": [
+          "×",
+          "○",
+          "○"
+        ]
+      },
+      {
+        "key": "キ",
+        "cells": [
+          "×",
+          "×",
+          "○"
+        ]
+      },
+      {
+        "key": "ク",
+        "cells": [
+          "×",
+          "×",
+          "×"
+        ]
+      }
+    ],
+    "answer": "オ",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2026-public-15"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "実践編：情報資産の管理・情報の分類"
+        }
+      ]
+    },
+    "choiceTable": {
+      "headers": [
+        "（一）",
+        "（二）",
+        "（三）"
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-pilot-050",
+    "familyId": "sg-2025-public-14",
+    "subject": "B",
+    "topic": "operations",
+    "pool": "study",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，取引先と設計情報を受け渡すため，クラウドストレージサービスを利用することにした。送信者がファイルをアップロードすると，サービスはダウンロード用URLを発行する。送信者は，このURLを電子メールで受信者に知らせる。現在の設定では，URLを知っている者は誰でもファイルをダウンロードできる。"
+      },
+      {
+        "type": "paragraph",
+        "text": "保存中のファイルはサービス側で暗号化されているが，ダウンロード時にはサービスが復号し，利用者は元のファイルを取得する。通信経路はTLSで保護されている。A社は，メールの誤送信や転送によって，予定していない第三者がURLを知る可能性があると考えている。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          27,
+          73
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "機能",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "内容",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "受信者認証",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "送信者が指定した受信者のアカウントでログインした場合だけ，ダウンロードを許可する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "有効期限",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "指定した日時を過ぎると，そのURLからはダウンロードできなくする。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "保存時の暗号化",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "サービス内の記憶媒体に，ファイルを暗号化して保存する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表1 サービスの主な機能"
+      },
+      {
+        "type": "paragraph",
+        "text": "情報セキュリティリーダーであるB主任は，“指定した受信者だけが，業務上必要な期間に限ってダウンロードできること”を取扱方針とした。受信者によるアカウントの共有や，ダウンロード後のファイルの再配布は，今回検討する範囲には含めない。B主任が挙げた対策案を表2に示す。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          15,
+          85
+        ],
+        "headerRows": 1,
+        "rows": [
+          [
+            {
+              "text": "項番",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "対策案",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（一）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "受信者認証を有効にして，受信者のアカウントを指定する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（二）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "保存時に暗号化されているので，URLを知る第三者もダウンロードできる設定のままにする。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（三）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "業務で必要な期間に合わせて，URLの有効期限を設定する。",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ],
+        "caption": "表2 B主任の対策案"
+      },
+      {
+        "type": "paragraph",
+        "text": "設問　取扱方針を実現するための対策として適切なものを○，適切でないものを×とした組合せを，解答群の中から選べ。"
+      }
+    ],
+    "choices": [
+      {
+        "key": "ア",
+        "cells": [
+          "○",
+          "○",
+          "○"
+        ]
+      },
+      {
+        "key": "イ",
+        "cells": [
+          "○",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "ウ",
+        "cells": [
+          "○",
+          "×",
+          "×"
+        ]
+      },
+      {
+        "key": "エ",
+        "cells": [
+          "×",
+          "○",
+          "○"
+        ]
+      },
+      {
+        "key": "オ",
+        "cells": [
+          "×",
+          "○",
+          "×"
+        ]
+      },
+      {
+        "key": "カ",
+        "cells": [
+          "×",
+          "×",
+          "○"
+        ]
+      },
+      {
+        "key": "キ",
+        "cells": [
+          "×",
+          "×",
+          "×"
+        ]
+      },
+      {
+        "key": "ク",
+        "cells": [
+          "○",
+          "×",
+          "○"
+        ]
+      }
+    ],
+    "answer": "ク",
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2025-public-14"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-cloud-4.0",
+          "section": "重要な情報の取扱い・利用者の認証・利用終了時の取扱い"
+        }
+      ]
+    },
+    "choiceTable": {
+      "headers": [
+        "（一）",
+        "（二）",
+        "（三）"
+      ]
+    }
+  }
+]

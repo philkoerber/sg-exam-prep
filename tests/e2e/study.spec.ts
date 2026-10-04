@@ -33,9 +33,19 @@ test("topic practice gives immediate feedback and an accurate session result", a
   await page.goto("/practice/?topic=law");
   await expect(page.locator('input[name="topic"]:checked')).toHaveCount(1);
   await page.getByRole("button", { name: "練習を始める" }).click();
-  for (let i = 0; i < 10; i++) {
-    const source = await page.locator(".question-source>span").textContent();
-    const question = corpus.find((q) => source === `出典：${q.source.label}`)!;
+  const practiceCount = Math.min(
+    10,
+    new Set(
+      corpus
+        .filter((q) => q.topic === "law" && q.pool === "study")
+        .map((q) => q.familyId),
+    ).size,
+  );
+  for (let i = 0; i < practiceCount; i++) {
+    const id = await page
+      .locator(".question-card")
+      .getAttribute("data-question-id");
+    const question = corpus.find((q) => q.id === id)!;
     expect(question.topic).toBe("law");
     expect(question.pool).toBe("study");
     await expect(
@@ -50,7 +60,9 @@ test("topic practice gives immediate feedback and an accurate session result", a
         fullPage: true,
       });
     await page
-      .getByRole("button", { name: i === 9 ? "結果を見る" : "次の問題へ" })
+      .getByRole("button", {
+        name: i === practiceCount - 1 ? "結果を見る" : "次の問題へ",
+      })
       .click();
   }
   await expect(page.locator(".result-percent")).toHaveText("100%");
@@ -78,8 +90,10 @@ test("exam keeps choices in memory, hides answers until submission, and grades b
   await page.getByRole("button", { name: "模擬試験を始める" }).click();
   await expect(page.getByLabel("残り時間")).toHaveText(/1(19|20):\d{2}/);
   await expect(page.locator(".map-grid button")).toHaveCount(60);
-  const source = await page.locator(".question-source>span").textContent();
-  const question = corpus.find((q) => source === `出典：${q.source.label}`)!;
+  const id = await page
+    .locator(".question-card")
+    .getAttribute("data-question-id");
+  const question = corpus.find((q) => q.id === id)!;
   await page.locator(`input[value="${question.answer}"]`).check();
   await expect(page.locator(".feedback")).toHaveCount(0);
   await expect(page.getByRole("link", { name: "公式解答" })).toHaveCount(0);

@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { corpus } from "../src/lib/corpus";
+import { corpus, officialCorpus } from "../src/lib/corpus";
 import { questionSchema } from "../src/lib/corpus/schema";
 import {
   examQuestions,
@@ -11,8 +11,8 @@ import {
   shuffle,
 } from "../src/lib/study";
 
-test("all imported questions have valid official answer mappings", () => {
-  assert.equal(corpus.length, 120);
+test("all imported questions have valid answer mappings", () => {
+  assert.equal(officialCorpus.length, 120);
   assert.equal(new Set(corpus.map((q) => q.id)).size, corpus.length);
   corpus.forEach((q) => questionSchema.parse(q));
 });

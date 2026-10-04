@@ -1,13 +1,10 @@
 [
   {
     "id": "sg-2023-public-01",
-    "year": 2023,
-    "number": 1,
-    "era": "cbt",
+    "familyId": "sg-2023-public-01",
     "subject": "A",
     "topic": "management",
     "pool": "study",
-    "prompt": "情報セキュリティ管理基準（平成 28 年）に関する記述のうち，適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -32,29 +29,13 @@
       {
         "type": "paragraph",
         "text": "情報セキュリティ管理基準（平成 28 年）に関する記述のうち，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア “ガバナンス基準”，“管理策基準”及び“マネジメント基準”の三つの基準で構成されている。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ JIS Q 27001:2014（情報セキュリティマネジメントシステム－要求事項）及び"
-      },
-      {
-        "type": "paragraph",
-        "text": "JIS Q 27002:2014（情報セキュリティ管理策の実践のための規範）との整合性をとっている。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 情報セキュリティ対策は，“管理策基準”に挙げられた管理策の中から選択することとしている。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ トップマネジメントは，“マネジメント基準”に挙げられている事項の中から，自組織に合致する事項を選択して実施することとしている。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 1,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問1",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -66,13 +47,10 @@
   },
   {
     "id": "sg-2023-public-02",
-    "year": 2023,
-    "number": 2,
-    "era": "cbt",
+    "familyId": "sg-2023-public-02",
     "subject": "A",
     "topic": "technology",
     "pool": "study",
-    "prompt": "入室時と退室時に ID カードを用いて認証を行い，入退室を管理する。このとき，入室時の認証に用いられなかった ID カードでの退室を許可しない，又は退室時の認証に用いられなかった ID カードでの再入室を許可しないコントロールを行う仕組みはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -97,25 +75,13 @@
       {
         "type": "paragraph",
         "text": "入室時と退室時に ID カードを用いて認証を行い，入退室を管理する。このとき，入室時の認証に用いられなかった ID カードでの退室を許可しない，又は退室時の認証に用いられなかった ID カードでの再入室を許可しないコントロールを行う仕組みはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア TPMOR（Two Person Minimum Occupancy Rule）"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ アンチパスバック"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ インターロックゲート"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ パニックオープン"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 2,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問2",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -127,13 +93,10 @@
   },
   {
     "id": "sg-2023-public-03",
-    "year": 2023,
-    "number": 3,
-    "era": "cbt",
+    "familyId": "forensics",
     "subject": "A",
     "topic": "operations",
     "pool": "study",
-    "prompt": "デジタルフォレンジックスの説明はどれか。",
     "choices": [
       {
         "key": "ア",
@@ -158,25 +121,13 @@
       {
         "type": "paragraph",
         "text": "デジタルフォレンジックスの説明はどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア サイバー攻撃に関連する脅威情報を標準化された方法で記述し，その脅威情報をセキュリティ対策機器に提供すること"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 受信メールに添付された実行ファイルを動作させたときに，不正な振る舞いがないかどうかをメールボックスへの保存前に確認すること"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 情報セキュリティインシデント発生時に，法的な証拠となるデータを収集し，保管し，調査分析すること"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ 内部ネットワークにおいて，通信データを盗聴されないように暗号化すること"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 3,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問3",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -188,13 +139,10 @@
   },
   {
     "id": "sg-2023-public-04",
-    "year": 2023,
-    "number": 4,
-    "era": "cbt",
+    "familyId": "sg-2023-public-04",
     "subject": "A",
     "topic": "technology",
     "pool": "study",
-    "prompt": "暗号方式に関する記述のうち，適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -219,25 +167,13 @@
       {
         "type": "paragraph",
         "text": "暗号方式に関する記述のうち，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 公開鍵暗号方式，共通鍵暗号方式ともに，大きな合成数の素因数分解が困難であることが安全性の根拠である。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 公開鍵暗号方式では原則としてセッションごとに異なる鍵を利用するが，共通鍵暗号方式では一度生成した鍵を複数のセッションに繰り返し利用する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 公開鍵暗号方式は仕様が標準化されているが，共通鍵暗号方式はベンダーによる独自の仕様で実装されることが一般的である。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ 大量のデータを短い時間で暗号化する場合には，公開鍵暗号方式よりも共通鍵暗号方式が適している。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 4,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問4",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -249,13 +185,10 @@
   },
   {
     "id": "sg-2023-public-05",
-    "year": 2023,
-    "number": 5,
-    "era": "cbt",
+    "familyId": "sg-2023-public-05",
     "subject": "A",
     "topic": "technology",
     "pool": "study",
-    "prompt": "セキュアハッシュ関数SHA-256を用いてファイルA及びファイルBのハッシュ値を算出すると，どちらも全く同じ次に示すハッシュ値 n（16 進数で示すと 64 桁）となった。この結果から考えられることとして，適切なものはどれか。ハッシュ値n：86620f2f 152524d7 dbed4bcb b8119bb6 d493f734 0b4e7661 88565353 9e6d2074",
     "choices": [
       {
         "key": "ア",
@@ -279,30 +212,14 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "セキュアハッシュ関数SHA-256を用いてファイルA及びファイルBのハッシュ値を算出すると，どちらも全く同じ次に示すハッシュ値 n（16 進数で示すと 64 桁）となった。この結果から考えられることとして，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ハッシュ値n：86620f2f 152524d7 dbed4bcb b8119bb6 d493f734 0b4e7661 88565353 9e6d2074"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア ファイルAとファイルBの各内容を変更せずに再度ハッシュ値を算出すると，ファイルAとファイルBのハッシュ値が異なる。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ ファイルAとファイルBのハッシュ値nのデータ量は64バイトである。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ ファイル A とファイル B を連結させたファイル C のハッシュ値の桁数は 16 進数で示すと128桁である。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ ファイルAの内容とファイルBの内容は同じである。"
+        "text": "セキュアハッシュ関数SHA-256を用いてファイルA及びファイルBのハッシュ値を算出すると，どちらも全く同じ次に示すハッシュ値 n（16 進数で示すと 64 桁）となった。この結果から考えられることとして，適切なものはどれか。ハッシュ値n：86620f2f 152524d7 dbed4bcb b8119bb6 d493f734 0b4e7661 88565353 9e6d2074"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 5,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問5",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -314,13 +231,10 @@
   },
   {
     "id": "sg-2023-public-06",
-    "year": 2023,
-    "number": 6,
-    "era": "cbt",
+    "familyId": "spf",
     "subject": "A",
     "topic": "technology",
     "pool": "study",
-    "prompt": "迷惑メール対策のSPF（Sender Policy Framework）の仕組みはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -345,25 +259,13 @@
       {
         "type": "paragraph",
         "text": "迷惑メール対策のSPF（Sender Policy Framework）の仕組みはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 送信側ドメインの管理者が，正規の送信側メールサーバの IP アドレスを DNS に登録し，受信側メールサーバでそれを参照して，IPアドレスの判定を行う。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 送信側メールサーバでメッセージにデジタル署名を施し，受信側メールサーバでそのデジタル署名を検証する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 第三者によって提供されている，スパムメールの送信元 IP アドレスのデータベースを参照して，スパムメールの判定を行う。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ ファイアウォールを通過した要求パケットに対する応答パケットかどうかを判断して，動的に迷惑メールの通信を制御する。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 6,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問6",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -375,13 +277,10 @@
   },
   {
     "id": "sg-2023-public-07",
-    "year": 2023,
-    "number": 7,
-    "era": "cbt",
+    "familyId": "sg-2023-public-07",
     "subject": "A",
     "topic": "threats",
     "pool": "study",
-    "prompt": "Web アプリケーションにおけるセキュリティ上の脅威とその対策に関する記述のうち，適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -406,25 +305,13 @@
       {
         "type": "paragraph",
         "text": "Web アプリケーションにおけるセキュリティ上の脅威とその対策に関する記述のうち，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア OSコマンドインジェクションを防ぐために，Webアプリケーションが発行するセッションIDに推測困難な乱数を使用する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ SQL インジェクションを防ぐために，Web アプリケーション内でデータベースへの問合せを作成する際にプレースホルダを使用する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ クロスサイトスクリプティングを防ぐために，Web サーバ内のファイルを外部から直接参照できないようにする。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ セッションハイジャックを防ぐために，Web アプリケーションからシェルを起動できないようにする。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 7,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問7",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -436,13 +323,10 @@
   },
   {
     "id": "sg-2023-public-08",
-    "year": 2023,
-    "number": 8,
-    "era": "cbt",
+    "familyId": "sg-2023-public-08",
     "subject": "A",
     "topic": "law",
     "pool": "study",
-    "prompt": "電子署名法に関する記述のうち，適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -467,25 +351,13 @@
       {
         "type": "paragraph",
         "text": "電子署名法に関する記述のうち，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 電子署名には，電磁的記録ではなく，かつ，コンピュータで処理できないものも含まれる。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 電子署名には，民事訴訟法における押印と同様の効力が認められる。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 電子署名の認証業務を行うことができるのは，政府が運営する認証局に限られる。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ 電子署名は共通鍵暗号技術によるものに限られる。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 8,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問8",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -497,13 +369,10 @@
   },
   {
     "id": "sg-2023-public-09",
-    "year": 2023,
-    "number": 9,
-    "era": "cbt",
+    "familyId": "sg-2023-public-09",
     "subject": "A",
     "topic": "operations",
     "pool": "study",
-    "prompt": "情報システムのインシデント管理に対する監査で判明した状況のうち，監査人が，指摘事項として監査報告書に記載すべきものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -528,25 +397,13 @@
       {
         "type": "paragraph",
         "text": "情報システムのインシデント管理に対する監査で判明した状況のうち，監査人が，指摘事項として監査報告書に記載すべきものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア インシデント対応手順が作成され，関係者への周知が図られている。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ インシデントによってデータベースが被害を受けた場合の影響を最小にするために，規程に従ってデータのバックアップをとっている。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ インシデントの種類や発生箇所，影響度合いに関係なく，連絡・報告ルートが共通になっている。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ 全てのインシデントについて，インシデント記録を残し，責任者の承認を得ることが定められている。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 9,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問9",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -558,13 +415,10 @@
   },
   {
     "id": "sg-2023-public-10",
-    "year": 2023,
-    "number": 10,
-    "era": "cbt",
+    "familyId": "sg-2023-public-10",
     "subject": "A",
     "topic": "it",
     "pool": "study",
-    "prompt": "HTTPのcookieに関する記述のうち，適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -589,25 +443,13 @@
       {
         "type": "paragraph",
         "text": "HTTPのcookieに関する記述のうち，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア cookieに含まれる情報はHTTPヘッダの一部として送信される。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ cookieに含まれる情報はWebサーバだけに保存される。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ cookieに含まれる情報はWebブラウザが全て暗号化して送信する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ クライアントがcookieに含まれる情報の有効期限を設定する。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 10,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問10",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -619,13 +461,10 @@
   },
   {
     "id": "sg-2023-public-11",
-    "year": 2023,
-    "number": 11,
-    "era": "cbt",
+    "familyId": "sg-2023-public-11",
     "subject": "A",
     "topic": "it",
     "pool": "study",
-    "prompt": "BPMの説明はどれか。",
     "choices": [
       {
         "key": "ア",
@@ -650,25 +489,13 @@
       {
         "type": "paragraph",
         "text": "BPMの説明はどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 企業活動の主となる生産，物流，販売，財務，人事などの業務の情報を一元管理することによって，経営資源の全体最適を実現する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 業務プロセスに分析，設計，実行，改善のマネジメントサイクルを取り入れ，業務プロセスの改善見直しや最適なプロセスへの統合を継続的に実施する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 顧客データベースを基に，商品の販売から保守サービス，問合せやクレームへの対応など顧客に関する業務プロセスを一貫して管理する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ 部品の供給から製品の販売までの一連の業務プロセスの情報をリアルタイムで交換することによって，在庫の削減とリードタイムの短縮を実現する。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 11,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問11",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -680,13 +507,10 @@
   },
   {
     "id": "sg-2023-public-12",
-    "year": 2023,
-    "number": 12,
-    "era": "cbt",
+    "familyId": "cause-effect-diagram",
     "subject": "A",
     "topic": "it",
     "pool": "study",
-    "prompt": "品質管理において，結果と原因との関連を整理して，魚の骨のような図にまとめたものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -711,13 +535,13 @@
       {
         "type": "paragraph",
         "text": "品質管理において，結果と原因との関連を整理して，魚の骨のような図にまとめたものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 管理図 イ 特性要因図 ウ パレート図 エ ヒストグラム"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 12,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問12",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -729,13 +553,10 @@
   },
   {
     "id": "sg-2023-public-13",
-    "year": 2023,
-    "number": 13,
-    "era": "cbt",
+    "familyId": "risk-assessment-case",
     "subject": "B",
     "topic": "management",
     "pool": "study",
-    "prompt": "A 社は，分析・計測機器などの販売及び機器を利用した試料の分析受託業務を行う分析機器メーカーである。A 社では，図 1 の“情報セキュリティリスクアセスメント手順”に従い，年一度，情報セキュリティリスクアセスメントを行っている。・情報資産の機密性，完全性，可用性の評価値は，それぞれ0〜2の3段階とする。・情報資産の機密性，完全性，可用性の評価値の最大値を，その情報資産の重要度とする。・脅威及び脆弱性の評価値は，それぞれ0〜2の3段階とする。・情報資産ごとに，様々な脅威に対するリスク値を算出し，その最大値を当該情報資産のリスク値として情報資産管理台帳に記載する。ここで，情報資産の脅威ごとのリスク値は，次の式によって算出する。リスク値＝情報資産の重要度×脅威の評価値×脆弱性の評価値・情報資産のリスク値のしきい値を5とする。・情報資産ごとのリスク値がしきい値以下であれば受容可能なリスクとする。・情報資産ごとのリスク値がしきい値を超えた場合は，保有以外のリスク対応を行う図1 情報セキュリティリスクアセスメント手順A 社の情報セキュリティリーダーである B さんは，年次の情報セキュリティリスクアセスメントを行い，結果を情報資産管理台帳に表1のとおり記載した。表1 A社の情報資産管理台帳（抜粋）機 完 可 情 脅 脆 リ密 全 用 報 威 弱 ス性 性 性 資 の 性 クの の の 産 評 の 値情報資産評 評 評 の 価 評価 価 価 重 値 価値 値 値 要 値度（ （省 省(一) 従業員の健康診断の情報 2 2 2 2 2略 略） ）（ （省 省(二) 行動規範などの社内ルール 1 2 1 1 1略 略） ）（ （(三) 自社 Web サイトに掲載して 省 省0 2 2 2 2いる会社情報 略 略） ）（ （(四) 分析結果の精度を向上させ 省 省2 2 1 2 1るために開発した技術 略 略） ）設問 表1中の各情報資産のうち，保有以外のリスク対応を行うべきものはどれか。該当するものだけを全て挙げた組合せを，解答群の中から選べ。解答群",
     "choices": [
       {
         "key": "ア",
@@ -1067,6 +888,10 @@
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 13,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問13",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -1079,13 +904,10 @@
   },
   {
     "id": "sg-2023-public-14",
-    "year": 2023,
-    "number": 14,
-    "era": "cbt",
+    "familyId": "backup-policy-case",
     "subject": "B",
     "topic": "operations",
     "pool": "study",
-    "prompt": "A 社は旅行商品を販売しており，業務の中で顧客情報を取り扱っている。A 社が保有する顧客情報は，A 社のファイルサーバ 1 台に保存されている。ファイルサーバは，顧客情報を含むフォルダにある全てのデータを磁気テープに毎週土曜日にバックアップするよう設定されている。バックアップは2世代分が保存され，ファイルサーバの隣にあるキャビネットに保管されている。A 社では年に一度，情報セキュリティに関するリスクの見直しを実施している。情報セキュリティリーダーである E 主任は，A 社のデータ保管に関するリスクを見直して図1にまとめた。1. （省略）2. （省略）3. （省略）4. バックアップ対象とするフォルダの設定ミスによって，データが復旧できなくなる。図1 A社のデータ保管に関するリスク（抜粋）E 主任は，図 1 の4 のリスクを低減するための対策を検討し，効果が期待できるものを選んだ。設問 次の対策のうち，効果が期待できるものを二つ挙げた組合せを，解答群の中から選べ。(一) 週1回バックアップを取得する代わりに，毎日1回バックアップを取得して7世代分保存する。(二) バックアップ後に，磁気テープ中のファイルのリストと，ファイルサーバのバックアップ対象ファイルのリストとを比較し，合致しているかを確認する。(三) バックアップ対象とするフォルダの設定を，必ず2名で行うようにする。(四) バックアップ用の媒体を磁気テープから外付けハードディスクに変更する。(五) バックアップを二組み取得し，うち一組みを遠隔地に保管する。解答群",
     "choices": [
       {
         "key": "ア",
@@ -1202,6 +1024,10 @@
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 14,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問14",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
@@ -1214,13 +1040,10 @@
   },
   {
     "id": "sg-2023-public-15",
-    "year": 2023,
-    "number": 15,
-    "era": "cbt",
+    "familyId": "sg-2023-public-15",
     "subject": "B",
     "topic": "threats",
     "pool": "study",
-    "prompt": "消費者向けの化粧品販売を行うA社では，電子メール（以下，メールという）の送受信にクラウドサービスプロバイダ B 社が提供するメールサービス（以下，B サービスという）を利用している。A 社が利用する B サービスのアカウントは，A 社の情報システム部が管理している。〔Bサービスでの認証〕B サービスでの認証は，利用者 ID とパスワードに加え，あらかじめ登録しておいたスマートフォンの認証アプリを利用した 2 要素認証である。入力された利用者 IDとパスワードが正しかったときは，スマートフォンに承認のリクエストが来る。リクエストを1分以内に承認した場合は，Bサービスにログインできる。〔社外のネットワークからの利用〕社外のネットワークから社内システム又はファイルサーバを利用する場合，従業員は貸与されたPCから社内ネットワークにVPN接続する。〔PCでのマルウェア対策〕従業員に貸与された PC には，マルウェア対策ソフトが導入されており，マルウェア定義ファイルを毎日 16 時に更新するように設定されている。マルウェア対策ソフトは，毎日17時に，各PCのマルウェア定義ファイルが更新されたかどうかをチェックし，更新されていない場合は情報システム部のセキュリティ担当者に更新されていないことをメールで知らせる。〔メールに関する報告〕ある日の 15 時頃，販売促進部の情報セキュリティリーダーである C 課長は，在宅で勤務していた部下のDさんから，メールに関する報告を受けた。報告を図1に示す。・販売促進キャンペーンを委託しているE社のFさんから9時30分にメールが届いた。・Fさんとは直接会ったことがある。この数か月頻繁にやり取りもしていた。・そのメールは，これまでのメールに返信する形で作成されており，メールの本文には販売キャンペーンの内容やFさんがよく利用する挨拶文が記載されていた。・急ぎの対応を求める旨が記載されていたので，メールに添付されていたファイルを開いた。・メールの添付ファイルを開いた際，特に見慣れないエラーなどは発生せず，ファイルの内容も閲覧できた。・ファイルの内容を確認した後，返信した。・11 時頃，D さんのスマートフォンに，承認のリクエストが来たが，B サービスにログインしようとしたタイミングではなかったので，リクエストを承認しなかった。・12時までと急いでいた割にその後の返信がなく不審に思ったので，14時50分にFさんに電話で確認したところ，今日はメールを送っていないと言われた。・現在までのところ，PC の処理速度が遅くなったり，見慣れないウィンドウが表示されたりするなどの不具合や不審な事象は発生していない。・現在，PC は，インターネットには接続しているが，社内ネットワークへの VPN 接続は切断している。・Dさんはすぐに会社に向かうことは可能で，Dさんの自宅から会社までは1時間掛かる。図1 Dさんからの報告C 課長は，すぐに PC を会社に持参し，オフラインでマルウェア対策ソフトの定義ファイルを最新版に更新した後，フルスキャンを実施するよう，D さんに指示をした。スキャンを実行した結果，D さんの PC からマルウェアが検出された。このマルウェアは，マルウェア対策ソフトのベンダーが9時に公開した最新の定義ファイルで検出可能であることが判明した。A 社では，今回のマルウェア感染による情報セキュリティインシデントの問題点を整理し，再発を防止するための対策を講じることにした。設問 A社が講じることにした対策はどれか。解答群のうち，最も適切なものを選べ。解答群",
     "choices": [
       {
         "key": "ア",
@@ -1344,6 +1167,10 @@
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2023,
+      "number": 15,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2023年度 公開問題 問15",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",

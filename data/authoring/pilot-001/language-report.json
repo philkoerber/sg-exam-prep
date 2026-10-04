@@ -1,0 +1,646 @@
+{
+  "baseline": "120 official questions, rendered body and choices; no generated text",
+  "method": "Node Intl.Segmenter ja; token overlap is a screening measure, not a proficiency or grammar score. Numbers, Latin-only tokens and punctuation excluded; inflections are not lemmatized.",
+  "minimumWordCoverage": 0.9,
+  "minimumKanjiCoverage": 0.98,
+  "kanjiTarget": 0.99,
+  "note": "All unfamiliar words/kanji require review; the 98% per-question floor allows necessary technical terms. Target overall kanji overlap is at least 99%.",
+  "questions": [
+    {
+      "questionId": "sg-generated-pilot-001",
+      "contentHash": "b7923ead770612fc716df2f147c4f9ba12c1b306d0a0d273e5558c93ddfe7976",
+      "characters": 179,
+      "wordCoverage": 0.9565217391304348,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "以後",
+        "外す",
+        "得て",
+        "許容"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-002",
+      "contentHash": "07c850df1e0520ba54e1ba4b821fcce4e7b33acab5c5f86f157dfe41e150214c",
+      "characters": 124,
+      "wordCoverage": 0.9803921568627451,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "このように"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-003",
+      "contentHash": "4a92a743df36c3850f668844b0d78d3c14bb9ee36019eecabc3dff04ec2e4b7f",
+      "characters": 132,
+      "wordCoverage": 0.9487179487179487,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "やす",
+        "人数",
+        "損失",
+        "見直す"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-004",
+      "contentHash": "b6a1fe216259a3d110cead8c882be0c83261e2f5028ac5a79639e4a38b008cb1",
+      "characters": 117,
+      "wordCoverage": 0.9384615384615385,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "人事異動",
+        "漏れ",
+        "調べ"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-005",
+      "contentHash": "fd3f790befb50669a267502bc0348946d7a7a36a65023d707bef8670d4c7fa6e",
+      "characters": 100,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-006",
+      "contentHash": "acdcb8f43ce84a1e2973cfe7f98d1271e7c6d46a49b4740520ced1efcc042536",
+      "characters": 176,
+      "wordCoverage": 0.9888888888888889,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "リモート"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-007",
+      "contentHash": "b9296d02e2a7f600b2df91876ca2279b09ca7a4a6ede11e122aadecf9ee2f82c",
+      "characters": 128,
+      "wordCoverage": 0.9464285714285714,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "ほしい",
+        "名乗る",
+        "教え"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-008",
+      "contentHash": "ec7e6fdececef1b6a882175c9f602874fe8269dcd8ea628cab28fcc38fc36fea",
+      "characters": 130,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-009",
+      "contentHash": "418742bcbd11824ffe9d9e0526c89673bf0c654abe1ed1265353e617986ad801",
+      "characters": 140,
+      "wordCoverage": 0.9516129032258065,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "そのまま",
+        "組"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-010",
+      "contentHash": "d23c8a19a9adecc2406f2e1ad6ac08d06c11a155ce8b3c32cd714843a32ad3a4",
+      "characters": 199,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-011",
+      "contentHash": "d0a45d2583bba5379c52380c9cd787e3f08b12e95bf77f2c1844eb0e292df501",
+      "characters": 115,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-012",
+      "contentHash": "61ff7005f7d6bd922e68233fb7f77fb61c3ef346a419b4f5ff9ddec3b76e688c",
+      "characters": 184,
+      "wordCoverage": 0.967032967032967,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "備える",
+        "受け取り",
+        "身元"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-013",
+      "contentHash": "d807605509df16472e3c06e26e147208510868c4ea3da8d4049db7dc4f19a5d1",
+      "characters": 74,
+      "wordCoverage": 0.9230769230769231,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "推定",
+        "調べ",
+        "静的"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-014",
+      "contentHash": "8df51e7567fd02ab1b76082e55dfe7e9c0bfaaf165348fc930779b6e31470985",
+      "characters": 80,
+      "wordCoverage": 0.972972972972973,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "使う"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-015",
+      "contentHash": "02d05660f471d9e4bdc4d4f2309dccb52cf2fb41778e9960dd2f8f8c767a7668",
+      "characters": 166,
+      "wordCoverage": 0.9801980198019802,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "読める",
+        "送る"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-016",
+      "contentHash": "7bb9697bf8197395ac7d752af5ebbe2d6944d918cd1c40e682de3439a64c4aed",
+      "characters": 152,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-017",
+      "contentHash": "33ca9f5fc5c2f8eae227248e681679c8407455d7b652185d378757d3ea93747e",
+      "characters": 118,
+      "wordCoverage": 0.9830508474576272,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "二者"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-018",
+      "contentHash": "cf8375af96a1db7aef37477422e1e853fe03034f2a30b117efa847d32f6f4827",
+      "characters": 142,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-019",
+      "contentHash": "b9095ef08403700e89bde6b13facffa0c8a3f3a4be51616f25a7ee642b1bcf68",
+      "characters": 152,
+      "wordCoverage": 0.9493670886075949,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "所持",
+        "答え"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-020",
+      "contentHash": "bc4d7760bccd27707e6de973245c9c76f12e28196de173a0f6a8f527b0e75482",
+      "characters": 174,
+      "wordCoverage": 0.9764705882352941,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "全員",
+        "示"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-021",
+      "contentHash": "e5fc23989652c7e738cc0e2e48740ca350a436c17d8dc0051d8d8ce294bd3e78",
+      "characters": 138,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-022",
+      "contentHash": "1f31f4c2f31ccf0b8b27d54f660cf247b523dcec3bd49934778fd21a3bc09535",
+      "characters": 96,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-023",
+      "contentHash": "3142ecf288c7b15fb94d14155ee37d1b304827eb8bf50343a1c1abae3286f574",
+      "characters": 161,
+      "wordCoverage": 0.9655172413793104,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "任意",
+        "後で",
+        "戻す"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-024",
+      "contentHash": "c9b4f9061177c449df7f5b4372cdccc0ae97a252ef547fc8f16c9b635f705a75",
+      "characters": 166,
+      "wordCoverage": 0.9318181818181819,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "たら",
+        "つけ",
+        "不一致",
+        "日常",
+        "書き換える"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-025",
+      "contentHash": "bf9697b7f7790c69b9f66e3fe8c87cadac657bbc81d730c9e7f442094d3905be",
+      "characters": 149,
+      "wordCoverage": 0.9411764705882353,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "ぎ",
+        "反省",
+        "増やす",
+        "間違い",
+        "防"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-026",
+      "contentHash": "86fbd7168b5d68bde0d7ddba5fcb9ac28a6f160c68c9326f5dc82509646fe151",
+      "characters": 139,
+      "wordCoverage": 0.9384615384615385,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "台数",
+        "平文",
+        "空調設備",
+        "面積"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-027",
+      "contentHash": "05fed855325dff0ad0999f0e678f97f75c9278ec2bda93ea1e5c5fb6b8517f0e",
+      "characters": 100,
+      "wordCoverage": 0.9767441860465116,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "集め"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-028",
+      "contentHash": "c14818e5f8d603339cac5772a2667c89a76b69568405aebe863fa71e188e7746",
+      "characters": 208,
+      "wordCoverage": 0.954954954954955,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "前回",
+        "年度",
+        "破棄",
+        "調べ"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-029",
+      "contentHash": "9754808dc94f041e8d40cfbd0742f4769eb3b07ff08d8348dcf4e4b83d46618e",
+      "characters": 133,
+      "wordCoverage": 0.9846153846153847,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "切り替える"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-030",
+      "contentHash": "e3fea8e773a0b6209b920227db818ce2b36371c4462d4bc5667ad995b5d86645",
+      "characters": 180,
+      "wordCoverage": 0.979381443298969,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "代表",
+        "合計"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-031",
+      "contentHash": "fb2f69d1eb16adbaab810394c01ed206c82a1d1362729d3b354e4e6e2c09417c",
+      "characters": 214,
+      "wordCoverage": 0.9565217391304348,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "同意",
+        "最初",
+        "法令",
+        "無視"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-032",
+      "contentHash": "5517ea45cc8e59ce52cc50f6cb4d21571409f32bf0441d21d8891c8b08a1fa19",
+      "characters": 171,
+      "wordCoverage": 0.9680851063829787,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "別段",
+        "発意",
+        "職務"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-033",
+      "contentHash": "87df08d9e5d6495f47179c46e3128fde88383c40476e6f5da32f84bf3a38f1b5",
+      "characters": 199,
+      "wordCoverage": 0.9716981132075472,
+      "kanjiCoverage": 0.9886363636363636,
+      "novelWords": [
+        "基づく",
+        "監督",
+        "結"
+      ],
+      "novelKanji": [
+        "督"
+      ]
+    },
+    {
+      "questionId": "sg-generated-pilot-034",
+      "contentHash": "3deb31f64b6fc111371957f35491c6006ea8cf6cbc091f0738937a66a2eab2ab",
+      "characters": 159,
+      "wordCoverage": 0.9493670886075949,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "並べる",
+        "全員",
+        "分解"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-035",
+      "contentHash": "5e5c42b2f38da58226ee7e93c0cbe6f8bb429efffe35ba13da372708439591c4",
+      "characters": 71,
+      "wordCoverage": 0.9714285714285714,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "最短"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-036",
+      "contentHash": "3b7f0a700765b7eb359cc7f60c693f0ba29a5488fe0dec474505d7f7dc421d62",
+      "characters": 99,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-037",
+      "contentHash": "3cb44fb9db3cd99c6bfcf2eeff7cad0c2ebed6c420e0d85377551ecc14b15441",
+      "characters": 84,
+      "wordCoverage": 0.9736842105263158,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "毎月"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-038",
+      "contentHash": "608bfb61addd2e0f8174c2d78d73f78ac147af67c90124afd07aa91a98b2d844",
+      "characters": 135,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-039",
+      "contentHash": "0fd9b049ed6c43960b7652d606faa67e9f3b7e24857fc37008cb54392f67b2fb",
+      "characters": 144,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-040",
+      "contentHash": "94a0d7d9b80be9c24a2e0689186b50be376a478be9efc79c200c83a1513c18e3",
+      "characters": 119,
+      "wordCoverage": 0.9454545454545454,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "仕入れ",
+        "返品"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-041",
+      "contentHash": "1a7a8270e50b66182f66f55364fffc27b56800225573152f023cb50cf856054d",
+      "characters": 713,
+      "wordCoverage": 0.9741379310344828,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "引き起こす",
+        "待つ",
+        "料金",
+        "日常",
+        "止まる",
+        "生じる",
+        "翌",
+        "過ぎる"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-042",
+      "contentHash": "18aea80fb47c4544d4530e46e70da284ff4226fba532991cdde22370333c12c4",
+      "characters": 690,
+      "wordCoverage": 0.9690402476780186,
+      "kanjiCoverage": 0.9931506849315068,
+      "novelWords": [
+        "さく",
+        "ほど",
+        "危険",
+        "反映",
+        "小",
+        "従来",
+        "更に",
+        "未満",
+        "見直す",
+        "選び"
+      ],
+      "novelKanji": [
+        "危",
+        "未"
+      ]
+    },
+    {
+      "questionId": "sg-generated-pilot-043",
+      "contentHash": "817e5d6a9f4c5c3a5b3997c613704c659db135852be6582378add8b52b8ac015",
+      "characters": 698,
+      "wordCoverage": 0.9621621621621621,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "いと",
+        "不備",
+        "全員",
+        "年度",
+        "当月",
+        "過年度"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-044",
+      "contentHash": "590fa5194ed4d2e907a79bbb23fb7c911567d3ddd73f272ba5f3c3d19b6e7c1a",
+      "characters": 778,
+      "wordCoverage": 0.9725274725274725,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "他者",
+        "保つ",
+        "取り扱い",
+        "同居",
+        "場所",
+        "見直す",
+        "認める",
+        "調べ"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-045",
+      "contentHash": "1e27c9b2c725d73300939b541c9c2b5eb4c7c8695f8d18aa2603b2eb1fa0a74e",
+      "characters": 711,
+      "wordCoverage": 0.9815384615384616,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "べた",
+        "場所",
+        "直前",
+        "直近"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-046",
+      "contentHash": "b445c7b24ce4606364b19712f79e5b9bc7ce4a448b495b72d994ce20aee3c90e",
+      "characters": 726,
+      "wordCoverage": 0.9770773638968482,
+      "kanjiCoverage": 0.9915611814345991,
+      "novelWords": [
+        "ログアウト",
+        "他者",
+        "以後",
+        "否定",
+        "既に",
+        "紛失"
+      ],
+      "novelKanji": [
+        "紛"
+      ]
+    },
+    {
+      "questionId": "sg-generated-pilot-047",
+      "contentHash": "cb25b573697702494e553e6356e03e056e44c5006c22e1108e939980847100cf",
+      "characters": 666,
+      "wordCoverage": 0.9826589595375722,
+      "kanjiCoverage": 0.9966101694915255,
+      "novelWords": [
+        "いと",
+        "分離",
+        "店舗",
+        "日常",
+        "読む"
+      ],
+      "novelKanji": [
+        "舗"
+      ]
+    },
+    {
+      "questionId": "sg-generated-pilot-048",
+      "contentHash": "026e54545ced6ce9688c1bcc6b8e788e2888fe771b2027e6f5ee1c7fbb61a417",
+      "characters": 712,
+      "wordCoverage": 0.953757225433526,
+      "kanjiCoverage": 0.9964664310954063,
+      "novelWords": [
+        "とも",
+        "今月",
+        "先月",
+        "公表",
+        "否",
+        "未確認",
+        "来週",
+        "直後",
+        "要"
+      ],
+      "novelKanji": [
+        "未"
+      ]
+    },
+    {
+      "questionId": "sg-generated-pilot-049",
+      "contentHash": "d063cf625d88c3db74b1a0cc77b838baf39497b3e17deb57406c4cbd422035a0",
+      "characters": 706,
+      "wordCoverage": 0.9917127071823204,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "下げ",
+        "並べる",
+        "加える"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-pilot-050",
+      "contentHash": "9750ead9ce4c0ba9feecc58adb25ee726dc31a2c5c9f81d2103bb041fe3e51bd",
+      "characters": 759,
+      "wordCoverage": 0.9884057971014493,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "時には",
+        "知る",
+        "過ぎる"
+      ],
+      "novelKanji": []
+    }
+  ]
+}

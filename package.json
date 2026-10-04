@@ -7,14 +7,16 @@
   },
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
-    "build": "next build",
+    "build": "npm run corpus:validate && next build",
     "start": "node scripts/serve.mjs",
     "corpus:validate": "tsx scripts/validate-corpus.ts",
     "jpdb:export": "tsx scripts/jpdb-export.ts",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "test": "tsx --test tests/*.test.ts",
-    "test:e2e": "tsx tests/render-content.tsx && playwright test"
+    "test:e2e": "tsx tests/render-content.tsx && playwright test",
+    "corpus:review": "tsx scripts/review-pilot.ts",
+    "corpus:publish": "tsx scripts/publish-pilot.ts"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",

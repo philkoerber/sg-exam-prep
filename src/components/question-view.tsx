@@ -3,6 +3,12 @@ import { Check, X, ExternalLink } from "lucide-react";
 import type { Question } from "@/lib/corpus/schema";
 import { topicCopy } from "@/lib/corpus/topics";
 import { useLanguage } from "./language";
+import {
+  choiceText,
+  questionBlocks,
+  questionLabel,
+  questionPrompt,
+} from "@/lib/corpus/content";
 import { QuestionContent } from "./question-content";
 
 export function QuestionView({
@@ -21,30 +27,32 @@ export function QuestionView({
   const { language, text } = useLanguage();
   const copy = text.question;
   return (
-    <article className="question-card">
+    <article className="question-card" data-question-id={q.id}>
       <div className="question-tags">
         <span className="tag green">{topicCopy(q.topic, language).name}</span>
         <span className="tag">{text.subject(q.subject)}</span>
-        <span className="tag subtle">
-          {copy.year(q.year)}{" "}
-          {q.era === "sample"
-            ? copy.sample
-            : q.era === "legacy"
-              ? copy.legacy
-              : copy.public}
-        </span>
+        {q.source.kind === "official" && (
+          <span className="tag subtle">
+            {copy.year(q.source.year)}{" "}
+            {q.source.era === "sample"
+              ? copy.sample
+              : q.source.era === "legacy"
+                ? copy.legacy
+                : copy.public}
+          </span>
+        )}
       </div>
       {q.display === "text" ? (
         <h2 className="question-prompt" lang="ja">
-          {q.prompt}
+          {questionPrompt(q)}
         </h2>
       ) : (
         <div className="question-blocks">
-          {q.blocks.map((block, i) => (
+          {questionBlocks(q).map((block, i) => (
             <QuestionContent
               key={i}
               block={block}
-              label={`${q.source.label} · ${i + 1}`}
+              label={`${questionLabel(q)} · ${i + 1}`}
             />
           ))}
         </div>
@@ -78,7 +86,9 @@ export function QuestionView({
                 className="choice-text"
                 lang={q.display === "text" ? "ja" : undefined}
               >
-                {q.display === "text" ? choice.text : copy.select(choice.key)}
+                {q.display === "text"
+                  ? choiceText(choice)
+                  : copy.select(choice.key)}
               </span>
               {correct ? (
                 <Check
@@ -118,34 +128,36 @@ export function QuestionView({
               {q.display === "text" && (
                 <span lang="ja">
                   {" "}
-                  {q.choices.find((c) => c.key === q.answer)?.text}
+                  {choiceText(q.choices.find((c) => c.key === q.answer)!)}
                 </span>
               )}
             </p>
           </div>
         </div>
       )}
-      <div className="question-source">
-        <span>
-          {copy.source}
-          <span lang="ja">{q.source.label}</span>
-        </span>
-        <a
-          href={`${q.source.url}#page=${q.source.pages[0]}`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {copy.original}
-          <ExternalLink size={12} />
-        </a>
-        {revealed && (
-          <a href={q.source.answerUrl} target="_blank" rel="noreferrer">
-            {copy.officialAnswer}
+      {q.source.kind === "official" && (
+        <div className="question-source">
+          <span>
+            {copy.source}
+            <span lang="ja">{q.source.label}</span>
+          </span>
+          <a
+            href={`${q.source.url}#page=${q.source.pages[0]}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {copy.original}
             <ExternalLink size={12} />
           </a>
-        )}
-        <small>{copy.copyright}</small>
-      </div>
+          {revealed && (
+            <a href={q.source.answerUrl} target="_blank" rel="noreferrer">
+              {copy.officialAnswer}
+              <ExternalLink size={12} />
+            </a>
+          )}
+          <small>{copy.copyright}</small>
+        </div>
+      )}
     </article>
   );
 }

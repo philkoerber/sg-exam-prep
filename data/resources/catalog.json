@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ipa-sg-syllabus-4.1",
+    "title": "情報セキュリティマネジメント試験 シラバス Ver.4.1",
+    "url": "https://www.ipa.go.jp/shiken/syllabus/nl10bi0000007tch-att/syllabus_sg_ver4_1.pdf",
+    "file": "data/resources/ipa-sg-syllabus-4.1.pdf",
+    "sha256": "ef71631fd17ccfc5f3b6f31d3303f974b89c0674559c467d705e1081291fa354",
+    "retrieved": "2026-10-04"
+  },
+  {
+    "id": "ipa-sme-4.0",
+    "title": "中小企業の情報セキュリティ対策ガイドライン 第4.0版",
+    "url": "https://www.ipa.go.jp/security/guide/sme/ug65p90000019cbk-att/sme_guideline_v4.0.pdf",
+    "file": "data/resources/ipa-sme-4.0.pdf",
+    "sha256": "2db6bf3bc13335b4e322f5410a6ddf38a7d3f8ea8980adacb29ce72cbf601991",
+    "retrieved": "2026-10-04"
+  },
+  {
+    "id": "ipa-cloud-4.0",
+    "title": "中小企業のためのクラウドサービス安全利用の手引き 第4.0版付録7",
+    "url": "https://www.ipa.go.jp/security/guide/sme/ug65p90000019cbk-att/sme_guideline_v4.0_app_7.pdf",
+    "file": "data/resources/ipa-cloud-4.0.pdf",
+    "sha256": "72ca5e81f1d71a59de67829ba4a4cae3e2ea5fcfdd242c40fd3f7a1d7943bf23",
+    "retrieved": "2026-10-04"
+  },
+  {
+    "id": "ipa-incident-4.0",
+    "title": "中小企業のためのセキュリティインシデント対応の手引き 第4.0版付録8",
+    "url": "https://www.ipa.go.jp/security/guide/sme/ug65p90000019cbk-att/sme_guideline_v4.0_app_8.pdf",
+    "file": "data/resources/ipa-incident-4.0.pdf",
+    "sha256": "f1b5c95431193ecb474cdd758f9ebc6dbe23b2e555c40bda857a3716a61387dd",
+    "retrieved": "2026-10-04"
+  },
+  {
+    "id": "ppc-general",
+    "title": "個人情報保護法ガイドライン 通則編（令和8年6月一部改正）",
+    "url": "https://www.ppc.go.jp/files/pdf/260614_guidelines01.pdf",
+    "file": "data/resources/ppc-general.pdf",
+    "sha256": "0d8b670c90f2e26815b430234e3218a7220819bb7037b0a7116fe61225a76977",
+    "retrieved": "2026-10-04"
+  },
+  {
+    "id": "caa-email",
+    "title": "特定電子メール法のポイント（平成30年7月）",
+    "url": "https://www.caa.go.jp/policies/policy/consumer_transaction/specifed_email/pdf/specifed_email_180709_0001.pdf",
+    "file": "data/resources/caa-email.pdf",
+    "sha256": "4389b534526dd5e8f192cd5b06eaf5bf421cc2cf6d5b12177493c4a64ba57767",
+    "retrieved": "2026-10-04"
+  },
+  {
+    "id": "jp-copyright",
+    "title": "著作権法（e-Gov法令API取得時点）",
+    "url": "https://laws.e-gov.go.jp/api/1/lawdata/345AC0000000048",
+    "file": "data/resources/jp-copyright.xml",
+    "sha256": "175e7c3bda1de44a747713629b9ef613258ef2fca202438e70ad611b4a014169",
+    "retrieved": "2026-10-04"
+  }
+]

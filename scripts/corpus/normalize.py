@@ -10,7 +10,8 @@ from native_blocks import page_blocks, AUDIT
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCES = ROOT / "data/sources"
-OUT = ROOT / "data/questions"
+OUT = ROOT / "data/questions/official"
+FAMILIES = json.loads((ROOT / "data/authoring/families.json").read_text())
 KEYS = "アイウエオカキクケコサシスセソ"
 OVERRIDES = json.loads((ROOT / "data/topic-overrides.json").read_text())
 TOPICS = {
@@ -98,11 +99,11 @@ def normalize(source, manifest):
             blocks = [b for b in blocks if b.get("text") != "単位 千円 単位 千円"]
         label = f"情報セキュリティマネジメント試験 {year}年度 {'サンプル問題' if sample else '公開問題'} 問{number}"
         questions.append({
-            "id": qid, "year": year, "number": number, "era": "sample" if sample else "cbt", "subject": subject,
+            "id": qid, "familyId": FAMILIES.get(qid, qid), "subject": subject,
             "topic": OVERRIDES.get(qid, topic(prompt)), "pool": "benchmark" if year == 2026 else "study",
-            "prompt": prompt, "choices": choices, "answer": answers[number],
-            "display": "structured" if graphical or subject == "B" else "text", "blocks": blocks,
-            "source": {"label": label, "url": source["url"], "answerUrl": answer_source["url"], "file": name, "pages": page_numbers},
+            "choices": choices, "answer": answers[number],
+            "display": "structured" if graphical or subject == "B" else "text", "blocks": blocks if graphical or subject == "B" else [{"type":"paragraph", "text":prompt}],
+            "source": {"kind":"official", "year":year, "number":number, "era":"sample" if sample else "cbt", "label": label, "url": source["url"], "answerUrl": answer_source["url"], "file": name, "pages": page_numbers},
         })
     pdf.close()
     (OUT / f"{stem}.json").write_text(json.dumps(questions, ensure_ascii=False, indent=2) + "\n")

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s｜SG学習室",
   },
   description:
-    "日本語の公式問題で、分野別の練習と120分の模擬試験。登録不要、学習履歴の保存なし。",
+    "日本語の問題で、分野別の練習と120分の模擬試験。登録不要、学習履歴の保存なし。",
 };
 export default function RootLayout({
   children,

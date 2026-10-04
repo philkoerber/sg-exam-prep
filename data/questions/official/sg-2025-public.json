@@ -1,13 +1,10 @@
 [
   {
     "id": "sg-2025-public-01",
-    "year": 2025,
-    "number": 1,
-    "era": "cbt",
+    "familyId": "sg-2025-public-01",
     "subject": "A",
     "topic": "management",
     "pool": "study",
-    "prompt": "JIS Q 31000:2019（リスクマネジメント－指針）におけるリスクマネジメントプロセスに関する記述のうち，適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -32,25 +29,13 @@
       {
         "type": "paragraph",
         "text": "JIS Q 31000:2019（リスクマネジメント－指針）におけるリスクマネジメントプロセスに関する記述のうち，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア リスク対応の意義は，プロセスの設計，実施及び結末の質及び効果を保証し，改善することである。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ リスク特定の意義は，リスクに対処するための選択肢を選定し，実施することである。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ リスク評価の意義は，組織の目的の達成を助ける又は妨害する可能性のあるリスクを発見し，認識し，記述することである。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ リスク分析の意義は，必要に応じてリスクのレベルを含め，リスクの性質及び特徴を理解することである。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 1,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問1",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -62,13 +47,10 @@
   },
   {
     "id": "sg-2025-public-02",
-    "year": 2025,
-    "number": 2,
-    "era": "cbt",
+    "familyId": "sg-2025-public-02",
     "subject": "A",
     "topic": "operations",
     "pool": "study",
-    "prompt": "SIEM製品によるセキュリティ上の効果として，最も適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -93,25 +75,13 @@
       {
         "type": "paragraph",
         "text": "SIEM製品によるセキュリティ上の効果として，最も適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 様々な機器のログを集中管理することによって，横断的な分析や相関分析が可能になり，単純な目視だけでは発見困難な兆候を検知，分析，可視化することが可能になる。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 通信経路上を流れるパケットをキャプチャし，暗号化されたデータが改ざんされていないかどうかをチェックすることが可能になる。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ ファイアウォール，IDS，マルウェア対策といった複数のネットワークセキュリティ機能を一つの機器で実現することが可能になる。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ ファイルの改ざんを検知すると，事前に取得済みのバックアップを用いて直ちに修復することが可能になる。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 2,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問2",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -123,13 +93,10 @@
   },
   {
     "id": "sg-2025-public-03",
-    "year": 2025,
-    "number": 3,
-    "era": "cbt",
+    "familyId": "sg-2025-public-03",
     "subject": "A",
     "topic": "technology",
     "pool": "study",
-    "prompt": "ゼロトラストの説明として，最も適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -154,25 +121,13 @@
       {
         "type": "paragraph",
         "text": "ゼロトラストの説明として，最も適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 機器やソフトウェアの脆弱性のうち，開発元から対策方法，修正プログラムなどが提供されていない脆弱性が残っている状態のこと"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 内部ネットワークであっても必ずしも安全ではないことを前提として対策を講じる考え方のこと"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 秘密情報そのものは明かさずに，自分が秘密情報を知っていることを相手に知らせる方法のこと"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ マルウェア定義ファイルを用いず，PC の振る舞いからマルウェア感染を検知する手法のこと"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 3,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問3",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -184,13 +139,10 @@
   },
   {
     "id": "sg-2025-public-04",
-    "year": 2025,
-    "number": 4,
-    "era": "cbt",
+    "familyId": "sg-2025-public-04",
     "subject": "A",
     "topic": "management",
     "pool": "study",
-    "prompt": "不正が発生する際には“不正のトライアングル”の3要素全てが存在すると考えられている。“不正のトライアングル”の構成要素の説明として，適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -215,25 +167,13 @@
       {
         "type": "paragraph",
         "text": "不正が発生する際には“不正のトライアングル”の3要素全てが存在すると考えられている。“不正のトライアングル”の構成要素の説明として，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア “機会”とは，情報システムなどの技術や物理的な環境，組織のルールなど，内部者による不正行為の実行を可能又は容易にする環境の存在である。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ “情報と伝達”とは，必要な情報が識別，把握及び処理され，組織内外及び関係者相互に正しく伝えられるようにすることである。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ “正当化”とは，ノルマによるプレッシャなどのことである。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ “動機”とは，良心のかしゃくを乗り越える都合の良い解釈や他人への責任転嫁など，内部者が不正行為を自ら納得させるための自分勝手な理由付けである。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 4,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問4",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -245,13 +185,10 @@
   },
   {
     "id": "sg-2025-public-05",
-    "year": 2025,
-    "number": 5,
-    "era": "cbt",
+    "familyId": "sg-2025-public-05",
     "subject": "A",
     "topic": "threats",
     "pool": "study",
-    "prompt": "DNSキャッシュサーバでのDNSキャッシュポイズニング攻撃の対策はどれか。",
     "choices": [
       {
         "key": "ア",
@@ -276,25 +213,13 @@
       {
         "type": "paragraph",
         "text": "DNSキャッシュサーバでのDNSキャッシュポイズニング攻撃の対策はどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア DNSサービスの待ち受けポートを53番に固定する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 外部のDNSクライアントからの再帰的問合せを受け付けない設定にする。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 権威DNSサーバへの問合せに使用するトランザクションIDを固定する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ 権威DNSサーバへの非再帰的問合せを行う設定にする。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 5,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問5",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -306,13 +231,10 @@
   },
   {
     "id": "sg-2025-public-06",
-    "year": 2025,
-    "number": 6,
-    "era": "cbt",
+    "familyId": "sg-2025-public-06",
     "subject": "A",
     "topic": "threats",
     "pool": "study",
-    "prompt": "CVSSv3 について，基本評価基準，現状評価基準，環境評価基準のうち，現状評価基準の特徴はどれか。",
     "choices": [
       {
         "key": "ア",
@@ -337,25 +259,13 @@
       {
         "type": "paragraph",
         "text": "CVSSv3 について，基本評価基準，現状評価基準，環境評価基準のうち，現状評価基準の特徴はどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 攻撃コードの出現の有無，利用可能な対策のレベルなどに応じ，評価結果は時間の経過で変化する。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 脆弱性及び想定される脅威に応じ，製品利用者ごとに評価結果は異なる。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 製品利用者が脆弱性への対応を決めるための評価に用いる基準であり，評価結果は時間の経過で変化しない。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ 評価結果は利用環境によらず同じで，かつ，時間の経過でも変化しない。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 6,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問6",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -367,13 +277,10 @@
   },
   {
     "id": "sg-2025-public-07",
-    "year": 2025,
-    "number": 7,
-    "era": "cbt",
+    "familyId": "advertising-email",
     "subject": "A",
     "topic": "law",
     "pool": "study",
-    "prompt": "特定電子メール法の説明として，適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -398,25 +305,13 @@
       {
         "type": "paragraph",
         "text": "特定電子メール法の説明として，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 特定電子メール法は，広告のための電子メールの送信を受託した事業者だけを規制している。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 特定電子メール法の規制は，受信者から受信拒否の通知があった場合にだけ広告宣伝メールを禁止するオプトアウト方式を採用している。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 特定電子メール法の目的は，取引の公平の観点から広告宣伝メールを規制すること及び犯罪捜査のための通信傍受である。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ 特定電子メール法は，規制の対象となる電子メールの送信者及び送信委託者に対する義務を規定している。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 7,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問7",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -428,13 +323,10 @@
   },
   {
     "id": "sg-2025-public-08",
-    "year": 2025,
-    "number": 8,
-    "era": "cbt",
+    "familyId": "sg-2025-public-08",
     "subject": "A",
     "topic": "operations",
     "pool": "study",
-    "prompt": "情報セキュリティ違反を犯した従業員に対する懲戒手続を規定した就業規則を含む社内規程の内容について，情報セキュリティ管理基準（平成 28 年）に基づき監査を実施した。監査人が，指摘事項として監査報告書に記載すべきものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -459,25 +351,13 @@
       {
         "type": "paragraph",
         "text": "情報セキュリティ違反を犯した従業員に対する懲戒手続を規定した就業規則を含む社内規程の内容について，情報セキュリティ管理基準（平成 28 年）に基づき監査を実施した。監査人が，指摘事項として監査報告書に記載すべきものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア 従業員による情報セキュリティ違反の可能性を認識したら，直ちに懲戒手続を開始することを定めていた。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ 懲戒手続は，情報セキュリティ違反による業務への影響度，違反を犯した従業員に対する教育の実施状況などを考慮した段階別の対応を定めていた。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ 懲戒手続は，情報セキュリティ違反を犯した従業員に対する恣意性を排除した公平な取扱いを定めていた。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ 懲戒手続を具体化した細則を策定すること，及び従業員に周知徹底することを定めていた。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 8,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問8",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -489,13 +369,10 @@
   },
   {
     "id": "sg-2025-public-09",
-    "year": 2025,
-    "number": 9,
-    "era": "cbt",
+    "familyId": "sg-2025-public-09",
     "subject": "A",
     "topic": "it",
     "pool": "study",
-    "prompt": "サービス満足度の目標値を“サービス満足度に関する調査アンケートの満足度の平均点が5点満点中4.0点”と設定したサービスがある。調査アンケートの集計結果が表のとおりであるとき，目標達成率は幾らか。ここで，目標達成率は次式で計算するものとする。目標達成率 ＝ 満足度の平均点 ÷ 満足度の目標値〔集計結果〕満足度（点） 回答数5 50 4 250 3 150 2 50 1 0",
     "choices": [
       {
         "key": "ア",
@@ -617,6 +494,10 @@
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 9,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問9",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -628,13 +509,10 @@
   },
   {
     "id": "sg-2025-public-10",
-    "year": 2025,
-    "number": 10,
-    "era": "cbt",
+    "familyId": "sg-2025-public-10",
     "subject": "A",
     "topic": "operations",
     "pool": "study",
-    "prompt": "システムの信頼性指標であるRASISの，安全性を除く四つに関する記述のうち，適切なものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -659,25 +537,13 @@
       {
         "type": "paragraph",
         "text": "システムの信頼性指標であるRASISの，安全性を除く四つに関する記述のうち，適切なものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア Rの信頼性は，システムのMTBFによって表す。"
-      },
-      {
-        "type": "paragraph",
-        "text": "イ Aの可用性は，システムが稼働している時間の平均値によって表す。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ Sの保守性は，システムの稼働率によって表す。"
-      },
-      {
-        "type": "paragraph",
-        "text": "エ Iの完全性は，システムの故障率によって表す。"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 10,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問10",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -689,13 +555,10 @@
   },
   {
     "id": "sg-2025-public-11",
-    "year": 2025,
-    "number": 11,
-    "era": "cbt",
+    "familyId": "sg-2025-public-11",
     "subject": "A",
     "topic": "it",
     "pool": "study",
-    "prompt": "企業全体で使用するデータを統合・整理したデータウェアハウスから，特定の分析目的のためにデータを加工して構築したものはどれか。",
     "choices": [
       {
         "key": "ア",
@@ -720,17 +583,13 @@
       {
         "type": "paragraph",
         "text": "企業全体で使用するデータを統合・整理したデータウェアハウスから，特定の分析目的のためにデータを加工して構築したものはどれか。"
-      },
-      {
-        "type": "paragraph",
-        "text": "ア データカタログ イ データマート"
-      },
-      {
-        "type": "paragraph",
-        "text": "ウ データリネージ エ データレイク"
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 11,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問11",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -742,13 +601,10 @@
   },
   {
     "id": "sg-2025-public-12",
-    "year": 2025,
-    "number": 12,
-    "era": "cbt",
+    "familyId": "sg-2025-public-12",
     "subject": "A",
     "topic": "it",
     "pool": "study",
-    "prompt": "経済産業省が取りまとめた“DX レポート 2”では，組織が DX 実現に至る段階をデジタイゼーション，デジタライゼーション，デジタルトランスフォーメーションに分けている。製造業のデジタル化事例において，デジタルトランスフォーメーションの段階に達しているものはどれか。DX実現に至る段階 説明デジタイゼーション アナログ・物理データのデジタルデータ化デジタライゼーション 個別の業務・製造プロセスのデジタル化デジタルトランス 組織横断／全体の業務・製造プロセスのデジタル化，フォーメーション “顧客起点の価値創出”のための事業やビジネスモデルの変革",
     "choices": [
       {
         "key": "ア",
@@ -850,6 +706,10 @@
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 12,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問12",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -861,13 +721,10 @@
   },
   {
     "id": "sg-2025-public-13",
-    "year": 2025,
-    "number": 13,
-    "era": "cbt",
+    "familyId": "sg-2025-public-13",
     "subject": "B",
     "topic": "operations",
     "pool": "study",
-    "prompt": "A社は従業員300名のITサービス企業であり，ヘルプデスク業務のアウトソーシングサービスを提供している。A 社はオンプレミスのシステムを所有しておらず，顧客向けサービスのほか，社内業務でもクラウドサービスを利用している。A 社では，各従業員に PC 及びスマートフォンを貸与している。スマートフォンは勤怠管理などの社内業務だけに利用している。A 社では，クラウドサービスについての可用性に関する重要度の評価（以下，可用性に関する重要度の評価を可用性評価という）を本来実施すべきであったが，実施できていなかった。そこで，A 社の情報セキュリティリーダーである B 主任が，表 1 のとおり，A 社がリスク評価で用いる可用性評価の基準を用いて可用性評価を実施することになった。表1 A社がリスク評価で用いる可用性評価の基準重要度 可用性評価の基準 該当するサービスの例2 サービスが利用できなくなると自社だけ 顧客に提供しているサービス，顧客ではなく，顧客にも直ちに影響がある。 にサービスを提供するために利用している外部のサービス1 サービスが利用できなくなると自社にだ 重要度 0 のサービスを除く，社内でけ，直ちに影響がある。 利用しているサービス0 サービスが利用できなくなっても自社及 社内でデータの長期保存に利用してび顧客に，直ちに影響はない。 いるサービスB 主任は A 社が利用しているクラウドサービスについて可用性評価を実施し，利用方法及び可用性に関する重要度を表2のとおりまとめた。表2 B主任がまとめた可用性評価の結果（抜粋）A社が利用している 可用性に関利用方法クラウドサービス する重要度電子メール ヘルプデスク利用者からの電子メールによる問合せのa1受付及び回答に利用する。回答は原則として電子メールで行うが，回答に機密性の高い情報が含まれる場合は，あらかじめ登録されているヘルプデスク利用者の電話番号にA社から電話する。人事・労務管理 マイナンバーを含む人事情報の管理及び労務管理に利a2用する。B 主任は，表 2 の内容を A 社の情報セキュリティ委員会に報告し，可用性に関する重要度が適切であることの承認を得た。設問 表2中の a1 ， a2 に入れる数値の適切な組合せを，aに関する解答群の中から選べ。aに関する解答群a1 a2",
     "choices": [
       {
         "key": "ア",
@@ -1269,6 +1126,10 @@
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 13,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問13",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -1281,13 +1142,10 @@
   },
   {
     "id": "sg-2025-public-14",
-    "year": 2025,
-    "number": 14,
-    "era": "cbt",
+    "familyId": "sg-2025-public-14",
     "subject": "B",
     "topic": "operations",
     "pool": "study",
-    "prompt": "A 社は，従業員 300 名の部品メーカーである。A 社ではこれまで，業務に必要なファイルを他社との間で受け渡す場合には電子メール（以下，メールという）を利用してきた。最近になって，取引先の B 社から，ファイルの受渡しについては，C サービスというクラウドストレージサービスを利用して欲しいとの要請を受けた。図1は，Cサービスを利用した場合のファイル受渡しの流れである。1 ファイルの送信者は，受信者に渡したいファイルを C サービス上にアップロードする。アップロードされたファイルは，Cサービス上では暗号化されて保存される。2 ファイルの送信者は，受信者をメールアドレスで指定して，ファイルのアクセス権を付与する。アクセス権の付与や取消しはいつでも行える。3 受信者にアクセス権が付与されると，ファイルのダウンロード用 URL が生成され，指定されたメールアドレスにメールで通知される。なお，URLには推測困難な文字列が含まれている。4 受信者が，メールに記載された URL にアクセスして自身のメールアドレスを入力すると，復号されたファイルがダウンロードされる。5 ファイルがダウンロードされると，送信者の利用者 ID，アップロード日時，ファイル名，ファイルのダウンロード用URL，ダウンロードの際のアクセス元IPアドレス，4で入力したメールアドレス及びダウンロード日時がログに記録される。6 送信者は，自身のアップロードしたファイルについて，ダウンロードのログを確認できる。注記 Cサービスとの通信にはHTTPS（HTTP over TLS）が用いられている。図1 ファイル受渡しの流れそこで A 社では，C サービスを利用した場合のリスクを評価するために，検討会を開催した。検討会において，情報セキュリティリーダーのD主任は，次のとおり説明した。C サービスを利用することによって，情報漏えいのリスクを低減でき，さらに情報漏えいの有無も確認できる。具体的には，ファイルの送信者は，誤ったメールアドレスを指定してメールを送信してしまった場合に，誤りに気付いた時点で，すぐにa1 を行うことができる。次に，ファイルが a2 されていないことがログによって確認できれば， a3 していないと判断することができる。設問 本文中の a1 〜 a3 に入れる次の字句の組合せはどれか。a に関する解答群のうち，最も適切なものを選べ。(一) アクセス権の取消し(二) アップロード(三) 情報漏えい(四) ダウンロード(五) メールで通知(六) メールに記載されたURLに受信者はまだアクセスaに関する解答群a1 a2 a3",
     "choices": [
       {
         "key": "ア",
@@ -1596,6 +1454,10 @@
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 14,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問14",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
@@ -1608,13 +1470,10 @@
   },
   {
     "id": "sg-2025-public-15",
-    "year": 2025,
-    "number": 15,
-    "era": "cbt",
+    "familyId": "sg-2025-public-15",
     "subject": "B",
     "topic": "law",
     "pool": "study",
-    "prompt": "A 社は，スマートフォン用ヘルスケア関連アプリケーションソフトウェア（以下，A アプリという）の開発，販売を行う会社である。A アプリは，ヘルスケアデータ収集機能によって，利用者の体重や歩数のデータを収集するとともに，アンケート機能によって，勤務先の業種，年収などのデータを収集している。営業部は，保険会社である B 社と共同のビジネスを検討している。その中で，A アプリで収集したデータ及び今後収集するデータから匿名加工情報を作成した上で，その匿名加工情報を B 社に第三者提供することを検討している。B 社では，提供を受けた匿名加工情報を分析して，B 社の保険商品のマーケティングに活用しようとしている。分析の対象は，年代，性別，年収区分，住んでいる地域区分及び勤務先の業種と体重及び歩数との関係である。ここで，地域区分とは，北海道，東北，南関東などの区分のことをいう。加工対象となる“個人情報データベース等”（以下，加工対象情報という）は，表1 の顧客属性データと表 2 のヘルスケアデータの 2 種類からなり，利用者番号によって関連付けられている。表1 顧客属性データ利用者番 電子メールアド 勤務先氏名 性別 生年月日 住所 年収号 レス の業種114567 情報 一郎 男 1984年 ichiro@●●●. 愛知県名古屋 金融業 1,850万4月4日 ne.jp 市中区上前津X-X-X 114568 積招 花子 女 2003年 sekimane@▲▲ 東京都文京区 小売業 380万3月31日 ▲.ne.jp 本駒込X-X-X 114573 試験 五郎 男 1951年 shiken@■■■. 東京都中央区 製造業 630万12月9日 ne.jp 月島X-X-X… … … … … … … …表2 ヘルスケアデータ利用者番号 記録日 体重 歩数114567 202N年02月11日 121.3 5,321 114568 202N年02月11日 43.5 33,012 114568 202N年02月12日 43.0 12,007 114573 202N年02月12日 63.0 7,604… … … …営業部の情報セキュリティリーダーであるC課長は，加工対象情報に含まれる各情報の項目について，適用する匿名加工情報の作成に係る手法（以下，匿名加工情報の作成に係る手法を匿名加工手法という）を表3にまとめた。表3 匿名加工手法項番 手法名 解説加工対象情報に含まれる個人情報の項目を削除すること。例えば，（一） 項目削除年齢のデータを加工対象情報から削除すること。加工対象情報に含まれる記述などについて，上位概念に置き換える（二） 一般化 こと。例えば，購買履歴のデータで“きゅうり”を“野菜”に置き換えること。加工対象情報に含まれる数値について，特に大きい又は小さい数値トップ（ボトム） をまとめること。例えば，年齢に関するデータで，“98 歳”，“115（三）コーディング 歳”といった数値データを“80歳以上”というデータにまとめること。加工対象情報に含まれる数値について，四捨五入などして丸めるこ（四） 丸め と。例えば，生年月日から“34 歳”とされる場合について，“30代”のように年代に置き換えること。注記 本表は，個人情報保護委員会事務局“仮名加工情報・匿名加工情報 信頼ある個人情報の利活用に向けてー制度編ー(第2版)\"を基にC課長が作成した。C課長は，加工対象情報である表1及び表2に示す各データに対して，表3 の匿名加工手法を必要に応じて適用し匿名加工情報を作成する案を用意した。その案を法務部の D 課長に報告したところ，D 課長からは，想定するマーケティング用途にも有効であり，匿名加工手法の適用も適切であるとの回答を得た。設問 解答群に示した 3 項目それぞれについて，C 課長が適用した匿名加工手法はどれか。表3の手法のうち，適用したものの組合せを，解答群の中から選べ。なお，各項目に対して複数の匿名加工手法を適用しても構わないし，一つも適用せずに“加工なし”としても構わない。解答群電子メールアドレス 勤務先の業種 体重",
     "choices": [
       {
         "key": "ア",
@@ -2430,6 +2289,10 @@
       }
     ],
     "source": {
+      "kind": "official",
+      "year": 2025,
+      "number": 15,
+      "era": "cbt",
       "label": "情報セキュリティマネジメント試験 2025年度 公開問題 問15",
       "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
       "answerUrl": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",

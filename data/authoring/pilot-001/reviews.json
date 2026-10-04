@@ -1,0 +1,845 @@
+[
+  {
+    "questionId": "sg-generated-pilot-001",
+    "status": "draft",
+    "rule": "リスク受容の承認者と継続的な監視を区別する。",
+    "choiceReasons": {
+      "ア": "受容の決定にはリスク所有者の承認が必要であり，決定を記録する。",
+      "イ": "対策担当者だけでは受容を承認できず，記録も残す。",
+      "ウ": "受容後も状況の変化に応じた監視やレビューが必要である。",
+      "エ": "受容の可否はリスク評価に基づき判断する。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-002",
+    "status": "draft",
+    "rule": "バックアップを導入しても消失の可能性が残るという条件から，残留リスクを特定する。",
+    "choiceReasons": {
+      "ア": "リスクを評価するための判断基準であり，残るリスクの名称ではない。",
+      "イ": "リスクを管理する責任及び権限をもつ者を指す。",
+      "ウ": "リスクの特定，分析及び評価のプロセスを指す。",
+      "エ": "対策後にも残っているリスクである。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-003",
+    "status": "draft",
+    "rule": "損失は結果，頻度は起こりやすさに対応する。",
+    "choiceReasons": {
+      "ア": "購入に関する情報だけでは事故の結果及び起こりやすさを評価できない。",
+      "イ": "対策数及び人数だけでリスクレベルは決まらない。",
+      "ウ": "リスクの大きさは結果とその起こりやすさの組合せで表す。",
+      "エ": "監査の作業量はリスクレベルの定義ではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-004",
+    "status": "draft",
+    "rule": "個別の権限削除だけでなく原因となった連絡手順の改善に注目する。",
+    "choiceReasons": {
+      "ア": "リスクを受け入れる決定であり，原因除去とは異なる。",
+      "イ": "原因を除去して同じ不適合の再発を防止する処置である。",
+      "ウ": "中断時に事業を継続する取組を指す。",
+      "エ": "他者とリスクを分担する対応であり，手順の修正とは異なる。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-005",
+    "status": "draft",
+    "rule": "行為を実行できる状況や経済的事情ではなく，不正を許す理由付けを読み取る。",
+    "choiceReasons": {
+      "ア": "不正な行為を自分の中で正しいと理由付けしている。",
+      "イ": "不正を実行できる環境や管理上の弱点を指す。",
+      "ウ": "不正を行いたい，又は行わざるを得ないと感じる事情を指す。",
+      "エ": "アクセス権は不正のトライアングルの構成要素の名称ではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-006",
+    "status": "draft",
+    "rule": "退職間際の監視ではなく，退職後の有効なアカウントという弱点を変えた。",
+    "choiceReasons": {
+      "ア": "注意文はアクセスを制限しない。",
+      "イ": "新たな認証情報の通知は接続を可能にする。",
+      "ウ": "ログの停止は接続を防止せず，調査も困難にする。",
+      "エ": "不要となった認証情報及びアクセス権を無効にすれば接続を防止できる。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-007",
+    "status": "draft",
+    "rule": "技術的な脆弱性ではなく，人の心理を利用した情報の取得を識別する。",
+    "choiceReasons": {
+      "ア": "データベースへの命令を不正に組み立てさせる攻撃である。",
+      "イ": "DNSの応答情報を偽る攻撃である。",
+      "ウ": "人を信用させて秘密情報を聞き出す手口である。",
+      "エ": "ネットワークで応答するポートを調べる行為である。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-008",
+    "status": "draft",
+    "rule": "送金先変更という被害と，マルウェア感染を必要としない点を確認する。",
+    "choiceReasons": {
+      "ア": "ファイルの暗号化等による身代金要求は記載されていない。",
+      "イ": "取引先になりすまして送金をだまし取るビジネスメール詐欺である。",
+      "ウ": "サービスに大量の負荷を掛ける事例ではない。",
+      "エ": "Web入力を介したデータベース攻撃ではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-009",
+    "status": "draft",
+    "rule": "認証情報の組の再利用とパスワード候補の探索を区別する。",
+    "choiceReasons": {
+      "ア": "流出したIDとパスワードの組を別サービスで試している。",
+      "イ": "一つのIDに対して多数のパスワード候補を試す総当たりではない。",
+      "ウ": "一つのパスワードを多数のIDに試す条件ではない。",
+      "エ": "ハッシュ値から元のパスワードを調べる事例ではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-010",
+    "status": "draft",
+    "rule": "キャッシュを利用する会社と，改ざんされた名前の両方を一致させる。",
+    "choiceReasons": {
+      "ア": "B社のキャッシュは改ざんされていない。",
+      "イ": "B社Webサーバの名前に対応する情報は変更されていない。",
+      "ウ": "B社のキャッシュもA社Webサーバの名前も対象外である。",
+      "エ": "汚染されたA社のキャッシュを使って，改ざん対象のC社の名前を解決する。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-011",
+    "status": "draft",
+    "rule": "メールのリンクやDNSの改ざんではなく，検索結果が入口である。",
+    "choiceReasons": {
+      "ア": "既存のセッションを乗っ取る手口ではない。",
+      "イ": "確保した記憶領域を超える入力を利用していない。",
+      "ウ": "検索順位を悪用して悪意のあるサイトへ誘導する。",
+      "エ": "流出した認証情報を別サービスで試していない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-012",
+    "status": "draft",
+    "rule": "感染PC側ではなく，指令を送る外部サーバ側の機能を問う。",
+    "choiceReasons": {
+      "ア": "これはキャッシュ等の役割であり，攻撃の指令ではない。",
+      "イ": "ボットネットを制御するC&Cサーバの役割である。",
+      "ウ": "認証局の役割であり，感染PCへの指令ではない。",
+      "エ": "バックアップの役割であり，攻撃の指令ではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-013",
+    "status": "draft",
+    "rule": "元の動的解析問題と対照的に，実行しないという条件から解析方式を選ぶ。",
+    "choiceReasons": {
+      "ア": "実行せずにコードや文字列等を調べる解析である。",
+      "イ": "動的解析では実行時の動作を観測する。",
+      "ウ": "システムに実際に侵入できるか試す調査ではない。",
+      "エ": "処理量を増やして性能を測定する調査ではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-014",
+    "status": "draft",
+    "rule": "ファイル保存の用途と同じ鍵を使う条件を対応させる。",
+    "choiceReasons": {
+      "ア": "RSAは公開鍵暗号方式であり，暗号化と復号に異なる鍵を使う。",
+      "イ": "SHA-256はハッシュ関数であり，復号する暗号方式ではない。",
+      "ウ": "PKIは公開鍵証明書等を利用する基盤であり，暗号アルゴリズムではない。",
+      "エ": "AESは共通鍵暗号方式である。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-015",
+    "status": "draft",
+    "rule": "組合せの名称ではなく，本文と鍵で方式を分ける目的を判断する。",
+    "choiceReasons": {
+      "ア": "本文は共通鍵で暗号化される。",
+      "イ": "受信者の秘密鍵を配布する必要はなく，秘密に保つ。",
+      "ウ": "共通鍵暗号の処理性能と公開鍵暗号の鍵配送を組み合わせる。",
+      "エ": "ハッシュ値から本文を復元する仕組みではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-016",
+    "status": "draft",
+    "rule": "署名者と受信者を区別して鍵の所有者まで判断する。",
+    "choiceReasons": {
+      "ア": "公開鍵は他者も入手できるので，署名者だけの作成を保証しない。",
+      "イ": "署名者の秘密鍵で作成し，その対となる公開鍵で検証する。",
+      "ウ": "この組合せはBさんを署名者とする場合である。",
+      "エ": "署名の作成鍵と検証鍵がAさんの対になっていない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-017",
+    "status": "draft",
+    "rule": "秘密鍵を共有する二者の検証であり，単なる誤り検出と区別する。",
+    "choiceReasons": {
+      "ア": "共通の秘密鍵を用いた検証値によってメッセージを認証する。",
+      "イ": "公開鍵とその所有者等の対応を証明するものである。",
+      "ウ": "人によるアクセスかを確認する仕組みである。",
+      "エ": "単純な誤り検出用のビットであり，秘密鍵による認証ではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-018",
+    "status": "draft",
+    "rule": "常に追加認証する方式と，環境に応じて追加する方式を区別する。",
+    "choiceReasons": {
+      "ア": "ワンタイムパスワードだけを使うという条件ではなく，利用環境で認証方法を変えている。",
+      "イ": "身体的特徴だけで認証する条件ではない。",
+      "ウ": "問題では利用環境が変わった場合にだけ追加の本人確認を行う。",
+      "エ": "アクセス環境に応じてリスクを評価し，追加認証を要求する。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-019",
+    "status": "draft",
+    "rule": "二つの情報を使うことと，異なる二要素を使うことを区別する。",
+    "choiceReasons": {
+      "ア": "いずれも記憶に基づく要素である。",
+      "イ": "いずれも所持物に基づく要素であり，記憶の要素が含まれない。",
+      "ウ": "記憶するパスワードと所持するトークンは異なる要素である。",
+      "エ": "いずれも身体の特徴に基づく要素である。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-020",
+    "status": "draft",
+    "rule": "暗号化通信の有無から，証明書が保証する範囲へ設問を変えた。",
+    "choiceReasons": {
+      "ア": "証明書は取引内容や商品の品質を保証しない。",
+      "イ": "信頼できる認証局の署名や接続先名等を確認してサーバ認証を行う。",
+      "ウ": "サーバ証明書はマルウェア検査の結果ではない。",
+      "エ": "サーバ認証は全ての利用者の本人確認とは異なる。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-021",
+    "status": "draft",
+    "rule": "目的の暗記ではなくDNSの送信許可情報と接続元の対応を問う。",
+    "choiceReasons": {
+      "ア": "SPFは，エンベロープ送信者等のドメインが許可した送信元かをDNSの情報で確認する。",
+      "イ": "本文のハッシュ値と受信者の秘密鍵を照合する方式ではない。",
+      "ウ": "添付ファイルの種類及び住所はSPFの認証情報ではない。",
+      "エ": "受信者のパスワードを送信ドメイン認証には用いない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-022",
+    "status": "draft",
+    "rule": "メールを送る利用者の認証と，受信側のドメイン認証を区別する。",
+    "choiceReasons": {
+      "ア": "受信側が送信ドメインを認証する仕組みである。",
+      "イ": "電子メールの暗号化や署名に用いる仕組みである。",
+      "ウ": "DNS応答の真正性等を検証する仕組みである。",
+      "エ": "メール送信時にSMTPで利用者認証を行う。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-023",
+    "status": "draft",
+    "rule": "原本との比較から，調査前後の同一性確認へ状況を変えた。",
+    "choiceReasons": {
+      "ア": "ファイル名は内容が変わっていないことの確認にならない。",
+      "イ": "日時の変更は内容の検証にならず，証拠情報を変更する。",
+      "ウ": "信頼できる方法で保管した初期ハッシュ値と比較することで改変の有無を確認できる。",
+      "エ": "上書きによって複製の証拠性を損なう。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-024",
+    "status": "draft",
+    "rule": "点検対象を承認記録と設定値に具体化し，運用担当者の役割と区別する。",
+    "choiceReasons": {
+      "ア": "日常運用を引き受けると監査と運用の役割が混在する。",
+      "イ": "証拠に基づき管理状況を評価し報告する監査の役割である。",
+      "ウ": "自己監査は独立性及び客観性を損なう。",
+      "エ": "証拠を改変してはならない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-025",
+    "status": "draft",
+    "rule": "作業者への注意喚起ではなく，誤操作をできなくする設計を選ぶ。",
+    "choiceReasons": {
+      "ア": "仕組みで誤った入力をできなくし，事故の発生を防止する。",
+      "イ": "注意喚起だけでは誤入力を防ぐ仕組みにならない。",
+      "ウ": "事故後の対応であり，入力を防止しない。",
+      "エ": "文書量の増加自体は誤入力の防止にならない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-026",
+    "status": "draft",
+    "rule": "ログ取得の目的から，必要な証跡の項目を選ぶ。",
+    "choiceReasons": {
+      "ア": "平文のパスワード記録は漏えいリスクを生み，操作の追跡情報も不足する。",
+      "イ": "製品情報から個別の不正参照は追跡できない。",
+      "ウ": "設備情報から個別の不正参照は追跡できない。",
+      "エ": "誰が，いつ，何に，どのような操作をしたかを追跡できる。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-027",
+    "status": "draft",
+    "rule": "個々のログの保存ではなく，異なる機器間の関係の分析を問う。",
+    "choiceReasons": {
+      "ア": "停電時等の電源を確保する装置である。",
+      "イ": "複数ディスクの構成によって性能や耐障害性を得る仕組みである。",
+      "ウ": "複数のログを収集し相関分析する仕組みである。",
+      "エ": "定型的な業務操作の自動化であり，目的のログ相関分析製品ではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-028",
+    "status": "draft",
+    "rule": "監査報告書の作成と，改善後の確認を区別する。",
+    "choiceReasons": {
+      "ア": "改善実施状況を確認しておらず，フォローアップにならない。",
+      "イ": "指摘に対して実施された改善措置を証拠で確認する。",
+      "ウ": "運用を代行することはフォローアップではない。",
+      "エ": "報告だけを根拠に証拠を破棄するのは適切でない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-029",
+    "status": "draft",
+    "rule": "待機状態の有無と障害時の切替を判断条件にした。",
+    "choiceReasons": {
+      "ア": "主系と待機系を用意し，障害時に切り替える構成である。",
+      "イ": "同じ処理を二系統で行い結果の照合等を行う構成であり，待機系とは異なる。",
+      "ウ": "待機サーバが存在するので単一構成ではない。",
+      "エ": "問題では待機サーバが稼働サーバの業務を代替する。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-030",
+    "status": "draft",
+    "rule": "情報に氏名が直接含まれなくても容易照合性によって個人情報になる。",
+    "choiceReasons": {
+      "ア": "個人を識別できない統計情報という条件である。",
+      "イ": "法人だけの情報で個人を識別できないという条件である。",
+      "ウ": "製品番号単独で個人との関係がないという条件である。",
+      "エ": "容易な照合によって生存する個人を識別できる情報も含まれる。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-031",
+    "status": "draft",
+    "rule": "同意取得の有無から，同意後の受信拒否への対応に条件を変えた。",
+    "choiceReasons": {
+      "ア": "過去の同意はその後の受信拒否を無効にしない。",
+      "イ": "送信元の変更で受信拒否を回避できない。",
+      "ウ": "受信拒否の通知を受けた後は送信を停止する必要がある。",
+      "エ": "件名ではなく広告宣伝メールという実質が問題になる。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-032",
+    "status": "draft",
+    "rule": "法人著作の成立条件を明記し，委託料の支払と権利帰属を区別する。",
+    "choiceReasons": {
+      "ア": "委託料の支払だけで著作権が委託者に帰属するわけではない。",
+      "イ": "B社が著作者となる条件が明示されており，譲渡の取決めもない。",
+      "ウ": "購入しただけで著作権を取得しない。",
+      "エ": "機器の所有権とプログラムの著作権は異なる。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-033",
+    "status": "draft",
+    "rule": "個人情報の定義問題の四肢択一形式を使い，委託先監督という別の知識を問う。",
+    "choiceReasons": {
+      "ア": "委託元には委託先への必要かつ適切な監督が求められる。",
+      "イ": "契約だけで監督義務がなくなるわけではない。",
+      "ウ": "委託された範囲を超えた自由な利用を認めるものではない。",
+      "エ": "委託によって委託元の監督義務は消えない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-034",
+    "status": "draft",
+    "rule": "WBSの略語の説明から，計画時に実施する作業を問う。",
+    "choiceReasons": {
+      "ア": "完了した作業だけの履歴では必要作業の定義にならない。",
+      "イ": "ネットワークの設定表であり，プロジェクトの作業分解ではない。",
+      "ウ": "人事評価表は作業分解構造ではない。",
+      "エ": "必要な作業を分解して全体の範囲を明確にする。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-035",
+    "status": "draft",
+    "rule": "日程計画の中でも，依存関係から所要日数を求める用途を示した。",
+    "choiceReasons": {
+      "ア": "変数間の関係をモデル化する分析であり，作業の順序から日程を求める技法ではない。",
+      "イ": "時間順の観測データの傾向等を調べる分析である。",
+      "ウ": "作業の順序関係と所要日数から日程及びクリティカルパスを検討できる。",
+      "エ": "重要度等によって項目を分類し，重点管理するための分析である。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-036",
+    "status": "draft",
+    "rule": "キャッシュの高速化から，閲覧制限とログ取得を伴う中継へ用途を変えた。",
+    "choiceReasons": {
+      "ア": "主にIPアドレス等のネットワーク設定を配布する。",
+      "イ": "Webアクセスを代理して中継し，利用制限やログ取得に利用できる。",
+      "ウ": "機器の時刻を同期する。",
+      "エ": "ファイルの共有や保存を行う。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-037",
+    "status": "draft",
+    "rule": "単なるシステム提供ではなく，人の対応を含む業務の委託を明記した。",
+    "choiceReasons": {
+      "ア": "業務プロセスを外部の専門事業者に委託する取組である。",
+      "イ": "ソフトウェアによる定型作業の自動化であり，外部委託の名称ではない。",
+      "ウ": "作業を階層的に分解した構造である。",
+      "エ": "サービスの水準についての合意であり，業務委託そのものの名称ではない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-038",
+    "status": "draft",
+    "rule": "マスクが/27の場合のビット演算を行う。",
+    "choiceReasons": {
+      "ア": "24ビットのマスクとして処理した値である。",
+      "イ": "これはPC自身のホストアドレスである。",
+      "ウ": "これは対象サブネットのブロードキャストアドレスである。",
+      "エ": "末尾のオクテットで78 AND 224 = 64となる。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {
+      "kind": "subnet",
+      "ip": "192.168.10.78",
+      "mask": "255.255.255.224"
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-039",
+    "status": "draft",
+    "rule": "回答数で重み付けした平均を用いる。",
+    "choiceReasons": {
+      "ア": "平均3.7を満点5で割った値であり，目標値4.0を用いていない。",
+      "イ": "目標値を満点で割った値であり，調査結果を用いていない。",
+      "ウ": "加重平均は370÷100=3.7点，3.7÷4.0=0.925である。",
+      "エ": "目標値を平均点で割り，指定の式を逆にしている。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {
+      "kind": "satisfaction",
+      "scores": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "counts": [
+        20,
+        40,
+        30,
+        10,
+        0
+      ],
+      "target": 4
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-040",
+    "status": "draft",
+    "rule": "残る数量が二つの仕入れにまたがるよう変更した。",
+    "choiceReasons": {
+      "ア": "8個全てを期首単価で評価している。",
+      "イ": "新しい6月仕入5個×14と4月仕入3個×12の合計106である。",
+      "ウ": "古い在庫から5個と次の3個を残す計算であり，先入先出法ではない。",
+      "エ": "8個全てを最新単価で評価しているが，最新仕入は5個しかない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {
+      "kind": "fifo",
+      "lots": [
+        [
+          10,
+          10
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          14
+        ]
+      ],
+      "remaining": 8
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-041",
+    "status": "draft",
+    "rule": "長期保存だけのサービスは0，顧客への回答が直ちに止まるサービスは2。",
+    "choiceReasons": {
+      "ア": "a1は0，a2は2なので，0，0の組合せは基準と一致しない。",
+      "イ": "a1は0，a2は2なので，0，1の組合せは基準と一致しない。",
+      "ウ": "a1は0，a2は2なので，1，0の組合せは基準と一致しない。",
+      "エ": "a1は0，a2は2なので，1，1の組合せは基準と一致しない。",
+      "オ": "a1は0，a2は2なので，1，2の組合せは基準と一致しない。",
+      "カ": "a1は0，a2は2なので，2，0の組合せは基準と一致しない。",
+      "キ": "a1は0，a2は2なので，2，1の組合せは基準と一致しない。",
+      "ク": "二つのサービスの利用目的と停止時の影響を基準に当てはめた組合せである。",
+      "ケ": "a1は0，a2は2なので，2，2の組合せは基準と一致しない。"
+    },
+    "variation": "元問題の電子メール・人事管理から，長期保存と顧客対応へ用途を変え，重要度の組合せも変更した。",
+    "checks": {
+      "kind": "availability",
+      "expected": [
+        0,
+        2
+      ]
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-042",
+    "status": "draft",
+    "rule": "CIAの最大値を用いた積を計算し，境界値6を含めて判定する。",
+    "choiceReasons": {
+      "ア": "1番目は○ではなく×。",
+      "イ": "1番目は○ではなく×。 / 3番目は×ではなく○。",
+      "ウ": "1番目は○ではなく×。 / 2番目は×ではなく○。",
+      "エ": "1番目は○ではなく×。 / 2番目は×ではなく○。 / 3番目は×ではなく○。",
+      "オ": "3番目は×ではなく○。",
+      "カ": "2番目は×ではなく○。",
+      "キ": "2番目は×ではなく○。 / 3番目は×ではなく○。",
+      "ク": "リスク値は順に4，6，12である。6以上の二つの情報資産には追加の対策が必要である。"
+    },
+    "variation": "機密性が0でも対策が必要な資産と，ちょうど基準値になる資産を含めた。",
+    "checks": {
+      "kind": "risk",
+      "cia": [
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ]
+      ],
+      "frequency": [
+        1,
+        3,
+        2
+      ],
+      "weakness": [
+        2,
+        1,
+        3
+      ],
+      "threshold": 6
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-043",
+    "status": "draft",
+    "rule": "作業範囲，最小権限及び追跡可能性の三条件を満たす組合せを選ぶ。",
+    "choiceReasons": {
+      "ア": "共有IDではログから個々の作業者を特定できない。",
+      "イ": "変更，削除及び過年度分へのアクセスは作業上不要である。",
+      "ウ": "個人別IDで作業者を特定でき，当月分の閲覧だけで作業が完結する。",
+      "エ": "作業者を特定できず，不要な情報及び操作への権限も付与している。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-044",
+    "status": "draft",
+    "rule": "対策ソフトの導入や別IDは，所有者及び利用者に関する明示的な禁止を解除しない。",
+    "choiceReasons": {
+      "ア": "1番目は○ではなく×。 / 3番目は○ではなく×。",
+      "イ": "1番目は○ではなく×。",
+      "ウ": "1番目は○ではなく×。 / 2番目は×ではなく○。 / 3番目は○ではなく×。",
+      "エ": "1番目は○ではなく×。 / 2番目は×ではなく○。",
+      "オ": "3番目は○ではなく×。",
+      "カ": "個人所有PCは禁止され，会社貸与PCであっても社内情報の保存と同居人の利用は認められていない。",
+      "キ": "2番目は×ではなく○。 / 3番目は○ではなく×。",
+      "ク": "2番目は×ではなく○。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {
+      "kind": "policy",
+      "expected": [
+        "×",
+        "○",
+        "×"
+      ]
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-045",
+    "status": "draft",
+    "rule": "直前の成功時点を基準とする増分と差分バックアップを区別する。",
+    "choiceReasons": {
+      "ア": "フルに加えて，成功した増分を全て順に適用する。水曜日の変更は木曜日分に含まれる。",
+      "イ": "月曜日及び火曜日にだけ含まれる変更分が欠ける。",
+      "ウ": "復元の基となるフルバックアップ及び月曜日の変更分がない。",
+      "エ": "水曜日は失敗しており使えず，必要な火曜日分も欠ける。"
+    },
+    "variation": "途中の増分取得を失敗させ，その後の成功分がどの期間を含むかを明示した。",
+    "checks": {
+      "kind": "backup",
+      "days": [
+        "日曜日",
+        "月曜日",
+        "火曜日",
+        "水曜日",
+        "木曜日"
+      ],
+      "success": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-046",
+    "status": "draft",
+    "rule": "三つの管理機能は独立しており，パスワード変更の効果を過大評価しない。",
+    "choiceReasons": {
+      "ア": "既存のログイン状態が8時間まで使われる可能性が残る。",
+      "イ": "紛失した認証アプリの登録が有効なままである。",
+      "ウ": "紛失機器の認証アプリ及び既存セッションの両方が残る。",
+      "エ": "紛失した認証アプリと既存のログイン状態の両方を明示的に無効にする必要がある。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-047",
+    "status": "draft",
+    "rule": "役割，必要操作及びログの変更禁止の三条件から権限を選ぶ。",
+    "choiceReasons": {
+      "ア": "（一）は顧客情報の業務操作であり，システム運用の権限ではない。",
+      "イ": "監査部にログの変更及び削除まで認めてしまう。",
+      "ウ": "運用には（二），変更不能なログ閲覧には（三）で足りる。",
+      "エ": "運用担当者に過大な権限を与え，監査部はログを調べる権限を持たない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {},
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-048",
+    "status": "draft",
+    "rule": "直近の定期診断で問題がなくても，新たな脆弱性や機能変更は追加診断の契機になる。",
+    "choiceReasons": {
+      "ア": "2番目は○ではなく×。",
+      "イ": "重大な脆弱性があるXと，外部公開機能を変更したZには診断が必要である。Yは直近の定期診断を実施済みで追加の条件もない。",
+      "ウ": "2番目は○ではなく×。 / 3番目は×ではなく○。",
+      "エ": "3番目は×ではなく○。",
+      "オ": "1番目は×ではなく○。 / 2番目は○ではなく×。",
+      "カ": "1番目は×ではなく○。 / 2番目は○ではなく×。 / 3番目は×ではなく○。",
+      "キ": "1番目は×ではなく○。",
+      "ク": "1番目は×ではなく○。 / 3番目は×ではなく○。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {
+      "kind": "policy",
+      "expected": [
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-049",
+    "status": "draft",
+    "rule": "文書結合時の最上位区分と，限定された関係者の範囲をそれぞれ適用する。",
+    "choiceReasons": {
+      "ア": "1番目は○ではなく×。 / 3番目は○ではなく×。",
+      "イ": "1番目は○ではなく×。",
+      "ウ": "1番目は○ではなく×。 / 2番目は×ではなく○。 / 3番目は○ではなく×。",
+      "エ": "1番目は○ではなく×。 / 2番目は×ではなく○。",
+      "オ": "（一）は公開情報と結合しても顧客情報の区分を下げられず，（二）は対象者だけへの開示，（三）は不要な部署への開示となる。",
+      "カ": "3番目は○ではなく×。",
+      "キ": "2番目は×ではなく○。 / 3番目は○ではなく×。",
+      "ク": "2番目は×ではなく○。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {
+      "kind": "policy",
+      "expected": [
+        "×",
+        "○",
+        "×"
+      ]
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  },
+  {
+    "questionId": "sg-generated-pilot-050",
+    "status": "draft",
+    "rule": "保存時及び通信時の暗号化と，ダウンロード利用者の認可及び期間制限を区別する。",
+    "choiceReasons": {
+      "ア": "2番目は○ではなく×。",
+      "イ": "2番目は○ではなく×。 / 3番目は×ではなく○。",
+      "ウ": "3番目は×ではなく○。",
+      "エ": "1番目は×ではなく○。 / 2番目は○ではなく×。",
+      "オ": "1番目は×ではなく○。 / 2番目は○ではなく×。 / 3番目は×ではなく○。",
+      "カ": "1番目は×ではなく○。",
+      "キ": "1番目は×ではなく○。 / 3番目は×ではなく○。",
+      "ク": "受信者認証は第三者のダウンロードを防ぎ，有効期限はアクセス可能な期間を限定する。保存時の暗号化だけではURLを入手した第三者のダウンロードを防げない。"
+    },
+    "variation": "状況と設問の条件を変更し，同じ知識を別の場面で適用する。",
+    "checks": {
+      "kind": "policy",
+      "expected": [
+        "○",
+        "×",
+        "○"
+      ]
+    },
+    "reviewMethod": "Author reasoning and source comparison; independent review pending."
+  }
+]

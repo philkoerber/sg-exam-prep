@@ -25,7 +25,7 @@ The second pair builds and serves the static `out/` directory. Deploy that direc
 ## Scope
 
 - **Language:** Japanese by default. The header switch changes the home page, setup, results, and review controls. Both active practice and mock exams—including the header, footer, timer, buttons, and dialogs—stay Japanese, with the switch hidden. Results or exiting a session restore the chosen language. Questions, answer choices, diagram labels, and the homepage illustration always remain Japanese. If localStorage is unavailable, the switch works for the current visit.
-- **Topic practice:** choose one of six topics or all topics; up to 10 random questions, immediate official-answer feedback, then a session summary.
+- **Topic practice:** choose one of six topics or all topics; up to 10 random questions, immediate answer feedback, then a session summary.
 - **Mock exam:** 48 A questions + 12 B questions, 120 minutes, free navigation and answer changes, automatic submission at the deadline, then raw accuracy and topic/subject breakdowns. Unanswered questions count as incorrect. This is not IPA's IRT scoring or a prediction of official pass/fail.
 - **Data:** 120 normalized questions from IPA's 2022 full sample set and 2023–2026 published CBT subsets. Source PDFs, URLs, answer keys, page references, and SHA-256 checksums are preserved. All exam content is native: responsive text, 36 HTML tables, 18 boxed text sections, and two SVG diagrams with selectable labels. Wide tables and diagrams scroll inside the question on phones. Original PDF links remain available for comparison; no exam screenshots or bitmap assets are shipped.
 - **Reserved material:** 2026 public questions are excluded from normal practice and available in mocks. With no persistent history, the app does not promise a question remains unseen after a mock.
@@ -41,7 +41,10 @@ src/lib/study.ts          Selection, scoring, and deadline rules
 src/lib/messages.ts       Japanese/English interface copy (no i18n dependency)
 src/lib/corpus/           Question types and topic labels
 data/sources/            Original IPA PDFs and manifest
-data/questions/          Canonical normalized JSON (120 questions)
+data/questions/official/ Canonical official JSON (120 questions)
+data/questions/generated/ Published, reviewed generated questions
+data/authoring/pilot-001/ Draft questions, blind review package and review records
+data/resources/          Versioned learning references and checksum catalogue
 data/extracted/          Historical OCR text
 data/topic-overrides.json Reviewed corrections to initial topic classification
 data/native-content-audit.json Character-preservation checks for converted PDF regions
@@ -50,7 +53,7 @@ jpdb/generated/          Historical exam text ready for JPDB's text importer
 tests/                   Domain tests and desktop/mobile browser tests
 ```
 
-The corpus has stable source-based IDs. Question selection never mutates it. Content and scoring are available in the browser: this is a self-study tool, not a secured assessment system. Mock mode hides solutions in the interface until submission.
+The corpus has stable IDs and explicit `source.kind` values (`official` or `generated`). A `familyId` groups close variants and re-published questions. Selection first samples families uniformly, then a member; a session never includes two questions from the same family. Large variant families do not gain extra sampling weight. Question selection never mutates the corpus. Content and scoring are available in the browser: this is a self-study tool, not a secured assessment system. Mock mode hides solutions in the interface until submission.
 
 ## Rebuild the data
 
@@ -68,7 +71,13 @@ npm run jpdb:export
 
 The normalizer fails on missing headings, ambiguous choices, unmatched answers, unsupported embedded bitmaps, or missing/extra characters in converted PDF regions. Native tables retain merged cells; the schema rejects overlapping or incomplete grids. Two financial statements use explicit table layouts that preserve their five empty answer boxes. SVG paths and text positions come from the original PDF vectors, with no raw HTML injection. Small reading annotations are omitted from ordinary prose; the original PDFs retain them. Topic labels are study categories, not official IPA metadata; reviewed corrections live in `topic-overrides.json`. Review desktop and phone renderings against the source PDFs when changing extraction boundaries. Re-running the normalizer reproduces the native blocks and extraction audit.
 
-Historical OCR can contain recognition errors. Never treat it as a verified interactive question bank without checking the original scans. The app's 120 active questions come from text-native PDFs and official answer keys.
+Historical OCR can contain recognition errors. Never treat it as a verified interactive question bank without checking the original scans. The 120 official questions come from text-native PDFs and official answer keys. See [the authoring guide](data/authoring/README.md) for the 50-question pilot and its publication gates.
+
+## Generated question pilot
+
+The first batch contains 40 A questions and 10 B cases. Canonical drafts are separate from the app’s published bank. The frontend has the same screens and controls; generated records never receive a fabricated official year, source citation or official-answer link. The count describes all questions, rather than calling generated questions official. Original source links remain on original questions.
+
+`npm run corpus:review` regenerates an answer-blind review package and a Japanese word/kanji comparison against the fixed official corpus. `npm run corpus:publish` publishes the pilot only after all author and independent reviews are accepted and tied to the current content. The build also validates provenance and approvals, so edited or unreviewed generated content fails the build. No generation, AI calls, review records, reference PDFs or review dependencies are loaded by the app.
 
 ## Checks
 
@@ -91,4 +100,4 @@ Browser tests exercise desktop and mobile rendering, topic filtering, practice s
 - [IPA full sample set](https://www.ipa.go.jp/shiken/syllabus/henkou/2022/20221226.html)
 - [IPA reuse terms](https://www.ipa.go.jp/shiken/faq.html)
 
-Exam materials remain copyright IPA. Educational reuse is permitted under IPA's stated conditions. Every displayed question retains attribution; layout and line breaks are adapted for display. This project is not affiliated with IPA. Historical references reflect the source publication year and may use older standards or legislation.
+Official exam materials remain copyright IPA. Educational reuse is permitted under IPA's stated conditions. Every official question retains attribution; layout and line breaks are adapted for display. This project is not affiliated with IPA. Historical references reflect the source publication year and may use older standards or legislation.
