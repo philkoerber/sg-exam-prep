@@ -1,0 +1,328 @@
+{
+  "baseline": "120 official questions, rendered body and choices; no generated text",
+  "method": "Node Intl.Segmenter ja; token overlap is a screening measure, not a proficiency or grammar score. Numbers, Latin-only tokens and punctuation excluded; inflections are not lemmatized.",
+  "minimumWordCoverage": 0.9,
+  "minimumKanjiCoverage": 0.98,
+  "kanjiTarget": 0.99,
+  "note": "All unfamiliar words/kanji require review; the 98% per-question floor allows necessary technical terms. Target overall kanji overlap is at least 99%.",
+  "questions": [
+    {
+      "questionId": "sg-generated-batch-003-001",
+      "contentHash": "e440120298bb1876270cc074bf7c1de5e26df88750d02a42be89a38698f8457f",
+      "characters": 225,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-002",
+      "contentHash": "f006611778f07ccde7f1649d41dc51230ebb5c9d57fb993c070c6463be0fdfd8",
+      "characters": 347,
+      "wordCoverage": 0.9933774834437086,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "向き"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-003",
+      "contentHash": "f8489861aa710fccd89e254f5e7278a0f047492a3e3aba628b0e473b67bbb99f",
+      "characters": 212,
+      "wordCoverage": 0.9642857142857143,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "つなぐ",
+        "始めて",
+        "途中",
+        "集め"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-004",
+      "contentHash": "3197456d1a55c1eef12b2b37cd0bd7e1c03f188334826512e5402a22898e5428",
+      "characters": 191,
+      "wordCoverage": 0.9896907216494846,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "調べ"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-005",
+      "contentHash": "04e6b01818411b02703541617592f71f633fd8c2871406f59eb72411ebe8d90c",
+      "characters": 360,
+      "wordCoverage": 0.9681528662420382,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "かし",
+        "クリップ",
+        "ドライブ",
+        "ボード",
+        "動"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-006",
+      "contentHash": "0bfba95fe99d76fbb6cda0ed41828d797ffd67da77e46c4dd2cfe6ede06b447f",
+      "characters": 239,
+      "wordCoverage": 0.9824561403508771,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "取り入れる",
+        "知らせ"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-007",
+      "contentHash": "d763b429c5ab6bf5e88c7bf0db9067c90f35f18ee6eaef75a6aa0b6149f78081",
+      "characters": 181,
+      "wordCoverage": 0.9607843137254902,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "本番",
+        "要件",
+        "開発者",
+        "限定"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-008",
+      "contentHash": "b17f9c9d67b703e0aec2bfd29b7797bdafa5b11675c69a823ac470668d59ce28",
+      "characters": 278,
+      "wordCoverage": 0.9928057553956835,
+      "kanjiCoverage": 0.9915966386554622,
+      "novelWords": [
+        "窓口"
+      ],
+      "novelKanji": [
+        "窓"
+      ]
+    },
+    {
+      "questionId": "sg-generated-batch-003-009",
+      "contentHash": "af7cf01b23e515e9f8c9cb1852c3cdae68c2895b04a2016c26fc047daf1f1be6",
+      "characters": 139,
+      "wordCoverage": 0.9866666666666667,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "メモリ"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-010",
+      "contentHash": "f9931c9c8ce14e33af00cdddcae13d7961e989f0d067bbbdcfea01ed0220b93b",
+      "characters": 99,
+      "wordCoverage": 0.9649122807017544,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "分担",
+        "負う"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-011",
+      "contentHash": "098630f5b8cac6c4354abf0f374681b36dd9885f478562197f5705aabf1f9776",
+      "characters": 157,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-012",
+      "contentHash": "d3ce74693c7d6e48157a6dc729b36d6234ab89d0648d8061f8ee4975105c6f99",
+      "characters": 174,
+      "wordCoverage": 0.9743589743589743,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "内訳",
+        "経費"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-013",
+      "contentHash": "214c24f899e9a9499afeb63ac980fe44ffce0b93ee5638730f7e773b4a657574",
+      "characters": 218,
+      "wordCoverage": 0.9661016949152542,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "再び",
+        "直し",
+        "繰り返す",
+        "集め"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-014",
+      "contentHash": "23fe558ac14fbfc50e854640d1b90d9855d63ec140a0c5e5f0565d5144335587",
+      "characters": 254,
+      "wordCoverage": 0.9703703703703703,
+      "kanjiCoverage": 0.9915966386554622,
+      "novelWords": [
+        "安定",
+        "相談",
+        "進める",
+        "進め方"
+      ],
+      "novelKanji": [
+        "談"
+      ]
+    },
+    {
+      "questionId": "sg-generated-batch-003-015",
+      "contentHash": "90fe93f22c0ce1fce12a26b1c94f80de45ac3aa35f7c59ef2e0ab5d856a39d4d",
+      "characters": 97,
+      "wordCoverage": 0.9787234042553191,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "取り出し"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-016",
+      "contentHash": "6593240c4956ad0bbc5cc5e849fef84d152982331e608930eda41976fd0d82b0",
+      "characters": 562,
+      "wordCoverage": 0.9578947368421052,
+      "kanjiCoverage": 0.9957081545064378,
+      "novelWords": [
+        "出典",
+        "問",
+        "定型",
+        "工程",
+        "年度",
+        "提示",
+        "換え",
+        "料金",
+        "発注",
+        "置"
+      ],
+      "novelKanji": [
+        "典"
+      ]
+    },
+    {
+      "questionId": "sg-generated-batch-003-017",
+      "contentHash": "62a6bfe577c034e1de2e8fe5f7fbffcfcdcd0d7f861ef01fa9278120a8d066b7",
+      "characters": 1016,
+      "wordCoverage": 0.9542857142857143,
+      "kanjiCoverage": 0.9945504087193461,
+      "novelWords": [
+        "しく",
+        "七つ",
+        "了承",
+        "以後",
+        "使う",
+        "働き",
+        "前日",
+        "前週",
+        "単なる",
+        "名乗る",
+        "型番",
+        "心当たり",
+        "所在地",
+        "普段",
+        "書式",
+        "本物",
+        "気",
+        "相違",
+        "確定",
+        "示",
+        "続き",
+        "見せる",
+        "金額"
+      ],
+      "novelKanji": [
+        "普"
+      ]
+    },
+    {
+      "questionId": "sg-generated-batch-003-018",
+      "contentHash": "94f22e4254156cda0d1b995c390c1721b41e0168c3bfaa7bd30482730867b9d6",
+      "characters": 926,
+      "wordCoverage": 0.9529411764705882,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "増加",
+        "残す",
+        "空欄",
+        "統一",
+        "返",
+        "返品",
+        "返金",
+        "金額"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-003-019",
+      "contentHash": "a2836cbc99f5a398e704c07e2efb8007807e77f9dc0d7a1f44ebb1d9d5965436",
+      "characters": 1562,
+      "wordCoverage": 0.9732142857142857,
+      "kanjiCoverage": 0.9961089494163424,
+      "novelWords": [
+        "いたこ",
+        "ほしい",
+        "もう一度",
+        "わら",
+        "今朝",
+        "以前",
+        "低下",
+        "使う",
+        "切",
+        "切離し",
+        "初めて",
+        "前日",
+        "前週",
+        "手動",
+        "普段",
+        "月間",
+        "未",
+        "毎時",
+        "直前"
+      ],
+      "novelKanji": [
+        "普",
+        "未"
+      ]
+    },
+    {
+      "questionId": "sg-generated-batch-003-020",
+      "contentHash": "3cec4e3ca2a29369dca11dd4ef98e11b70d8d5d37f3cb7735adf9db682651885",
+      "characters": 917,
+      "wordCoverage": 0.9668737060041408,
+      "kanjiCoverage": 0.990625,
+      "novelWords": [
+        "キー",
+        "取る",
+        "名乗り",
+        "扱い",
+        "押",
+        "案内",
+        "止める",
+        "短時間",
+        "窓口",
+        "自体",
+        "調べ",
+        "連絡先",
+        "長押し",
+        "閉"
+      ],
+      "novelKanji": [
+        "窓",
+        "閉"
+      ]
+    }
+  ]
+}

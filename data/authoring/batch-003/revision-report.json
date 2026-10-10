@@ -1,0 +1,33 @@
+{
+  "status": "DRAFT; fresh independent review pending",
+  "revisedQuestionIds": [
+    "sg-generated-batch-003-002",
+    "sg-generated-batch-003-006"
+  ],
+  "changedAuthorReviewIds": [
+    "sg-generated-batch-003-002",
+    "sg-generated-batch-003-006"
+  ],
+  "other18QuestionsAndAuthorReviewsUnchanged": true,
+  "answersAndSourcesUnchanged": true,
+  "reviewerFilesUnchanged": true,
+  "reviewerFileSha256": {
+    "data/authoring/batch-003/independent-review-notes.md": "18e6a619069101f5a05aadf9398bff2bb04e5acac125dcd62af7aea0226a0847",
+    "data/authoring/batch-003/independent-review-initial.json": "745fefa8f792b24470cf7ea9034464e3dd72a0a6df4dcd1071dd87ac6d3c64f2",
+    "data/authoring/batch-003/independent-answers.json": "5b610187f285b3f4bbf05bf0965b95db64ad542ef17763254befb5c4dde53cfd"
+  },
+  "hashes": [
+    {
+      "questionId": "sg-generated-batch-003-002",
+      "before": "b66917e4849b0197f98fe2bbb9210aa801f41c7073dcee452c39d924d7c8fad5",
+      "after": "f006611778f07ccde7f1649d41dc51230ebb5c9d57fb993c070c6463be0fdfd8"
+    },
+    {
+      "questionId": "sg-generated-batch-003-006",
+      "before": "2a38dd7831554101b5f8bc665fcce12b51229def4d6bfd0e5dfd32edc7489a2f",
+      "after": "0bfba95fe99d76fbb6cda0ed41828d797ffd67da77e46c4dd2cfe6ede06b447f"
+    }
+  ],
+  "globalReportRun": false,
+  "reviewExport": "Parent to regenerate solve-only export; legacy blind-review.json not rewritten locally."
+}

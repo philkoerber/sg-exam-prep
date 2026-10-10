@@ -1,0 +1,340 @@
+[
+  {
+    "questionId": "sg-generated-batch-002-001",
+    "status": "approved",
+    "rule": "リスクアセスメントを構成するリスク特定・分析・評価を選び，対応の実施及び受容と区別する。",
+    "choiceReasons": {
+      "ア": "cは対策の実施であり，リスク評価dが欠けている。",
+      "イ": "aが特定，bが分析，dが評価であり，三つとも含まれる。",
+      "ウ": "cの対応とeの受容を含み，特定と評価が欠けている。",
+      "エ": "eの受容を含み，リスク特定aが欠けている。"
+    },
+    "variation": "A01／24P01。名称三つの選択から，a～eの作業を分類する組合せへ変更。業務への影響・対策実施・残留リスクの受容を区別させるが，リスク値計算は加えていない。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.2と公式解答問1を確認。三つの構成プロセスという不変の試験事実を根拠にした。JIS本文は入手しておらず，作業説明は規格の逐語引用ではない。詳細な規格解釈を追加した問題ではない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 100.00% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 短い作業文と英字ラベルで組合せを表した。リスクアセスメントの語を別の専門語に置き換えていない。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢174字，語彙一致率100.00%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "bb323f6c1667b12c3484229e5e5a05d3b44ba313e4a23f8144eec0dc74cddb00"
+  },
+  {
+    "questionId": "sg-generated-batch-002-002",
+    "status": "approved",
+    "rule": "情報の管理区分と周知済みの取扱基準を結び付けるラベルを，資料の一部を取り出した後も確認できるようにする。",
+    "choiceReasons": {
+      "ア": "基準の再教育だけでは，表紙のない個々のページがどちらの区分か分からない。",
+      "イ": "元のフォルダへのアクセスを制限しても，許可された抽出後のページには区分が表示されない。",
+      "ウ": "元の区分を出力ページにも表示するので，表紙なしで共有しても適用する取扱基準を識別できる。",
+      "エ": "全て同じ件名では，社外秘と公開可能の資料を区別できない。"
+    },
+    "variation": "A02／24P02。初回の送信禁止を知らなかったという筋書きを廃止。公開可能と社外秘が混在し，許可されたページ抽出で表紙の表示を失うケースへ変更した。元の区分が抽出後も適用される条件から，出力先への表示継承を選ぶ。教育・元資料への権限制限・一律表示との違いを問う。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.2・解答問2は，情報を管理レベルの表示で識別するという同じ学習目標の根拠。ページ抽出と区分継承は本問で明示した社内運用の前提であり，INSIDERの新たな規定の引用ではない。ラベルだけで流出を防止できるとも主張しない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 98.66% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 表紙から離れたページという新しい条件と，管理区分を確認する目的を明記した。教育・権限制限・一律表示の三案も同じ資料取扱いの文脈にそろえた。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢265字，語彙一致率98.66%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "3dd303fd11197e019866abc455357eaf3997cdc84848f4c14d35b4fc376cab0f"
+  },
+  {
+    "questionId": "sg-generated-batch-002-003",
+    "status": "approved",
+    "rule": "実体が存在するのにOS経由の一覧には現れない観測を，不正プログラムの存在を隠す処理と対応付ける。",
+    "choiceReasons": {
+      "ア": "別の場所への移動と元の場所からの削除は，同じ場所に残り削除・移動もないという観測条件に反する。",
+      "イ": "実体は残して一覧の情報だけを除くので，OSを使う場合と使わない場合の観測差を説明できる。",
+      "ウ": "内容の読出しを制限するだけで一覧に表示するなら，一覧に存在しないことを説明できない。",
+      "エ": "実行履歴だけを消しても，変更しないファイル一覧から存在を隠すことにはならない。"
+    },
+    "variation": "A03／22S12。初回の機能定義四択を，OSの一覧とOSを使わない記憶装置の確認との不一致へ変更。削除・移動がないことを判断条件とし，実体の除去，内容への権限制限，実行履歴の消去と隠蔽を比較する。旧アの不自然なポート応答文は使用しない。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.5・解答問12の不正ツールの存在を隠すという不変の試験事実を適用。観測結果は架空事例の明示前提であり，全ての一覧不一致がルートキットを証明するという診断規則ではない。実装，製品又は侵入手順の追加的な能力は主張しない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 100.00% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: OS経由とOSを使わない確認の二つを短い文で比較し，削除・移動はないと限定した。旧版の不自然なポート応答の表現は削除した。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢247字，語彙一致率100.00%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "4163cfa01a88f1e8e076b24cab6e8f20264e18fc6d31f92cd905c2b96bb202db"
+  },
+  {
+    "questionId": "sg-generated-batch-002-004",
+    "status": "approved",
+    "rule": "保存済みの値を後続のSQLに組み込む場合も，構文と値を分離する必要がある。SQL生成への対策を，認証やHTML出力への対策と区別する。",
+    "choiceReasons": {
+      "ア": "認証用パスワードを長くしても，検索処理の文字列連結は残り，値がSQL構文として解釈される問題に対応しない。",
+      "イ": "SQLの値のバインドはSQL構文との分離であり，ブラウザへの出力で生じるクロスサイトスクリプティングへの対策とするのは誤対応である。",
+      "ウ": "登録時だけでなく，保存済みの氏名を使う検索時にも値としてバインドすることで，問題のあるSQL生成経路に対応する。",
+      "エ": "画面表示時のHTML処理はSQL実行後の別経路であり，検索時の文字列連結によるSQLインジェクションに対応しない。"
+    },
+    "variation": "A04／23P07。登録ではバインド済みだが検索では保存値を文字列連結する二段階の処理に変更。入力済みだから安全という誤認を避け，どの処理経路で何を分離するかを判断させる。弱い表示件数・バックアップ案を認証強化・出力処理・脅威の誤対応に置換。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: IPA SQL資料1-(i)-aのプレースホルダ／バインドと，1-(i)-bの全てのリテラルを適切に扱う必要性（外部入力の影響がある部分だけに限定しない）を実読。対象は氏名の値でありテーブル名などの識別子ではない。原問PDF p.5・解答問7はWeb脅威と対策の対応付けの根拠。保存値を用いる経路は本問の前提。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 98.57% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 登録と検索の二段階を区別し，保存済みの氏名という同一の値を追う文にした。攻撃文字列やSQL構文の作成は要求しない。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢308字，語彙一致率98.57%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "3e8a60e94ccc926bc8f38e13cb1f2d38aa9ba98a06c94a797833a2c8050a4d26"
+  },
+  {
+    "questionId": "sg-generated-batch-002-005",
+    "status": "approved",
+    "rule": "CVSSv3の現状評価基準は，対策の利用可能性や脆弱性情報の信頼性など，時間に伴い変わる状況を扱う。",
+    "choiceReasons": {
+      "ア": "利用企業の可用性要求は環境評価基準の条件であり，現状評価基準ではない。",
+      "イ": "攻撃元区分という脆弱性自体の特性の評価であり，現状評価の状況変化ではない。",
+      "ウ": "利用企業固有の重要性は環境に関する条件であり，現状評価基準ではない。",
+      "エ": "開発者による確認はRC，正式対策の提供はRLの条件に対応し，現状評価基準で考慮する。"
+    },
+    "variation": "A05／25P06。一般的な特徴の説明から，開発者の確認と正式対策の提供という変化を選ぶ課題へ変更。基本・現状・環境の区別を維持し，v4又はスコア計算は用いていない。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: IPA CVSS v3概説（v3.0）の1.1及び2.2.2 RL・2.2.3 RCを確認。環境条件は2.3.1を参照。対策提供で必ず特定の点数になるという主張はしていない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 96.05% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 現状評価を時間に関する条件と読むために，二つの出来事を一文にまとめた。略号RC/RLは作者理由だけに置いた。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢157字，語彙一致率96.05%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "822ab876fa225ab4ad384c86da975fb505e4cf72ebaa725fc227fc35bf58816d"
+  },
+  {
+    "questionId": "sg-generated-batch-002-006",
+    "status": "approved",
+    "rule": "正しい認証情報を使う自動操作が発生している状況で，人間判定を本人確認や権限付与の代わりにしない運用を選ぶ。",
+    "choiceReasons": {
+      "ア": "人による応答かの判定は，特定の従業員本人であるという確認を代替しない。",
+      "イ": "この事例では自動プログラムもログインに成功しているため，成功だけを理由に人間判定を省くと提示された問題が残る。",
+      "ウ": "本人・権限の確認を保ち，人による操作かの判定を別に行うので，三つの目的を混同していない。",
+      "エ": "CAPTCHAへの通過から申請承認の権限は導けず，人間判定と認可を取り違えている。"
+    },
+    "variation": "A06／22S25。公開サイトの登録から，従業員限定サイトで正しい認証情報を使った大量申請へ変更。CAPTCHAの一般定義ではなく，ログイン成功を理由に省略できるか，既存の本人・権限確認とどう併用するかを判断する。SQLの誤答は撤去。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.11・解答問25の人による応答と本人認証の区別を適用。大量申請と正しい認証情報の利用は本問の前提であり，特定製品の欠陥の主張ではない。CAPTCHAが全ての自動操作を排除するとは述べず，判定の目的を問う。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 96.15% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 従業員限定，正しい認証情報，自動申請という条件を示し，本人・権限・人間判定の目的を区別する四案にした。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢280字，語彙一致率96.15%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "c295c5f236431aa0cdae6d4bfcdc10a4603c35503b9e2334faf5796149395a93"
+  },
+  {
+    "questionId": "sg-generated-batch-002-007",
+    "status": "approved",
+    "rule": "外部から接続できたポートと許可一覧の差から追加調査の対象を選び，接続成功だけでは内容・版・本人認証の結果を確定しない。",
+    "choiceReasons": {
+      "ア": "ポートへの接続成功はページ内容の比較結果ではなく，改ざんがないという判断にはならない。",
+      "イ": "取得したのは番号だけであり，サービスの製品・版・脆弱性の有無を確定する情報はない。",
+      "ウ": "ポートへの接続と利用者IDによる認証成功は別であり，前者だけから後者は導けない。",
+      "エ": "8443は許可一覧にないが外部から接続できたため，何のサービスかと公開の必要性を確認する対象になる。"
+    },
+    "variation": "A07／22S30。一般的な調査作業の選択から，許可443のみ／実測443・8443という差の解釈に変更。観測情報を番号だけに限定し，未知の公開サービスの調査と，内容・版・認証の断定を比較する。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.12・解答問30の外部からサービスの公開状況を調べる目的を適用。番号，許可一覧，取得情報の範囲は架空事例の明示前提である。ポート番号から特定の製品やプロトコルを断定しない。侵入・脆弱性診断の手順を新たに問うものではない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 95.87% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 許可された番号と接続できた番号の差を明記した。拒否応答も含み得る単なる応答ではなく接続成功とし，その先の内容や認証との混同を避けた。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢260字，語彙一致率95.87%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "ce4a7fb3dede1481b9076b392068aca6e6ad3b3e4ebea63ee3b5f5dc4b47a176"
+  },
+  {
+    "questionId": "sg-generated-batch-002-008",
+    "status": "approved",
+    "rule": "実際の所在ではなくカード別の認証履歴を追い，退室認証のないCと，入退室とも認証済みのDを区別する。",
+    "choiceReasons": {
+      "ア": "Cの履歴は入室したままなので再入室は拒否される。Dは退室認証済みで，他の制限もないので許可される。",
+      "イ": "Cが実際に室外にいても退室の認証履歴はなく，物理的な所在だけでは許可にならない。",
+      "ウ": "認証履歴による判定が逆である。退室を認証したのはDであってCではない。",
+      "エ": "過去の入室履歴だけで以後の入室を永久に拒否するものではなく，Dにはその後の退室認証がある。"
+    },
+    "variation": "A08／23P02。初回の一人の出来事から名称を当てる形式を廃止し，Cの無認証退室とDの認証退室という二履歴の再入室結果へ変更。初期状態・カードの有効性・初期化なしを明示。四つの結果の組合せは短い文のままとし，B型の表は加えない。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.2・解答問2の履歴に基づく再入室拒否を適用。C/Dの操作と他制限・履歴初期化がないことは本問の前提。全ての市販製品に例外なく同じ設定がある，あるいは共連れを物理的に防ぐ，という主張ではない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 97.69% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 二人の履歴と再入室の組合せを文で提示した。実際の退室とカードの退室認証を区別し，表や余分な扉条件は追加していない。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢239字，語彙一致率97.69%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "562fee3b4a8caa1ff6efd1af92dbe79b03107bb21b01b115a421f1c941e621ff"
+  },
+  {
+    "questionId": "sg-generated-batch-002-009",
+    "status": "approved",
+    "rule": "大量データは共通鍵で一度暗号化し，相手ごとの公開鍵の役割を小さい鍵の安全な受渡しに分ける。",
+    "choiceReasons": {
+      "ア": "相手の数だけ本体を暗号化するため，本体の暗号化を1回にする条件に反する。大量データと鍵の処理を分けてもいない。",
+      "イ": "本体は大量データに適した共通鍵で1回だけ暗号化し，同じ鍵を各受信者の公開鍵で保護して渡すので両条件を満たす。",
+      "ウ": "第三者に内容を読まれるおそれのある経路で鍵を保護せず渡すため，その鍵による本体の秘密を守れない。",
+      "エ": "鍵の受渡しは保護するが，相手ごとに異なる鍵で本体を再暗号化するため，1回だけという条件を満たさない。"
+    },
+    "variation": "A09／23P04。バックアップという用途名だけの変更を廃止。同一ファイルの複数相手への配布で，本体1回の処理と相手別の安全な鍵配送を両立させる。正しい公開鍵と安全な鍵暗号化機能を明示し，方式の役割・処理回数・鍵の保護が選択に働くようにした。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.3・解答問4が大量データへの共通鍵方式の適性の根拠。NIST SP800-12r1 PDF pp.62–63 §9.1.1で共通鍵の役割と受信者の公開鍵／対応する秘密鍵を確認した。NISTのこの箇所を速度測定の証明には用いない。正しい公開鍵の入手と共通鍵を安全に暗号化できる機能は本問の明示前提で，任意の公開鍵方式の直接適用を保証しない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 100.00% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 本体の処理回数と相手別の鍵の受渡しを区別した。通信路を読まれるおそれも明記し，平文の鍵配送を安全と読める余地をなくした。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢284字，語彙一致率100.00%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "960322a4dd898feaf49656dd0a55981c18fa9310cf2689d4e29297ecfc38559d"
+  },
+  {
+    "questionId": "sg-generated-batch-002-010",
+    "status": "approved",
+    "rule": "特定個人情報ファイルの作成目的が，個人番号関係事務等を処理するために必要な範囲内かを判断する。",
+    "choiceReasons": {
+      "ア": "Q2-1②は委託業務の監督に必要な報告のための作成を認める。本問もB社の監督に必要な範囲に限定している。",
+      "イ": "法令に基づく源泉徴収票の受託事務に必要な範囲の作成であり，作成の制限には反しない。",
+      "ウ": "A社自身の過去の実績を残すだけで受託事務には不要なので，Q2-1①・②の必要範囲外の作成に当たる。安全管理措置だけで目的の制限は解除されない。",
+      "エ": "Q2-1③は個人番号関係事務内の代替番号と個人番号の対照表を認める。本問も受託事務に必要な範囲に限定している。"
+    },
+    "variation": "A10／22S31。初回の成績評価・整合確認・バックアップという原問と同じ並びを廃止。委託元Bの法定事務に必要な監督報告・処理・番号対照と，受託者Aだけの過去の営業記録を比較する。どの主体の何の目的かが作成可否に影響する。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: PPC事業者編第4-1-(2)（令和7年6月版）及び固定Q&A令和7年4月1日版PDF pp.19–20 Q2-1①②③を再読。単なる過去実績，監督報告と関係外ファイル，事務内の番号対照を確認した。全案が個人番号を含むことと事務範囲を明記。2022年の歴史版は未入手であり，本文指定の2025年版を根拠とする。更新中のHTMLは根拠にしない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 97.44% words / 99.26% kanji. New kanji explicitly reviewed: 督. Historical author language notes follow: 委託元Bと受託者Aを分け，各ファイルに個人番号があることと必要な事務範囲を明記した。安全管理措置の有無ではなく作成目的を比較する文にした。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢292字，語彙一致率97.44%，漢字一致率99.26%。新出漢字：督。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "776d923eb574dc44eb1f6d582c778c964c2e98bc0f0e5102502c928bf9285f20"
+  },
+  {
+    "questionId": "sg-generated-batch-002-011",
+    "status": "approved",
+    "rule": "適切な本人による署名の条件の下で，記録の真正な成立が推定される効果を，内容の真実性の保証や政府による認証と区別する。",
+    "choiceReasons": {
+      "ア": "真正な成立の推定は，契約の記載内容が全て真実であるとの確定ではない。",
+      "イ": "本人による署名があっても，政府がその内容を認証したことにはならない。",
+      "ウ": "第3条は本人による一定の電子署名があることを条件としており，署名の有無を無視していない。",
+      "エ": "第3条の本人のみが行える電子署名という条件を満たすため，真正に成立したものと推定される。"
+    },
+    "variation": "A11／23P08。無条件に押印と同じと読める原問の短文を繰り返さず，民間の契約記録と本人専用の符号等の管理を明示。電子署名法の法的効果を見分ける課題は維持。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: e-Gov公式XMLの本則第2条及び第3条を実読。公務員の職務上作成した記録の除外，本人による署名，符号等の適正管理による本人のみの署名という限定を確認した。あらゆる電子署名の無条件の有効性は主張しない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 96.40% words / 98.95% kanji. New kanji explicitly reviewed: 真. Historical author language notes follow: “真正に成立”“推定”は法的効果の違いに必要なので残した。長い法文全文の暗記ではなく，条件と効果の一段の対応を問う。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢207字，語彙一致率96.40%，漢字一致率98.95%。新出漢字：真。新出語の全件はlanguage-report.jsonに記録。 真正の“真”は第3条の法的効果の正確さを優先して保持し，99%目標未達を明記する（98%下限は満たす）。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "e395b6563fbc384e33ba9ba05729cf36a349824ba18312e6a962611c13efeac6"
+  },
+  {
+    "questionId": "sg-generated-batch-002-012",
+    "status": "approved",
+    "rule": "サービスの中断というインシデントを，その検知，原因及び回復作業から区別する。",
+    "choiceReasons": {
+      "ア": "プログラムが動作中でも，利用者にとって予定外に予約サービスが利用不能になったという中断がインシデントである。",
+      "イ": "連絡は中断を知る契機であり，検知の行為そのものをサービス中断と取り違えている。",
+      "ウ": "原因の確定とサービス中断の発生は別である。原因が調査中でも中断した事実は既にある。",
+      "エ": "予備回線への切替えはサービスを回復する作業であり，中断の事象そのものではない。"
+    },
+    "variation": "A12／22S39。異常終了→監視通知→再起動→後日の修正という経過を廃止。プログラム稼働中かつ監視通知なしでも利用不能となり，利用者連絡で判明し，別回線で回復したが原因不明という事例へ変更。原因確定を待つ必要があるとの誤認と，中断・検知・回復を区別する。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.15・解答問39の中断と検知・原因・対応の区別を適用。プログラムの状態，監視の不通知，回線切替えによる回復は本問の前提であり，特定原因を断定していない。独自のITSM定義やセキュリティ侵害への限定は加えていない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 95.24% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: プログラム稼働中，監視通知なし，原因調査中という三つの状態をサービス中断と区別した。復旧後に記録する対象を尋ねる短い事例である。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢233字，語彙一致率95.24%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "3bd87b74d63469374cef04e0616fb6db0c34f7f5cec9ca1cd81cdaf9441468c1"
+  },
+  {
+    "questionId": "sg-generated-batch-002-013",
+    "status": "approved",
+    "rule": "平均故障間隔に対する修復時間の割合を小さくすると，可用性が高くなることを判断する。",
+    "choiceReasons": {
+      "ア": "分子と分母がともに3倍になるため，比率は変わらない。",
+      "イ": "分子が同じで分母が小さくなるため，比率は高くなる。",
+      "ウ": "MをMTBF，RをMTTRとするとM／（M＋2R）になり，元の値より低くなる。",
+      "エ": "分母の修復時間の項が大きくなるため，元の値より低くなる。"
+    },
+    "variation": "A13／24P09。原問のMTBF2倍を，MTBF一定・MTTR半分の改善へ変更。等比拡大は3倍に変更し，比率が不変の場合と改善・悪化を比較する課題を維持。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.5・解答問9で可用性の比較課題を確認。本問は使用する式・正の時間・同一単位を本文に提示しており，独自の信頼性モデルを暗黙に一般化しない。M=90,R=10で順に0.9，18/19，9/11，0.75と作者再計算した。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 95.77% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 数式の条件は説明したが，複雑な計算問題にはしていない。各選択肢の比較対象をMTBF・MTTRに統一した。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢181字，語彙一致率95.77%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "a7ced4d5968e475acf03186724c117910aafab91bde4ea070f6f48a3850706f7"
+  },
+  {
+    "questionId": "sg-generated-batch-002-014",
+    "status": "approved",
+    "rule": "同じ名前・ドメイン・パスのcookieを後の値に置き換えて保持し，送信条件に合う次の要求ではCookieヘッダで返す。",
+    "choiceReasons": {
+      "ア": "最初の値1は後の値2で置き換えられたため，古い値だけを返すことにはならない。",
+      "イ": "Set-Cookieはサーバの応答で保存内容を指定する側であり，ブラウザから返す要求ヘッダはCookieである。",
+      "ウ": "ブラウザは置換後のID=2を保持し，条件に合う要求のCookieヘッダに含める。",
+      "エ": "同名でもドメインやパスが異なる場合ではない。同一の組なので二つを蓄積せず置換する。"
+    },
+    "variation": "A14／23P10。一般的な保存・送信・暗号化の命題を廃止。二度のSet-Cookie応答で同名の値が1から2になった観測を与え，次の要求ヘッダを選ぶ。古い値の保持，応答と要求のヘッダの逆転，同一cookieの二重保持を比較する。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: RFC6265 §4.1.2の同一cookie-name／domain-value／path-valueで既存cookieを置換する段落を実読。§3.1及び§4.2は送受信方向とCookie要求ヘッダの根拠。受入れ，同一ドメイン／パス，他cookieなし，送信条件充足を本文で明示し，条件の異なるcookieの送信まで一般化しない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 100.00% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 同じ名前・ドメイン・パスという置換条件を明記した。短いHTTPヘッダの選択肢で，値の更新と送受信方向を比較する。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢217字，語彙一致率100.00%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "41046adcc7c280ed116382916ba8473051f2fc68b495310ed1d61018e88425d7"
+  },
+  {
+    "questionId": "sg-generated-batch-002-015",
+    "status": "approved",
+    "rule": "業務プロセスに組み込まれた確認行為を，経営方針・リスク分析・独立的な監査と区別する。",
+    "choiceReasons": {
+      "ア": "全体的な経営方針の決定であり，個々の取引に組み込まれた確認ではない。",
+      "イ": "リスクを分析する活動であり，本問の業務処理の確認とは異なる。",
+      "ウ": "監査部による別途の監査であり，処理の都度業務に組み込まれた統制ではない。",
+      "エ": "支払業務の中で処理結果を確認する活動であり，統制活動に該当する。"
+    },
+    "variation": "A15／24P08。受注から出荷までの処理結果検証を，承認済み発注額と支払請求額の照合に変更。業務に組み込まれた統制と別途監査の区別を維持した。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF p.4・解答問8の業務プロセスに組み込まれた検証という不変の分類を根拠とした。追加の内部統制基準の版は引用しておらず，法定の監査義務や全ての照合の有効性を一般化していない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 96.00% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 四つの短い行為を同じ文型で提示した。“処理の都度”で業務に組み込まれた点を明確にした。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢132字，語彙一致率96.00%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "6ebab9af4246d2f9a12fe0a8600c3390b19a64aca58f2fbcb6e809defabfc328"
+  },
+  {
+    "questionId": "sg-generated-batch-002-016",
+    "status": "approved",
+    "rule": "原因が確定していない段階で候補を分類して結果との関係を整理する目的を，分布・時系列・頻度順の図の目的と区別する。",
+    "choiceReasons": {
+      "ア": "人・手順・設備などに原因候補を分け，回答の遅れという結果との関係を整理する目的に合う。図を作るだけで因果関係が実証されるわけではない。",
+      "イ": "回答時間などの値の分布を見る図であり，候補となる原因と結果の関係を系統的に整理する目的とは異なる。",
+      "ウ": "時系列の値と管理限界による状態の管理に用いる図であり，提示された原因候補の分類ではない。",
+      "エ": "原因別の件数などを頻度順に比較する用途とは異なる。ここでは原因も未確認で，候補と結果の関係を整理することを求めている。"
+    },
+    "variation": "A16／23P12。魚の骨という形状の手掛かりを削除し，回答遅延の調査に先立つ原因候補の整理へ変更。担当者不足・手順・システムという候補と調査段階が選図の条件になる。名称四択，短問，cause-effect-diagramのfamilyを維持する。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 2023公式問題PDF p.7・解答問12の原因と結果を整理する目的を適用。既読の同じfamilyの2024問12（問題PDF p.6・解答問12）を，分布・時系列・頻度の図との区別の補助根拠に用いた。図による原因の証明や統計的有意性の判断は追加していない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 97.47% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 魚の骨という形状のヒントを使わず，調査前の原因候補の分類という目的を示した。未確認の候補を確定原因と呼ばない。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢140字，語彙一致率97.47%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "7f62cf21dd0c5713fcb916201e5ad21fbc04736a0e6348025382362d188d8ed1"
+  },
+  {
+    "questionId": "sg-generated-batch-002-017",
+    "status": "approved",
+    "rule": "行ごとの対象を評価し，必須の追加ソフトPとQの両方に更新と結果確認の運用を設ける。ツールの対応範囲と継続利用の条件を全て満たす案を選ぶ。",
+    "choiceReasons": {
+      "ア": "（一）は通知だけで適用せず，（二）はPだけでQが残る。どちらも全対象を満たさない。",
+      "イ": "（三）は両ソフトを更新できるが，（一）は通知後の適用を含まないため不適切である。",
+      "ウ": "（一）は更新せず，（四）は業務上必要なPとQの継続利用条件に反する。",
+      "エ": "（五）は適切だが，（一）は修正プログラムを適用する運用がない。",
+      "オ": "（三）は適切だが，（二）はQの運用を変えないのでQの未適用が残る。",
+      "カ": "（二）はQに対応せず，（四）は必須ソフトの削除で業務条件を満たさない。",
+      "キ": "（五）は適切だが，（二）はPだけを対象としておりQに対応しない。",
+      "ク": "（三）は適切だが，（四）はPとQを利用し続けるという明示条件に反する。",
+      "ケ": "（三）はPをX，Qを担当者の手作業で更新して両方の適用結果を確認する。（五）は検証済みのYで両方を更新・確認する。各案が単独で全対象と継続利用を満たす。",
+      "コ": "（五）は適切だが，（四）は標準ソフトで代替できないPとQを削除するため不適切である。"
+    },
+    "variation": "B01／22S51。追加ソフトを全て削除できる初回条件を反転し，必須で代替不能なP/Qとした。既存XはPのみ対応，Qは手作業可能，新Yは両方対応という範囲差から，X＋手作業又はYの二案を選ぶ。表の評価定義を当該行の導入先全PCに限定し，三対象行・五案・十組を保持。正解は（三）（五）のケへ変更。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF pp.24–25・解答問51及びSME v4.0 PDF pp.22–23，36のソフト更新という根拠を維持。X/Yの能力，P/Qの業務上の必要性，提供済みパッチ，手作業適用可能性は本問で明示する架空事例の前提である。製品名から能力を推定せず，不要ソフトの削除という一般策を必須ソフトへ無条件に拡張しない。自社評価であり5/6か条を混在させない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 97.65% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 実施しているの定義を当該行の対象ソフトウェアと導入先の全PCに限定した。P/Qの三対象行，五案十組で更新対象と業務条件を追う。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢1117字，語彙一致率97.65%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "dec9945438dd6f5a8b9c16c464ba8e22fe6fc420a05c20dde629c1ef91ae0692"
+  },
+  {
+    "questionId": "sg-generated-batch-002-018",
+    "status": "approved",
+    "rule": "図の制限区域への境界は扉Pであり，権限のある人の後ろを認証せずに通る行動に働きかける案を選ぶ。",
+    "choiceReasons": {
+      "ア": "（一）は共用作業室側のQであり，（二）の証は入室権限を示さない。いずれも今回のPでの共連れに対応しない。",
+      "イ": "（三）は適切だが，（一）はQでの認証強化であり，Pの共連れを変えない。",
+      "ウ": "（六）は適切だが，（一）は誤った境界の認証強化である。",
+      "エ": "（二）は権限を区別できず，（四）は来客受付であって従業員同士のPの通行には対応しない。",
+      "オ": "（六）は適切だが，（二）の個人別・共通デザインの証は権限を表示せず，掲示するだけでは個別認証が不要という誤解に対応しない。",
+      "カ": "（三）は適切だが，（五）は認証後に続いて通れるという原因を残す。",
+      "キ": "（三）はPで一人ずつ認証する理由と規則を知らせ，（六）は同じPでの無認証通行をその場で止めて本人の認証に戻す。",
+      "ク": "（三）は適切だが，（七）は年1回の確認だけで，現在の誤解に基づく行動への働きかけを含まない。",
+      "ケ": "（六）は適切だが，（四）はRでの来客対応であり，今回の従業員同士の問題とは異なる。",
+      "コ": "（五）は扉の通行動作を変えず，（七）は年1回の事後確認だけである。対象の誤解に対応する案ではない。"
+    },
+    "variation": "B02／22S53。顧客管理部と共用作業室の独自図，七案十組，正解（三）（六）を維持。改訂では，共用エリア→R→受付・来客用会議室→Q→作業室という既存図の経路を明記した。（二）は一枚の共有ではなく各自の個人証で，全社共通デザインかつ権限・部門表示なしと明記。SVG座標・境界・ラベルは変更しない。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 公式問題PDF pp.28–29・解答問53とSME PDF p.34を確認。原問の掲示・個別注意という選択を，扉P・従業員の誤解という新しい明示条件に適用した。カメラ一般・従業員証一般・多要素認証一般が無効とはしていない。独自SVGであり公式図の転載と表示しない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 97.97% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 共用エリアからR，受付・来客用会議室，Qを経由して作業室に至ると明記し，既存SVGの経路と一致させた。従業員証は各自の個人証で，共通なのはデザインと明記した。SVGの座標・文字は以前のMuPDF派生プレビューで作者確認済みで変更なし。ブラウザ画像検査は以前の起動タイムアウトにより未完了。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢947字，語彙一致率97.97%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "c3b70e22951bb5474005196d7739005432951485e236bd2395fb70dc071543a7"
+  },
+  {
+    "questionId": "sg-generated-batch-002-019",
+    "status": "approved",
+    "rule": "自己評価の結果は規則の存在ではなく実施の証拠に基づける。過大な閲覧権限が実在し，代替対策がないためNGと判定する。",
+    "choiceReasons": {
+      "ア": "ルールの存在は，評価項目どおりに設定されている証拠ではなく，観察結果とも矛盾する。",
+      "イ": "管理部門が存在することだけでは，同程度にリスクを下げる代替コントロールにはならない。",
+      "ウ": "閲覧権限が必要範囲を超え，代替対策もないという本文の事実がNGの定義に一致する。",
+      "エ": "顧客情報を実際に保存しており，過大な権限によるリスクもあるためNAではない。"
+    },
+    "variation": "B03／22S57。原問の適切なアクセス権を確認したOKから，画面と利用状況で全営業所への過大な権限を発見したNGへ変更。最小権限を実装しているかという焦点を維持し，四つの結果／理由の対応を再判断させる。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 原問の壊れたchoices[].textは使用していない。公式PDF pp.36–37，特にp.37の完全な四行表とcanonical blocks内の構造化表を照合し，原問正答アを解答PDFで確認した。SME PDF pp.33，39の権限管理・実行証拠の点検を確認。本問の判定ラベルはH社の定義。公式データの修正は行っていない。 原PDF37頁を画像としても作者確認し，完全な四行表の対応を確認した。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 99.53% words / 100.00% kanji. New kanji explicitly reviewed: none. Historical author language notes follow: 四結果のルール，評価シート，四行二列の選択肢を保持。読解上必要な実際の設定と代替対策の有無だけを追加し，広い監査事例にはしない。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢861字，語彙一致率99.53%，漢字一致率100.00%。新出漢字：なし。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "8d387f872bf7e59d9c7e366d74ab1952bf8f555deb4763f21594b46e43c70a08"
+  },
+  {
+    "questionId": "sg-generated-batch-002-020",
+    "status": "approved",
+    "rule": "不要な直接識別子は削除し，必要なカテゴリは条件に従って残し，特異な数値だけをまとめて中央の必要な精度を維持する。",
+    "choiceReasons": {
+      "ア": "電子メールアドレスを残すので，提供データに含めないという条件に反する。",
+      "イ": "丸めだけでは指定された両端の区分を作れず，中央の1歩単位の分析にも反する。",
+      "ウ": "業種を削除すると，分析に必要な業種間の比較ができない。",
+      "エ": "業種の分類をまとめ，さらに中央の歩数も丸めるので，二つの分析条件を満たさない。",
+      "オ": "電子メールアドレスを残し，歩数を削除するため，識別リスクと分析目的の双方に反する。",
+      "カ": "電子メールを項目削除し，必要な業種を保持する。両端の歩数だけを（三）でまとめ，中央の値は1歩単位で残すため，全条件を満たす。",
+      "キ": "中央の歩数に（四）を適用すると4,236が4,000，7,845が8,000となり，要求された精度を失う。",
+      "ク": "業種と歩数を削除すると，業種ごとの歩数分布という分析ができない。",
+      "ケ": "電子メールを残す上に中央の歩数を丸めるので，二つの条件に反する。",
+      "コ": "52と48,210など，特に小さい又は大きい歩数がそのまま残り，両端の加工条件に反する。"
+    },
+    "variation": "B04／25P15。保険マーケティング・体重から商品の販売計画・歩数分布へ変更。52／48,210，100未満／30,000以上の区分，中央域の1歩精度から，原問の（三）＋（四）とは異なり（三）のみを選ぶ。今回の改訂は冒頭の作成・提供主体だけを明確化し，L社が収集データから作成し商品販売会社M社へ提供するとした。二つの関連表，手法表，十行三項目の解答表，その他の事例条件は維持。",
+    "sourceReview": "Final curation 2026-10-10: registered sources and hashes verified; independent current-content source/concept review accepted. Official keys support unchanged concepts, not generated answers or new premises. Historical author source notes follow: 原問PDF pp.12–14・解答問15を確認。原問の明示引用と同じPPC事務局レポート第2版（2022年5月更新）PDF pp.74，80–84，特に図表4-4／4-5を実読。加工の程度は個別具体的に判断するというp.74及びp.82の限定を採用。法的な参照時点は同レポートの2022年5月。新しい閾値・分布・分析精度・全体評価の結論は架空事例の明示前提であり，レポートがその数値を認めたという意味ではない。",
+    "languageReview": "Final curation 2026-10-10: independent current-content Japanese/choice review accepted. Fixed official-only overlap: 96.22% words / 99.53% kanji. New kanji explicitly reviewed: 未. Historical author language notes follow: L社が収集したデータから作成し，商品販売会社M社へ提供する構文に修正した。残りの匿名加工条件・三表・三項目の選択肢は変更していない。未満の“未”は数値境界に必要なため保持した。 作者による改訂記録であり，母語話者・専門家の承認ではない。初回独立レビューは旧版に対する記録で，改訂版の独立再レビューは未実施。 機械検査：固定120公式問のみを母集団とする既存languageMetricsで，本文・選択肢1614字，語彙一致率96.22%，漢字一致率99.53%。新出漢字：未。新出語の全件はlanguage-report.jsonに記録。",
+    "reviewMethod": "Author reasoning and source inspection followed by committed answer-blind independent AI solves, substantive revisions and accepted re-review. Final curation: 2026-10-10. Original author records retained in author-review-draft.json; initial independent findings retained. Not native-speaker, SG-expert or IPA approval.",
+    "contentHash": "71ac42bc9a686e0aff8714833a98f0f40dfeaad1e2366eafe9cd4aa24faffc56"
+  }
+]

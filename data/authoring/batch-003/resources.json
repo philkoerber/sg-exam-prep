@@ -1,0 +1,50 @@
+[
+  {
+    "id": "batch-003-cryptrec-about",
+    "title": "CRYPTRECとは（2026-10-10取得）",
+    "url": "https://www.cryptrec.go.jp/about.html",
+    "file": "data/resources/batch-003/cryptrec-about.html",
+    "sha256": "a06a4e0744dd132de975cb862c2152e9540c8244871e07e453a831a4c24f93ad",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-penal-code",
+    "title": "刑法（e-Gov法令API，2026-10-10取得）",
+    "url": "https://laws.e-gov.go.jp/api/1/lawdata/140AC0000000045",
+    "file": "data/resources/batch-003/penal-code.xml",
+    "sha256": "f8108dbd7d4516fce2583db8ab5392916dfcee9d782110106cd750b167ea6081",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-ipa-bec-about",
+    "title": "IPA ビジネスメール詐欺（BEC）対策特設ページ（報告書への導線）",
+    "url": "https://www.ipa.go.jp/security/bec/about.html",
+    "file": "data/resources/batch-003/ipa-bec-about.html",
+    "sha256": "77fc0ea28e51d254a564cd41c01111d418e69add5ec145ead50596a6232c141d",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-ipa-bec-report",
+    "title": "IPA ビジネスメール詐欺（BEC）の特徴と対策 第2版（2023-02-09）",
+    "url": "https://www.ipa.go.jp/security/bec/hjuojm00000037nn-att/000102392.pdf",
+    "file": "data/resources/batch-003/ipa-bec-report.pdf",
+    "sha256": "8961bcdb0f5469a0d42137f685a5a09a9220cd1412410d259b2f1410ea674212",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-ipa-fakealert",
+    "title": "IPA 偽セキュリティ警告（サポート詐欺）対策特集ページ（2024-11-19更新）",
+    "url": "https://www.ipa.go.jp/security/anshin/measures/fakealert.html",
+    "file": "data/resources/batch-003/ipa-fakealert.html",
+    "sha256": "ecf258b1c3c67d1975be435a66a180b2b3400738a25216e49006e55e1cc733c3",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-ipa-fakealert-close",
+    "title": "IPA サポート詐欺で表示される偽のセキュリティ警告画面の閉じ方 Ver.1.00（2023-11-15）",
+    "url": "https://www.ipa.go.jp/security/anshin/doe3um0000005cag-att/20231115173500.pdf",
+    "file": "data/resources/batch-003/ipa-fakealert-close.pdf",
+    "sha256": "5c2d924aad306b473965c2f9ac4b5d7912481d0f1b5595c7f0f8286eec3bdc8d",
+    "retrieved": "2026-10-10"
+  }
+]

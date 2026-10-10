@@ -1,0 +1,40 @@
+{
+  "schema": "passed",
+  "count": 20,
+  "subjectA": 16,
+  "subjectB": 4,
+  "studyOnly": true,
+  "exactAnchorInheritance": "passed",
+  "resourceFilesAndHashes": "passed",
+  "status": "DRAFT",
+  "globalCatalogueIdsPending": [],
+  "proposedResourceIdsPendingRegistration": [],
+  "cataloguePolicy": "All referenced IDs must be registered in the shared catalogue. Batch proposals must match the merged entries exactly. Shared catalogue not changed.",
+  "arithmetic": {
+    "expense": 960,
+    "manufacturing": 900,
+    "salesCost": 950,
+    "profit": 450,
+    "alternatives": {
+      "ア": 390,
+      "イ": 450,
+      "ウ": 500,
+      "エ": 550
+    }
+  },
+  "timing": "Available 10:08; fetch 10:15; applied by 10:17 < open 10:24. 10:00 fetch is too early.",
+  "hardFloorsMet": true,
+  "wordTargetExceptions": [],
+  "kanjiTargetExceptions": [],
+  "lengthReviewPrompts": [
+    "sg-generated-batch-003-004",
+    "sg-generated-batch-003-007",
+    "sg-generated-batch-003-009",
+    "sg-generated-batch-003-010",
+    "sg-generated-batch-003-011"
+  ],
+  "independentReview": "Initial reviewer records preserved. 002 and 006 revised and require fresh review; parent also requires a fresh source-blind solve of 001–004 because original-anchor annotations were exposed. No author approvals.",
+  "reviewExport": "Not regenerated locally. Parent must generate the current solve-only export before fresh review; legacy blind-review.json contains source hints and stale revised content.",
+  "renderedDesktopMobile": "NOT PERFORMED",
+  "published": false
+}

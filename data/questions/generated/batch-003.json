@@ -1,0 +1,1631 @@
+[
+  {
+    "id": "sg-generated-batch-003-001",
+    "familyId": "sg-2025-public-01",
+    "subject": "A",
+    "topic": "management",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "事業の目的の達成を妨害する可能性のある事象を探し，リスクとして一覧に記載する。"
+      },
+      {
+        "key": "イ",
+        "text": "停止の原因，発生する可能性及び結果を確認し，リスクのレベルを求める。"
+      },
+      {
+        "key": "ウ",
+        "text": "分析したリスクのレベルを判断基準と比較し，追加の対応が必要かどうかを決める。"
+      },
+      {
+        "key": "エ",
+        "text": "リスクを低減するために選定した代替システムを導入し，その運用を開始する。"
+      }
+    ],
+    "answer": "イ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "JIS Q 31000:2019のリスクマネジメントプロセスに照らし，受注システム停止のリスクの性質や特徴を理解するために行うリスク分析に該当する活動はどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2025-public-01"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2025-public-questions",
+          "section": "問1（PDF pp. 2）：同じ学習目標・推論の公式アンカー。問1エのリスク分析の意義と，イ・ウに提示された特定／対応の活動を用いる。JIS本文の別途取得・全条項の照合は未実施。"
+        },
+        {
+          "resourceId": "ipa-sg-2025-public-answers",
+          "section": "PDF p. 1，問1の正解 エ。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-002",
+    "familyId": "sg-2022-sample-15",
+    "subject": "A",
+    "topic": "threats",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "TCPポート番号80は通常のHTTP通信で使われるので，Webサイト閲覧用の許可条件に該当する可能性がある。"
+      },
+      {
+        "key": "イ",
+        "text": "TCPポート番号80は通常のHTTPS通信で使われるので，暗号化されたWebサイト閲覧用の許可条件に該当する可能性がある。"
+      },
+      {
+        "key": "ウ",
+        "text": "TCPポート番号80はDNSの名前解決用なので，指令サーバへの通信も名前解決として許可される。"
+      },
+      {
+        "key": "エ",
+        "text": "TCPポート番号80はDNSサーバ間のゾーン転送で使われるので，DNSサーバ間の通信として許可される可能性がある。"
+      }
+    ],
+    "answer": "ア",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社では，通常のWebサイト閲覧に必要な外向きのTCP通信をファイアウォールで許可している。感染したPCのマルウェアが，インターネット上の指令サーバへの通信に宛先TCPポート番号80を用いた。この通信が許可される可能性がある理由として，適切なものはどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-15"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問15（PDF pp. 7）：同じ学習目標・推論の公式アンカー。問15ウのWeb閲覧用通信の許可可能性と，イ・エのHTTPS／DNSとの誤った対応を対比。ポートだけで必ず通過するとは述べない。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問15の正解 ウ。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-003",
+    "familyId": "sg-2024-public-04",
+    "subject": "A",
+    "topic": "threats",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "取引先で発生した情報セキュリティリスクが，自社へ影響する関係を整理する。"
+      },
+      {
+        "key": "イ",
+        "text": "通信の途中で第三者が情報を盗聴した箇所を，クライアントとサーバの間に記入する。"
+      },
+      {
+        "key": "ウ",
+        "text": "取引データを一定の単位にまとめ，改ざんを検知できるよう時系列につなぐ。"
+      },
+      {
+        "key": "エ",
+        "text": "攻撃者が対象の情報を集め始めてから目的を実行するまでの行動を，攻撃の段階に分けて整理する。"
+      }
+    ],
+    "answer": "エ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社はサイバー攻撃の調査結果をサイバーキルチェーンに沿って整理することにした。この考え方に沿った整理方法はどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2024-public-04"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2024-public-questions",
+          "section": "問4（PDF pp. 3）：同じ学習目標・推論の公式アンカー。問4ウの攻撃者視点・偵察から目的実行までの段階化だけを使用し，特定版の七段階名称などは追加しない。"
+        },
+        {
+          "resourceId": "ipa-sg-2024-public-answers",
+          "section": "PDF p. 1，問4の正解 ウ。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-004",
+    "familyId": "sg-2022-sample-07",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "暗号機能を備えた製品について，政府調達のための製品認証を行う。"
+      },
+      {
+        "key": "イ",
+        "text": "企業のサーバの通信を常時監視し，個々の攻撃を検知して通知する。"
+      },
+      {
+        "key": "ウ",
+        "text": "電子政府での利用を推奨する暗号技術について，安全性を評価し，その後も監視する。"
+      },
+      {
+        "key": "エ",
+        "text": "暗号装置を海外へ輸出する企業から申請を受け，輸出の許可を与える。"
+      }
+    ],
+    "answer": "ウ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "電子政府の情報システムで使用する暗号技術について調べている。次のうち，CRYPTRECの役割に該当する活動はどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-07"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問7（PDF pp. 3）：同じ学習目標・推論の公式アンカー。問7ウの役割と同じ範囲。組織の現在の構成や新しい暗号リストの掲載方式は出題しない。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問7の正解 ウ。生成問題の解答そのものではない。"
+        },
+        {
+          "resourceId": "batch-003-cryptrec-about",
+          "section": "「1. CRYPTRECとは」第1文：電子政府推奨暗号の安全性の評価・監視。2026-10-10取得HTML。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-005",
+    "familyId": "sg-2022-sample-09",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "仮想デスクトップのWebブラウザ内で行われる送信データの改ざんを，全て防止できる。"
+      },
+      {
+        "key": "イ",
+        "text": "Webサイトから取得した不正なファイルが，閲覧やファイル転送の経路で内部のPCに保存されることを防ぐ。"
+      },
+      {
+        "key": "ウ",
+        "text": "仮想デスクトップのOSは，Webサイトを閲覧してもマルウェアに感染しなくなる。"
+      },
+      {
+        "key": "エ",
+        "text": "内部のPCが別の経路でマルウェアに感染しても，他のPCへの感染を全て防止できる。"
+      }
+    ],
+    "answer": "イ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，社外のWebサイトを調査する業務で，内部ネットワークのPCから直接Webサイトを閲覧していた。今後は，DMZ上のVDIサーバの仮想デスクトップでWebブラウザを動かし，PCにはその画面だけを表示する。PCからWebサイトへの直接接続は許可しない。PCと仮想デスクトップ間のクリップボード，共有ドライブ及びファイル転送も無効にする。この変更によって期待できる効果はどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-09"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問9（PDF pp. 4）：同じ学習目標・推論の公式アンカー。問9アの内部PCへのWeb由来ダウンロード防止を維持。追加した分離設定は架空企業の実装条件であり，全VDI製品の仕様を主張する出典ではない。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問9の正解 ア。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-006",
+    "familyId": "sg-2025-public-03",
+    "subject": "A",
+    "topic": "technology",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "ソフトウェアの脆弱性について，開発元から修正プログラムや対策方法がまだ提供されていない状態のこと"
+      },
+      {
+        "key": "イ",
+        "text": "秘密情報そのものを相手に知らせずに，その情報を知っていることを証明する方法のこと"
+      },
+      {
+        "key": "ウ",
+        "text": "PCの振る舞いを監視し，通常と異なる不審な動作からマルウェア感染を検知する手法のこと"
+      },
+      {
+        "key": "エ",
+        "text": "内部ネットワークからのアクセスでも安全とは限らないことを前提に，対策を講じる考え方のこと"
+      }
+    ],
+    "answer": "エ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，社内システムへのアクセス管理を見直し，ゼロトラストを取り入れることにした。この考え方の説明として，最も適切なものはどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2025-public-03"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2025-public-questions",
+          "section": "問3（PDF pp. 3）：同じ学習目標・推論の公式アンカー。問3イの内部ネットワークも必ずしも安全ではないという定義と，同問の三つの混同概念を用いる。"
+        },
+        {
+          "resourceId": "ipa-sg-2025-public-answers",
+          "section": "PDF p. 1，問3の正解 イ。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-007",
+    "familyId": "sg-2022-sample-35",
+    "subject": "A",
+    "topic": "operations",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "正常処理とエラー処理を含め，対象業務の要件に対応するテストケースが網羅されていること"
+      },
+      {
+        "key": "イ",
+        "text": "計画の承認者が，利用者側の責任者だけに限定されていること"
+      },
+      {
+        "key": "ウ",
+        "text": "実際の顧客の注文を処理している本番環境だけで，テストを行うこと"
+      },
+      {
+        "key": "エ",
+        "text": "開発者を参加させず，利用者側の担当者だけで全てのテストを行うこと"
+      }
+    ],
+    "answer": "ア",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "受注から出荷までを対象とするシステムテストの計画を監査する。最も適切なチェックポイントはどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-35"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問35（PDF pp. 14）：同じ学習目標・推論の公式アンカー。問35アのテストケースの網羅性をそのまま判定原則とする。新しい監査基準の条項への適合は主張しない。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問35の正解 ア。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-008",
+    "familyId": "sg-2023-public-09",
+    "subject": "A",
+    "topic": "operations",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "受付窓口を一つにし，種類や影響を確認して，手順で定めた責任者へ連絡している。"
+      },
+      {
+        "key": "イ",
+        "text": "データベースの被害から復旧できるよう，規程に従いバックアップを取得している。"
+      },
+      {
+        "key": "ウ",
+        "text": "サービス停止も情報漏えいの疑いも一般の操作問合せとして受け付け，受付担当者内で保管し，定めた責任者へ連絡していない。"
+      },
+      {
+        "key": "エ",
+        "text": "対応経過を記録し，対応結果について責任者の承認を得る手順を関係者に周知している。"
+      }
+    ],
+    "answer": "ウ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社のインシデント管理を監査した。手順では，顧客向けサービスの停止はサービス責任者へ，情報漏えいの疑いは情報セキュリティ責任者へ直ちに連絡することとしている。監査報告書に指摘事項として記載すべき状況はどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2023-public-09"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2023-public-questions",
+          "section": "問9（PDF pp. 6）：同じ学習目標・推論の公式アンカー。問9の状況に応じた連絡・報告の監査という推論を維持。各社内役割への割当ては設問の手順で定義し，法定報告期限は出題しない。"
+        },
+        {
+          "resourceId": "ipa-sg-2023-public-answers",
+          "section": "PDF p. 1，問9の正解 ウ。生成問題の解答そのものではない。"
+        },
+        {
+          "resourceId": "ipa-incident-4.0",
+          "section": "PDF p. 3「検知と連絡受付」「対応体制の立ち上げ」「調査・対応」：責任者への報告，影響に応じた体制，経営者への適時報告。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-009",
+    "familyId": "sg-2022-sample-32",
+    "subject": "A",
+    "topic": "law",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "不正アクセス禁止法"
+      },
+      {
+        "key": "イ",
+        "text": "製造物責任法"
+      },
+      {
+        "key": "ウ",
+        "text": "刑法"
+      },
+      {
+        "key": "エ",
+        "text": "特定電子メールの送信の適正化等に関する法律"
+      }
+    ],
+    "answer": "ウ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "ある者が，企業の出荷業務を妨害する目的で，USBメモリを介して業務用PCで不正なプログラムを実行させた。その結果，出荷指示のデータが消去され，出荷業務が停止した。この行為を処罰の対象とする法律はどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-32"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問32（PDF pp. 13）：同じ学習目標・推論の公式アンカー。問32の媒体経由の破壊的妨害という分類を維持。旧プロバイダ責任制限法の名称は再利用しない。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問32の正解 ア。生成問題の解答そのものではない。"
+        },
+        {
+          "resourceId": "batch-003-penal-code",
+          "section": "e-Gov法令API取得XML，刑法第234条の2第1項（電子計算機損壊等業務妨害）。2026-10-10取得の現行表示。刑罰の文言は出題しない。"
+        },
+        {
+          "resourceId": "caa-email",
+          "section": "PDF pp. 1–2「特定電子メール法のポイント」「法律の義務づけなどの対象となる電子メール」：広告宣伝メールに関する制度の範囲。妨害規定と混同しないための補助。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-010",
+    "familyId": "sg-2022-sample-37",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "監査役"
+      },
+      {
+        "key": "イ",
+        "text": "経営者"
+      },
+      {
+        "key": "ウ",
+        "text": "各部門の業務担当者"
+      },
+      {
+        "key": "エ",
+        "text": "株主"
+      }
+    ],
+    "answer": "イ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "我が国の証券取引所に上場するA社では，各部門が内部統制を運用し，監査役がその状況を監視している。この役割分担で，内部統制の整備及び運用に最終的な責任を負う者は誰か。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-37"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問37（PDF pp. 14）：同じ学習目標・推論の公式アンカー。問37の上場会社における最終責任者という命題だけを使用。別版の内部統制基準の文言を引用したとは主張しない。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問37の正解 エ。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-011",
+    "familyId": "sg-2022-sample-46",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "海外で製品を購入する消費者"
+      },
+      {
+        "key": "イ",
+        "text": "海外の原材料の輸入元企業"
+      },
+      {
+        "key": "ウ",
+        "text": "別の国にある下請企業"
+      },
+      {
+        "key": "エ",
+        "text": "工場の近隣地域社会の住民"
+      }
+    ],
+    "answer": "エ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "製造業のA社は社会的責任を果たす活動として，工場の近隣地域の人を対象に従業員を雇用し，その地域の環境改善のために工場の設備を更新した。株主，役員，従業員に加え，雇用と環境改善による便益を直接受けるステークホルダはどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-46"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問46（PDF pp. 17）：同じ学習目標・推論の公式アンカー。問46の雇用・環境対策から近隣地域の住民を選ぶ推論を維持。施策の効果と対象地域は事例の前提である。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問46の正解 ア。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-012",
+    "familyId": "sg-2022-sample-48",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "390"
+      },
+      {
+        "key": "イ",
+        "text": "450"
+      },
+      {
+        "key": "ウ",
+        "text": "500"
+      },
+      {
+        "key": "エ",
+        "text": "550"
+      }
+    ],
+    "answer": "イ",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "次の製造原価明細書から損益計算書を作成したとき，売上総利益は何千円か。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          72,
+          28
+        ],
+        "headerRows": 1,
+        "caption": "単位：千円",
+        "rows": [
+          [
+            {
+              "text": "製造原価明細書",
+              "colSpan": 2,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "材料費",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "520",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "労務費",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "280",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "経費",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "160",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "当期総製造費用",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ],
+          [
+            {
+              "text": "期首仕掛品棚卸高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "180",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "期末仕掛品棚卸高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "240",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "当期製品製造原価",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "columns": [
+          72,
+          28
+        ],
+        "headerRows": 1,
+        "caption": "単位：千円",
+        "rows": [
+          [
+            {
+              "text": "損益計算書",
+              "colSpan": 2,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "売上高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "1,400",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "売上原価の内訳",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "期首製品棚卸高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "140",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "当期製品製造原価",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ],
+          [
+            {
+              "text": "期末製品棚卸高",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "90",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "売上原価",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ],
+          [
+            {
+              "text": "売上総利益",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "blank": true
+            }
+          ]
+        ]
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-48"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問48（PDF pp. 18）：同じ学習目標・推論の公式アンカー。問48の2表の項目と公式解答ア（150）で確認した同じ会計関係を用いる。新しい会計処理は追加しない。生成値・全誤答の算式は著者の計算であり，独立再計算待ち。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問48の正解 ア。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-013",
+    "familyId": "sg-2023-public-11",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "顧客ごとの購入履歴や問合せ内容を集め，販売から保守までの顧客対応を一貫して管理する。"
+      },
+      {
+        "key": "イ",
+        "text": "生産，販売，財務，人事の情報を一元管理するシステムを導入して，経営資源の全体最適を図る。"
+      },
+      {
+        "key": "ウ",
+        "text": "業務の流れを分析して設計し直し，実行結果を確認して再び改善する活動を継続的に繰り返す。"
+      },
+      {
+        "key": "エ",
+        "text": "部品の供給企業から販売企業まで情報を交換し，在庫を削減して製品の供給に要する時間を短縮する。"
+      }
+    ],
+    "answer": "ウ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は申請から承認までの業務を改善する。BPMの考え方に最も直接対応する取組はどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2023-public-11"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2023-public-questions",
+          "section": "問11（PDF pp. 6）：同じ学習目標・推論の公式アンカー。問11イの継続的なマネジメントサイクルと，他の三つの統合・管理の説明を対応させる。"
+        },
+        {
+          "resourceId": "ipa-sg-2023-public-answers",
+          "section": "PDF p. 1，問11の正解 イ。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-014",
+    "familyId": "sg-2024-public-11",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "関係部門と情報システム部が連携し，受付から確認までの業務プロセス全体を可視化して見直した上で，対象の処理を決める。"
+      },
+      {
+        "key": "イ",
+        "text": "部門間の調整を避けるため，各部門が他部門と相談せず，独自にツールの選定から運用までを進める。"
+      },
+      {
+        "key": "ウ",
+        "text": "処理のルールが明確な業務よりも，担当者によって判断が異なる例外処理の多い業務を優先する。"
+      },
+      {
+        "key": "エ",
+        "text": "画面や業務の流れが安定した処理よりも，頻繁に画面や手順が変更される処理を優先する。"
+      }
+    ],
+    "answer": "ア",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は，営業部で受け付け，経理部で確認する請求処理にRPAを全社的に導入する。導入に当たっての進め方として，最も適切なものはどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2024-public-11"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2024-public-questions",
+          "section": "問11（PDF pp. 5）：同じ学習目標・推論の公式アンカー。問11アの部門連携・全体可視化・見直しと同じ範囲。RPA製品の機能限界や必須手続は新規に主張しない。"
+        },
+        {
+          "resourceId": "ipa-sg-2024-public-answers",
+          "section": "PDF p. 1，問11の正解 ア。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-015",
+    "familyId": "sg-2025-public-11",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "データレイク"
+      },
+      {
+        "key": "イ",
+        "text": "データマート"
+      },
+      {
+        "key": "ウ",
+        "text": "データカタログ"
+      },
+      {
+        "key": "エ",
+        "text": "データリネージ"
+      }
+    ],
+    "answer": "イ",
+    "display": "text",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "全社のデータを統合・整理したデータウェアハウスから，販売部門の商品別の売上分析に必要なデータを取り出して加工し，分析用に構築したものはどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2025-public-11"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2025-public-questions",
+          "section": "問11（PDF pp. 6）：同じ学習目標・推論の公式アンカー。問11のデータウェアハウスから特定分析目的のデータを加工する説明と公式解答イを使用。SQLや物理設計の条件は追加しない。"
+        },
+        {
+          "resourceId": "ipa-sg-2025-public-answers",
+          "section": "PDF p. 1，問11の正解 イ。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-016",
+    "familyId": "sg-2025-public-12",
+    "subject": "A",
+    "topic": "it",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "製品の出荷記録を紙から電子ファイルに置き換え，必要な記録をPCで検索できるようにする。業務の手順と事業の内容は変えない。"
+      },
+      {
+        "key": "イ",
+        "text": "工場内の検査装置から得たデータを分析し，不良品を自動で判定する。対象は自社の検査工程だけとし，作業時間を短縮する。"
+      },
+      {
+        "key": "ウ",
+        "text": "顧客の設備の利用データを，設計，製造，保守の各部門と取引先で共有し，全体の業務を連携させる。製品の販売から，顧客が必要とする稼働を提供し，利用量に応じた料金を受け取る事業へ変革する。"
+      },
+      {
+        "key": "エ",
+        "text": "一つの工場の部品発注作業をシステム化し，在庫数に応じた定型的な発注を自動で行う。ほかの部門や取引先との業務の流れは変えない。"
+      }
+    ],
+    "answer": "ウ",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "次の表は，DX実現に至る三つの段階の説明である。表の定義に照らし，製造業の取組がデジタルトランスフォーメーションの段階に達しているものはどれか。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          30.74,
+          69.26
+        ],
+        "headerRows": 1,
+        "caption": "DX実現に至る段階（出典：IPA「2025年度 情報セキュリティマネジメント試験 公開問題」問12，PDF p. 7掲載の定義表。同問が経済産業省「DXレポート2」に基づき提示）",
+        "rows": [
+          [
+            {
+              "text": "DX実現に至る段階",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "説明",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "デジタイゼーション",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "アナログ・物理データのデジタルデータ化",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "デジタライゼーション",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "個別の業務・製造プロセスのデジタル化",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "デジタルトランスフォーメーション",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "組織横断／全体の業務・製造プロセスのデジタル化，“顧客起点の価値創出”のための事業やビジネスモデルの変革",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2025-public-12"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2025-public-questions",
+          "section": "問12（PDF pp. 7）：同じ学習目標・推論の公式アンカー。問12，PDF p. 7の三段階定義表を逐語で再掲し，同じ定義適用の推論を用いる。METI「DXレポート2」原報告書の外部取得は計画時403で未解決。この表はIPA問題PDF経由の確認であり，METI原文取得済みという意味ではない。"
+        },
+        {
+          "resourceId": "ipa-sg-2025-public-answers",
+          "section": "PDF p. 1，問12の正解 ウ。生成問題の解答そのものではない。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-017",
+    "familyId": "sg-2022-sample-60",
+    "subject": "B",
+    "topic": "operations",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "［項番1］，［項番2］，［項番3］"
+      },
+      {
+        "key": "イ",
+        "text": "［項番1］，［項番3］，［項番6］"
+      },
+      {
+        "key": "ウ",
+        "text": "［項番1］，［項番4］，［項番6］"
+      },
+      {
+        "key": "エ",
+        "text": "［項番1］，［項番4］，［項番7］"
+      },
+      {
+        "key": "オ",
+        "text": "［項番2］，［項番3］，［項番6］"
+      },
+      {
+        "key": "カ",
+        "text": "［項番2］，［項番5］，［項番7］"
+      },
+      {
+        "key": "キ",
+        "text": "［項番3］，［項番4］，［項番5］"
+      },
+      {
+        "key": "ク",
+        "text": "［項番3］，［項番5］，［項番7］"
+      },
+      {
+        "key": "ケ",
+        "text": "［項番4］，［項番5］，［項番6］"
+      },
+      {
+        "key": "コ",
+        "text": "［項番5］，［項番6］，［項番7］"
+      }
+    ],
+    "answer": "ウ",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は海外から製造設備を購入している。経理課のBさんは，取引先C社のDさんを名乗る者から，支払先口座の変更を求める電子メール（以下，メールという）を受信した。Bさんは送金前に不審な点に気付き，情報システム部に調査を依頼した。C社と協力した調査の結果を図1に示す。"
+      },
+      {
+        "type": "panel",
+        "paragraphs": [
+          "1　Bさんへのヒアリング並びに受信したメールと添付の請求書から，次の七つの事項を確認した。",
+          "［項番1］請求書には，前日にBさんとDさんが確定した設備の型番，数量及び金額が記載されていた。書式も，今回の取引でC社から受け取った正式な請求書と同じだった。",
+          "［項番2］変更後の送金先は，契約に記載されたC社の銀行とは異なり，C社が事業を行っていない国の銀行口座だった。",
+          "［項番3］メールの返信先（Reply-To）は，普段連絡に使うDさんのアドレスではなく，取引に使ったことのないフリーメールのアドレスだった。",
+          "［項番4］送信者（From）の表示名はDさんの氏名で，ドメイン名はC社の正規のものと見間違えやすい，1文字だけが異なるものだった。",
+          "［項番5］本文は，当日中の送金を要求していた。Dさんが普段認めている電話での確認も，今回は行わないよう要求していた。",
+          "［項番6］本文には，Bさんが前週にDさんへ伝えた納入日の変更と，Dさんからの了承の返信が，実際のやり取りと同じ内容で引用されていた。",
+          "［項番7］請求書を作成したPCのタイムゾーンはC社所在地のものと異なっていた。C社に確認したところ，そのタイムゾーンでの作成に心当たりはなかった。",
+          "2　Dさんのメールアカウントには不正ログインの記録があった。また，本人が行っていない設定変更があり，以後の不正閲覧の発覚を避ける目的と推察された。設定変更の具体的な内容は，この調査結果には示されていない。"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "図1　調査の結果（抜粋）"
+      },
+      {
+        "type": "paragraph",
+        "text": "BさんにC社との正規の取引の続きであると思わせるために，送信者が利用したと考えられる事項はどれか。単なる不審な相違点ではなく，本物らしく見せる働きをもつ項番だけを全て挙げた組合せを選べ。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-60"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問60（PDF pp. 42）：同じ学習目標・推論の公式アンカー。問60の本物らしさを作る三つの証拠の分類という推論を使用。下記IPA第2版のPDF p. 7に正規取引情報の事前入手，p. 11に本物の請求書流用，p. 12に1文字違いのドメイン，p. 17に不審な設定の調査がある。設定の具体的な種類は本事例では与えない。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問60の正解 カ。生成問題の解答そのものではない。"
+        },
+        {
+          "resourceId": "batch-003-ipa-bec-report",
+          "section": "第2版（2023-02-09），PDF p. 7 §1.2タイプ1，p. 11 §3.2.1「振込先口座の変更依頼」「引用部分の改変」，p. 12 §3.2.2「詐称用ドメイン」，p. 17 §4.1メールアカウントの調査。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-018",
+    "familyId": "sg-2022-sample-59",
+    "subject": "B",
+    "topic": "management",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "A社販売課の販売責任者"
+      },
+      {
+        "key": "イ",
+        "text": "A社販売課の返品担当者"
+      },
+      {
+        "key": "ウ",
+        "text": "A社経理課の承認担当者"
+      },
+      {
+        "key": "エ",
+        "text": "B社の業務責任者"
+      },
+      {
+        "key": "オ",
+        "text": "B社の返品担当者"
+      }
+    ],
+    "answer": "ウ",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は業務用機器を販売している。販売課は顧客からの返品の受付と入力を行い，経理課は承認された返品に対する返金を行う。情報システム部が運用するJシステムには返品の内容と承認結果を記録している。現在の手順を図1に示す。"
+      },
+      {
+        "type": "panel",
+        "paragraphs": [
+          "（1）入力　A社販売課の返品担当者は，顧客から電子メールで届く返品の申請を確認し，対象の商品，数量及び返金額をJシステムに入力する。入力後，A社販売課の販売責任者に承認を依頼する。",
+          "（2）承認　販売責任者は，返品申請と入力結果を突き合わせて確認する。問題がなければ承認し，問題があれば入力した担当者に差し戻す。承認結果は返金に用いられる。"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "図1　現在の業務の手順"
+      },
+      {
+        "type": "paragraph",
+        "text": "Jシステムでは，ある利用者が入力した情報は必ず別の利用者が承認する。また，承認を行う者は返品管理業務の全ての情報を閲覧できる。各利用者には，業務上必要な操作権限だけを付与する。"
+      },
+      {
+        "type": "paragraph",
+        "text": "返品の増加に対応するため，A社は入力作業の一部をB社に委託することにした。B社の返品担当者が入力し，B社の業務責任者が入力結果を閲覧して確認する。ただし，この確認はJシステムの承認操作ではない。"
+      },
+      {
+        "type": "paragraph",
+        "text": "委託と同時に，返金額の確認を経理課で統一するため，次の要求を情報システム部に伝えた。"
+      },
+      {
+        "type": "paragraph",
+        "text": "［要求1］B社が入力した情報の最終的な承認は，A社の利用者が行う。B社には承認権限を与えない。"
+      },
+      {
+        "type": "paragraph",
+        "text": "［要求2］A社販売課の返品担当者による入力を残すが，A社，B社のどちらが入力した場合も，今後はA社経理課の承認担当者だけが承認する。この担当者は返品の入力を行わない。"
+      },
+      {
+        "type": "paragraph",
+        "text": "［要求3］A社販売課の販売責任者は，今後も返品管理業務の全情報を閲覧して状況を把握するが，入力と承認は行わない。B社の業務責任者にも入力権限は与えない。"
+      },
+      {
+        "type": "paragraph",
+        "text": "以上を踏まえて，情報システム部は各利用者の操作権限を表1にまとめた。"
+      },
+      {
+        "type": "table",
+        "columns": [
+          55,
+          15,
+          15,
+          15
+        ],
+        "headerRows": 2,
+        "caption": "表1　操作権限案",
+        "rows": [
+          [
+            {
+              "text": "利用者",
+              "colSpan": 1,
+              "rowSpan": 2
+            },
+            {
+              "text": "Jシステムの操作権限",
+              "colSpan": 3,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "閲覧",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "入力",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "承認",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "a",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ],
+          [
+            {
+              "text": "（省略）",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "○",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            },
+            {
+              "text": "",
+              "colSpan": 1,
+              "rowSpan": 1
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "注記　○は権限を付与することを示し，空欄は付与しないことを示す。「（省略）」の行は利用者の名称だけを省略している。"
+      },
+      {
+        "type": "paragraph",
+        "text": "表1中のaに入れる適切な利用者はどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2022-sample-59"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2022-sample-questions",
+          "section": "問59（PDF pp. 40, 41）：同じ学習目標・推論の公式アンカー。問59の権限から役割を逆算する課題を保持。SMEとCLOUDは必要権限の管理の裏付けであり，経理課が承認するという配分は本事例の要求であって一般的な法的義務ではない。"
+        },
+        {
+          "resourceId": "ipa-sg-2022-sample-answers",
+          "section": "PDF p. 1，問59の正解 ア。生成問題の解答そのものではない。"
+        },
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "PDF p. 33「IDアクセス制御」：必要最小限の割当て，権限集中への注意，権限管理。"
+        },
+        {
+          "resourceId": "ipa-cloud-4.0",
+          "section": "PDF p. 6「利用者の範囲を決める」：権限管理及び上司への承認権限付与の例。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-019",
+    "familyId": "sg-2023-public-15",
+    "subject": "B",
+    "topic": "threats",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "PCを起動したらすぐにVPN接続するようにし，定義ファイルの更新時刻は変更しない。"
+      },
+      {
+        "key": "イ",
+        "text": "定義ファイルの更新を毎時0分，15分，30分，45分に開始する設定に変更する。"
+      },
+      {
+        "key": "ウ",
+        "text": "毎日16時30分の更新に加え，10時0分にも定義ファイルの更新を開始する。"
+      },
+      {
+        "key": "エ",
+        "text": "定義ファイルの更新時刻は変更せず，保存した添付ファイルを開く直前に，同じ定義ファイルでもう一度スキャンする。"
+      },
+      {
+        "key": "オ",
+        "text": "これまで連絡したことがない差出人からの添付ファイルだけを，開かずに削除するルールを追加する。"
+      }
+    ],
+    "answer": "イ",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は製品の販売促進を企画している。電子メール（以下，メールという）にはクラウドのBサービスを利用し，アカウントは情報システム部が管理している。ログインには利用者IDとパスワードに加え，登録したスマートフォンの認証アプリでの承認を必要とする。本人がログインしていないときの承認要求には応じないことを従業員に周知している。"
+      },
+      {
+        "type": "paragraph",
+        "text": "〔社外からの接続とPCの保護〕"
+      },
+      {
+        "type": "paragraph",
+        "text": "従業員は貸与PCで在宅勤務を行う。社内のファイルサーバを使うときはVPN接続するが，Bサービスの利用とマルウェア定義ファイルの取得は，インターネット接続だけで行える。VPNの有無は定義ファイルの取得に影響しない。"
+      },
+      {
+        "type": "paragraph",
+        "text": "PCのマルウェア対策ソフトは，ファイルを開く際にスキャンする。定義ファイルは毎日16時30分に更新し，17時に更新状況を確認して，未更新のPCを情報システム部に通知する。PCは前日の更新を完了していた。更新を開始すると，その時点で取得可能な定義ファイルを取得し，2分以内に適用を完了する。"
+      },
+      {
+        "type": "paragraph",
+        "text": "〔従業員からの報告〕"
+      },
+      {
+        "type": "paragraph",
+        "text": "ある日の14時30分，販売促進部のC課長は，在宅勤務中のDさんから図1の報告を受けた。"
+      },
+      {
+        "type": "panel",
+        "paragraphs": [
+          "・今朝は8時45分にPCを起動し，その後はインターネット接続を維持していた。",
+          "・製品の紹介資料の作成を委託しているE社のFさんの氏名で，10時14分にメールが届いた。",
+          "・Fさんとは以前に会ったことがあり，今回の企画についても数か月間メールで連絡していた。",
+          "・メールは前週のやり取りへの返信の形で，本文には企画の日程と，Fさんが普段使う表現が記載されていた。",
+          "・添付ファイルを10時16分にPCへ保存し，11時までに確認してほしいとの依頼だったので，10時24分に初めて開いた。",
+          "・ファイルを開いたときにマルウェア対策ソフトの警告は出ず，資料の内容も表示できた。",
+          "・内容を確認して10時40分に返信したが，その後の連絡はなかった。",
+          "・12時にスマートフォンへログインの承認要求が来た。自分はログインしていなかったので承認しなかった。",
+          "・14時にFさんへ登録済みの電話番号で確認したところ，今日はそのメールを送っていないと言われた。",
+          "・現在までPCの処理速度の低下や，見慣れない画面の表示はない。",
+          "・現在は社内ネットワークへのVPN接続を切っているが，インターネット接続は維持している。定義ファイルの手動更新は行っていない。"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "図1　Dさんからの報告"
+      },
+      {
+        "type": "paragraph",
+        "text": "C課長は情報システム部に連絡し，PCの利用停止とネットワークからの切離しを指示した。情報システム部はPCを調査し，定義ファイルをオフラインで更新してスキャンしたところ，マルウェアを検出した。"
+      },
+      {
+        "type": "paragraph",
+        "text": "調査の結果，このマルウェアに対応する定義ファイルは当日10時7分に公開され，10時8分からDさんのPCでも取得可能だったと分かった。前日の定義ファイルでは検出できないが，新しい定義ファイルを適用していれば，ファイルを開く際のスキャンで検出して実行を防止できることを確認した。感染は10時24分に添付ファイルを開いたことによるものと確認された。"
+      },
+      {
+        "type": "paragraph",
+        "text": "今回と同じ公開・取得可能時刻とファイルを開く時刻の場合に，感染の防止に直接有効となる対策はどれか。他の設定や従業員の操作は変わらず，更新に必要な通信と処理は正常に完了するものとする。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2023-public-15"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2023-public-questions",
+          "section": "問15（PDF pp. 12, 13, 14）：同じ学習目標・推論の公式アンカー。問15の公開済み定義と端末適用の遅れという推論を使用。取得可能時刻，適用完了まで2分，開封時の検出・実行防止，感染経路は本事例の調査で確認済みという前提。15分更新をIPAの一般的要求や未知のマルウェアへの保証とはしない。"
+        },
+        {
+          "resourceId": "ipa-sg-2023-public-answers",
+          "section": "PDF p. 1，問15の正解 ウ。生成問題の解答そのものではない。"
+        },
+        {
+          "resourceId": "ipa-sme-4.0",
+          "section": "PDF p. 36「システムをウイルス感染から保護する」：定義ファイルを最新に保つ更新頻度。"
+        },
+        {
+          "resourceId": "ipa-incident-4.0",
+          "section": "PDF p. 3「復旧・再発防止」，p. 4「ウイルス感染」：切離し，定義ファイルを最新にしてからチェック。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sg-generated-batch-003-020",
+    "familyId": "sg-2024-public-15",
+    "subject": "B",
+    "topic": "threats",
+    "pool": "study",
+    "choices": [
+      {
+        "key": "ア",
+        "text": "ロゴがOS開発元のものと一致していれば，正規の通知として扱い，案内された修復ツールをインストールする。"
+      },
+      {
+        "key": "イ",
+        "text": "Xソフトと修復ツールの競合を避けるため，Xソフトを停止してから，画面の指示に従う。"
+      },
+      {
+        "key": "ウ",
+        "text": "情報の流出を急いで止めるため，画面内のチャットを開いてサポート担当者に遠隔操作を許可する。"
+      },
+      {
+        "key": "エ",
+        "text": "画面の指示や連絡先を利用せず，社内で確認した方法でWebブラウザを終了し，社内の定めた窓口に報告する。"
+      },
+      {
+        "key": "オ",
+        "text": "スキャンで検出されなかった場合に限り，画面に表示された電話番号に連絡し，修復が必要か確認する。"
+      }
+    ],
+    "answer": "エ",
+    "display": "structured",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A社は事務機器の販売を行っている。全ての貸与PCにはマルウェア対策ソフトXが導入され，有効にされている。総務部の情報セキュリティリーダーCさんは，部下のDさんから次の報告を受けた。"
+      },
+      {
+        "type": "paragraph",
+        "text": "・Webブラウザで業務用の資料を探していたところ，「OS開発元の緊急サポート」を名乗り，情報が流出する前に修復が必要だという警告が全画面に表示された。"
+      },
+      {
+        "type": "paragraph",
+        "text": "・Dさんは警告画面のボタンを押さず，表示された窓口への連絡，ツールのインストール，遠隔操作の許可及び支払は何も行わずに，Cさんへ連絡した。"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cさんが情報システム部へ報告したところ，担当者はDさんのPCと警告画面を調査し，図1の結果を報告した。"
+      },
+      {
+        "type": "panel",
+        "paragraphs": [
+          "1　画面にはOS開発元と同じロゴ，短時間での修復を求める文，サポート用のチャットのボタン及び電話番号が表示されていた。画面上で案内する修復ツールを入れ，サポート担当者へ接続するよう求めていた。",
+          "2　この警告はWebページが表示しているもので，OS開発元やXソフトによる通知ではないことを確認した。Xソフトを最新の状態にしてスキャンしてもマルウェアは検出されなかったが，この結果だけを安全の根拠とはしていない。",
+          "3　画面を調べた結果，正規のサポートを装う偽の警告と判断した。Dさんがツールを導入せず，遠隔操作や支払も行っていないことを確認した。このPCではEscキーを長押しして全画面表示を解除し，ブラウザ自体の終了ボタンで閉じられることも確認した。"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "図1　情報システム部の調査結果"
+      },
+      {
+        "type": "paragraph",
+        "text": "A社は，同じ状態の警告が表示されたときに取るべき行動を全従業員に周知することにした。周知する内容として，最も適切なものはどれか。"
+      }
+    ],
+    "source": {
+      "kind": "generated",
+      "referenceQuestionIds": [
+        "sg-2024-public-15"
+      ],
+      "references": [
+        {
+          "resourceId": "ipa-sg-2024-public-questions",
+          "section": "問15（PDF pp. 12, 13）：同じ学習目標・推論の公式アンカー。問15の偽のWeb警告と真正な製品通知の区別，指示に従わず終了する判断を保持。クリーンスキャンだけで安全とは結論しない。一般PCで同じキー操作が必ず有効とは主張せず，このPCでは確認済みとする。"
+        },
+        {
+          "resourceId": "ipa-sg-2024-public-answers",
+          "section": "PDF p. 1，問15の正解 イ。生成問題の解答そのものではない。"
+        },
+        {
+          "resourceId": "batch-003-ipa-fakealert",
+          "section": "2024-11-19更新ページ，導入部及び「2. 体験サイトの操作方法」：偽警告から連絡しない，ブラウザを閉じる操作。"
+        },
+        {
+          "resourceId": "batch-003-ipa-fakealert-close",
+          "section": "Ver.1.00（2023-11-15），PDF p. 3の環境による差異の注意，p. 4 §2.1 Escキーによる終了，p. 6 §3 再起動時にページを復元しない注意。"
+        }
+      ]
+    }
+  }
+]

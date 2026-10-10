@@ -1,0 +1,42 @@
+[
+  {
+    "questionId": "sg-generated-batch-003-001",
+    "contentHash": "e440120298bb1876270cc074bf7c1de5e26df88750d02a42be89a38698f8457f",
+    "answer": "イ",
+    "verdict": "accept",
+    "issues": [],
+    "reasoning": "メタデータ閲覧前に本文・選択肢だけでイと解答し，independent-answers-followup.jsonに保存した。保存後，blind-review.jsonの本文・選択肢・contentHashの一致を確認した。公式アンカーsg-2025-public-01のdata/sources/2025r07_sg_qs.pdf PDF p.2 問1及び2025r07_sg_ans.pdf PDF p.1 問1の正解エを実読した。公式の分析の説明は，必要に応じたリスクレベルを含むリスクの性質・特徴の理解であり，生成問イはそれをシステム停止に具体化した活動として概念・推論とも整合する。公式誤答肢の活動内容と誤ったプロセス名を混同せず確認した。アは特定，ウは分析結果と基準を比較する評価，エは対応策の実施である。各肢は活動として並列で日本語も自然，正答は一意である。レベル算定は分析の一例であり，常に数値化が必須だとは述べていない。両resourceIdのcatalog登録，引用箇所，ローカルPDFのSHA-256を確認した。参照注記どおりJIS Q 31000:2019の全文は別途取得・照合しておらず，全条項の検証を主張しない。修正必須の問題は認めない。"
+  },
+  {
+    "questionId": "sg-generated-batch-003-002",
+    "contentHash": "f006611778f07ccde7f1649d41dc51230ebb5c9d57fb993c070c6463be0fdfd8",
+    "answer": "ア",
+    "verdict": "accept",
+    "issues": [],
+    "reasoning": "メタデータ閲覧前に本文・選択肢だけでアと解答し保存した。保存後のblind-review.jsonとの本文・選択肢・contentHashの一致を確認した。公式アンカーsg-2022-sample-15のdata/sources/sg_set_sample_qs.pdf PDF p.7 問15及びsg_set_sample_ans.pdf PDF p.1 問15の正解ウを実読した。Web閲覧用に許可され得る宛先TCPポート80を指令サーバへの通信にも使うという推論がアと一致する。本文とアの『可能性がある』は，ポートだけで通信内容がHTTPになる，又は必ず通過できるとの過剰な断定を避けている。改訂後のイはHTTPSの通常の443，ウはDNS名前解決の通常のUDP/TCP 53，エはDNSゾーン転送の通常のTCP 53との取り違えであり，全て明確に誤りである。DNS関連の肢が二つあるが，用途は異なり，公式問にも両方の混同がある。四肢の構造は概ね並列で，日本語・難度とも基礎的な知識確認として妥当，正答は一意である。両resourceIdのcatalog登録，引用箇所，ローカルPDFのSHA-256を確認した。修正必須の問題は認めない。"
+  },
+  {
+    "questionId": "sg-generated-batch-003-003",
+    "contentHash": "f8489861aa710fccd89e254f5e7278a0f047492a3e3aba628b0e473b67bbb99f",
+    "answer": "エ",
+    "verdict": "accept",
+    "issues": [],
+    "reasoning": "メタデータ閲覧前に本文・選択肢だけでエと解答し保存した。保存後のblind-review.jsonとの本文・選択肢・contentHashの一致を確認した。公式アンカーsg-2024-public-04のdata/sources/2024r06_sg_qs.pdf PDF p.3 問4及び2024r06_sg_ans.pdf PDF p.1 問4の正解ウを実読した。攻撃者の視点で偵察から目的実行までを段階化するという公式の概念が，調査結果を整理する生成問エに正しく適用されている。アは取引関係を通じたリスクの整理，イは盗聴箇所の記録，ウはブロックチェーンを連想させる取引データ管理で，いずれも攻撃全体の段階モデルではない。イは公式の中間者攻撃の完全な定義ではないが，生成問もそう呼んでおらず，誤解を誘う断定はない。ウは調査整理という文脈では容易に除外できるが，チェーンという語に関係する別概念の識別肢として成立する。本文・各肢の日本語は明瞭で正答は一意。問題自体は七段階の名称など未引用の細部を要求しない。両resourceIdのcatalog登録，引用箇所，ローカルPDFのSHA-256を確認した。修正必須の問題は認めない。"
+  },
+  {
+    "questionId": "sg-generated-batch-003-004",
+    "contentHash": "3197456d1a55c1eef12b2b37cd0bd7e1c03f188334826512e5402a22898e5428",
+    "answer": "ウ",
+    "verdict": "accept",
+    "issues": [],
+    "reasoning": "メタデータ閲覧前に本文・選択肢だけでウと解答し保存した。保存後のblind-review.jsonとの本文・選択肢・contentHashの一致を確認した。公式アンカーsg-2022-sample-07のdata/sources/sg_set_sample_qs.pdf PDF p.3 問7及びsg_set_sample_ans.pdf PDF p.1 問7の正解ウを実読した。さらにdata/resources/batch-003/cryptrec-about.htmlの『1. CRYPTRECとは』第1文に，電子政府推奨暗号の安全性の評価・監視が明記されていることを確認した。生成問ウは両資料と概念・役割の区別とも一致する。アの個別製品認証は暗号技術自体の評価と異なり，イの企業サーバの常時監視は暗号技術の安全性監視とは異なる。エの輸出許可もCRYPTRECの役割ではない。公式HTMLに暗号モジュール評価基準の検討という沿革はあるが，個別製品認証の実施を意味せず，アを正答にはしない。各肢は活動の記述として自然で正答は一意。三つのresourceIdのcatalog登録とローカルファイルのSHA-256，追加HTMLのbatch resources.jsonとの登録一致を確認した。引用範囲は十分で，修正必須の問題は認めない。"
+  },
+  {
+    "questionId": "sg-generated-batch-003-006",
+    "contentHash": "0bfba95fe99d76fbb6cda0ed41828d797ffd67da77e46c4dd2cfe6ede06b447f",
+    "answer": "エ",
+    "verdict": "accept",
+    "issues": [],
+    "reasoning": "メタデータ閲覧前に本文・選択肢だけでエと解答し保存した。保存後のblind-review.jsonとの本文・選択肢・contentHashの一致を確認した。公式アンカーsg-2025-public-03のdata/sources/2025r07_sg_qs.pdf PDF p.3 問3及び2025r07_sg_ans.pdf PDF p.1 問3の正解イを実読した。内部ネットワークも必ずしも安全ではないという公式の考え方が，生成問エの内部アクセスを無条件には信頼しない説明と一致する。改訂後のアは未修正・未対策の脆弱性というゼロデイ関連の状態，イはゼロ知識証明，ウは振る舞いに基づくマルウェア検知であり，公式問と同じ混同概念を区別できる。ウの監視・検知はゼロトラストの対策の一部として利用し得るが，ゼロトラスト自体の説明にはならず，別解ではない。エは認証・認可や最小権限まで網羅する完全な定義ではないものの，『最も適切』という設問及び公式アンカーの範囲では正確で十分である。日本語は自然で選択肢の定義形式も並列，過度な断定や正答の競合はない。両resourceIdのcatalog登録，引用箇所，ローカルPDFのSHA-256を確認した。修正必須の問題は認めない。"
+  }
+]

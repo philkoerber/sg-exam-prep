@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 345" width="960" height="518">
+<rect width="640" height="345" fill="white"/>
+<path d="M20 20 L620 20 L620 320 L20 320 L20 20" fill="none" stroke="#000000" stroke-width="2"/>
+<path d="M20 170 L115 170 M175 170 L410 170 M470 170 L620 170" fill="none" stroke="#000000" stroke-width="2"/>
+<path d="M310 20 L310 170" fill="none" stroke="#000000" stroke-width="2"/>
+<path d="M310 170 L310 230 M310 285 L310 320" fill="none" stroke="#000000" stroke-width="2"/>
+<path d="M115 170 L115 120 M410 170 L410 120 M310 230 L365 230" fill="none" stroke="#000000" stroke-width="2"/>
+<text x="65" y="65" font-size="20" textLength="210" lengthAdjust="spacingAndGlyphs">顧客管理部エリア</text>
+<text x="65" y="97" font-size="16" textLength="210" lengthAdjust="spacingAndGlyphs">担当部門だけが利用</text>
+<text x="370" y="65" font-size="20" textLength="190" lengthAdjust="spacingAndGlyphs">共用の作業室</text>
+<text x="65" y="225" font-size="20" textLength="180" lengthAdjust="spacingAndGlyphs">共用エリア</text>
+<text x="350" y="285" font-size="18" textLength="245" lengthAdjust="spacingAndGlyphs">受付・来客用会議室</text>
+<text x="130" y="151" font-size="16" textLength="65" lengthAdjust="spacingAndGlyphs">ドアP</text>
+<text x="427" y="151" font-size="16" textLength="65" lengthAdjust="spacingAndGlyphs">ドアQ</text>
+<text x="325" y="258" font-size="16" textLength="65" lengthAdjust="spacingAndGlyphs">ドアR</text>
+</svg>

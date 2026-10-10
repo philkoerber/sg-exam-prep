@@ -1,0 +1,290 @@
+{
+  "baseline": "120 official questions, rendered body and choices; no generated text",
+  "method": "Node Intl.Segmenter ja; token overlap is a screening measure, not a proficiency or grammar score. Numbers, Latin-only tokens and punctuation excluded; inflections are not lemmatized.",
+  "minimumWordCoverage": 0.9,
+  "minimumKanjiCoverage": 0.98,
+  "kanjiTarget": 0.99,
+  "note": "All unfamiliar words/kanji require review; the 98% per-question floor allows necessary technical terms. Target overall kanji overlap is at least 99%.",
+  "questions": [
+    {
+      "questionId": "sg-generated-batch-002-001",
+      "contentHash": "bb323f6c1667b12c3484229e5e5a05d3b44ba313e4a23f8144eec0dc74cddb00",
+      "characters": 174,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-002",
+      "contentHash": "3dd303fd11197e019866abc455357eaf3997cdc84848f4c14d35b4fc376cab0f",
+      "characters": 265,
+      "wordCoverage": 0.9865771812080537,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "表紙"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-003",
+      "contentHash": "4163cfa01a88f1e8e076b24cab6e8f20264e18fc6d31f92cd905c2b96bb202db",
+      "characters": 247,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-004",
+      "contentHash": "3e8a60e94ccc926bc8f38e13cb1f2d38aa9ba98a06c94a797833a2c8050a4d26",
+      "characters": 308,
+      "wordCoverage": 0.9857142857142858,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "エスケープ",
+        "長"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-005",
+      "contentHash": "822ab876fa225ab4ad384c86da975fb505e4cf72ebaa725fc227fc35bf58816d",
+      "characters": 157,
+      "wordCoverage": 0.9605263157894737,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "わっ",
+        "重要性",
+        "開発者"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-006",
+      "contentHash": "c295c5f236431aa0cdae6d4bfcdc10a4603c35503b9e2334faf5796149395a93",
+      "characters": 280,
+      "wordCoverage": 0.9615384615384616,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "使う",
+        "取り違え",
+        "廃止",
+        "時には",
+        "続"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-007",
+      "contentHash": "ce4a7fb3dede1481b9076b392068aca6e6ad3b3e4ebea63ee3b5f5dc4b47a176",
+      "characters": 260,
+      "wordCoverage": 0.9586776859504132,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "だが",
+        "基づく",
+        "得て",
+        "必要性",
+        "確定"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-008",
+      "contentHash": "562fee3b4a8caa1ff6efd1af92dbe79b03107bb21b01b115a421f1c941e621ff",
+      "characters": 239,
+      "wordCoverage": 0.9769230769230769,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "再び",
+        "室外",
+        "最初"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-009",
+      "contentHash": "960322a4dd898feaf49656dd0a55981c18fa9310cf2689d4e29297ecfc38559d",
+      "characters": 284,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-010",
+      "contentHash": "776d923eb574dc44eb1f6d582c778c964c2e98bc0f0e5102502c928bf9285f20",
+      "characters": 292,
+      "wordCoverage": 0.9743589743589743,
+      "kanjiCoverage": 0.9925925925925926,
+      "novelWords": [
+        "基づく",
+        "実績",
+        "法令",
+        "監督"
+      ],
+      "novelKanji": [
+        "督"
+      ]
+    },
+    {
+      "questionId": "sg-generated-batch-002-011",
+      "contentHash": "e395b6563fbc384e33ba9ba05729cf36a349824ba18312e6a962611c13efeac6",
+      "characters": 207,
+      "wordCoverage": 0.963963963963964,
+      "kanjiCoverage": 0.9894736842105263,
+      "novelWords": [
+        "成立",
+        "推定",
+        "物件",
+        "真正"
+      ],
+      "novelKanji": [
+        "真"
+      ]
+    },
+    {
+      "questionId": "sg-generated-batch-002-012",
+      "contentHash": "3bd87b74d63469374cef04e0616fb6db0c34f7f5cec9ca1cd81cdaf9441468c1",
+      "characters": 233,
+      "wordCoverage": 0.9523809523809523,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "予備",
+        "切り替え",
+        "切り替える",
+        "回線"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-013",
+      "contentHash": "a7ced4d5968e475acf03186724c117910aafab91bde4ea070f6f48a3850706f7",
+      "characters": 181,
+      "wordCoverage": 0.9577464788732395,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "そ",
+        "ろ",
+        "間隔"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-014",
+      "contentHash": "41046adcc7c280ed116382916ba8473051f2fc68b495310ed1d61018e88425d7",
+      "characters": 217,
+      "wordCoverage": 1,
+      "kanjiCoverage": 1,
+      "novelWords": [],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-015",
+      "contentHash": "6ebab9af4246d2f9a12fe0a8600c3390b19a64aca58f2fbcb6e809defabfc328",
+      "characters": 132,
+      "wordCoverage": 0.96,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "中期",
+        "発注",
+        "起きる"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-016",
+      "contentHash": "7f62cf21dd0c5713fcb916201e5ad21fbc04736a0e6348025382362d188d8ed1",
+      "characters": 140,
+      "wordCoverage": 0.9746835443037974,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "不明確",
+        "不足"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-017",
+      "contentHash": "dec9945438dd6f5a8b9c16c464ba8e22fe6fc420a05c20dde629c1ef91ae0692",
+      "characters": 1117,
+      "wordCoverage": 0.976491862567812,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "せる",
+        "両",
+        "事務所",
+        "五つ",
+        "以後",
+        "保つ",
+        "単独",
+        "古い",
+        "引き続き",
+        "手作業",
+        "選び"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-018",
+      "contentHash": "c3b70e22951bb5474005196d7739005432951485e236bd2395fb70dc071543a7",
+      "characters": 947,
+      "wordCoverage": 0.9797160243407708,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "よい",
+        "デザイン",
+        "入り",
+        "全員",
+        "各自",
+        "同行",
+        "実線",
+        "生体",
+        "行く",
+        "通る"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-019",
+      "contentHash": "8d387f872bf7e59d9c7e366d74ab1952bf8f555deb4763f21594b46e43c70a08",
+      "characters": 861,
+      "wordCoverage": 0.9953161592505855,
+      "kanjiCoverage": 1,
+      "novelWords": [
+        "読む",
+        "調べ"
+      ],
+      "novelKanji": []
+    },
+    {
+      "questionId": "sg-generated-batch-002-020",
+      "contentHash": "71ac42bc9a686e0aff8714833a98f0f40dfeaad1e2366eafe9cd4aa24faffc56",
+      "characters": 1614,
+      "wordCoverage": 0.9622377622377623,
+      "kanjiCoverage": 0.9952830188679245,
+      "novelWords": [
+        "お",
+        "そのまま",
+        "つながる",
+        "分布",
+        "問",
+        "変える",
+        "多く",
+        "少",
+        "換え",
+        "未満",
+        "本件",
+        "歩",
+        "残す",
+        "細かい",
+        "置",
+        "違い"
+      ],
+      "novelKanji": [
+        "未"
+      ]
+    }
+  ]
+}

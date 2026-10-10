@@ -1,0 +1,74 @@
+[
+  {
+    "id": "batch-002-sql",
+    "title": "IPA 安全なウェブサイトの作り方 1.1 SQLインジェクション",
+    "url": "https://www.ipa.go.jp/security/vuln/websecurity/sql.html",
+    "file": "data/resources/batch-002/sql.html",
+    "sha256": "646679bfdb467210d587ce4aeaca9f2704a7979d7e20ba83a871b781baadfa84",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-cvss3",
+    "title": "IPA 共通脆弱性評価システムCVSS v3概説（v3.0）",
+    "url": "https://www.ipa.go.jp/security/vuln/scap/cvssv3.html",
+    "file": "data/resources/batch-002/cvss3.html",
+    "sha256": "6273dc874c317521a056d5d2339d44a58eb6228f946b6d18cc587d298e8e2620",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-my-number-guideline",
+    "title": "PPC 特定個人情報の適正な取扱いに関するガイドライン（事業者編）令和7年6月一部改正",
+    "url": "https://www.ppc.go.jp/legal/policy/my_number_guideline_jigyosha/",
+    "file": "data/resources/batch-002/my-number-guideline.html",
+    "sha256": "495167f0ce0e64e28c2fb6fe27683f0a4c265dbc4a929262c29cfbda79472145",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-my-number-qa",
+    "title": "PPC 特定個人情報ガイドラインに関するQ&A 取得時点の掲載版",
+    "url": "https://www.ppc.go.jp/legal/policy/faq/",
+    "file": "data/resources/batch-002/my-number-qa.html",
+    "sha256": "a4f91486a08d4db1e29ca3844d402d78fcb8f871a5a9cb95cb1a3750c99d7694",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-my-number-qa-2025",
+    "title": "PPC 特定個人情報ガイドラインに関するQ&A（令和7年4月1日更新）",
+    "url": "https://www.ppc.go.jp/files/pdf/guidelineqa_250401.pdf",
+    "file": "data/resources/batch-002/my-number-qa-2025.pdf",
+    "sha256": "c133af065e23b20e08aff360d6a53cabae3661d5b48851a3249f181376b79da9",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-esign-law",
+    "title": "電子署名及び認証業務に関する法律（e-Gov法令API取得時点）",
+    "url": "https://laws.e-gov.go.jp/api/1/lawdata/412AC0000000102",
+    "file": "data/resources/batch-002/esign-law.xml",
+    "sha256": "b18018f3c69166258c01267416b018f5e79d2dc4b9270df1838d61d06e58e8a2",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-anon-report-2",
+    "title": "PPC事務局 仮名加工情報・匿名加工情報 信頼ある個人情報の利活用に向けて―制度編― 第2版（2022年5月更新）",
+    "url": "https://www.ppc.go.jp/files/pdf/report_office_seido2205.pdf",
+    "file": "data/resources/batch-002/anon-report-2.pdf",
+    "sha256": "e5799ddbb5500258e884bd87c7481e94abf4e111dab13c9bd90ec55875d001bc",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-nist-800-12r1",
+    "title": "NIST SP 800-12 Revision 1: An Introduction to Information Security (June 2017)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-12r1.pdf",
+    "file": "data/resources/batch-002/nist-800-12r1.pdf",
+    "sha256": "1baa0b89fc554c15b465b6a974be0a63b08124bf5d5987d34e0965fbafea4a2e",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-rfc6265",
+    "title": "IETF RFC 6265 HTTP State Management Mechanism (April 2011)",
+    "url": "https://www.rfc-editor.org/rfc/rfc6265.txt",
+    "file": "data/resources/batch-002/rfc6265.txt",
+    "sha256": "dc4177094813e85a44a7897b892b76bc09160b3a03aea44f0f511f3a98f91933",
+    "retrieved": "2026-10-10"
+  }
+]
