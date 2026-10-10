@@ -54,5 +54,189 @@
     "file": "data/resources/jp-copyright.xml",
     "sha256": "175e7c3bda1de44a747713629b9ef613258ef2fca202438e70ad611b4a014169",
     "retrieved": "2026-10-04"
+  },
+  {
+    "id": "ipa-sg-2022-sample-questions",
+    "title": "IPA SG 2022 sample questions",
+    "url": "https://www.ipa.go.jp/shiken/syllabus/henkou/2022/ssf7ph000000h5tb-att/sg_set_sample_qs.pdf",
+    "file": "data/sources/sg_set_sample_qs.pdf",
+    "sha256": "3aee374ce73ed61fcb603bc466d1cb0f4107c1ec87a70402c58820902577e8da",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "id": "ipa-sg-2022-sample-answers",
+    "title": "IPA SG 2022 sample answers",
+    "url": "https://www.ipa.go.jp/shiken/syllabus/henkou/2022/ssf7ph000000h5tb-att/sg_set_sample_ans.pdf",
+    "file": "data/sources/sg_set_sample_ans.pdf",
+    "sha256": "1e94c0a62269f24806ef105793d09ec7fc32ddb84a4ec45e3d8d086b26b9e657",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "id": "ipa-sg-2023-public-questions",
+    "title": "IPA SG 2023 public questions",
+    "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_qs.pdf",
+    "file": "data/sources/2023r05_sg_qs.pdf",
+    "sha256": "6dcd758daf33475efac97dea11e7b9ec55001cd79a84210b33421bdfa5e99583",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "id": "ipa-sg-2023-public-answers",
+    "title": "IPA SG 2023 public answers",
+    "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/t6hhco0000003zx0-att/2023r05_sg_ans.pdf",
+    "file": "data/sources/2023r05_sg_ans.pdf",
+    "sha256": "1fe69114500b7f5fe8bd67ee3d6617a230099c2b92b55c4e97cad239c22b279a",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "id": "ipa-sg-2024-public-questions",
+    "title": "IPA SG 2024 public questions",
+    "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/eid2eo0000007g1d-att/2024r06_sg_qs.pdf",
+    "file": "data/sources/2024r06_sg_qs.pdf",
+    "sha256": "0bf168ef6b57939ad9692ded98ec8b7684c3cb9d3ceb414f1b7e065f54775b5e",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "id": "ipa-sg-2024-public-answers",
+    "title": "IPA SG 2024 public answers",
+    "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/eid2eo0000007g1d-att/2024r06_sg_ans.pdf",
+    "file": "data/sources/2024r06_sg_ans.pdf",
+    "sha256": "0d1a81a6523a0b900853b93f0d92e0e9b7b552d2c624ee9976413f1f83626917",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "id": "ipa-sg-2025-public-questions",
+    "title": "IPA SG 2025 public questions",
+    "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_qs.pdf",
+    "file": "data/sources/2025r07_sg_qs.pdf",
+    "sha256": "e81aa7cae96f2d397591548259a718133b2beac084a94fb3fbc8d336b19af112",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "id": "ipa-sg-2025-public-answers",
+    "title": "IPA SG 2025 public answers",
+    "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/tbl5kb0000005r9r-att/2025r07_sg_ans.pdf",
+    "file": "data/sources/2025r07_sg_ans.pdf",
+    "sha256": "d6ca7730f1d6f61c429cf91fb7e2d9a109ca3e01ae1ff266ae05783ee578c508",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "id": "batch-002-sql",
+    "title": "IPA 安全なウェブサイトの作り方 1.1 SQLインジェクション",
+    "url": "https://www.ipa.go.jp/security/vuln/websecurity/sql.html",
+    "file": "data/resources/batch-002/sql.html",
+    "sha256": "646679bfdb467210d587ce4aeaca9f2704a7979d7e20ba83a871b781baadfa84",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-cvss3",
+    "title": "IPA 共通脆弱性評価システムCVSS v3概説（v3.0）",
+    "url": "https://www.ipa.go.jp/security/vuln/scap/cvssv3.html",
+    "file": "data/resources/batch-002/cvss3.html",
+    "sha256": "6273dc874c317521a056d5d2339d44a58eb6228f946b6d18cc587d298e8e2620",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-my-number-guideline",
+    "title": "PPC 特定個人情報の適正な取扱いに関するガイドライン（事業者編）令和7年6月一部改正",
+    "url": "https://www.ppc.go.jp/legal/policy/my_number_guideline_jigyosha/",
+    "file": "data/resources/batch-002/my-number-guideline.html",
+    "sha256": "495167f0ce0e64e28c2fb6fe27683f0a4c265dbc4a929262c29cfbda79472145",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-my-number-qa",
+    "title": "PPC 特定個人情報ガイドラインに関するQ&A 取得時点の掲載版",
+    "url": "https://www.ppc.go.jp/legal/policy/faq/",
+    "file": "data/resources/batch-002/my-number-qa.html",
+    "sha256": "a4f91486a08d4db1e29ca3844d402d78fcb8f871a5a9cb95cb1a3750c99d7694",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-my-number-qa-2025",
+    "title": "PPC 特定個人情報ガイドラインに関するQ&A（令和7年4月1日更新）",
+    "url": "https://www.ppc.go.jp/files/pdf/guidelineqa_250401.pdf",
+    "file": "data/resources/batch-002/my-number-qa-2025.pdf",
+    "sha256": "c133af065e23b20e08aff360d6a53cabae3661d5b48851a3249f181376b79da9",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-esign-law",
+    "title": "電子署名及び認証業務に関する法律（e-Gov法令API取得時点）",
+    "url": "https://laws.e-gov.go.jp/api/1/lawdata/412AC0000000102",
+    "file": "data/resources/batch-002/esign-law.xml",
+    "sha256": "b18018f3c69166258c01267416b018f5e79d2dc4b9270df1838d61d06e58e8a2",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-anon-report-2",
+    "title": "PPC事務局 仮名加工情報・匿名加工情報 信頼ある個人情報の利活用に向けて―制度編― 第2版（2022年5月更新）",
+    "url": "https://www.ppc.go.jp/files/pdf/report_office_seido2205.pdf",
+    "file": "data/resources/batch-002/anon-report-2.pdf",
+    "sha256": "e5799ddbb5500258e884bd87c7481e94abf4e111dab13c9bd90ec55875d001bc",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-nist-800-12r1",
+    "title": "NIST SP 800-12 Revision 1: An Introduction to Information Security (June 2017)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-12r1.pdf",
+    "file": "data/resources/batch-002/nist-800-12r1.pdf",
+    "sha256": "1baa0b89fc554c15b465b6a974be0a63b08124bf5d5987d34e0965fbafea4a2e",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-002-rfc6265",
+    "title": "IETF RFC 6265 HTTP State Management Mechanism (April 2011)",
+    "url": "https://www.rfc-editor.org/rfc/rfc6265.txt",
+    "file": "data/resources/batch-002/rfc6265.txt",
+    "sha256": "dc4177094813e85a44a7897b892b76bc09160b3a03aea44f0f511f3a98f91933",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-cryptrec-about",
+    "title": "CRYPTRECとは（2026-10-10取得）",
+    "url": "https://www.cryptrec.go.jp/about.html",
+    "file": "data/resources/batch-003/cryptrec-about.html",
+    "sha256": "a06a4e0744dd132de975cb862c2152e9540c8244871e07e453a831a4c24f93ad",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-penal-code",
+    "title": "刑法（e-Gov法令API，2026-10-10取得）",
+    "url": "https://laws.e-gov.go.jp/api/1/lawdata/140AC0000000045",
+    "file": "data/resources/batch-003/penal-code.xml",
+    "sha256": "f8108dbd7d4516fce2583db8ab5392916dfcee9d782110106cd750b167ea6081",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-ipa-bec-about",
+    "title": "IPA ビジネスメール詐欺（BEC）対策特設ページ（報告書への導線）",
+    "url": "https://www.ipa.go.jp/security/bec/about.html",
+    "file": "data/resources/batch-003/ipa-bec-about.html",
+    "sha256": "77fc0ea28e51d254a564cd41c01111d418e69add5ec145ead50596a6232c141d",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-ipa-bec-report",
+    "title": "IPA ビジネスメール詐欺（BEC）の特徴と対策 第2版（2023-02-09）",
+    "url": "https://www.ipa.go.jp/security/bec/hjuojm00000037nn-att/000102392.pdf",
+    "file": "data/resources/batch-003/ipa-bec-report.pdf",
+    "sha256": "8961bcdb0f5469a0d42137f685a5a09a9220cd1412410d259b2f1410ea674212",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-ipa-fakealert",
+    "title": "IPA 偽セキュリティ警告（サポート詐欺）対策特集ページ（2024-11-19更新）",
+    "url": "https://www.ipa.go.jp/security/anshin/measures/fakealert.html",
+    "file": "data/resources/batch-003/ipa-fakealert.html",
+    "sha256": "ecf258b1c3c67d1975be435a66a180b2b3400738a25216e49006e55e1cc733c3",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "id": "batch-003-ipa-fakealert-close",
+    "title": "IPA サポート詐欺で表示される偽のセキュリティ警告画面の閉じ方 Ver.1.00（2023-11-15）",
+    "url": "https://www.ipa.go.jp/security/anshin/doe3um0000005cag-att/20231115173500.pdf",
+    "file": "data/resources/batch-003/ipa-fakealert-close.pdf",
+    "sha256": "5c2d924aad306b473965c2f9ac4b5d7912481d0f1b5595c7f0f8286eec3bdc8d",
+    "retrieved": "2026-10-10"
   }
 ]

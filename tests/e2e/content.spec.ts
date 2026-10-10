@@ -1,17 +1,22 @@
 import { expect, test } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { questionBlocks, questionLabel } from "../../src/lib/corpus/content";
-import { readPilot } from "../../scripts/pilot-review";
+import { batches, readBatch } from "../../scripts/corpus-batches";
 import { officialCorpus } from "../../src/lib/corpus";
 
 test("all native exam content renders without image requests or clipped cells", async ({
   page,
 }, testInfo) => {
+  // Capture every official question and every batch on both viewport sizes.
+  test.setTimeout(120_000);
   const styles = readFileSync("src/app/globals.css", "utf8");
   const fixtures: Record<string, string> = JSON.parse(
     readFileSync("tmp/content-fixtures.json", "utf8"),
   );
-  for (const q of [...officialCorpus, ...readPilot()]) {
+  for (const q of [
+    ...officialCorpus,
+    ...batches.flatMap((batch) => readBatch(batch.id)),
+  ]) {
     const content = fixtures[q.id];
     await page.setContent(
       `<!doctype html><html lang="ja"><head><meta name="viewport" content="width=device-width,initial-scale=1"><style>${styles}</style></head><body><main class="page results-page"><h1>${questionLabel(q)}</h1>${content}</main></body></html>`,

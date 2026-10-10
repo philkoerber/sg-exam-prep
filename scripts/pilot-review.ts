@@ -1,15 +1,13 @@
 import { choiceText } from "../src/lib/corpus/content";
 import { createHash } from "node:crypto";
 import { writeFileSync } from "node:fs";
-import {
-  questionSchema,
-  type ContentBlock,
-  type Question,
-} from "../src/lib/corpus/schema";
-import { readQuestions, readJson } from "./corpus-files";
+import type { ContentBlock, Question } from "../src/lib/corpus/schema";
+import { readQuestions } from "./corpus-files";
+import { getBatch, readBatch } from "./corpus-batches";
 
 export function questionDigest(q: Question) {
-  // The reviewer sees all question data except the proposed answer.
+  // Keep this answer-blind for independent review. Publication separately binds
+  // the independent answer and the entire published record to the current draft.
   const { answer: _answer, ...blind } = q;
   void _answer;
   return createHash("sha256").update(JSON.stringify(blind)).digest("hex");
@@ -72,20 +70,24 @@ export function languageMetrics(q: Question, baseline: Question[]) {
   };
 }
 
-export const pilotPath = "data/authoring/pilot-001";
+export const pilotPath = getBatch().authoringPath;
 export function readPilot() {
-  return questionSchema.array().parse(readJson(`${pilotPath}/questions.json`));
+  return readBatch();
 }
 export function writePilotReport() {
+  return writeBatchReport();
+}
+export function writeBatchReport(id: string = "pilot-001") {
+  const batch = getBatch(id);
   const official = readQuestions("data/questions/official");
-  const pilot = readPilot();
-  const report = pilot.map((q) => ({
+  const candidates = readBatch(batch.id);
+  const report = candidates.map((q) => ({
     questionId: q.id,
     contentHash: questionDigest(q),
     ...languageMetrics(q, official),
   }));
   writeFileSync(
-    `${pilotPath}/language-report.json`,
+    `${batch.authoringPath}/language-report.json`,
     JSON.stringify(
       {
         baseline:
@@ -103,13 +105,31 @@ export function writePilotReport() {
     ) + "\n",
   );
   writeFileSync(
-    `${pilotPath}/blind-review.json`,
+    `${batch.authoringPath}/blind-review.json`,
     JSON.stringify(
-      pilot.map((q) => {
+      candidates.map((q) => {
         const { answer: _answer, ...blind } = q;
         void _answer;
         return { ...blind, contentHash: questionDigest(q) };
       }),
+      null,
+      2,
+    ) + "\n",
+  );
+  // Source sections can quote original answer keys. Keep the first solve free
+  // of those hints; reviewers inspect provenance only after committing answers.
+  writeFileSync(
+    `${batch.authoringPath}/solve-only.json`,
+    JSON.stringify(
+      candidates.map((q) => ({
+        id: q.id,
+        subject: q.subject,
+        display: q.display,
+        blocks: q.blocks,
+        choices: q.choices,
+        ...(q.choiceTable ? { choiceTable: q.choiceTable } : {}),
+        contentHash: questionDigest(q),
+      })),
       null,
       2,
     ) + "\n",

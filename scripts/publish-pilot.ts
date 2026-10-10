@@ -1,27 +1,29 @@
 import { writeFileSync } from "node:fs";
-import { readJson, readQuestions } from "./corpus-files";
-import { pilotPath, readPilot } from "./pilot-review";
+import { readQuestions } from "./corpus-files";
+import { readPublishedBatches, selectBatch } from "./corpus-batches";
 import {
-  validateApproval,
-  type Review,
-  type BlindReview,
+  readBatchRecords,
+  validatePublishedBatch,
+  validateQuestionInventory,
 } from "./validate-pilot";
+
+const batch = selectBatch(process.argv.slice(2));
 const official = readQuestions("data/questions/official");
-const candidates = readPilot();
-const reviews = readJson<Review[]>(`${pilotPath}/reviews.json`);
-const independent = readJson<BlindReview[]>(
-  `${pilotPath}/independent-review.json`,
-);
-// Fail before writing anything when any approval is stale or missing.
-for (const q of candidates)
-  validateApproval(
-    q,
-    official,
-    reviews.find((r) => r.questionId === q.id),
-    independent.find((r) => r.questionId === q.id),
-  );
+const banks = readPublishedBatches();
+const records = readBatchRecords(batch.id, true);
+// Fail before writing anything when any approval is stale or missing. Only the
+// selected batch is published; drafts in other batches need not be finished.
+validatePublishedBatch(batch.id, records.candidates, official, records);
+validateQuestionInventory([
+  ...official,
+  ...banks.flatMap((bank) =>
+    bank.id === batch.id ? records.candidates : bank.questions,
+  ),
+]);
 writeFileSync(
-  "data/questions/generated/pilot-001.json",
-  JSON.stringify(candidates, null, 2) + "\n",
+  batch.publishedPath,
+  JSON.stringify(records.candidates, null, 2) + "\n",
 );
-console.log(`Published ${candidates.length} reviewed questions.`);
+console.log(
+  `Published ${records.candidates.length} reviewed questions (${batch.id}).`,
+);

@@ -1,15 +1,44 @@
+import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { readQuestions, readJson } from "./corpus-files";
 import { questionBlocks } from "../src/lib/corpus/content";
 import { contentBlockSchema } from "../src/lib/corpus/schema";
-import { validatePublishedPilot } from "./validate-pilot";
+import { generatedBanks, officialCorpus } from "../src/lib/corpus";
+import { batches, readPublishedBatches } from "./corpus-batches";
+import {
+  readBatchRecords,
+  validatePublishedBatch,
+  validateQuestionInventory,
+} from "./validate-pilot";
 
 const official = readQuestions("data/questions/official");
-const generated = readQuestions("data/questions/generated");
+const banks = readPublishedBatches();
+assert.deepEqual(
+  Object.keys(generatedBanks).sort(),
+  batches.map((b) => b.id).sort(),
+  "Runtime banks must match the batch registry",
+);
+assert.deepEqual(
+  official,
+  officialCorpus,
+  "Official files must match the fixed runtime baseline",
+);
+for (const bank of banks)
+  assert.deepEqual(
+    bank.questions,
+    generatedBanks[bank.id],
+    `${bank.id}: runtime import differs from published file`,
+  );
+const generated = banks.flatMap((bank) => bank.questions);
 const all = [...official, ...generated];
-if (new Set(all.map((q) => q.id)).size !== all.length)
-  throw new Error("Duplicate question IDs");
+validateQuestionInventory(all);
+const drafts = banks.flatMap((bank) => {
+  const records = readBatchRecords(bank.id, bank.questions.length > 0);
+  validatePublishedBatch(bank.id, bank.questions, official, records);
+  return records.candidates;
+});
+validateQuestionInventory([...official, ...drafts]);
 if (
   official.some((q) => q.source.kind !== "official") ||
   generated.some((q) => q.source.kind !== "generated")
@@ -33,7 +62,6 @@ for (const source of [
   if (hash !== source.sha256)
     throw new Error(`Source checksum mismatch: ${source.file}`);
 }
-validatePublishedPilot(generated, official);
 console.log(
-  `Validated ${official.length} official + ${generated.length} generated questions, native blocks, provenance, review records and ${manifest.length + resources.length} source checksums.`,
+  `Validated ${official.length} official + ${generated.length} generated questions, ${drafts.length} drafts across ${banks.length} batches, native blocks, provenance, review records and ${manifest.length + resources.length} source checksums.`,
 );
